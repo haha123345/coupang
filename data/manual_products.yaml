@@ -1,87 +1,101 @@
-# 이번 주 상품 목록 — 각 상품의 name, price, partner_url, image_urls 를 채워주세요.
-# 1) search_url 을 열어 상품을 고른다
-# 2) 쿠팡파트너스 > 링크 생성 으로 만든 링크(link.coupang.com/a/...)를 partner_url 에 붙여넣기
-# 3) 상품 사진 위에서 우클릭 > 이미지 주소 복사 → image_urls 에 2~4개
+# 이번 주 상품 목록 — 상품마다 html 과 price 만 채우면 됩니다.
+# 1) search_url 을 열어 상품을 고르고, 그 상품 주소를 복사
+# 2) 쿠팡파트너스 > 링크 생성 > 상품 주소 붙여넣기 > 'HTML' 복사
+# 3) html 칸에 작은따옴표로 감싸서 붙여넣기:  html: '<a href=...><img src=...></a>'
+# 4) price 에 가격 숫자만 (예: '189000')
+# 이름·링크·사진은 html 에서 자동으로 뽑습니다. name/partner_url/image_urls 는 비워둬도 됩니다.
+# (사진을 더 넣고 싶으면 image_urls 에 추가. 쿠팡 사진은 우클릭이 막혀 있으니
+#  사진을 브라우저 새 탭으로 끌어다 놓은 뒤 주소창 주소를 복사하세요)
 # 채운 상품만 영상·글로 만들어집니다. 비워둔 상품은 건너뜁니다.
 week_of: '2026-10-14'
 items:
 - keyword: 비데
   category: 생활/건강
   search_url: https://www.coupang.com/np/search?q=%EB%B9%84%EB%8D%B0
-  name: ''
+  html: ''
   price: ''
+  notes: ''
+  name: ''
   partner_url: ''
   image_urls: []
-  notes: ''
 - keyword: 정수기
   category: 디지털/가전
   search_url: https://www.coupang.com/np/search?q=%EC%A0%95%EC%88%98%EA%B8%B0
-  name: ''
+  html: ''
   price: ''
+  notes: ''
+  name: ''
   partner_url: ''
   image_urls: []
-  notes: ''
 - keyword: 등산화
   category: 스포츠/레저
   search_url: https://www.coupang.com/np/search?q=%EB%93%B1%EC%82%B0%ED%99%94
-  name: ''
+  html: ''
   price: ''
+  notes: ''
+  name: ''
   partner_url: ''
   image_urls: []
-  notes: ''
 - keyword: 행거
   category: 가구/인테리어
   search_url: https://www.coupang.com/np/search?q=%ED%96%89%EA%B1%B0
-  name: ''
+  html: ''
   price: ''
+  notes: ''
+  name: ''
   partner_url: ''
   image_urls: []
-  notes: ''
 - keyword: 경량패딩
   category: 스포츠/레저
   search_url: https://www.coupang.com/np/search?q=%EA%B2%BD%EB%9F%89%ED%8C%A8%EB%94%A9
-  name: ''
+  html: ''
   price: ''
+  notes: ''
+  name: ''
   partner_url: ''
   image_urls: []
-  notes: ''
 - keyword: 가습기
   category: 디지털/가전
   search_url: https://www.coupang.com/np/search?q=%EA%B0%80%EC%8A%B5%EA%B8%B0
-  name: ''
+  html: ''
   price: ''
+  notes: ''
+  name: ''
   partner_url: ''
   image_urls: []
-  notes: ''
 - keyword: 멀티탭
   category: 생활/건강
   search_url: https://www.coupang.com/np/search?q=%EB%A9%80%ED%8B%B0%ED%83%AD
-  name: ''
+  html: ''
   price: ''
+  notes: ''
+  name: ''
   partner_url: ''
   image_urls: []
-  notes: ''
 - keyword: 바디로션
   category: 화장품/미용
   search_url: https://www.coupang.com/np/search?q=%EB%B0%94%EB%94%94%EB%A1%9C%EC%85%98
-  name: ''
+  html: ''
   price: ''
+  notes: ''
+  name: ''
   partner_url: ''
   image_urls: []
-  notes: ''
 - keyword: 백팩
   category: 패션잡화
   search_url: https://www.coupang.com/np/search?q=%EB%B0%B1%ED%8C%A9
-  name: ''
+  html: ''
   price: ''
+  notes: ''
+  name: ''
   partner_url: ''
   image_urls: []
-  notes: ''
 - keyword: 체중계
   category: 생활/건강
   search_url: https://www.coupang.com/np/search?q=%EC%B2%B4%EC%A4%91%EA%B3%84
-  name: ''
+  html: ''
   price: ''
+  notes: ''
+  name: ''
   partner_url: ''
   image_urls: []
-  notes: ''

@@ -4,6 +4,7 @@
 - 없으면(최종 승인 전): data/manual_products.yaml 에 키워드 10개를 적어두고
   텔레그램으로 알림 → 사용자가 파트너스 링크·이미지 주소만 채움
 """
+import html as html_lib
 import re
 import urllib.parse
 
@@ -83,19 +84,24 @@ def weekly(cfg: dict | None = None) -> None:
             "keyword": p["keyword"],
             "category": p.get("category", ""),
             "search_url": coupang_search_url(p["keyword"]),
-            "name": "",
+            "html": "",
             "price": "",
+            "notes": "",
+            "name": "",
             "partner_url": "",
             "image_urls": [],
-            "notes": "",
         }
         for p in picks
     ]
     header = (
-        "# 이번 주 상품 목록 — 각 상품의 name, price, partner_url, image_urls 를 채워주세요.\n"
-        "# 1) search_url 을 열어 상품을 고른다\n"
-        "# 2) 쿠팡파트너스 > 링크 생성 으로 만든 링크(link.coupang.com/a/...)를 partner_url 에 붙여넣기\n"
-        "# 3) 상품 사진 위에서 우클릭 > 이미지 주소 복사 → image_urls 에 2~4개\n"
+        "# 이번 주 상품 목록 — 상품마다 html 과 price 만 채우면 됩니다.\n"
+        "# 1) search_url 을 열어 상품을 고르고, 그 상품 주소를 복사\n"
+        "# 2) 쿠팡파트너스 > 링크 생성 > 상품 주소 붙여넣기 > 'HTML' 복사\n"
+        "# 3) html 칸에 작은따옴표로 감싸서 붙여넣기:  html: '<a href=...><img src=...></a>'\n"
+        "# 4) price 에 가격 숫자만 (예: '189000')\n"
+        "# 이름·링크·사진은 html 에서 자동으로 뽑습니다. name/partner_url/image_urls 는 비워둬도 됩니다.\n"
+        "# (사진을 더 넣고 싶으면 image_urls 에 추가. 쿠팡 사진은 우클릭이 막혀 있으니\n"
+        "#  사진을 브라우저 새 탭으로 끌어다 놓은 뒤 주소창 주소를 복사하세요)\n"
         "# 채운 상품만 영상·글로 만들어집니다. 비워둔 상품은 건너뜁니다.\n"
     )
     MANUAL.parent.mkdir(parents=True, exist_ok=True)
@@ -107,9 +113,32 @@ def weekly(cfg: dict | None = None) -> None:
     notify.send(
         "[쿠팡] 이번 주 인기 상품 키워드 10개를 골랐어요.\n"
         + "\n".join(f"{i}. {x['keyword']} ({x['category']})" for i, x in enumerate(items, 1))
-        + f"\n\n아래 파일에서 파트너스 링크와 이미지 주소를 채워주세요:\n"
+        + f"\n\n아래 파일에서 상품마다 파트너스 'HTML' 코드와 가격을 채워주세요:\n"
         f"https://github.com/{repo}/edit/main/data/manual_products.yaml"
     )
+
+
+def _bigger(url: str) -> str:
+    """쿠팡 썸네일 주소면 큰 사이즈로 바꾼다 (예: /remote/230x230ex/ → /remote/492x492ex/)."""
+    url = url.strip()
+    if url.startswith("//"):
+        url = "https:" + url
+    return re.sub(r"/remote/\d+x\d+ex/", "/remote/492x492ex/", url)
+
+
+def parse_partner_html(code: str) -> dict:
+    """쿠팡파트너스 'HTML' 코드에서 링크·사진·상품명을 뽑는다."""
+    code = html_lib.unescape(code or "")
+    href = re.search(r"""href\s*=\s*["']([^"']+)["']""", code)
+    imgs = re.findall(r"""<img[^>]+src\s*=\s*["']([^"']+)["']""", code, re.I)
+    alt = re.search(r"""alt\s*=\s*["']([^"']*)["']""", code)
+    text = re.sub(r"<[^>]+>", " ", code)
+    text = re.sub(r"\s+", " ", text).strip()
+    return {
+        "partner_url": href.group(1).strip() if href else "",
+        "image_urls": [_bigger(u) for u in imgs],
+        "name": (alt.group(1).strip() if alt and alt.group(1).strip() else text)[:80],
+    }
 
 
 def _manual_ready() -> list[dict]:
@@ -119,11 +148,24 @@ def _manual_ready() -> list[dict]:
         doc = yaml.safe_load(f) or {}
     out = []
     for it in doc.get("items", []):
-        if it.get("partner_url") and it.get("image_urls") and it.get("name"):
-            urls = it["image_urls"]
-            if isinstance(urls, str):
-                urls = [urls]
-            out.append({**it, "image_urls": [u for u in urls if u]})
+        got = parse_partner_html(it.get("html", "")) if it.get("html") else {}
+        urls = it.get("image_urls") or []
+        if isinstance(urls, str):
+            urls = [urls]
+        merged = {
+            **it,
+            "partner_url": (it.get("partner_url") or got.get("partner_url") or "").strip(),
+            "name": (it.get("name") or got.get("name") or "").strip(),
+            "image_urls": [_bigger(u) for u in urls if u] + [
+                u for u in got.get("image_urls", []) if u not in urls
+            ],
+            "price": str(it.get("price") or "").replace(",", "").replace("원", "").strip(),
+        }
+        merged.pop("html", None)
+        if merged["partner_url"] and merged["image_urls"]:
+            if not merged["name"]:
+                merged["name"] = it["keyword"]
+            out.append(merged)
     return out
 
 
