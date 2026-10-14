@@ -42,6 +42,7 @@ def pick_keywords(cfg: dict) -> list[dict]:
     try:
         picks = generate_json(PICK_PROMPT.format(items=listing, n=n), cfg["llm"]["model"], 0.3)["picks"]
     except Exception as e:
+        (DATA / "last_error.txt").write_text(f"{e}\n모델 후보: {__import__('llm').available_models()}", encoding="utf-8")
         notify.send(f"[쿠팡] ⚠️ 키워드 선별(Gemini) 실패 — 영문 브랜드만 거르고 순위대로 사용\n{e}")
         # 최소한의 거르기: 영문 포함(브랜드일 가능성 큼) 제외
         picks = [r for r in raw if not re.search(r"[A-Za-z]", r["keyword"])]
