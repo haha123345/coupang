@@ -4,6 +4,7 @@
 - 없으면(최종 승인 전): data/manual_products.yaml 에 키워드 10개를 적어두고
   텔레그램으로 알림 → 사용자가 파트너스 링크·이미지 주소만 채움
 """
+import re
 import urllib.parse
 
 import yaml
@@ -41,8 +42,9 @@ def pick_keywords(cfg: dict) -> list[dict]:
     try:
         picks = generate_json(PICK_PROMPT.format(items=listing, n=n), cfg["llm"]["model"], 0.3)["picks"]
     except Exception as e:
-        print("키워드 선별 실패, 순위 그대로 사용:", e)
-        picks = raw
+        notify.send(f"[쿠팡] ⚠️ 키워드 선별(Gemini) 실패 — 영문 브랜드만 거르고 순위대로 사용\n{e}")
+        # 최소한의 거르기: 영문 포함(브랜드일 가능성 큼) 제외
+        picks = [r for r in raw if not re.search(r"[A-Za-z]", r["keyword"])]
     return picks[:n]
 
 
