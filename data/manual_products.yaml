@@ -1,0 +1,87 @@
+# 이번 주 상품 목록 — 각 상품의 name, price, partner_url, image_urls 를 채워주세요.
+# 1) search_url 을 열어 상품을 고른다
+# 2) 쿠팡파트너스 > 링크 생성 으로 만든 링크(link.coupang.com/a/...)를 partner_url 에 붙여넣기
+# 3) 상품 사진 위에서 우클릭 > 이미지 주소 복사 → image_urls 에 2~4개
+# 채운 상품만 영상·글로 만들어집니다. 비워둔 상품은 건너뜁니다.
+week_of: '2026-10-14'
+items:
+- keyword: 비데
+  category: 생활/건강
+  search_url: https://www.coupang.com/np/search?q=%EB%B9%84%EB%8D%B0
+  name: ''
+  price: ''
+  partner_url: ''
+  image_urls: []
+  notes: ''
+- keyword: 식탁의자
+  category: 가구/인테리어
+  search_url: https://www.coupang.com/np/search?q=%EC%8B%9D%ED%83%81%EC%9D%98%EC%9E%90
+  name: ''
+  price: ''
+  partner_url: ''
+  image_urls: []
+  notes: ''
+- keyword: 정수기
+  category: 디지털/가전
+  search_url: https://www.coupang.com/np/search?q=%EC%A0%95%EC%88%98%EA%B8%B0
+  name: ''
+  price: ''
+  partner_url: ''
+  image_urls: []
+  notes: ''
+- keyword: ahc아이크림
+  category: 화장품/미용
+  search_url: https://www.coupang.com/np/search?q=ahc%EC%95%84%EC%9D%B4%ED%81%AC%EB%A6%BC
+  name: ''
+  price: ''
+  partner_url: ''
+  image_urls: []
+  notes: ''
+- keyword: 포켓몬카드
+  category: 출산/육아
+  search_url: https://www.coupang.com/np/search?q=%ED%8F%AC%EC%BC%93%EB%AA%AC%EC%B9%B4%EB%93%9C
+  name: ''
+  price: ''
+  partner_url: ''
+  image_urls: []
+  notes: ''
+- keyword: 등산화
+  category: 스포츠/레저
+  search_url: https://www.coupang.com/np/search?q=%EB%93%B1%EC%82%B0%ED%99%94
+  name: ''
+  price: ''
+  partner_url: ''
+  image_urls: []
+  notes: ''
+- keyword: 대마도배편
+  category: 여가/생활편의
+  search_url: https://www.coupang.com/np/search?q=%EB%8C%80%EB%A7%88%EB%8F%84%EB%B0%B0%ED%8E%B8
+  name: ''
+  price: ''
+  partner_url: ''
+  image_urls: []
+  notes: ''
+- keyword: 나이키운동화
+  category: 패션잡화
+  search_url: https://www.coupang.com/np/search?q=%EB%82%98%EC%9D%B4%ED%82%A4%EC%9A%B4%EB%8F%99%ED%99%94
+  name: ''
+  price: ''
+  partner_url: ''
+  image_urls: []
+  notes: ''
+- keyword: 텀블러
+  category: 생활/건강
+  search_url: https://www.coupang.com/np/search?q=%ED%85%80%EB%B8%94%EB%9F%AC
+  name: ''
+  price: ''
+  partner_url: ''
+  image_urls: []
+  notes: ''
+- keyword: 행거
+  category: 가구/인테리어
+  search_url: https://www.coupang.com/np/search?q=%ED%96%89%EA%B1%B0
+  name: ''
+  price: ''
+  partner_url: ''
+  image_urls: []
+  notes: ''
