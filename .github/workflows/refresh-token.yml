@@ -1,0 +1,27 @@
+name: 5 쓰레드 토큰 연장
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 1,20 * *"   # 매월 1일·20일 09:00 KST (토큰 60일 만료 전 연장)
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    env:
+      THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests PyYAML
+      - id: refresh
+        run: python src/main.py refresh-threads-token
+      - name: 새 토큰을 Secret 에 저장 (GH_PAT 필요)
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then echo "GH_PAT 없음: 토큰을 직접 갱신하세요"; exit 0; fi
+          gh secret set THREADS_ACCESS_TOKEN --body "${{ steps.refresh.outputs.token }}" --repo "$GITHUB_REPOSITORY"

@@ -1,0 +1,53 @@
+# 쿠팡파트너스 쇼핑 쇼츠·쓰레드 자동화 설정
+# 이 파일은 GitHub 웹에서 바로 수정해도 됩니다.
+
+# 대가성 문구 (공정위 추천·보증 심사지침: 콘텐츠 첫머리에 명확히)
+disclosure:
+  short: "이 콘텐츠는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다."
+  tag: "#광고 #쿠팡파트너스"
+
+# 인기 상품 선정 (네이버 데이터랩 쇼핑인사이트 분야별 인기 검색어)
+trends:
+  top_n: 10                 # 매주 고를 상품 수
+  lookback_days: 7          # 최근 며칠 기준 순위
+  per_category: 20          # 카테고리마다 가져올 검색어 수
+  # 네이버 쇼핑 카테고리 ID (전체 카테고리로 시작, 반응 보고 줄이기)
+  categories:
+    "50000008": 생활/건강
+    "50000004": 가구/인테리어
+    "50000003": 디지털/가전
+    "50000002": 화장품/미용
+    "50000005": 출산/육아
+    "50000007": 스포츠/레저
+    "50000009": 여가/생활편의
+    "50000001": 패션잡화
+  # 이 단어가 들어간 검색어는 제외 (의약·건강 효능 표현이 필요한 상품 등)
+  exclude_words: ["영양제", "비타민", "유산균", "의약", "다이어트약", "콘돔", "담배", "전자담배"]
+
+# 하루 업로드 수
+schedule:
+  shorts_per_day: 2
+  threads_per_day: 9
+  threads_link_posts: 3     # 9개 중 링크를 다는 글 수 (나머지는 팁·공감 글)
+
+# 글·대본 생성 (Gemini 무료 API)
+llm:
+  model: "gemini-2.5-flash"
+
+# 쇼츠
+shorts:
+  voice: "ko-KR-SunHiNeural"   # edge-tts 한국어 음성 (남성: ko-KR-InJoonNeural)
+  rate: "+12%"                 # 말 빠르기
+  # 매번 다른 형식으로 만들어 '대량 생산 콘텐츠' 판정을 피함
+  formats: ["top3_points", "before_after", "dont_buy_instead", "price_check"]
+  # 유튜브 업로드 방식: youtube_api | upload_post | telegram_only
+  #  - youtube_api : 무료. 단 구글 심사 전에는 올린 영상이 '비공개'로 잠김 (README 참고)
+  #  - upload_post : Upload-Post 유료(Basic) 사용 시
+  #  - telegram_only: 업로드 안 하고 텔레그램으로 영상 파일만 전송
+  backend: "youtube_api"
+  privacy: "public"
+  category_id: "26"            # 유튜브 카테고리: 노하우/스타일
+
+# 쓰레드
+threads:
+  max_chars: 480
