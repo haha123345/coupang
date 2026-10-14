@@ -33,7 +33,7 @@ schedule:
 
 # 글·대본 생성 (Gemini 무료 API)
 llm:
-  model: "gemini-2.5-flash"
+  model: ""   # 비워두면 지금 쓸 수 있는 최신 flash 모델을 자동 선택
 
 # 쇼츠
 shorts:
