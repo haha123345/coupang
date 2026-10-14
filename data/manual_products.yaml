@@ -13,17 +13,25 @@ items:
   partner_url: ''
   image_urls: []
   notes: ''
-- keyword: 식탁의자
-  category: 가구/인테리어
-  search_url: https://www.coupang.com/np/search?q=%EC%8B%9D%ED%83%81%EC%9D%98%EC%9E%90
+- keyword: 정수기
+  category: 디지털/가전
+  search_url: https://www.coupang.com/np/search?q=%EC%A0%95%EC%88%98%EA%B8%B0
   name: ''
   price: ''
   partner_url: ''
   image_urls: []
   notes: ''
-- keyword: 정수기
-  category: 디지털/가전
-  search_url: https://www.coupang.com/np/search?q=%EC%A0%95%EC%88%98%EA%B8%B0
+- keyword: 등산화
+  category: 스포츠/레저
+  search_url: https://www.coupang.com/np/search?q=%EB%93%B1%EC%82%B0%ED%99%94
+  name: ''
+  price: ''
+  partner_url: ''
+  image_urls: []
+  notes: ''
+- keyword: 행거
+  category: 가구/인테리어
+  search_url: https://www.coupang.com/np/search?q=%ED%96%89%EA%B1%B0
   name: ''
   price: ''
   partner_url: ''
@@ -37,22 +45,6 @@ items:
   partner_url: ''
   image_urls: []
   notes: ''
-- keyword: 크록스
-  category: 패션잡화
-  search_url: https://www.coupang.com/np/search?q=%ED%81%AC%EB%A1%9D%EC%8A%A4
-  name: ''
-  price: ''
-  partner_url: ''
-  image_urls: []
-  notes: ''
-- keyword: 텀블러
-  category: 생활/건강
-  search_url: https://www.coupang.com/np/search?q=%ED%85%80%EB%B8%94%EB%9F%AC
-  name: ''
-  price: ''
-  partner_url: ''
-  image_urls: []
-  notes: ''
 - keyword: 가습기
   category: 디지털/가전
   search_url: https://www.coupang.com/np/search?q=%EA%B0%80%EC%8A%B5%EA%B8%B0
@@ -61,17 +53,17 @@ items:
   partner_url: ''
   image_urls: []
   notes: ''
-- keyword: 물티슈
-  category: 출산/육아
-  search_url: https://www.coupang.com/np/search?q=%EB%AC%BC%ED%8B%B0%EC%8A%88
+- keyword: 멀티탭
+  category: 생활/건강
+  search_url: https://www.coupang.com/np/search?q=%EB%A9%80%ED%8B%B0%ED%83%AD
   name: ''
   price: ''
   partner_url: ''
   image_urls: []
   notes: ''
-- keyword: 핸드크림
+- keyword: 바디로션
   category: 화장품/미용
-  search_url: https://www.coupang.com/np/search?q=%ED%95%B8%EB%93%9C%ED%81%AC%EB%A6%BC
+  search_url: https://www.coupang.com/np/search?q=%EB%B0%94%EB%94%94%EB%A1%9C%EC%85%98
   name: ''
   price: ''
   partner_url: ''
@@ -80,6 +72,14 @@ items:
 - keyword: 백팩
   category: 패션잡화
   search_url: https://www.coupang.com/np/search?q=%EB%B0%B1%ED%8C%A9
+  name: ''
+  price: ''
+  partner_url: ''
+  image_urls: []
+  notes: ''
+- keyword: 체중계
+  category: 생활/건강
+  search_url: https://www.coupang.com/np/search?q=%EC%B2%B4%EC%A4%91%EA%B3%84
   name: ''
   price: ''
   partner_url: ''
