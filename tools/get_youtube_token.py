@@ -14,7 +14,7 @@ here = Path.cwd()
 
 
 def find_secret():
-    """client_secret*.json 찾기: 지금 폴더 → hookshorts 폴더(바탕화면·문서·다운로드·C:\ 등)"""
+    """client_secret*.json 찾기: 지금 폴더 → hookshorts 폴더(바탕화면·문서·다운로드·C드라이브 등)"""
     for d in (here, Path(__file__).resolve().parent):
         c = sorted(d.glob("client_secret*.json"))
         if c:
