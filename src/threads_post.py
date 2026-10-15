@@ -68,9 +68,12 @@ def _post_upload_post(text: str, link_reply: str | None) -> str:
 def _post_telegram(text: str, link_reply: str | None) -> str:
     """수동 모드: 지금 올릴 글을 텔레그램으로 보내준다 (복사해서 쓰레드 앱에 붙여넣기)."""
     import notify
-    notify.send("📝 [쓰레드에 올릴 글 — 아래를 길게 눌러 복사]\n\n" + text)
+    notify.send(text)
     if link_reply:
-        notify.send("💬 [위 글의 첫 댓글로 달 내용]\n\n" + link_reply)
+        notify.send(link_reply)
+        notify.send("☝️ 위 두 메시지: 첫 번째는 본문, 두 번째는 '스레드에 추가' 칸에 붙여넣기 (주제: 살림 추천)")
+    else:
+        notify.send("☝️ 위 메시지를 그대로 복사해서 게시 (주제: 살림 추천)")
     return "텔레그램 전송 (직접 게시)"
 
 
