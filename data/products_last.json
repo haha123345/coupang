@@ -2,6 +2,7 @@
   {
     "keyword": "비데",
     "category": "생활/건강",
+    "trend_rank": "",
     "search_url": "https://www.coupang.com/np/search?q=%EB%B9%84%EB%8D%B0",
     "partner_url": "https://link.coupang.com/re/AFFSDP?lptag=AF8833489&pageKey=5455506230&itemId=19248115350&traceid=V0-201-fdb6297dd06742bc",
     "notes": "",
@@ -15,6 +16,11 @@
       "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/279956288464188-aeecb523-4405-4b6a-b7fa-234419263947.jpg",
       "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2867134159585-d3d5b13e-c834-4884-ae55-611f755757da.jpg"
     ],
-    "product_url": "https://www.coupang.com/vp/products/5455506230?itemId=19248115350"
+    "product_url": "https://www.coupang.com/vp/products/5455506230?itemId=19248115350",
+    "brand": "블루밍",
+    "list_price": "299000",
+    "rating": "4.7",
+    "reviews": "16629",
+    "trend": "요즘 많이 찾는 '비데'"
   }
 ]
