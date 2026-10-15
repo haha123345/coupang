@@ -215,9 +215,11 @@ def facts_chips(prod: dict) -> list[str]:
     try:
         p, lp = int(prod.get("price") or 0), int(prod.get("list_price") or 0)
         if lp > p > 0 and (lp - p) / lp >= 0.1:
-            out.append(f"{round((lp - p) / lp * 100)}% 할인 중")
+            out.append(f"{int((lp - p) * 100 / lp)}% 할인 중")
     except Exception:
         pass
+    if prod.get("buyers"):
+        out.append(prod["buyers"].replace("구매했어요", "구매"))
     if prod.get("trend"):
         out.append(prod["trend"])
     return out

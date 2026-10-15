@@ -100,12 +100,14 @@ def facts_text(prod: dict) -> str:
     price, lp = str(prod.get("price") or ""), str(prod.get("list_price") or "")
     if price.isdigit():
         if lp.isdigit() and int(lp) > int(price):
-            pct = round((int(lp) - int(price)) / int(lp) * 100)
+            pct = int((int(lp) - int(price)) * 100 / int(lp))  # 쿠팡 표기처럼 내림
             f.append(f"- 가격(작성 시점): 정가 {_won(lp)} → 지금 {_won(price)} ({pct}% 할인)")
         else:
             f.append(f"- 가격(작성 시점): {_won(price)}")
     if prod.get("rating") and prod.get("reviews"):
         f.append(f"- 쿠팡 평점 {prod['rating']}점, 상품평 {int(str(prod['reviews']).replace(',', '')):,}개")
+    if prod.get("buyers"):
+        f.append(f"- 쿠팡 상품 페이지 표시: '{prod['buyers']}' (쿠팡이 보여주는 구매자 수)")
     if prod.get("trend_rank"):
         f.append(f"- '{prod['keyword']}'는 이번 주 네이버 쇼핑 '{prod.get('category', '')}' 분야 인기 검색어 {prod['trend_rank']}위 (검색어 순위)")
     else:

@@ -169,6 +169,7 @@ def parse_info(raw) -> dict:
         "rating": num(d.get("rating")),
         "reviews": num(d.get("reviews")).split(".")[0],
         "desc": (d.get("desc") or "").strip()[:400],
+        "buyers": (d.get("buyers") or "").strip()[:40],
         "image_urls": [_bigger(u) for u in d.get("images", []) if u],
         "product_url": d.get("url", ""),
     }
@@ -201,7 +202,7 @@ def _manual_ready() -> list[dict]:
             "price": str(it.get("price") or info.get("price") or "").replace(",", "").replace("원", "").strip(),
             "product_url": info.get("product_url", ""),
         }
-        for k in ("brand", "list_price", "rating", "reviews", "desc"):
+        for k in ("brand", "list_price", "rating", "reviews", "desc", "buyers"):
             if info.get(k) and not merged.get(k):
                 merged[k] = info[k]
         rank = it.get("trend_rank")
