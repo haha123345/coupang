@@ -114,6 +114,7 @@ def cmd_preview():
         desc = (f"{cfg['disclosure']['tag']}\n{cfg['disclosure']['short']}\n\n{s['description']}\n\n"
                 f"▶ 상품은 채널 프로필 링크에서 {item['number']}번을 찾아주세요.\n\n" + " ".join(s.get("hashtags", [])[:8]))
         url = youtube_upload.upload(str(video), s["title"], desc, s.get("hashtags", []), cfg)
+        (dbg / "upload_test.txt").write_text(str(url), encoding="utf-8")
         notify.send(f"[쿠팡] ✅ 유튜브 업로드 테스트 성공 — 비공개로 올라갔어요\n{s['title']}\n\n확인 👉 {url}"
                     if url else "[쿠팡] 유튜브 값이 없어 업로드하지 않았어요 (텔레그램 전송만)")
     import shutil
@@ -183,5 +184,11 @@ if __name__ == "__main__":
         COMMANDS[name]()
     except Exception as e:
         traceback.print_exc()
+        try:
+            from common import DATA
+            (DATA / "debug").mkdir(parents=True, exist_ok=True)
+            (DATA / "debug" / f"error_{name}.txt").write_text(traceback.format_exc()[-3000:], encoding="utf-8")
+        except Exception:
+            pass
         notify.send(f"[쿠팡] ❌ {name} 실패: {e}")
         sys.exit(1)
