@@ -94,9 +94,10 @@ def cmd_threads():
         return
     tag = cfg["disclosure"]["tag"]
     if item["kind"] == "link":
-        text = f"{tag} 쿠팡 파트너스 활동으로 수수료를 받아요\n\n{item['text']}"
-        reply = f"{item['product'].get('name') or item['product']['keyword']}\n{item['product']['partner_url']}\n\n" \
-                f"{cfg['disclosure']['short']}"
+        text = f"[광고] 쿠팡파트너스 활동으로 수수료를 받아요\n\n{item['text']}"
+        name = item['product'].get('name') or item['product']['keyword']
+        # 잘 되는 계정들의 답글 형식: 광고 문구 → 상품명 한 줄 → 링크
+        reply = f"[광고] 쿠팡파트너스 활동으로 일정 수수료를 지급받습니다\n\n{name}\n{item['product']['partner_url']}"
         for t, need in ((text, True), (reply, True)):
             issues = compliance.problems(t, need_disclosure=need)
             if issues:
