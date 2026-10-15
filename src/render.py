@@ -5,6 +5,7 @@
 - 상단: 스토리형 진행바 + 작은 광고 표시
 - 상품 위: 실제 데이터 칩 (평점·리뷰 수, 네이버 인기 검색어, 할인율)
 - 상품 아래: 형광펜 강조 헤드라인 + 자막
+- 후기 장면: 상품을 작게 올리고, 쿠팡 실구매자 후기 원문을 카드로 하나씩 띄움
 - 유튜브 쇼츠 하단 UI(설명·채널명)와 오른쪽 버튼에 가리지 않게 글자는 y<1520, x<940 안쪽
 """
 import io
@@ -220,9 +221,42 @@ def facts_chips(prod: dict) -> list[str]:
         pass
     if prod.get("buyers"):
         out.append(prod["buyers"].replace("구매했어요", "구매"))
+    if prod.get("five_star_pct"):
+        out.append(f"별 5개 {prod['five_star_pct']}%")
     if prod.get("trend"):
         out.append(prod["trend"])
     return out
+
+
+STAR = (255, 168, 0)
+
+
+def review_cards(prod: dict, accent, max_h: int = 420) -> list[Image.Image]:
+    """실제 후기 카드 이미지들 (높이 합이 max_h 안에 들어가는 만큼)."""
+    cards, used = [], 0
+    ft, fs = font(40, "bold"), font(28, "bold")
+    cw = SAFE_W
+    for r in prod.get("top_reviews") or []:
+        tmp = ImageDraw.Draw(Image.new("RGBA", (10, 10)))
+        lines = wrap(tmp, f"“{r['text']}”", ft, cw - 84)[:2]
+        h = 22 + 34 + 8 + 54 * len(lines) + 20
+        if used + h > max_h:
+            break
+        card = Image.new("RGBA", (cw, h), (0, 0, 0, 0))
+        d = ImageDraw.Draw(card)
+        d.rounded_rectangle([0, 0, cw, h], 28, fill=(246, 246, 249, 255))
+        d.rounded_rectangle([0, 0, 10, h], 5, fill=accent + (255,))
+        stars = "★" * int(r.get("rating", 5)) + "☆" * (5 - int(r.get("rating", 5)))
+        d.text((40, 22 - fs.getbbox(stars)[1]), stars, font=fs, fill=STAR)
+        lab = "구매자 후기"
+        d.text((40 + d.textlength(stars, font=fs) + 16, 22 - fs.getbbox(lab)[1]), lab, font=font(26, "medium"), fill=MUTED)
+        y = 22 + 34 + 8
+        for line in lines:
+            d.text((40, y - ft.getbbox(line)[1] + 4), line, font=ft, fill=INK)
+            y += 54
+        cards.append(card)
+        used += h + 14
+    return cards
 
 
 def cta_layer(number: int, prod: dict, accent) -> Image.Image:
@@ -305,14 +339,21 @@ def render(item: dict, cfg: dict, workdir: Path) -> Path:
     prev_last = None
     PROD_Y, BOX = 320, 830
 
+    rv_label = font(30, "bold")
     for si, (sc, dur) in enumerate(zip(scenes, durs)):
         layer = layers[si % len(layers)]
         head = headline_layer(sc["caption"], sc.get("highlight", ""), accent)
         sub = subtitle_layer(sc["narration"])
         last = si == n - 1
+        is_rv = sc.get("type") == "reviews" and bool(prod.get("top_reviews")) and not last and si > 0
+        cards = review_cards(prod, accent) if is_rv else []
+        is_rv = bool(cards)
         # 장면별로 보여줄 칩: 첫 장면은 전부, 이후엔 하나씩 돌아가며
         rest = [chips[si % len(chips)]] if chips and not last and si > 0 else []
+        if is_rv and prod.get("five_star_pct"):
+            rest = [f"별 5개 {prod['five_star_pct']}%"]
         scene_chips = [f"No.{number}"] + (chips[:2] if si == 0 else rest)
+        box, py = (440, 330) if is_rv else (BOX, PROD_Y)
         frames = int(round(dur * FPS))
         z0, z1 = (1.0, 1.07) if si % 2 == 0 else (1.07, 1.0)
         for f in range(frames):
@@ -322,12 +363,12 @@ def render(item: dict, cfg: dict, workdir: Path) -> Path:
             # 상품 (켄번스 + 등장 시 살짝 커지며 페이드)
             intro = ease_out(t / 0.35)
             z = (z0 + (z1 - z0) * p) * (0.94 + 0.06 * intro)
-            size = int(BOX * z)
+            size = int(box * z)
             pl = layer.resize((size, size), Image.BILINEAR)
             if intro < 1:
                 a = pl.getchannel("A").point(lambda v, k=intro: int(v * k))
                 pl.putalpha(a)
-            frame.alpha_composite(pl, (int(CX - size / 2), int(PROD_Y + (BOX - size) / 2)))
+            frame.alpha_composite(pl, (int(CX - size / 2), int(py + (box - size) / 2)))
             d = ImageDraw.Draw(frame)
             # 사실 칩
             cy = 236
@@ -346,6 +387,19 @@ def render(item: dict, cfg: dict, workdir: Path) -> Path:
             hy = 1150 + int((1 - ease_out(t / 0.3)) * 50)
             if last and t > 0.25:
                 frame.alpha_composite(cta, (0, 1150))
+            elif is_rv:
+                frame.alpha_composite(head, (0, 740 + int((1 - ease_out(t / 0.3)) * 40)))
+                lab = "쿠팡 실구매자 상품평 중 일부 (원문 발췌)"
+                d.text((CX - d.textlength(lab, font=rv_label) / 2, 1004), lab, font=rv_label, fill=MUTED)
+                yy = 1056
+                for ci, card in enumerate(cards):
+                    ap = ease_out((t - 0.3 - ci * 0.45) / 0.35)
+                    if ap > 0:
+                        c2 = card if ap >= 1 else card.copy()
+                        if ap < 1:
+                            c2.putalpha(card.getchannel("A").point(lambda v, k=ap: int(v * k)))
+                        frame.alpha_composite(c2, (int(CX - SAFE_W / 2 + (1 - ap) * 60), yy))
+                    yy += card.height + 14
             else:
                 frame.alpha_composite(head, (0, hy))
                 frame.alpha_composite(sub, (0, 1400))

@@ -2,9 +2,13 @@
 
 youtube_api : YouTube Data API v3 (무료, OAuth 리프레시 토큰)
               ※ 구글 감사(audit)를 통과하지 않은 프로젝트로 올린 영상은 '비공개'로 잠김
-upload_post : Upload-Post API (유료 Basic 이상)
+upload_post : Upload-Post API (무료 월 10회, 그 이상은 유료)
 telegram_only: 업로드 안 함
+auto        : Upload-Post 비밀값(UPLOAD_POST_API_KEY, UPLOAD_POST_USER)이 있으면 upload_post,
+              없으면 telegram_only
 """
+import os
+
 import requests
 
 from common import env
@@ -58,26 +62,42 @@ def _youtube_api(path: str, title: str, description: str, tags: list[str], cfg: 
 
 
 def _upload_post(path: str, title: str, description: str, tags: list[str], cfg: dict) -> str:
+    data = [
+        ("user", env("UPLOAD_POST_USER")),
+        ("platform[]", "youtube"),
+        ("title", title[:100]),
+        ("description", description[:4900]),
+        ("privacyStatus", cfg["shorts"].get("privacy", "public")),
+        ("categoryId", cfg["shorts"].get("category_id", "26")),
+        ("selfDeclaredMadeForKids", "false"),
+        ("hasPaidProductPlacement", "true"),   # 유료 프로모션 포함 표시 (쿠팡 수수료)
+        ("containsSyntheticMedia", "true"),     # AI 음성 사용 고지
+        ("defaultLanguage", "ko"),
+        ("defaultAudioLanguage", "ko"),
+    ] + [("tags[]", t.lstrip("#")) for t in tags[:15]]
     with open(path, "rb") as f:
         r = requests.post(
             "https://api.upload-post.com/api/upload",
             headers={"Authorization": f"Apikey {env('UPLOAD_POST_API_KEY')}"},
-            data={
-                "user": env("UPLOAD_POST_USER"),
-                "platform[]": "youtube",
-                "title": title[:100],
-                "description": description[:4900],
-                "privacyStatus": cfg["shorts"].get("privacy", "public"),
-            },
-            files={"video": f},
-            timeout=600,
+            data=data, files={"video": f}, timeout=900,
         )
-    r.raise_for_status()
-    return "Upload-Post 업로드 요청 완료"
+    if r.status_code >= 400:
+        raise RuntimeError(f"Upload-Post 업로드 오류 {r.status_code}: {r.text[:300]}")
+    js = r.json()
+    yt = (js.get("results") or {}).get("youtube") or {}
+    if yt and not yt.get("success", True):
+        raise RuntimeError(f"Upload-Post 유튜브 실패: {yt.get('error')}")
+    usage = js.get("usage") or {}
+    note = f" (이번 달 {usage.get('count')}/{usage.get('limit')})" if usage else ""
+    return (yt.get("url") or (f"https://youtube.com/shorts/{yt['video_id']}" if yt.get("video_id") else "")
+            or f"Upload-Post 업로드 요청 완료 {js.get('request_id', '')}") + note
 
 
 def upload(path: str, title: str, description: str, tags: list[str], cfg: dict) -> str | None:
-    backend = cfg["shorts"].get("backend", "youtube_api")
+    backend = cfg["shorts"].get("backend", "auto")
+    if backend == "auto":
+        backend = ("upload_post" if os.environ.get("UPLOAD_POST_API_KEY") and os.environ.get("UPLOAD_POST_USER")
+                   else "telegram_only")
     if backend == "youtube_api":
         return _youtube_api(path, title, description, tags, cfg)
     if backend == "upload_post":

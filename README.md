@@ -48,9 +48,16 @@ GitHub Actions 예약 실행은 몇 분~수십 분 늦게 시작될 수 있어�
 > ⚠️ **중요: 비공개 잠금**
 > 구글 감사를 받지 않은 API 프로젝트로 올린 영상은 **비공개로 잠겨서 공개로 바꿀 수 없습니다.**
 > - 무료로 풀려면: [YouTube API 감사 신청](https://support.google.com/youtube/contact/yt_api_form) (본인 채널 업로드용으로 신청, 승인까지 수 주)
-> - 바로 공개하려면: Upload-Post Basic 결제 후 `config.yaml` 의 `shorts.backend` 를 `upload_post` 로 바꾸고
->   `UPLOAD_POST_API_KEY`, `UPLOAD_POST_USER`(프로필 이름) 등록
-> - 감사 전까지 직접 올리려면: `backend: "telegram_only"` → 완성 영상이 텔레그램으로 옵니다
+> - 바로 공개하려면: 아래 **Upload-Post 자동 업로드** 사용 (기본값 `backend: "auto"`)
+
+### 4-1. Upload-Post 자동 업로드 (권장)
+1. https://app.upload-post.com → **Manage Users** → **Add User** → 이름 `coupang` → 이 프로필에 **쇼핑 유튜브 채널** 연결
+   (다른 채널이 연결된 기존 프로필에 넣지 말고 새 프로필로)
+2. **API Keys** 에서 키 복사 (다른 프로젝트와 같은 키 써도 됨)
+3. 이 저장소 **Settings > Secrets > Actions** 에 `UPLOAD_POST_API_KEY`(키), `UPLOAD_POST_USER`(`coupang`) 등록
+4. **Actions > 7 유튜브 업로드 연결 확인 > Run workflow** → 텔레그램에 ✅ 가 오면 끝
+- 두 값이 있으면 쇼츠가 자동 업로드되고, 없거나 업로드가 실패하면 영상 파일이 텔레그램으로 옵니다.
+- 무료 요금제는 계정 전체 월 10회라 하루 2편이면 부족 → Basic 필요
 
 ### 5. 쓰레드 게시 (무료, Threads API)
 1. https://developers.facebook.com → **앱 만들기** → 사용 사례 **"Threads API 액세스"** 선택

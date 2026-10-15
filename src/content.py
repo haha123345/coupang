@@ -1,5 +1,6 @@
 """하루치 콘텐츠 생성: 쇼츠 대본 N개 + 쓰레드 글 N개 → data/queue/YYYY-MM-DD.json"""
 import random
+import re
 
 import compliance
 import products
@@ -27,7 +28,7 @@ SHORTS_PROMPT = """너는 조회수와 구매 전환이 높은 한국 쇼핑 쇼
 {facts}
 
 [구성] {format_guide}
-
+{review_rule}
 [잘 팔리는 대본 공식]
 1) 첫 장면(훅): 위 사실 중 가장 센 것 하나로 2초 안에 멈추게 해.
    예) "리뷰 1만6천 개 달린 비데", "정가 29만 원이 지금 16만 원대", "요즘 네이버에서 제일 많이 찾는 비데"
@@ -53,7 +54,7 @@ JSON으로만 답해:
  "hook": "첫 화면 큰 글자 (12자 이내)",
  "hook_highlight": "hook 안에서 형광펜 칠할 단어 (hook에 그대로 들어있는 부분 문자열)",
  "scenes": [
-   {{"caption": "화면 큰 글자 (12자 이내)", "highlight": "caption 안의 강조 단어", "narration": "읽을 문장 1~2개"}}
+   {{"caption": "화면 큰 글자 (12자 이내)", "highlight": "caption 안의 강조 단어", "narration": "읽을 문장 1~2개", "type": "normal"}}
  ],
  "description": "영상 설명 2~3줄 (링크 넣지 마)",
  "hashtags": ["#태그", "..."]
@@ -71,6 +72,7 @@ THREADS_LINK_PROMPT = """너는 한국 스레드(Threads)에서 살림·생활 �
 규칙:
 - 직접 써봤다, 샀다 같은 사용 경험처럼 들리는 말 금지 (우리는 써보지 않았어).
 - 정보에 없는 수치·후기·별점을 지어내지 마. 효능·의학 표현, 과장 금지.
+- [실제 후기]가 있으면 그중 1개를 "구매자 후기 중" 이라고 밝히고 큰따옴표 안에 글자 그대로 인용해도 좋아 (고치기·지어내기 금지).
 - 첫 줄은 사실(리뷰 수·할인·많이 찾는 검색어) 하나로 시선을 끌고, '고를 때 볼 기준'을 짧게 알려준 뒤
   이 상품이 그 기준에 맞는 예시라고 소개. 연예인 사용·판매 1위 같은 지어낸 말 금지.
 - 링크는 본문에 넣지 마 (답글에 따로 단다). 마지막 줄은 "링크는 답글에 둘게요" 정도로.
@@ -90,6 +92,34 @@ THREADS_TIP_PROMPT = """너는 한국 스레드(Threads)에서 살림·생활 �
 글마다 어울리는 사진을 찾을 영어 검색어(2~3단어, 예: "blackout curtain bedroom")도 같이 줘.
 JSON으로만: {{"posts": [{{"text": "...", "photo": "english keywords"}}]}}
 """
+
+
+REVIEW_RULE = """
+[실제 구매자 후기 장면 — 꼭 1개 넣어]
+- 3~4번째 장면 하나를 "type": "reviews" 로 표시해. 이 장면 화면에는 아래 [실제 후기] 문장이 카드로 그대로 뜬다.
+- caption 예: "구매자 반응은?", "후기 보니까" (12자 이내)
+- narration: [실제 후기] 중 1~2개를 큰따옴표 안에 글자 하나 바꾸지 말고 그대로 읽어. 예) 구매자 후기 보면 "편하고 수압 좋아요" 이런 말이 많아요.
+- 후기를 고치거나, 없는 후기를 만들거나, '제가/저희가 샀다'처럼 말하지 마. 퍼센트는 '별 5개 비율'만 쓸 수 있어.
+"""
+
+
+def _norm(t: str) -> str:
+    return re.sub(r"[\s.,!?~'\"‘’“”]", "", t)
+
+
+def quotes_ok(script: dict, prod: dict) -> bool:
+    """대본 속 따옴표 문장이 실제 후기에 있는 말인지 확인 (후기 조작 방지)."""
+    real = [_norm(r["text"]) for r in prod.get("top_reviews") or []]
+    text = " ".join(x.get("narration", "") + " " + x.get("caption", "") for x in script.get("scenes", []))
+    for q in re.findall(r'["“]([^"”]{4,})["”]', text):
+        if not any(_norm(q) and _norm(q) in r for r in real):
+            return False
+    return True
+
+
+def strip_quotes(text: str) -> str:
+    """점검할 때 실제 후기 인용 부분은 빼고 본다 ('구매했어요' 같은 후기 원문 때문에 막히지 않게)."""
+    return re.sub(r'["“][^"”]*["”]', "", text)
 
 
 def _won(v) -> str:
@@ -113,6 +143,13 @@ def facts_text(prod: dict) -> str:
         f.append(f"- '{prod['keyword']}'는 이번 주 네이버 쇼핑 '{prod.get('category', '')}' 분야 인기 검색어 {prod['trend_rank']}위 (검색어 순위)")
     else:
         f.append(f"- '{prod['keyword']}'는 이번 주 네이버 쇼핑 인기 검색어 상위권 (검색어 순위)")
+    if prod.get("five_star_pct"):
+        f.append(f"- 쿠팡 전체 상품평 중 별 5개 비율 {prod['five_star_pct']}%")
+    for sv in prod.get("survey") or []:
+        f.append(f"- 후기 설문(추천순 상위 후기 {sv['tot']}개 기준): '{sv['q']}' → '{sv['a']}' {sv['n']}개"
+                 " (말할 땐 '후기 대부분이 ~래요' 정도로만, 퍼센트로 바꾸지 마)")
+    for r in prod.get("top_reviews") or []:
+        f.append(f"- [실제 후기] 별{r['rating']} \"{r['text']}\"")
     if prod.get("desc") and not str(prod["desc"]).startswith("현재 별점"):
         f.append(f"- 상품 설명(판매자 제공): {str(prod['desc'])[:300]}")
     if prod.get("notes"):
@@ -138,12 +175,20 @@ def _shorts(cfg, number, prod, fmt):
         keyword=prod["keyword"], name=prod.get("name", ""), brand=prod.get("brand") or "미확인",
         category=prod.get("category", ""), facts=facts_text(prod),
         number=number, format_guide=FORMAT_GUIDE[fmt],
+        review_rule=REVIEW_RULE if prod.get("top_reviews") else "",
     )
-    for _ in range(3):
+    for _ in range(4):
         s = generate_json(prompt, cfg["llm"]["model"])
         text = " ".join(x["narration"] + " " + x["caption"] for x in s["scenes"]) + s["title"] + s["description"]
-        if not compliance.problems(text, need_disclosure=False):
-            return s
+        if compliance.problems(strip_quotes(text), need_disclosure=False) or not quotes_ok(s, prod):
+            continue
+        if prod.get("top_reviews"):
+            rv = [x for x in s["scenes"] if x.get("type") == "reviews"]
+            if not rv:  # 표시를 빠뜨렸으면 '후기'를 말하는 장면을 후기 장면으로
+                cand = [x for x in s["scenes"][1:-1] if "후기" in x.get("narration", "")]
+                if cand:
+                    cand[0]["type"] = "reviews"
+        return s
     raise RuntimeError(f"대본 점검 통과 실패: {prod['keyword']}")
 
 
@@ -154,7 +199,8 @@ def _threads_link(cfg, prod):
     )
     for _ in range(3):
         t = generate_json(prompt, cfg["llm"]["model"])["text"].strip()
-        if not compliance.problems(t, need_disclosure=False):
+        if not compliance.problems(strip_quotes(t), need_disclosure=False) and \
+                quotes_ok({"scenes": [{"narration": t}]}, prod):
             return t
     return None
 

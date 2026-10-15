@@ -172,7 +172,45 @@ def parse_info(raw) -> dict:
         "buyers": (d.get("buyers") or "").strip()[:40],
         "image_urls": [_bigger(u) for u in d.get("images", []) if u],
         "product_url": d.get("url", ""),
+        "top_reviews": clean_reviews(d.get("top_reviews") or d.get("reviews_top") or []),
+        "survey": [x for x in (d.get("survey") or []) if isinstance(x, dict) and x.get("tot")
+                   and int(x.get("n", 0)) / int(x["tot"]) >= 0.6][:3],
+        "five_star_pct": num(d.get("five_star_pct")).split(".")[0],
     }
+
+
+_REVIEW_BAD = re.compile(r"[0-9]{3,}|https?:|쿠팡|로켓|배송|포장|택배|판매자|문의|교환|반품|체험|리뷰|후기|도움이|"
+                         r"재구매|내 ?돈|저희|없었|같더|같아요|원래|이번에는|아쉽|별로|단점|그런데|근데|하지만")
+_REVIEW_GOOD = re.compile(r"좋|만족|편|깔끔|추천|강추|예쁘|이뻐|튼튼|가볍|쉽|따뜻|촉촉|부드럽|조용|든든|최고|딱|넉넉|가성비")
+
+
+def clean_review_text(t: str) -> str:
+    """후기 문장 정리: 이모지·반복 기호만 걷어내고 말은 그대로 둔다 (지어내지 않음)."""
+    t = re.sub(r"[\U0001F000-\U0001FFFF\u2600-\u27BF\uFE0F‼]", "", str(t or ""))
+    t = re.sub(r"[ㅋㅎㅠㅜ]{2,}", "", t)
+    t = re.sub(r"([!?.~])\1+", r"\1", t)
+    t = re.sub(r"^[#*\s]*(장점|좋은 ?점)\s*[-:]?\s*", "", t)
+    return re.sub(r"\s+", " ", t).strip(" -")
+
+
+def clean_reviews(items) -> list[dict]:
+    """실제 구매자 후기 발췌: 별점 4~5, 8~40자, 상품과 무관한 말(배송 등) 제외, 최대 3개."""
+    out = []
+    for x in items or []:
+        if not isinstance(x, dict):
+            continue
+        t = clean_review_text(x.get("text", ""))
+        try:
+            r = int(float(x.get("rating", 5)))
+        except Exception:
+            r = 5
+        if r < 4 or not (8 <= len(t) <= 40) or _REVIEW_BAD.search(t):
+            continue
+        if t not in [o["text"] for o in out]:
+            out.append({"rating": r, "text": t})
+    # 장점이 분명한 짧은 문장 우선 (원문 그대로, 순서만 고름)
+    score = lambda o: (len(_REVIEW_GOOD.findall(o["text"])) > 0, o["rating"], -abs(len(o["text"]) - 18))
+    return sorted(out, key=score, reverse=True)[:3]
 
 
 def _manual_ready() -> list[dict]:
@@ -202,7 +240,8 @@ def _manual_ready() -> list[dict]:
             "price": str(it.get("price") or info.get("price") or "").replace(",", "").replace("원", "").strip(),
             "product_url": info.get("product_url", ""),
         }
-        for k in ("brand", "list_price", "rating", "reviews", "desc", "buyers"):
+        for k in ("brand", "list_price", "rating", "reviews", "desc", "buyers",
+                  "top_reviews", "survey", "five_star_pct"):
             if info.get(k) and not merged.get(k):
                 merged[k] = info[k]
         rank = it.get("trend_rank")

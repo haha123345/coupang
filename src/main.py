@@ -59,12 +59,20 @@ def cmd_shorts():
         raise RuntimeError("업로드 전 점검 실패: " + ", ".join(issues))
 
     video = render.render(item, cfg, OUT / f"{q['day']}_{item['number']}_{item['format']}")
-    url = youtube_upload.upload(str(video), s["title"], description, s.get("hashtags", []), cfg)
+    try:
+        url = youtube_upload.upload(str(video), s["title"], description, s.get("hashtags", []), cfg)
+    except Exception as e:  # 업로드가 막혀도 영상은 잃지 않게 텔레그램으로
+        notify.send_file(str(video), f"[쿠팡] ⚠️ 자동 업로드 실패 — 직접 올려주세요\n사유: {str(e)[:300]}\n\n"
+                                     f"제목: {s['title']}\n\n{description}")
+        item["done"] = True
+        item["url"] = "업로드 실패(텔레그램 전송)"
+        write_json(queue_file(q["day"]), q)
+        return
     item["done"] = True
     item["url"] = url
     write_json(queue_file(q["day"]), q)
     if url:
-        notify.send(f"[쿠팡] 쇼츠 업로드 완료 ({item['product']['keyword']})\n{s['title']}\n{url}")
+        notify.send(f"[쿠팡] ✅ 유튜브 자동 업로드 완료 ({item['product']['keyword']})\n{s['title']}\n{url}")
     else:
         notify.send_file(str(video), f"[쿠팡] 쇼츠 완성 (업로드는 직접): {s['title']}\n\n{description}")
 
@@ -99,7 +107,7 @@ def cmd_threads():
         # 잘 되는 계정들의 답글 형식: 광고 문구 → 상품명 한 줄 → 링크
         reply = f"[광고] 쿠팡파트너스 활동으로 일정 수수료를 지급받습니다\n\n{name}\n{item['product']['partner_url']}"
         for t, need in ((text, True), (reply, True)):
-            issues = compliance.problems(t, need_disclosure=need)
+            issues = compliance.problems(content.strip_quotes(t), need_disclosure=need)
             if issues:
                 raise RuntimeError("게시 전 점검 실패: " + ", ".join(issues))
     else:

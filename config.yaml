@@ -41,11 +41,12 @@ shorts:
   rate: "+12%"                 # 말 빠르기
   # 매번 다른 형식으로 만들어 '대량 생산 콘텐츠' 판정을 피함
   formats: ["top3_points", "before_after", "dont_buy_instead", "price_check"]
-  # 유튜브 업로드 방식: youtube_api | upload_post | telegram_only
+  # 유튜브 업로드 방식: auto | upload_post | youtube_api | telegram_only
+  #  - auto        : Upload-Post 비밀값 2개가 등록돼 있으면 자동 업로드, 없으면 텔레그램으로 파일 전송
+  #  - upload_post : Upload-Post 로 자동 업로드 (무료 월 10회, 하루 2편이면 유료 Basic 필요)
   #  - youtube_api : 무료. 단 구글 심사 전에는 올린 영상이 '비공개'로 잠김 (README 참고)
-  #  - upload_post : Upload-Post 유료(Basic) 사용 시
   #  - telegram_only: 업로드 안 하고 텔레그램으로 영상 파일만 전송
-  backend: "telegram_only"
+  backend: "auto"
   privacy: "public"
   category_id: "26"            # 유튜브 카테고리: 노하우/스타일
 
