@@ -38,3 +38,31 @@ def send_file(path: str, caption: str = "") -> None:
             )
     except Exception as e:
         print("텔레그램 파일 전송 실패:", e)
+
+
+def send_photos(urls: list[str], caption: str = "") -> None:
+    """상품 사진을 앨범으로 전송 (길게 눌러 저장 → 쓰레드에 첨부)."""
+    token, chat = _creds()
+    urls = [u for u in urls if u][:4]
+    if not token or not chat or not urls:
+        print("[사진]", urls)
+        return
+    import json as _json
+    UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/128.0 Safari/537.36"}
+    files, media = {}, []
+    for i, u in enumerate(urls):
+        try:
+            r = requests.get(u, headers=UA, timeout=30)
+            r.raise_for_status()
+            files[f"p{i}"] = (f"p{i}.jpg", r.content)
+            media.append({"type": "photo", "media": f"attach://p{i}"})
+        except Exception as e:
+            print("사진 다운로드 실패:", u, e)
+    if not media:
+        return
+    media[0]["caption"] = caption[:1000]
+    try:
+        requests.post(f"https://api.telegram.org/bot{token}/sendMediaGroup",
+                      data={"chat_id": chat, "media": _json.dumps(media)}, files=files, timeout=120)
+    except Exception as e:
+        print("텔레그램 사진 전송 실패:", e)

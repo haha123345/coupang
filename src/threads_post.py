@@ -65,9 +65,11 @@ def _post_upload_post(text: str, link_reply: str | None) -> str:
     return res.get("url") or js.get("request_id", "Upload-Post 게시 요청 완료")
 
 
-def _post_telegram(text: str, link_reply: str | None) -> str:
+def _post_telegram(text: str, link_reply: str | None, images: list[str] | None = None) -> str:
     """수동 모드: 지금 올릴 글을 텔레그램으로 보내준다 (복사해서 쓰레드 앱에 붙여넣기)."""
     import notify
+    if images:
+        notify.send_photos(images, "📷 상품 사진 — 길게 눌러 저장한 뒤 본문에 첨부하세요")
     notify.send(text)
     if link_reply:
         notify.send(link_reply)
@@ -77,11 +79,12 @@ def _post_telegram(text: str, link_reply: str | None) -> str:
     return "텔레그램 전송 (직접 게시)"
 
 
-def post(text: str, link_reply: str | None = None, backend: str = "threads_api") -> str:
+def post(text: str, link_reply: str | None = None, backend: str = "threads_api",
+         images: list[str] | None = None) -> str:
     if backend == "upload_post":
         return _post_upload_post(text, link_reply)
     if backend == "telegram":
-        return _post_telegram(text, link_reply)
+        return _post_telegram(text, link_reply, images)
     return _post_threads_api(text, link_reply)
 
 
