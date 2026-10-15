@@ -12,8 +12,8 @@ items:
 - keyword: 비데
   category: 생활/건강
   search_url: https://www.coupang.com/np/search?q=%EB%B9%84%EB%8D%B0
-  html: ''
-  price: ''
+  html: '<iframe src="https://coupa.ng/cqbpjI" width="120" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe>'
+  price: '164900'
   notes: ''
   name: ''
   partner_url: ''
