@@ -1,0 +1,112 @@
+{
+  "number": 8,
+  "format": "dont_buy_instead",
+  "product": {
+    "keyword": "바디로션",
+    "category": "화장품/미용",
+    "trend_rank": "",
+    "search_url": "https://www.coupang.com/np/search?q=%EB%B0%94%EB%94%94%EB%A1%9C%EC%85%98",
+    "partner_url": "https://link.coupang.com/a/hRT4DqntzU",
+    "notes": "",
+    "price": "12920",
+    "name": "세타필 모이스춰라이징 로션, 591ml, 1개",
+    "image_urls": [
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/77276365654004-a842d9c0-df4d-44fe-82a3-5dc3bc7ba775.jpg",
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/152158274932720-1c27a1fa-0d5b-4ee4-89e0-94f79b757a87.jpg",
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/126398290305948-b35d50c8-7d0d-436b-8a96-b50a1fc7e22c.jpg",
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/126398319694242-cc292646-b723-4454-b0e4-e3c21e18d972.jpg",
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/13955999033964-f54a88ac-03d7-4df2-8075-f9a5edc2c8d0.jpg",
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/14147395062108-fbdc3097-5d0d-4dd9-b5a7-270d85a2086b.jpg"
+    ],
+    "product_url": "https://www.coupang.com/vp/products/7164345502?itemId=17686805619",
+    "brand": "세타필",
+    "list_price": "24500",
+    "rating": "4.8",
+    "reviews": "233516",
+    "buyers": "한 달간 7만명 이상 구매했어요",
+    "top_reviews": [
+      {
+        "rating": 5,
+        "text": "대용량인데 부드럽고 촉촉한 사계절 로션"
+      },
+      {
+        "rating": 5,
+        "text": "부드럽고 좋아요"
+      }
+    ],
+    "survey": [
+      {
+        "q": "보습력",
+        "a": "아주 만족해요",
+        "n": 28,
+        "tot": 30
+      },
+      {
+        "q": "발림성",
+        "a": "부드럽게 발라져요",
+        "n": 28,
+        "tot": 30
+      },
+      {
+        "q": "향 만족도",
+        "a": "아주만족해요",
+        "n": 22,
+        "tot": 30
+      }
+    ],
+    "five_star_pct": "86",
+    "trend": "요즘 많이 찾는 '바디로션'"
+  },
+  "script": {
+    "title": "정가 2만 원대 바디로션 지금 반값 할인 #shorts",
+    "hook": "지금 1만 원대 바디로션",
+    "hook_highlight": "1만 원대",
+    "scenes": [
+      {
+        "caption": "바디로션 고를 때",
+        "highlight": "고를 때",
+        "narration": "아무거나 바디로션 사면 금방 건조해지고 끈적여서 후회해요.",
+        "type": "normal"
+      },
+      {
+        "caption": "요즘 많이 찾는",
+        "highlight": "많이 찾는",
+        "narration": "요즘 네이버 쇼핑 인기 검색어 상위권인 바디로션, 세타필 모이스춰라이징 로션이에요.",
+        "type": "normal"
+      },
+      {
+        "caption": "후기 보니까",
+        "highlight": "후기 보니까",
+        "narration": "구매자 후기 보면 대용량인데 부드럽고 촉촉한 사계절 로션 이런 말이 많아요.",
+        "type": "reviews"
+      },
+      {
+        "caption": "다들 고르는 이유",
+        "highlight": "고르는 이유",
+        "narration": "상품평이 23만 개가 넘고, 후기 대부분이 보습력이랑 발림성이 아주 만족스럽대요.",
+        "type": "normal"
+      },
+      {
+        "caption": "지금 47% 할인",
+        "highlight": "47% 할인",
+        "narration": "정가 24,500원에서 지금 12,920원! 가격은 바뀔 수 있어요.",
+        "type": "normal"
+      },
+      {
+        "caption": "프로필 링크 확인",
+        "highlight": "프로필 링크",
+        "narration": "프로필 링크에서 8번 확인하세요.",
+        "type": "normal"
+      }
+    ],
+    "description": "요즘 네이버 쇼핑 인기 검색어 상위권인 세타필 모이스춰라이징 로션! 23만 개 넘는 상품평과 47% 할인 중인 가격까지 확인해보세요.",
+    "hashtags": [
+      "#세타필",
+      "#바디로션",
+      "#세타필모이스춰라이징로션",
+      "#바디로션추천",
+      "#쇼츠"
+    ]
+  },
+  "done": false
+}
