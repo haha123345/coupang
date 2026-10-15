@@ -283,7 +283,7 @@ def survey_layer(prod: dict, accent, rows: int = 2) -> Image.Image | None:
 
 
 def cta_layer(number: int, prod: dict, accent) -> Image.Image:
-    layer = Image.new("RGBA", (W, 300), (0, 0, 0, 0))
+    layer = Image.new("RGBA", (W, 360), (0, 0, 0, 0))
     d = ImageDraw.Draw(layer)
     f = font(66, "black")
     msg = f"프로필 링크 ▶ {number}번"
@@ -311,6 +311,10 @@ def cta_layer(number: int, prod: dict, accent) -> Image.Image:
         fn = font(26, "medium")
         note = "작성 시점 기준 · 가격은 바뀔 수 있어요"
         d.text((CX - d.textlength(note, font=fn) / 2, 252), note, font=fn, fill=MUTED)
+    fh = font(34, "bold")
+    hint = "채널 이름 누르면 → 링크에서 바로 구매"
+    hy = 296 if price.isdigit() else 180
+    d.text((CX - d.textlength(hint, font=fh) / 2, hy), hint, font=fh, fill=INK)
     return layer
 
 

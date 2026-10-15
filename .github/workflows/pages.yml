@@ -1,0 +1,26 @@
+name: 0 상품 페이지 갱신
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["data/manual_products.yaml"]
+permissions:
+  contents: write
+concurrency:
+  group: coupang-state
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml requests
+      - run: python -c "import sys; sys.path.insert(0,'src'); import pages; pages.build()"
+      - run: |
+          git config user.name "coupang-bot"; git config user.email "coupang-bot@users.noreply.github.com"
+          git add docs data/products_last.json || true
+          git diff --cached --quiet || git commit -m "auto: 상품 페이지 갱신"
+          for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 5; done

@@ -15,11 +15,21 @@ def build() -> None:
             img = "https:" + img
         price = p.get("price")
         price_txt = f"{int(price):,}원" if str(price).isdigit() else html.escape(str(price or ""))
+        meta = []
+        if p.get("rating") and p.get("reviews"):
+            meta.append(f"★ {html.escape(str(p['rating']))} · 리뷰 {int(str(p['reviews']).replace(',', '')):,}개")
+        lp = str(p.get("list_price") or "")
+        if str(price).isdigit() and lp.isdigit() and int(lp) > int(price):
+            meta.append(f"{int((int(lp) - int(price)) * 100 / int(lp))}% 할인")
+        rv = (p.get("top_reviews") or [{}])[0].get("text")
+        quote = f'<span class="q">“{html.escape(rv)}” <em>구매자 후기</em></span>' if rv else ""
         rows.append(
-            f'<a class="item" href="{html.escape(p["partner_url"])}" rel="sponsored noopener" target="_blank">'
+            f'<a class="item" id="n{i}" href="{html.escape(p["partner_url"])}" rel="sponsored noopener" target="_blank">'
             f'<span class="no">{i}</span><img src="{img}" alt="" loading="lazy">'
             f'<span class="txt"><b>{html.escape(p.get("name") or p["keyword"])}</b>'
-            f'<small>{price_txt} · 작성 시점 기준, 가격 변동 가능</small></span></a>'
+            f'<span class="meta">{" · ".join(meta)}</span>{quote}'
+            f'<small>{price_txt} · 작성 시점 기준, 가격 변동 가능</small>'
+            f'<span class="go">쿠팡에서 보기 →</span></span></a>'
         )
     page = f"""<!doctype html><html lang="ko"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -36,6 +46,10 @@ h1{{font-size:22px;margin:20px 0 4px}} p.sub{{color:var(--muted);margin:0 0 14px
 .item img{{width:72px;height:72px;object-fit:contain;background:#fff;border-radius:10px}}
 .txt{{display:flex;flex-direction:column;gap:4px;min-width:0}} .txt b{{font-size:15px;line-height:1.35}}
 .txt small{{color:var(--muted);font-size:12px}}
+.meta{{font-size:13px;color:var(--acc);font-weight:700}}
+.q{{font-size:13px;line-height:1.4}} .q em{{color:var(--muted);font-style:normal;font-size:11px}}
+.go{{align-self:flex-start;margin-top:4px;background:var(--acc);color:#fff;font-weight:800;font-size:14px;padding:7px 14px;border-radius:999px}}
+.item img{{width:96px;height:96px}}
 </style></head><body><main>
 <div class="notice">{html.escape(cfg["disclosure"]["short"])}</div>
 <h1>영상 속 상품 번호로 찾으세요</h1>
