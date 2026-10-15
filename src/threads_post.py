@@ -39,12 +39,47 @@ def permalink(media_id: str) -> str:
     return r.json().get("permalink", "") if r.ok else ""
 
 
-def post(text: str, link_reply: str | None = None) -> str:
+def _post_threads_api(text: str, link_reply: str | None) -> str:
     post_id = _create_and_publish(text)
     if link_reply:
         time.sleep(15)
         _create_and_publish(link_reply, reply_to=post_id)
     return permalink(post_id)
+
+
+def _post_upload_post(text: str, link_reply: str | None) -> str:
+    """Upload-Post 경유 (Meta 개발자 앱 없이 쓰레드 게시). 첫 답글로 링크."""
+    data = {"user": env("UPLOAD_POST_USER"), "platform[]": "threads", "title": text,
+            "threads_long_text_as_post": "true"}
+    if link_reply:
+        data["threads_first_comment"] = link_reply
+    r = requests.post("https://api.upload-post.com/api/upload_text",
+                      headers={"Authorization": f"Apikey {env('UPLOAD_POST_API_KEY')}"},
+                      data=data, timeout=120)
+    if r.status_code >= 400:
+        raise RuntimeError(f"Upload-Post 쓰레드 오류 {r.status_code}: {r.text[:300]}")
+    js = r.json()
+    res = (js.get("results") or {}).get("threads") or {}
+    if res and not res.get("success", True):
+        raise RuntimeError(f"Upload-Post 쓰레드 실패: {res.get('error')}")
+    return res.get("url") or js.get("request_id", "Upload-Post 게시 요청 완료")
+
+
+def _post_telegram(text: str, link_reply: str | None) -> str:
+    """수동 모드: 지금 올릴 글을 텔레그램으로 보내준다 (복사해서 쓰레드 앱에 붙여넣기)."""
+    import notify
+    notify.send("📝 [쓰레드에 올릴 글 — 아래를 길게 눌러 복사]\n\n" + text)
+    if link_reply:
+        notify.send("💬 [위 글의 첫 댓글로 달 내용]\n\n" + link_reply)
+    return "텔레그램 전송 (직접 게시)"
+
+
+def post(text: str, link_reply: str | None = None, backend: str = "threads_api") -> str:
+    if backend == "upload_post":
+        return _post_upload_post(text, link_reply)
+    if backend == "telegram":
+        return _post_telegram(text, link_reply)
+    return _post_threads_api(text, link_reply)
 
 
 def refresh_token() -> str:

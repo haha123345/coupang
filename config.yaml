@@ -51,4 +51,9 @@ shorts:
 
 # 쓰레드
 threads:
+  # 게시 방식: threads_api | upload_post | telegram
+  #  - threads_api : Meta 개발자 앱 + THREADS_ACCESS_TOKEN (무료)
+  #  - upload_post : Upload-Post 유료(Basic) — 개발자 앱 없이 자동 게시, 첫 댓글에 링크
+  #  - telegram    : 자동 게시 대신, 올릴 시간에 글을 텔레그램으로 보내줌 (복사해서 직접 게시)
+  backend: "telegram"
   max_chars: 480

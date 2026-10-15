@@ -104,7 +104,7 @@ def cmd_threads():
     else:
         text, reply = item["text"], None
     text = text[: cfg["threads"]["max_chars"]]
-    url = threads_post.post(text, link_reply=reply)
+    url = threads_post.post(text, link_reply=reply, backend=cfg["threads"].get("backend", "threads_api"))
     item["done"] = True
     item["url"] = url
     write_json(queue_file(q["day"]), q)
