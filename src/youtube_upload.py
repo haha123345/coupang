@@ -52,6 +52,17 @@ def _youtube_api(path: str, title: str, description: str, tags: list[str], cfg: 
             _, resp = req.next_chunk()
         return resp
 
+    def _check():
+        cid = env("YT_CLIENT_ID")
+        hint = (f"YT_CLIENT_ID 확인: 길이 {len(cid)}자, 앞 '{cid[:4]}…', "
+                f"'.apps.googleusercontent.com'로 끝남={cid.endswith('.apps.googleusercontent.com')}")
+        return hint
+
+    try:
+        from google.auth.transport.requests import Request
+        creds.refresh(Request())
+    except Exception as e:
+        raise RuntimeError(f"유튜브 로그인 값 오류: {e} / {_check()}")
     try:
         resp = _send("snippet,status,paidProductPlacementDetails", body)
     except Exception as e:  # 유료 광고 표시 항목을 API가 거부하면 그것만 빼고 재시도

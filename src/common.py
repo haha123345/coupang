@@ -19,6 +19,11 @@ def load_config() -> dict:
 
 def env(name: str, required: bool = True, default: str | None = None) -> str | None:
     val = os.environ.get(name, default)
+    if isinstance(val, str):
+        val = val.strip().strip('"').strip("'")
+        for pre in ("Secret:", "Secret :", f"{name}=", f"{name} ="):  # 메모장 줄째로 붙여넣은 경우
+            if val.startswith(pre):
+                val = val[len(pre):].strip()
     if required and not val:
         raise RuntimeError(f"환경변수 {name} 가 없습니다. GitHub Secrets에 등록했는지 확인하세요.")
     return val
