@@ -29,15 +29,21 @@ def send_file(path: str, caption: str = "") -> None:
         print("[파일]", path, caption)
         return
     try:
-        with open(path, "rb") as f:
-            requests.post(
-                f"https://api.telegram.org/bot{token}/sendVideo",
-                data={"chat_id": chat, "caption": caption[:1000]},
-                files={"video": f},
-                timeout=300,
-            )
+        for method, field in (("sendVideo", "video"), ("sendDocument", "document")):
+            with open(path, "rb") as f:
+                r = requests.post(
+                    f"https://api.telegram.org/bot{token}/{method}",
+                    data={"chat_id": chat, "caption": caption[:1000]},
+                    files={field: f},
+                    timeout=300,
+                )
+            if r.ok:
+                return
+            print(f"텔레그램 {method} 실패 {r.status_code}: {r.text[:300]}")
+        send(f"⚠️ 영상 파일 전송 실패 ({os.path.getsize(path) // 1_000_000}MB): {r.text[:200]}")
     except Exception as e:
         print("텔레그램 파일 전송 실패:", e)
+        send(f"⚠️ 영상 파일 전송 실패: {e}")
 
 
 def send_photos(urls: list[str], caption: str = "") -> None:

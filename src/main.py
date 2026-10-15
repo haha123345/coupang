@@ -72,7 +72,8 @@ def cmd_shorts():
     item["url"] = url
     write_json(queue_file(q["day"]), q)
     if url:
-        notify.send(f"[쿠팡] ✅ 유튜브 자동 업로드 완료 ({item['product']['keyword']})\n{s['title']}\n{url}")
+        notify.send(f"[쿠팡] ✅ 유튜브 업로드 완료 ({item['product']['keyword']}) — 비공개 상태예요\n"
+                    f"{s['title']}\n\n확인 후 공개로 바꾸기 👉 {url}")
     else:
         notify.send_file(str(video), f"[쿠팡] 쇼츠 완성 (업로드는 직접): {s['title']}\n\n{description}")
 
@@ -101,6 +102,8 @@ def cmd_preview():
                         "-frames:v", "1", "-vf", "scale=540:-1", str(dbg / f"preview_{t}.jpg")])
     s = item["script"]
     write_json(dbg / "preview_script.json", item)
+    import shutil
+    shutil.copy(video, dbg / "preview.mp4")
     notify.send_file(str(video), f"[쿠팡] 미리보기 — {s['title']}\n(업로드 안 함)")
 
 

@@ -4,8 +4,8 @@ youtube_api : YouTube Data API v3 (무료, OAuth 리프레시 토큰)
               ※ 구글 감사(audit)를 통과하지 않은 프로젝트로 올린 영상은 '비공개'로 잠김
 upload_post : Upload-Post API (무료 월 10회, 그 이상은 유료)
 telegram_only: 업로드 안 함
-auto        : Upload-Post 비밀값(UPLOAD_POST_API_KEY, UPLOAD_POST_USER)이 있으면 upload_post,
-              없으면 telegram_only
+auto        : YT_REFRESH_TOKEN 이 있으면 youtube_api(비공개 업로드),
+              없고 Upload-Post 비밀값 2개가 있으면 upload_post, 둘 다 없으면 telegram_only
 """
 import os
 
@@ -58,7 +58,7 @@ def _youtube_api(path: str, title: str, description: str, tags: list[str], cfg: 
         print("유료 광고 표시 없이 재시도:", e)
         body.pop("paidProductPlacementDetails", None)
         resp = _send("snippet,status", body)
-    return f"https://youtube.com/shorts/{resp['id']}"
+    return f"https://studio.youtube.com/video/{resp['id']}/edit"
 
 
 def _upload_post(path: str, title: str, description: str, tags: list[str], cfg: dict) -> str:
@@ -96,8 +96,12 @@ def _upload_post(path: str, title: str, description: str, tags: list[str], cfg: 
 def upload(path: str, title: str, description: str, tags: list[str], cfg: dict) -> str | None:
     backend = cfg["shorts"].get("backend", "auto")
     if backend == "auto":
-        backend = ("upload_post" if os.environ.get("UPLOAD_POST_API_KEY") and os.environ.get("UPLOAD_POST_USER")
-                   else "telegram_only")
+        if all(os.environ.get(k) for k in ("YT_CLIENT_ID", "YT_CLIENT_SECRET", "YT_REFRESH_TOKEN")):
+            backend = "youtube_api"
+        elif os.environ.get("UPLOAD_POST_API_KEY") and os.environ.get("UPLOAD_POST_USER"):
+            backend = "upload_post"
+        else:
+            backend = "telegram_only"
     if backend == "youtube_api":
         return _youtube_api(path, title, description, tags, cfg)
     if backend == "upload_post":
