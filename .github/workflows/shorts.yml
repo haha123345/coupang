@@ -2,8 +2,7 @@ name: 3 쇼츠 제작·업로드
 on:
   workflow_dispatch:
   schedule:
-    - cron: "52 2 * * *"    # 11:52 KST
-    - cron: "52 9 * * *"    # 18:52 KST
+    - cron: "40 2 * * *"    # 11:40 KST 시작 → 12시쯤 오늘 쇼츠 2편 모두 비공개 업로드
 
 permissions:
   contents: write
@@ -15,7 +14,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 60
     env:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}

@@ -39,12 +39,19 @@ def cmd_prep():
 
 
 def cmd_shorts():
+    """오늘 남은 쇼츠를 전부 만들어 올린다 (하루 1번, 12시쯤 실행)."""
+    for _ in range(10):
+        if not _one_short():
+            break
+
+
+def _one_short() -> bool:
     cfg = load_config()
     q = _queue()
     item = next((s for s in q["shorts"] if not s["done"]), None)
     if not item:
         print("오늘 남은 쇼츠 없음")
-        return
+        return False
     s = item["script"]
     disclosure = cfg["disclosure"]
     description = (
@@ -67,7 +74,7 @@ def cmd_shorts():
         item["done"] = True
         item["url"] = "업로드 실패(텔레그램 전송)"
         write_json(queue_file(q["day"]), q)
-        return
+        return True
     item["done"] = True
     item["url"] = url
     write_json(queue_file(q["day"]), q)
@@ -76,6 +83,7 @@ def cmd_shorts():
                     f"{s['title']}\n\n확인 후 공개로 바꾸기 👉 {url}")
     else:
         notify.send_file(str(video), f"[쿠팡] 쇼츠 완성 (업로드는 직접): {s['title']}\n\n{description}")
+    return True
 
 
 def cmd_preview():

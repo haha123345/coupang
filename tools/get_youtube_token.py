@@ -11,12 +11,38 @@ from pathlib import Path
 from google_auth_oauthlib.flow import InstalledAppFlow
 
 here = Path.cwd()
-cands = sorted(here.glob("client_secret*.json")) + sorted(Path(__file__).resolve().parent.glob("client_secret*.json"))
-if not cands:
-    print("client_secret.json 파일이 이 폴더에 없어요:", here)
-    print("hookshorts 폴더(유튜브 로그인 파일이 있는 곳)에 넣고 실행해 주세요.")
+
+
+def find_secret():
+    """client_secret*.json 찾기: 지금 폴더 → hookshorts 폴더(바탕화면·문서·다운로드·C:\ 등)"""
+    for d in (here, Path(__file__).resolve().parent):
+        c = sorted(d.glob("client_secret*.json"))
+        if c:
+            return c[0]
+    home = Path.home()
+    roots = [home, home / "Desktop", home / "바탕 화면", home / "OneDrive" / "Desktop",
+             home / "OneDrive" / "바탕 화면", home / "Documents", home / "OneDrive" / "Documents",
+             home / "Downloads", Path("C:/"), Path("D:/")]
+    for r in roots:
+        if not r.exists():
+            continue
+        for depth in ("*", "*/*", "*/*/*"):
+            try:
+                for p in r.glob(f"{depth}/client_secret*.json"):
+                    if "AppData" not in p.parts:
+                        return p
+            except Exception:
+                pass
+    return None
+
+
+secret = find_secret()
+if not secret:
+    print("구글 로그인 파일(client_secret....json)을 찾지 못했어요.")
+    print("hookshorts 폴더 안의 client_secret 파일을 이 파일과 같은 폴더(다운로드)로 복사한 뒤 다시 실행해 주세요.")
+    input("엔터를 누르면 닫혀요")
     sys.exit(1)
-secret = cands[0]
+print("구글 로그인 파일:", secret)
 info = json.load(open(secret, encoding="utf-8"))
 info = info.get("installed") or info.get("web")
 

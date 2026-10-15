@@ -1,0 +1,38 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>유튜브 연결</title>
+<style>
+:root{--bg:#f6f6f4;--card:#fff;--ink:#16161a;--muted:#6b6b72;--acc:#ff4836}
+@media (prefers-color-scheme:dark){:root{--bg:#111114;--card:#1c1c21;--ink:#f2f2f2;--muted:#a0a0a8}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Malgun Gothic","Apple SD Gothic Neo",sans-serif;line-height:1.7}
+main{max-width:640px;margin:0 auto;padding:24px 16px}
+.card{background:var(--card);border-radius:16px;padding:20px;margin:16px 0}
+.n{display:inline-block;width:32px;height:32px;border-radius:50%;background:var(--acc);color:#fff;text-align:center;line-height:32px;font-weight:800;margin-right:8px}
+.btn{display:inline-block;background:var(--acc);color:#fff;font-weight:800;font-size:20px;padding:14px 28px;border-radius:999px;text-decoration:none}
+.sub{color:var(--muted);font-size:14px}
+code{background:rgba(127,127,127,.18);border-radius:6px;padding:1px 6px}
+</style></head><body><main>
+<h1>쇼핑 채널 유튜브 연결 (한 번만)</h1>
+<p class="sub">집 PC(hookshorts 가 있는 컴퓨터)에서 하세요. 5분이면 끝나요.</p>
+
+<div class="card"><span class="n">1</span><b>파일 받기</b>
+<p><a class="btn" href="youtube_login_coupang.bat" download="youtube_login_coupang.bat">⬇ 다운로드</a></p>
+<p class="sub">Edge 에서 '안전하지 않을 수 있음' 이 뜨면 … → <b>유지</b> 를 누르세요.</p></div>
+
+<div class="card"><span class="n">2</span><b>받은 파일 실행</b>
+<p>다운로드 목록에서 <code>youtube_login_coupang.bat</code> 을 클릭하세요.<br>
+파란 창 'Windows의 PC 보호' 가 뜨면 <b>추가 정보 → 실행</b>.</p>
+<p class="sub">검은 창이 뜨고 잠시 설치가 진행돼요. hookshorts 폴더의 구글 로그인 파일을 알아서 찾아요.</p></div>
+
+<div class="card"><span class="n">3</span><b>브라우저에서 쇼핑 채널 계정 고르기</b>
+<p>구글 계정 선택 화면에서 <b>쇼핑 채널(goditem20xx) 계정</b>을 누르고 → <b>계속 / 허용</b>.<br>
+'Google에서 확인하지 않은 앱' 이 나오면 <b>고급 → 이동(안전하지 않음)</b>.</p></div>
+
+<div class="card"><span class="n">4</span><b>메모장에 나온 값 3개 등록</b>
+<p>메모장이 자동으로 열려요. 맨 윗줄 채널 이름이 쇼핑 채널인지 확인하고,<br>
+아래 링크를 열어 <b>Name</b> 칸과 <b>Secret</b> 칸에 메모장 내용을 그대로 복사해 넣고 <b>Add secret</b>. 이걸 3번 반복하세요.</p>
+<p><a href="https://github.com/haha123345/coupang/settings/secrets/actions/new" target="_blank">👉 비밀값 등록 화면 열기</a></p>
+<p class="sub">YT_CLIENT_ID · YT_CLIENT_SECRET · YT_REFRESH_TOKEN</p></div>
+
+<div class="card"><b>끝!</b> 매일 12시쯤 쇼츠 2편이 <b>비공개</b>로 올라가고, 텔레그램으로 '공개로 바꾸기' 링크가 와요.
+<p class="sub">다 끝나면 다운로드 폴더의 <code>coupang_youtube_values.txt</code> 는 지워 주세요.</p></div>
+</main></body></html>
