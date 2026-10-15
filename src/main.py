@@ -81,15 +81,26 @@ def cmd_preview():
     """오늘 첫 쇼츠를 렌더링만 해서 텔레그램으로 보낸다 (업로드·완료 처리 안 함)."""
     import subprocess
     cfg = load_config()
-    q = _queue()
-    item = next((s for s in q["shorts"] if not s["done"]), q["shorts"][0])
+    if os.environ.get("PREVIEW_FRESH", "1") == "1":
+        # 지금 상품 목록·지금 코드로 새 대본을 만들어 본다 (오늘 업로드 순서엔 영향 없음)
+        import random
+        pool = products.load_pool()
+        cands = [(i, p) for i, p in enumerate(pool, 1) if p.get("top_reviews")] or list(enumerate(pool, 1))
+        number, prod = random.choice(cands)
+        fmt = random.choice(cfg["shorts"]["formats"])
+        item = {"number": number, "format": fmt, "product": prod,
+                "script": content._shorts(cfg, number, prod, fmt), "done": False}
+    else:
+        q = _queue()
+        item = next((s for s in q["shorts"] if not s["done"]), q["shorts"][0])
     video = render.render(item, cfg, OUT / "preview")
     dbg = OUT.parent / "data" / "debug"
     dbg.mkdir(parents=True, exist_ok=True)
-    for t in (1, 6, 12, 20):
+    for t in (1, 6, 9, 12, 15, 20):
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", str(t), "-i", str(video),
                         "-frames:v", "1", "-vf", "scale=540:-1", str(dbg / f"preview_{t}.jpg")])
     s = item["script"]
+    write_json(dbg / "preview_script.json", item)
     notify.send_file(str(video), f"[쿠팡] 미리보기 — {s['title']}\n(업로드 안 함)")
 
 
