@@ -1,111 +1,93 @@
 {
-  "number": 8,
-  "format": "dont_buy_instead",
+  "number": 10,
+  "format": "top3_points",
   "product": {
-    "keyword": "바디로션",
-    "category": "화장품/미용",
+    "keyword": "체중계",
+    "category": "생활/건강",
     "trend_rank": "",
-    "search_url": "https://www.coupang.com/np/search?q=%EB%B0%94%EB%94%94%EB%A1%9C%EC%85%98",
-    "partner_url": "https://link.coupang.com/a/hRT4DqntzU",
+    "search_url": "https://www.coupang.com/np/search?q=%EC%B2%B4%EC%A4%91%EA%B3%84",
+    "partner_url": "https://link.coupang.com/a/hRUekCNyr6",
     "notes": "",
-    "price": "12920",
-    "name": "세타필 모이스춰라이징 로션, 591ml, 1개",
+    "price": "24900",
+    "name": "앳플리 T8 스마트 체성분 체중계",
     "image_urls": [
-      "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/77276365654004-a842d9c0-df4d-44fe-82a3-5dc3bc7ba775.jpg",
-      "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/152158274932720-1c27a1fa-0d5b-4ee4-89e0-94f79b757a87.jpg",
-      "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/126398290305948-b35d50c8-7d0d-436b-8a96-b50a1fc7e22c.jpg",
-      "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/126398319694242-cc292646-b723-4454-b0e4-e3c21e18d972.jpg",
-      "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/13955999033964-f54a88ac-03d7-4df2-8075-f9a5edc2c8d0.jpg",
-      "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/14147395062108-fbdc3097-5d0d-4dd9-b5a7-270d85a2086b.jpg"
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/4648/4cfff6daadefc36564afb347ad0a4ec6306457b38045478adf0e9bec2f80.jpg",
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/35667312256422-0c4f465c-63ef-437a-aef1-250f71d7ffd7.png",
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/35667303329498-a3952d18-344b-40e3-9bff-314563af771d.png",
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/993260058462269-b483fb8c-dbc7-4be7-9e97-e67b809f6403.png",
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/35667313688878-d2747c26-3044-4e25-b7c7-a71ecb86ce78.png",
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/993262840631229-1d2ccced-1c84-42ed-b36f-ecc5997c7e1c.png"
     ],
-    "product_url": "https://www.coupang.com/vp/products/7164345502?itemId=17686805619",
-    "brand": "세타필",
-    "list_price": "24500",
+    "product_url": "https://www.coupang.com/vp/products/245670231?itemId=778731488",
+    "brand": "앳플리",
+    "list_price": "38900",
     "rating": "4.8",
-    "reviews": "233516",
-    "buyers": "한 달간 7만명 이상 구매했어요",
+    "reviews": "68763",
+    "buyers": "한 달간 8,000명 이상 구매했어요",
     "top_reviews": [
       {
         "rating": 5,
-        "text": "대용량인데 부드럽고 촉촉한 사계절 로션"
+        "text": "다이어트 시작하면서 구매한 체성분 체중계"
       },
       {
         "rating": 5,
-        "text": "부드럽고 좋아요"
-      }
-    ],
-    "survey": [
-      {
-        "q": "보습력",
-        "a": "아주 만족해요",
-        "n": 28,
-        "tot": 30
-      },
-      {
-        "q": "발림성",
-        "a": "부드럽게 발라져요",
-        "n": 28,
-        "tot": 30
-      },
-      {
-        "q": "향 만족도",
-        "a": "아주만족해요",
-        "n": 22,
-        "tot": 30
+        "text": "몸무게 기능은 충실!"
       }
     ],
     "five_star_pct": "86",
-    "trend": "요즘 많이 찾는 '바디로션'"
+    "trend": "요즘 많이 찾는 '체중계'"
   },
   "script": {
-    "title": "정가 2만 원대 바디로션 지금 반값 할인 #shorts",
-    "hook": "지금 1만 원대 바디로션",
-    "hook_highlight": "1만 원대",
+    "title": "리뷰 6만 개 넘은 스마트 체성분 체중계 특가 #shorts",
+    "hook": "리뷰 6만 개 넘은 체중계",
+    "hook_highlight": "리뷰 6만 개",
     "scenes": [
       {
-        "caption": "바디로션 고를 때",
-        "highlight": "고를 때",
-        "narration": "아무거나 바디로션 사면 금방 건조해지고 끈적여서 후회해요.",
-        "type": "normal"
-      },
-      {
-        "caption": "요즘 많이 찾는",
+        "caption": "요즘 제일 많이 찾는",
         "highlight": "많이 찾는",
-        "narration": "요즘 네이버 쇼핑 인기 검색어 상위권인 바디로션, 세타필 모이스춰라이징 로션이에요.",
+        "narration": "요즘 네이버 쇼핑 인기 검색어 상위권에 있는 체중계 찾고 계셨나요?",
         "type": "normal"
       },
       {
-        "caption": "후기 보니까",
-        "highlight": "후기 보니까",
-        "narration": "구매자 후기 보면 대용량인데 부드럽고 촉촉한 사계절 로션 이런 말이 많아요.",
+        "caption": "궁금한 포인트 첫 번째",
+        "highlight": "첫 번째",
+        "narration": "다들 왜 이렇게 많이 살까요? 쿠팡 상품 페이지 기준으로 한 달간 8,000명 이상 구매했어요.",
+        "type": "normal"
+      },
+      {
+        "caption": "구매자 반응은?",
+        "highlight": "구매자 반응",
+        "narration": "실제 후기를 보니까 \"다이어트 시작하면서 구매한 체성분 체중계\" 그리고 \"몸무게 기능은 충실!\" 이런 평이 정말 많더라고요.",
         "type": "reviews"
       },
       {
-        "caption": "다들 고르는 이유",
-        "highlight": "고르는 이유",
-        "narration": "상품평이 23만 개가 넘고, 후기 대부분이 보습력이랑 발림성이 아주 만족스럽대요.",
+        "caption": "만족도 엄청 높네",
+        "highlight": "엄청 높네",
+        "narration": "쿠팡 평점 4.8점에 상품평이 6만 8천 개가 넘고, 전체 상품평 중 별 5개 비율이 무려 86%예요.",
         "type": "normal"
       },
       {
-        "caption": "지금 47% 할인",
-        "highlight": "47% 할인",
-        "narration": "정가 24,500원에서 지금 12,920원! 가격은 바뀔 수 있어요.",
+        "caption": "가격까지 역대급",
+        "highlight": "역대급",
+        "narration": "정가 38,900원에서 지금 24,900원으로 35% 할인 중이에요. 가격은 바뀔 수 있어요.",
         "type": "normal"
       },
       {
-        "caption": "프로필 링크 확인",
-        "highlight": "프로필 링크",
-        "narration": "프로필 링크에서 8번 확인하세요.",
+        "caption": "지금 바로 확인",
+        "highlight": "바로 확인",
+        "narration": "자세한 스펙은 상세페이지에서 꼭 확인하시고, 프로필 링크에서 10번 확인하세요.",
         "type": "normal"
       }
     ],
-    "description": "요즘 네이버 쇼핑 인기 검색어 상위권인 세타필 모이스춰라이징 로션! 23만 개 넘는 상품평과 47% 할인 중인 가격까지 확인해보세요.",
+    "description": "쿠팡 평점 4.8점과 수많은 후기로 검증된 앳플리 T8 스마트 체성분 체중계! 지금 35% 할인된 가격으로 만나보세요.",
     "hashtags": [
-      "#세타필",
-      "#바디로션",
-      "#세타필모이스춰라이징로션",
-      "#바디로션추천",
-      "#쇼츠"
+      "#앳플리체중계",
+      "#체성분체중계",
+      "#스마트체중계",
+      "#다이어트",
+      "#욕실용품",
+      "#생활가전",
+      "#추천"
     ]
   },
   "done": false
