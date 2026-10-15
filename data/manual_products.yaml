@@ -23,7 +23,7 @@ items:
   trend_rank: ''
   search_url: https://www.coupang.com/np/search?q=%EC%A0%95%EC%88%98%EA%B8%B0
   info: '{"name":"퓨리얼 직수형 냉온정수기 방문설치","brand":"퓨리얼","price":"750410","list_price":"899000","rating":"4.5","reviews":"407","desc":"현재 별점 4.5점, 리뷰 407개를 가진 퓨리얼 직수형 냉온정수기 방문설치! 지금 쿠팡에서 더 저렴하고 다양한 정수기 제품들을 확인해보세요.","images":["https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/33869226632443-14a7ab27-3304-4113-bfca-d53b1f244fc5.jpg","https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/97280521352511-d4e35cd7-23b7-4cb4-aa27-70304e7a54c1.jpg","https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/357530743156885-d9886419-6c52-4cfc-ae6e-16379bb0d683.jpg","https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/357535111276328-b1bd3070-a870-405c-9783-d37c1702b07b.jpg","https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/357665500189162-d522de2e-5553-4eab-8cf1-76cf10b1631a.jpg","https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/357542367753236-7c10a3df-ed5f-442b-8307-cfa8c337e61e.jpg"],"url":"https://www.coupang.com/vp/products/55598788?itemId=193347901","buyers":""}'
-  partner_url: 'https://link.coupang.com/a/hRSTOwGVcO'
+  partner_url: https://link.coupang.com/a/hRSTOwGVcO
   notes: ''
   price: ''
   name: ''
@@ -32,7 +32,7 @@ items:
   category: 스포츠/레저
   trend_rank: ''
   search_url: https://www.coupang.com/np/search?q=%EB%93%B1%EC%82%B0%ED%99%94
-  info: ''
+  info: '{"name": "유세븐 남성용 다이얼 운동화 트래킹화 DM907", "brand": "유세븐", "price": "27680", "list_price": "", "rating": "4.5", "reviews": "8336", "desc": "", "images": ["https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/187992871288890-a6f1a312-e18f-401d-8f08-33d2322bf755.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/313658257200773-a2df0e58-95d5-4d25-a254-68dc19a36b0d.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/5134439110075993-84a6b340-87a3-4c61-a4a0-74ff980b27eb.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/313658364725732-5c6904e8-0701-4ce7-809c-19727eb1302e.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/315933265130726-a644aa56-aafb-4e1e-a33e-b1809006c164.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/383043431802731-8f727839-789d-4ad6-ae6c-21fa6dc13661.jpg"], "url": "https://www.coupang.com/vp/products/5563046362?itemId=8831093285", "buyers": "한 달간 200명 이상 구매했어요"}'
   partner_url: ''
   notes: ''
   price: ''
@@ -42,7 +42,7 @@ items:
   category: 가구/인테리어
   trend_rank: ''
   search_url: https://www.coupang.com/np/search?q=%ED%96%89%EA%B1%B0
-  info: ''
+  info: '{"name": "코멧 홈 베이직 스탠드 행거", "brand": "코멧", "price": "11290", "list_price": "16990", "rating": "4.7", "reviews": "32276", "desc": "", "images": ["https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/1025_amir_coupang_oct_80k/c588/e85bd4f018c8326191ccfb2091f10f28c70e513b07cc186d7c02a96ab6ab.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2104525084152847-4a7989a9-f6f6-4ad2-8aa8-703c94388e8c.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/671233147813271-c841a8d8-0f7a-47e7-9828-3c1869b42edd.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2104524963836801-edae5ba2-73d9-4c3f-a711-2c660031468c.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1059695000010960-2accd851-44e2-466a-996d-d93e2b401162.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2107463971443625-6e26c2b7-0c2c-48ba-a94a-13f968cac9f1.jpg"], "url": "https://www.coupang.com/vp/products/1676362802?itemId=2856014459", "buyers": "한 달간 3,000명 이상 구매했어요"}'
   partner_url: ''
   notes: ''
   price: ''
@@ -52,7 +52,7 @@ items:
   category: 스포츠/레저
   trend_rank: ''
   search_url: https://www.coupang.com/np/search?q=%EA%B2%BD%EB%9F%89%ED%8C%A8%EB%94%A9
-  info: ''
+  info: '{"name": "캐럿 남여공용 경량 범버 자켓", "brand": "캐럿", "price": "27450", "list_price": "28900", "rating": "4.6", "reviews": "6136", "desc": "", "images": ["https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2465533582064153-7752de2d-2336-4aeb-b613-01eb0f88a5cc.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/168426823363596-9c91437d-a58a-42bd-9436-823094208644.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/182219802151154-66d661de-ef87-4a05-ab01-566831fd9624.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2215971820209582-5cd2927e-2d00-4e87-889c-5d4bc578278b.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1076440748091436-9777f534-75b5-4ed8-851e-0697183aa65f.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1076441593976869-1dec11c1-1483-4e1c-a3fe-5218ec976b2e.jpg"], "url": "https://www.coupang.com/vp/products/2111546173?itemId=3586762065", "buyers": "한 달간 100명 이상 구매했어요"}'
   partner_url: ''
   notes: ''
   price: ''
@@ -62,7 +62,7 @@ items:
   category: 디지털/가전
   trend_rank: ''
   search_url: https://www.coupang.com/np/search?q=%EA%B0%80%EC%8A%B5%EA%B8%B0
-  info: ''
+  info: '{"name": "홈플래닛 초음파 가습기 4L", "brand": "홈플래닛", "price": "28900", "list_price": "49500", "rating": "4.6", "reviews": "50779", "desc": "", "images": ["https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/323618008542155-4fc1aca1-01d2-410e-a476-9abb9c4030b6.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/3500060010998835-04afda23-56cc-4d24-aef4-9fc417475b4d.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1928694915703188-5af8fe0a-86ae-44f9-8ae8-04982eb4afdc.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/3500059598396648-0d25d3c4-cb8a-4f96-969b-bd6f43154137.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/3500059447877441-8ef36ec2-0252-42e8-8fc7-240a6d57872b.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1928694905803178-d94efb95-ca33-4606-a3e7-b919fa939a6d.jpg"], "url": "https://www.coupang.com/vp/products/324788226?itemId=3801974770", "buyers": "한 달간 6,000명 이상 구매했어요"}'
   partner_url: ''
   notes: ''
   price: ''
@@ -72,7 +72,7 @@ items:
   category: 생활/건강
   trend_rank: ''
   search_url: https://www.coupang.com/np/search?q=%EB%A9%80%ED%8B%B0%ED%83%AD
-  info: ''
+  info: '{"name": "번개표 개별스위치 멀티탭 3구 WI-MC21633V", "brand": "번개표", "price": "11900", "list_price": "", "rating": "4.8", "reviews": "44182", "desc": "", "images": ["https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/df1a/cc589644e35fb32e9313ec0ed6f5d713aac3f5f37cd8eea45800169725d4.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/3707798267566146-0ed3c3d7-0cb2-4840-bebd-6062bbd8b314.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1438394484381272-4c73726b-7fc5-4768-a3d4-a93a1d331611.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/845914405155033-eac5e8f6-3b92-4013-a527-215e1e4aa5f6.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1228308997196550-b3c310ab-968a-4edf-ad41-68d5c8a5ac4a.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/845915071376368-b90f7ed8-2c50-40a8-a2ac-02319705180a.jpg"], "url": "https://www.coupang.com/vp/products/218273168?itemId=675673605", "buyers": "한 달간 5,000명 이상 구매했어요"}'
   partner_url: ''
   notes: ''
   price: ''
@@ -82,7 +82,7 @@ items:
   category: 화장품/미용
   trend_rank: ''
   search_url: https://www.coupang.com/np/search?q=%EB%B0%94%EB%94%94%EB%A1%9C%EC%85%98
-  info: ''
+  info: '{"name": "세타필 모이스춰라이징 로션, 591ml, 1개", "brand": "세타필", "price": "12920", "list_price": "24500", "rating": "4.8", "reviews": "233516", "desc": "", "images": ["https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/77276365654004-a842d9c0-df4d-44fe-82a3-5dc3bc7ba775.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/152158274932720-1c27a1fa-0d5b-4ee4-89e0-94f79b757a87.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/126398290305948-b35d50c8-7d0d-436b-8a96-b50a1fc7e22c.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/126398319694242-cc292646-b723-4454-b0e4-e3c21e18d972.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/13955999033964-f54a88ac-03d7-4df2-8075-f9a5edc2c8d0.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/14147395062108-fbdc3097-5d0d-4dd9-b5a7-270d85a2086b.jpg"], "url": "https://www.coupang.com/vp/products/7164345502?itemId=17686805619", "buyers": "한 달간 7만명 이상 구매했어요"}'
   partner_url: ''
   notes: ''
   price: ''
@@ -92,7 +92,7 @@ items:
   category: 패션잡화
   trend_rank: ''
   search_url: https://www.coupang.com/np/search?q=%EB%B0%B1%ED%8C%A9
-  info: ''
+  info: '{"name": "마르코폴로 남녀공용 포틴 백팩 MP6414 + 패브릭 키링 랜덤 발송", "brand": "마르코폴로", "price": "21800", "list_price": "44800", "rating": "4.5", "reviews": "5428", "desc": "", "images": ["https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/1025_amir_coupang_oct_80k/8275/0e9f6f7393669e37345cbb4a93fea59a1900dd41632285af6aad7c75a79b.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1656735335512813-a1e27011-d84d-4da0-8b93-5a0671201375.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/9936386733009-baaf5aef-a32a-4ff1-a262-d0f098525350.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1022519543554831-d00b4faf-8d4f-46d7-9eaa-ef0e63519059.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1656735343004696-a5d98c9e-a2fa-4630-9079-37b23d6d4fed.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1234809822691699-d6741d08-70e5-49d0-a858-15a9f89ea639.jpg"], "url": "https://www.coupang.com/vp/products/1067323377?itemId=2014322256", "buyers": "한 달간 300명 이상 구매했어요"}'
   partner_url: ''
   notes: ''
   price: ''
@@ -102,7 +102,7 @@ items:
   category: 생활/건강
   trend_rank: ''
   search_url: https://www.coupang.com/np/search?q=%EC%B2%B4%EC%A4%91%EA%B3%84
-  info: ''
+  info: '{"name": "앳플리 T8 스마트 체성분 체중계", "brand": "앳플리", "price": "24900", "list_price": "38900", "rating": "4.8", "reviews": "68763", "desc": "", "images": ["https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/4648/4cfff6daadefc36564afb347ad0a4ec6306457b38045478adf0e9bec2f80.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/35667312256422-0c4f465c-63ef-437a-aef1-250f71d7ffd7.png", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/35667303329498-a3952d18-344b-40e3-9bff-314563af771d.png", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/993260058462269-b483fb8c-dbc7-4be7-9e97-e67b809f6403.png", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/35667313688878-d2747c26-3044-4e25-b7c7-a71ecb86ce78.png", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/993262840631229-1d2ccced-1c84-42ed-b36f-ecc5997c7e1c.png"], "url": "https://www.coupang.com/vp/products/245670231?itemId=778731488", "buyers": "한 달간 8,000명 이상 구매했어요"}'
   partner_url: ''
   notes: ''
   price: ''
