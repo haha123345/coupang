@@ -1,95 +1,103 @@
 {
-  "number": 5,
-  "format": "price_check",
+  "number": 3,
+  "format": "before_after",
   "product": {
-    "keyword": "경량패딩",
+    "keyword": "등산화",
     "category": "스포츠/레저",
     "trend_rank": "",
-    "search_url": "https://www.coupang.com/np/search?q=%EA%B2%BD%EB%9F%89%ED%8C%A8%EB%94%A9",
-    "partner_url": "https://link.coupang.com/a/hRTXRLi2Oi",
+    "search_url": "https://www.coupang.com/np/search?q=%EB%93%B1%EC%82%B0%ED%99%94",
+    "partner_url": "https://link.coupang.com/a/hRTPC8j4Vg",
     "notes": "",
-    "price": "27450",
-    "name": "캐럿 남여공용 경량 범버 자켓",
+    "price": "27680",
+    "name": "유세븐 남성용 다이얼 운동화 트래킹화 DM907",
     "image_urls": [
-      "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2465533582064153-7752de2d-2336-4aeb-b613-01eb0f88a5cc.jpg",
-      "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/168426823363596-9c91437d-a58a-42bd-9436-823094208644.jpg",
-      "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/182219802151154-66d661de-ef87-4a05-ab01-566831fd9624.jpg",
-      "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2215971820209582-5cd2927e-2d00-4e87-889c-5d4bc578278b.jpg",
-      "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1076440748091436-9777f534-75b5-4ed8-851e-0697183aa65f.jpg",
-      "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1076441593976869-1dec11c1-1483-4e1c-a3fe-5218ec976b2e.jpg"
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/187992871288890-a6f1a312-e18f-401d-8f08-33d2322bf755.jpg",
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/313658257200773-a2df0e58-95d5-4d25-a254-68dc19a36b0d.jpg",
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/5134439110075993-84a6b340-87a3-4c61-a4a0-74ff980b27eb.jpg",
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/313658364725732-5c6904e8-0701-4ce7-809c-19727eb1302e.jpg",
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/315933265130726-a644aa56-aafb-4e1e-a33e-b1809006c164.jpg",
+      "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/383043431802731-8f727839-789d-4ad6-ae6c-21fa6dc13661.jpg"
     ],
-    "product_url": "https://www.coupang.com/vp/products/2111546173?itemId=3586762065",
-    "brand": "캐럿",
-    "list_price": "28900",
-    "rating": "4.6",
-    "reviews": "6136",
-    "buyers": "한 달간 100명 이상 구매했어요",
+    "product_url": "https://www.coupang.com/vp/products/5563046362?itemId=8831093285",
+    "brand": "유세븐",
+    "rating": "4.5",
+    "reviews": "8336",
+    "buyers": "한 달간 200명 이상 구매했어요",
     "top_reviews": [
       {
         "rating": 5,
-        "text": "신랑이 가볍고 따뜻하다면서 찐 만족했어요."
+        "text": "가볍고 편한 가성비 다이얼 등산화"
       },
       {
         "rating": 5,
-        "text": "가볍고 예쁘고 편해요!"
+        "text": "오래 신어도 발 편함"
       },
       {
-        "rating": 5,
-        "text": "밴딩 괜찮네요! 어떤 옷이던 두루두루 매치좋아요"
+        "rating": 4,
+        "text": "발이 편해서 일상화로도 좋아요"
       }
     ],
-    "five_star_pct": "75",
-    "trend": "요즘 많이 찾는 '경량패딩'"
+    "survey": [
+      {
+        "q": "색상",
+        "a": "화면과 같아요",
+        "n": 24,
+        "tot": 30
+      },
+      {
+        "q": "착용감",
+        "a": "아주 좋아요",
+        "n": 15,
+        "tot": 19
+      }
+    ],
+    "five_star_pct": "70",
+    "trend": "요즘 많이 찾는 '등산화'"
   },
   "script": {
-    "title": "네이버 인기 검색어 경량패딩, 지금 할인가로 확인! #shorts",
-    "hook": "요즘 제일 핫한 경량패딩",
-    "hook_highlight": "경량패딩",
+    "title": "상품평 8천 개 넘은 가성비 다이얼 등산화 추천 #shorts",
+    "hook": "상품평 8,336개 등산화",
+    "hook_highlight": "상품평 8,336개",
     "scenes": [
       {
-        "caption": "요즘 제일 핫한 경량패딩",
-        "highlight": "경량패딩",
-        "narration": "요즘 네이버 쇼핑 인기 검색어 상위권인 경량패딩, 고를 때 고민되시죠?",
+        "caption": "발 아픈 등산화",
+        "highlight": "발 아픈",
+        "narration": "등산할 때나 오래 걸을 때 발 아프고 불편해서 고생한 적 있으시죠?",
         "type": "normal"
       },
       {
-        "caption": "캐럿 경량 범버 자켓",
-        "highlight": "캐럿",
-        "narration": "캐럿 남여공용 경량 범버 자켓이에요. 남녀공용이라 두루두루 입기 좋고 어떤 옷이든 매치하기 편해요.",
+        "caption": "요즘 인기 등산화",
+        "highlight": "인기 등산화",
+        "narration": "요즘 네이버 쇼핑 인기 검색어 상위권인 등산화, 유세븐 남성용 다이얼 운동화 트래킹화 DM907이에요.",
         "type": "normal"
       },
       {
-        "caption": "구매자 반응은?",
-        "highlight": "구매자 반응",
-        "narration": "실제 구매자 후기 중에 \"신랑이 가볍고 따뜻하다면서 찐 만족했어요.\" 그리고 \"가볍고 예쁘고 편해요!\" 이런 후기가 있어요.",
+        "caption": "실제 후기 보니까",
+        "highlight": "실제 후기",
+        "narration": "실제 후기 중에 \"가볍고 편한 가성비 다이얼 등산화\" 이런 후기가 있어요.",
         "type": "reviews"
       },
       {
-        "caption": "믿을 수 있는 평점",
-        "highlight": "평점",
-        "narration": "쿠팡 평점 4.6점에 상품평 6,136개! 별 5개 비율이 75%나 되고요, 한 달간 100명 이상 구매했어요.",
+        "caption": "편한 착용감",
+        "highlight": "편한 착용감",
+        "narration": "다이얼 방식이라 신고 벗기 편하고, 쿠팡 평점 4.5점에 별 5개 비율이 70%나 돼요.",
         "type": "normal"
       },
       {
-        "caption": "지금이 기회",
-        "highlight": "지금",
-        "narration": "정가 28,900원에서 지금 27,450원으로 5% 할인 중이에요. 가격은 바뀔 수 있어요.",
-        "type": "normal"
-      },
-      {
-        "caption": "5번 확인하세요",
-        "highlight": "5번",
-        "narration": "자세한 정보와 밴딩 디테일은 프로필 링크에서 5번 확인하세요!",
+        "caption": "지금 가격은?",
+        "highlight": "지금 가격",
+        "narration": "가격은 27,680원인데요, 가격은 바뀔 수 있어요. 프로필 링크에서 3번 확인하세요!",
         "type": "normal"
       }
     ],
-    "description": "네이버 인기 검색어 경량패딩! 캐럿 남여공용 경량 범버 자켓의 가격과 후기를 확인해보세요.",
+    "description": "쿠팡 평점 4.5점과 상품평 8천 개 이상으로 검증된 유세븐 남성용 다이얼 운동화 트래킹화 DM907! 가볍고 편안한 등산화 찾고 계셨다면 프로필 링크에서 3번 상품을 확인해 보세요.",
     "hashtags": [
-      "#경량패딩",
-      "#캐럿패딩",
-      "#범버자켓",
-      "#경량패딩추천",
-      "#쇼츠"
+      "#등산화",
+      "#트래킹화",
+      "#다이얼운동화",
+      "#유세븐등산화",
+      "#가성비등산화",
+      "#등산화추천"
     ]
   },
   "done": false

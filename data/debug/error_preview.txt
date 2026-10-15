@@ -1,0 +1,39 @@
+ome/runner/work/coupang/coupang/src/main.py", line 184, in <module>
+    COMMANDS[name]()
+  File "/home/runner/work/coupang/coupang/src/main.py", line 116, in cmd_preview
+    url = youtube_upload.upload(str(video), s["title"], desc, s.get("hashtags", []), cfg)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/coupang/coupang/src/youtube_upload.py", line 106, in upload
+    return _youtube_api(path, title, description, tags, cfg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/coupang/coupang/src/youtube_upload.py", line 60, in _youtube_api
+    resp = _send("snippet,status", body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/coupang/coupang/src/youtube_upload.py", line 52, in _send
+    _, resp = req.next_chunk()
+              ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/googleapiclient/http.py", line 1087, in next_chunk
+    resp, content = _retry_request(
+                    ^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/googleapiclient/http.py", line 191, in _retry_request
+    resp, content = http.request(uri, method, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/google_auth_httplib2.py", line 205, in request
+    self.credentials.before_request(self._request, method, uri, request_headers)
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/google/auth/credentials.py", line 242, in before_request
+    self._blocking_refresh(request)
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/google/auth/credentials.py", line 205, in _blocking_refresh
+    self.refresh(request)
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/google/auth/credentials.py", line 519, in refresh
+    self._perform_refresh_token(request)
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/google/oauth2/credentials.py", line 437, in _perform_refresh_token
+    ) = reauth.refresh_grant(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/google/oauth2/reauth.py", line 367, in refresh_grant
+    _client._handle_error_response(response_data, retryable_error)
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/google/oauth2/_client.py", line 75, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_client: The OAuth client was not found.', {'error': 'invalid_client', 'error_description': 'The OAuth client was not found.'})
