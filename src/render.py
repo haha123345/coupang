@@ -310,7 +310,7 @@ def render(item: dict, cfg: dict, workdir: Path) -> Path:
         last = si == n - 1
         # 장면별로 보여줄 칩: 첫 장면은 전부, 이후엔 하나씩 돌아가며
         rest = [chips[si % len(chips)]] if chips and not last and si > 0 else []
-        scene_chips = [f"No.{number}"] + (chips if si == 0 else rest)
+        scene_chips = [f"No.{number}"] + (chips[:2] if si == 0 else rest)
         frames = int(round(dur * FPS))
         z0, z1 = (1.0, 1.07) if si % 2 == 0 else (1.07, 1.0)
         for f in range(frames):
