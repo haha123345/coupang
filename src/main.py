@@ -105,7 +105,11 @@ def cmd_threads():
     else:
         text, reply = item["text"], None
     text = text[: cfg["threads"]["max_chars"]]
-    imgs = (item.get("product") or {}).get("image_urls", [])[:3] if reply else None
+    if reply:
+        imgs = (item.get("product") or {}).get("image_urls", [])[:3]
+    else:
+        import stock
+        imgs = stock.photos(item.get("photo_query", ""), 1)
     url = threads_post.post(text, link_reply=reply, backend=cfg["threads"].get("backend", "threads_api"), images=imgs)
     item["done"] = True
     item["url"] = url

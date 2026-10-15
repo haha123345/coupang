@@ -87,7 +87,8 @@ THREADS_TIP_PROMPT = """너는 한국 스레드(Threads)에서 살림·생활 �
 - 글마다 형식을 다르게: 짧은 꿀팁 리스트 / 흔한 실수 / 질문형(답글 유도) / 계절 팁 등.
 - 확실하지 않은 정보, 의학·건강 효능 주장 금지.
 - 각 글 300자 이내. 한두 문장마다 줄바꿈(\\n)을 넣고, 첫 줄은 짧은 한 줄 후킹으로. 이모지 0~2개, 해시태그 금지.
-JSON으로만: {{"posts": ["...", "..."]}}
+글마다 어울리는 사진을 찾을 영어 검색어(2~3단어, 예: "blackout curtain bedroom")도 같이 줘.
+JSON으로만: {{"posts": [{{"text": "...", "photo": "english keywords"}}]}}
 """
 
 
@@ -185,11 +186,14 @@ def build_day(day: str | None = None) -> dict:
     n_tips = sched["threads_per_day"] - len(link_posts)
     cats = sorted({p.get("category", "") for p in pool if p.get("category")}) or ["생활"]
     tips = generate_json(THREADS_TIP_PROMPT.format(n=n_tips, categories=", ".join(cats)), cfg["llm"]["model"])["posts"]
-    tip_posts = [
-        {"kind": "tip", "text": t.strip(), "done": False}
-        for t in tips
-        if not compliance.problems(t, need_disclosure=False)
-    ][:n_tips]
+    tip_posts = []
+    for t in tips:
+        text = (t.get("text") if isinstance(t, dict) else str(t)).strip()
+        query = t.get("photo", "") if isinstance(t, dict) else ""
+        if compliance.problems(text, need_disclosure=False):
+            continue
+        tip_posts.append({"kind": "tip", "text": text, "photo_query": query, "done": False})
+    tip_posts = tip_posts[:n_tips]
 
     # 링크 글이 몰리지 않게 섞기: 팁, 팁, 링크 ...
     threads, li, ti = [], 0, 0

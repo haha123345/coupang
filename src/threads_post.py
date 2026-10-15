@@ -69,7 +69,7 @@ def _post_telegram(text: str, link_reply: str | None, images: list[str] | None =
     """수동 모드: 지금 올릴 글을 텔레그램으로 보내준다 (복사해서 쓰레드 앱에 붙여넣기)."""
     import notify
     if images:
-        notify.send_photos(images, "📷 상품 사진 — 길게 눌러 저장한 뒤 본문에 첨부하세요")
+        notify.send_photos(images, "📷 사진 — 길게 눌러 저장한 뒤 본문에 첨부하세요")
     notify.send(text)
     if link_reply:
         notify.send(link_reply)

@@ -45,7 +45,7 @@ shorts:
   #  - youtube_api : 무료. 단 구글 심사 전에는 올린 영상이 '비공개'로 잠김 (README 참고)
   #  - upload_post : Upload-Post 유료(Basic) 사용 시
   #  - telegram_only: 업로드 안 하고 텔레그램으로 영상 파일만 전송
-  backend: "youtube_api"
+  backend: "telegram_only"
   privacy: "public"
   category_id: "26"            # 유튜브 카테고리: 노하우/스타일
 
