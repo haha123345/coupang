@@ -5,6 +5,7 @@
   텔레그램으로 알림 → 사용자가 파트너스 링크·이미지 주소만 채움
 """
 import html as html_lib
+import json
 import re
 import urllib.parse
 
@@ -84,24 +85,23 @@ def weekly(cfg: dict | None = None) -> None:
             "keyword": p["keyword"],
             "category": p.get("category", ""),
             "search_url": coupang_search_url(p["keyword"]),
-            "html": "",
-            "price": "",
-            "notes": "",
-            "name": "",
+            "info": "",
             "partner_url": "",
+            "notes": "",
+            "price": "",
+            "name": "",
             "image_urls": [],
         }
         for p in picks
     ]
     header = (
-        "# 이번 주 상품 목록 — 상품마다 html 과 price 만 채우면 됩니다.\n"
-        "# 1) search_url 을 열어 상품을 고르고, 그 상품 주소를 복사\n"
-        "# 2) 쿠팡파트너스 > 링크 생성 > 상품 주소 붙여넣기 > 'HTML' 복사\n"
-        "# 3) html 칸에 작은따옴표로 감싸서 붙여넣기:  html: '<a href=...><img src=...></a>'\n"
-        "# 4) price 에 가격 숫자만 (예: '189000')\n"
-        "# 이름·링크·사진은 html 에서 자동으로 뽑습니다. name/partner_url/image_urls 는 비워둬도 됩니다.\n"
-        "# (사진을 더 넣고 싶으면 image_urls 에 추가. 쿠팡 사진은 우클릭이 막혀 있으니\n"
-        "#  사진을 브라우저 새 탭으로 끌어다 놓은 뒤 주소창 주소를 복사하세요)\n"
+        "# 이번 주 상품 목록 — 상품마다 info 와 partner_url 두 칸만 채우면 됩니다.\n"
+        "# 1) search_url 을 열어 상품을 고르고 상품 페이지로 들어가기\n"
+        "# 2) 즐겨찾기의 '쿠팡수집' 을 누르기 → 상품명·가격·사진 6장이 복사됨\n"
+        "#    info 칸 작은따옴표 안에 붙여넣기:  info: '{...}'\n"
+        "# 3) 쿠팡파트너스 > 링크 생성 > 상품 주소 붙여넣기 > '단축 URL' 복사\n"
+        "#    partner_url 칸에 붙여넣기:  partner_url: 'https://link.coupang.com/a/...'\n"
+        "# notes 는 선택: 상세페이지에서 본 특징을 적으면 대본이 더 정확해집니다.\n"
         "# 채운 상품만 영상·글로 만들어집니다. 비워둔 상품은 건너뜁니다.\n"
     )
     MANUAL.parent.mkdir(parents=True, exist_ok=True)
@@ -119,11 +119,14 @@ def weekly(cfg: dict | None = None) -> None:
 
 
 def _bigger(url: str) -> str:
-    """쿠팡 썸네일 주소면 큰 사이즈로 바꾼다 (예: /remote/230x230ex/ → /remote/492x492ex/)."""
+    """쿠팡 썸네일 주소면 큰 사이즈(640)로 바꾼다 (예: /remote/212x212ex/ → /remote/640x640ex/)."""
     url = url.strip()
     if url.startswith("//"):
         url = "https:" + url
-    return re.sub(r"/remote/\d+x\d+ex/", "/remote/492x492ex/", url)
+
+    def up(m):
+        return "/remote/640x640ex/" if int(m.group(1)) < 640 else m.group(0)
+    return re.sub(r"/remote/(\d+)x\d+ex/", up, url)
 
 
 def parse_partner_html(code: str) -> dict:
@@ -141,6 +144,26 @@ def parse_partner_html(code: str) -> dict:
     }
 
 
+def parse_info(raw) -> dict:
+    """'쿠팡수집' 북마크가 복사해 준 JSON(상품명·가격·사진들)을 읽는다."""
+    if not raw:
+        return {}
+    if isinstance(raw, dict):
+        d = raw
+    else:
+        try:
+            d = json.loads(str(raw).replace("’", "'"))
+        except Exception:
+            print("info 칸을 읽지 못했습니다:", str(raw)[:80])
+            return {}
+    return {
+        "name": (d.get("name") or "").strip(),
+        "price": str(d.get("price") or "").strip(),
+        "image_urls": [_bigger(u) for u in d.get("images", []) if u],
+        "product_url": d.get("url", ""),
+    }
+
+
 def _manual_ready() -> list[dict]:
     if not MANUAL.exists():
         return []
@@ -149,19 +172,27 @@ def _manual_ready() -> list[dict]:
     out = []
     for it in doc.get("items", []):
         got = parse_partner_html(it.get("html", "")) if it.get("html") else {}
+        info = parse_info(it.get("info"))
         urls = it.get("image_urls") or []
         if isinstance(urls, str):
             urls = [urls]
+        images = []
+        for u in [_bigger(u) for u in urls if u] + info.get("image_urls", []) + got.get("image_urls", []):
+            if u not in images:
+                images.append(u)
+        partner = (it.get("partner_url") or got.get("partner_url") or "").strip()
+        if "coupa.ng" in partner and "link.coupang.com" not in partner:
+            partner = ""  # 위젯(iframe) 주소는 상품으로 바로 안 가므로 쓰지 않음
         merged = {
             **it,
-            "partner_url": (it.get("partner_url") or got.get("partner_url") or "").strip(),
-            "name": (it.get("name") or got.get("name") or "").strip(),
-            "image_urls": [_bigger(u) for u in urls if u] + [
-                u for u in got.get("image_urls", []) if u not in urls
-            ],
-            "price": str(it.get("price") or "").replace(",", "").replace("원", "").strip(),
+            "partner_url": partner,
+            "name": (it.get("name") or info.get("name") or got.get("name") or "").strip(),
+            "image_urls": images[:6],
+            "price": str(it.get("price") or info.get("price") or "").replace(",", "").replace("원", "").strip(),
+            "product_url": info.get("product_url", ""),
         }
         merged.pop("html", None)
+        merged.pop("info", None)
         if merged["partner_url"] and merged["image_urls"]:
             if not merged["name"]:
                 merged["name"] = it["keyword"]

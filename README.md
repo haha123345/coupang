@@ -78,27 +78,34 @@ GitHub Actions 예약 실행은 몇 분~수십 분 늦게 시작될 수 있어�
 
 ---
 
-## 매주 할 일 (API 키 등록 전까지, 약 10분)
-월요일 아침 텔레그램으로 이번 주 키워드 10개와 편집 링크가 옵니다.
-`data/manual_products.yaml` 을 열어 상품마다 **html 과 price 두 칸만** 채우고 **Commit changes**:
+## 매주 할 일 (API 키 등록 전까지, 상품당 1분)
 
-1. `search_url` 을 열어 상품을 고르고 주소를 복사
-2. 쿠팡파트너스 > **링크 생성** > 상품 주소 붙여넣기 > **HTML** 복사
-3. `html` 칸에 작은따옴표로 감싸서 붙여넣기
+### 처음 한 번: '쿠팡수집' 즐겨찾기 만들기
+1. 크롬 즐겨찾기바에서 우클릭 > **페이지 추가**
+2. 이름: `쿠팡수집`
+3. URL: 아래 한 줄을 통째로 복사해서 붙여넣기 → 저장
+
+```
+javascript:(()=>{const L=[...document.querySelectorAll('script[type="application/ld+json"]')].map(s=>{try{return JSON.parse(s.textContent)}catch(e){return null}}).find(j=>j&&j['@type']==='Product');if(!L){alert('쿠팡 상품 페이지에서 눌러주세요');return}const o=Array.isArray(L.offers)?L.offers[0]:(L.offers||{});const im=Array.isArray(L.image)?L.image:[L.image];const d={name:L.name,price:String(o.price||''),images:im.filter(Boolean).slice(0,6),url:location.href.split('&')[0]};const t=JSON.stringify(d).replace(/'/g,'’');navigator.clipboard.writeText(t).then(()=>alert('복사 완료! info 칸 작은따옴표 안에 붙여넣으세요'),()=>prompt('아래 내용을 전부 복사하세요',t))})()
+```
+
+### 매주
+월요일 아침 텔레그램으로 이번 주 키워드 10개와 편집 링크가 옵니다.
+`data/manual_products.yaml` 을 열어 상품마다 **info 와 partner_url 두 칸**을 채우고 **Commit changes**:
+
+1. `search_url` 을 열어 상품을 고르고 상품 페이지로 들어가기
+2. 즐겨찾기의 **쿠팡수집** 클릭 → 상품명·가격·사진 6장이 복사됨 → `info` 칸 작은따옴표 안에 붙여넣기
+3. 쿠팡파트너스 > **링크 생성** > 상품 주소 붙여넣기 > **단축 URL** 복사 → `partner_url` 에 붙여넣기
+   (HTML/iframe 코드는 GitHub 서버에서 열리지 않아 쓸 수 없어요)
 
 ```yaml
   - keyword: 비데
-    html: '<a href="https://link.coupang.com/a/xxxx" ...><img src="https://...coupangcdn.com/..." alt="상품명" ...></a>'
-    price: "189000"                       # 가격(숫자만)
-    notes: "온풍 건조, 노즐 자동 세척"      # (선택) 상세페이지에서 본 특징
+    info: '{"name": "…", "price": "164900", "images": ["https://thumbnail.coupangcdn.com/…", …]}'
+    partner_url: 'https://link.coupang.com/a/xxxx'
+    notes: '온풍 건조, 노즐 자동 세척'   # (선택) 상세페이지에서 본 특징
 ```
 
-상품명·파트너스 링크·사진은 `html` 에서 자동으로 뽑습니다.
-사진을 더 넣고 싶으면 `image_urls` 에 추가하세요. 쿠팡 사진은 우클릭이 막혀 있으니
-**사진을 브라우저 새 탭으로 끌어다 놓은 뒤 주소창 주소를 복사**하면 됩니다.
-
 채우지 않은 상품은 건너뛰고, 아직 하나도 안 채웠으면 지난주 상품으로 계속 운영합니다.
-`notes` 에 상세페이지의 실제 특징을 적으면 대본이 훨씬 구체적이고 정확해집니다.
 
 ---
 

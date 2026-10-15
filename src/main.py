@@ -69,6 +69,22 @@ def cmd_shorts():
         notify.send_file(str(video), f"[쿠팡] 쇼츠 완성 (업로드는 직접): {s['title']}\n\n{description}")
 
 
+def cmd_preview():
+    """오늘 첫 쇼츠를 렌더링만 해서 텔레그램으로 보낸다 (업로드·완료 처리 안 함)."""
+    import subprocess
+    cfg = load_config()
+    q = _queue()
+    item = next((s for s in q["shorts"] if not s["done"]), q["shorts"][0])
+    video = render.render(item, cfg, OUT / "preview")
+    dbg = OUT.parent / "data" / "debug"
+    dbg.mkdir(parents=True, exist_ok=True)
+    for t in (1, 6, 12, 20):
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", str(t), "-i", str(video),
+                        "-frames:v", "1", "-vf", "scale=540:-1", str(dbg / f"preview_{t}.jpg")])
+    s = item["script"]
+    notify.send_file(str(video), f"[쿠팡] 미리보기 — {s['title']}\n(업로드 안 함)")
+
+
 def cmd_threads():
     cfg = load_config()
     q = _queue()
@@ -112,6 +128,7 @@ COMMANDS = {
     "prep": cmd_prep,
     "shorts": cmd_shorts,
     "threads": cmd_threads,
+    "preview": cmd_preview,
     "refresh-threads-token": cmd_refresh_threads_token,
 }
 
