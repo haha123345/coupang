@@ -142,12 +142,32 @@ def cmd_threads():
     else:
         text, reply = item["text"], None
     text = text[: cfg["threads"]["max_chars"]]
+    video = None
     if reply:
-        imgs = (item.get("product") or {}).get("image_urls", [])[:3]
+        prod = item.get("product") or {}
+        work = OUT / f"threads_{q['day']}_{item.get('number', 0)}"
+        imgs = []
+        try:  # 상품 정보 카드 (가격·할인·별점·실제 후기)
+            imgs.append(str(render.info_card(prod, work / "card.jpg")))
+        except Exception as e:
+            print("정보 카드 실패:", e)
+        imgs += prod.get("image_urls", [])[:2]
+        if not item.get("script"):  # 아침에 대본을 못 만들었으면 지금 만든다
+            try:
+                fmt = cfg["shorts"]["formats"][hash(prod.get("keyword", "")) % len(cfg["shorts"]["formats"])]
+                item["format"], item["script"] = fmt, content._shorts(cfg, item.get("number", 0), prod, fmt)
+            except Exception as e:
+                print("쓰레드 영상 대본 실패:", e)
+        if item.get("script"):
+            try:  # 쇼츠와 같은 영상, 끝 화면만 '구매 링크는 답글에'
+                video = str(render.render({**item, "cta": "threads"}, cfg, work))
+            except Exception as e:
+                print("쓰레드 영상 실패(사진만 보냄):", e)
     else:
         import stock
         imgs = stock.photos(item.get("photo_query", ""), 1)
-    url = threads_post.post(text, link_reply=reply, backend=cfg["threads"].get("backend", "threads_api"), images=imgs)
+    url = threads_post.post(text, link_reply=reply, backend=cfg["threads"].get("backend", "threads_api"),
+                            images=imgs, video=video)
     item["done"] = True
     item["url"] = url
     write_json(queue_file(q["day"]), q)

@@ -22,7 +22,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     env:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -43,6 +43,8 @@ jobs:
           python-version: "3.12"
           cache: pip
 
+      - name: 한글 폰트·ffmpeg 설치 (링크 글 영상·카드용)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk ffmpeg
       - run: pip install -r requirements.txt
       - run: python src/main.py threads
       - name: 상태 저장

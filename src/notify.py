@@ -58,9 +58,13 @@ def send_photos(urls: list[str], caption: str = "") -> None:
     files, media = {}, []
     for i, u in enumerate(urls):
         try:
-            r = requests.get(u, headers=UA, timeout=30)
-            r.raise_for_status()
-            files[f"p{i}"] = (f"p{i}.jpg", r.content)
+            if not str(u).startswith("http"):
+                content = open(u, "rb").read()
+            else:
+                r = requests.get(u, headers=UA, timeout=30)
+                r.raise_for_status()
+                content = r.content
+            files[f"p{i}"] = (f"p{i}.jpg", content)
             media.append({"type": "photo", "media": f"attach://p{i}"})
         except Exception as e:
             print("사진 다운로드 실패:", u, e)

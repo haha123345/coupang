@@ -282,11 +282,11 @@ def survey_layer(prod: dict, accent, rows: int = 2) -> Image.Image | None:
     return layer
 
 
-def cta_layer(number: int, prod: dict, accent) -> Image.Image:
+def cta_layer(number: int, prod: dict, accent, threads: bool = False) -> Image.Image:
     layer = Image.new("RGBA", (W, 360), (0, 0, 0, 0))
     d = ImageDraw.Draw(layer)
     f = font(66, "black")
-    msg = f"프로필 링크 ▶ {number}번"
+    msg = "구매 링크는 답글에 ▼" if threads else f"프로필 링크 ▶ {number}번"
     tw = d.textlength(msg, font=f)
     d.rounded_rectangle([CX - tw / 2 - 44, 20, CX + tw / 2 + 44, 136], 58, fill=accent)
     lum = 0.299 * accent[0] + 0.587 * accent[1] + 0.114 * accent[2]
@@ -312,7 +312,7 @@ def cta_layer(number: int, prod: dict, accent) -> Image.Image:
         note = "작성 시점 기준 · 가격은 바뀔 수 있어요"
         d.text((CX - d.textlength(note, font=fn) / 2, 252), note, font=fn, fill=MUTED)
     fh = font(34, "bold")
-    hint = "채널 이름 누르면 → 링크에서 바로 구매"
+    hint = "답글 링크 누르면 쿠팡으로 바로 가요" if threads else "채널 이름 누르면 → 링크에서 바로 구매"
     hy = 296 if price.isdigit() else 180
     d.text((CX - d.textlength(hint, font=fh) / 2, hy), hint, font=fh, fill=INK)
     return layer
@@ -332,6 +332,10 @@ def render(item: dict, cfg: dict, workdir: Path) -> Path:
     voice, rate = cfg["shorts"]["voice"], cfg["shorts"]["rate"]
 
     scenes = list(script["scenes"])
+    if item.get("cta") == "threads":  # 쓰레드용: '프로필 링크 N번' 말 대신 '답글 링크'
+        import re as _re
+        scenes = [{**sc, "narration": _re.sub(r"\s{2,}", " ", _re.sub(
+            r"(채널 )?프로필 링크(에서)?\s*\d*\s*번?(을|을 )?", "답글 링크에서 ", sc["narration"]))} for sc in scenes]
     if script.get("hook"):
         scenes[0] = {**scenes[0], "caption": script["hook"], "highlight": script.get("hook_highlight", "")}
 
@@ -362,7 +366,8 @@ def render(item: dict, cfg: dict, workdir: Path) -> Path:
     chips = facts_chips(prod)
     chip_font = font(34, "bold")
     n = len(scenes)
-    cta = cta_layer(number, prod, accent)
+    threads = item.get("cta") == "threads"
+    cta = cta_layer(number, prod, accent, threads)
     prev_last = None
     PROD_Y, BOX = 320, 830
 
@@ -387,7 +392,7 @@ def render(item: dict, cfg: dict, workdir: Path) -> Path:
         rest = [chips[si % len(chips)]] if chips and not last and si > 0 else []
         if is_rv and prod.get("five_star_pct"):
             rest = [f"별 5개 {prod['five_star_pct']}%"]
-        scene_chips = [f"No.{number}"] + (chips[:2] if si == 0 else rest)
+        scene_chips = ([] if threads else [f"No.{number}"]) + (chips[:2] if si == 0 else rest)
         box, py = (440, 330) if is_rv else (BOX, PROD_Y)
         frames = int(round(dur * FPS))
         z0, z1 = (1.0, 1.07) if si % 2 == 0 else (1.07, 1.0)
@@ -412,7 +417,8 @@ def render(item: dict, cfg: dict, workdir: Path) -> Path:
                 appear = ease_out((t - 0.25 - ci * 0.12) / 0.3)
                 if appear <= 0:
                     continue
-                col = (17, 17, 20) if ci == 0 else (accent if ci == 1 else (60, 60, 68))
+                k = ci + (1 if threads else 0)
+                col = (17, 17, 20) if k == 0 else (accent if k == 1 else (60, 60, 68))
                 nx = chip(d, cx, cy + int((1 - appear) * 20), c, chip_font,
                           col + (int(235 * appear),), (255, 255, 255))
                 cx = nx + 12
@@ -457,3 +463,66 @@ def render(item: dict, cfg: dict, workdir: Path) -> Path:
     if proc.wait() != 0:
         raise RuntimeError("영상 인코딩 실패")
     return out
+
+
+def info_card(prod: dict, path: Path, accent=(255, 72, 54)) -> Path:
+    """쓰레드용 '상품 정보 카드' 이미지 (4:5). 쿠팡 페이지에서 확인한 값만 그린다."""
+    CW, CH = 1080, 1350
+    img = Image.new("RGB", (CW, CH), BG)
+    d = ImageDraw.Draw(img)
+    try:
+        ph = ImageOps.contain(load_image(prod["image_urls"][0]), (620, 620), Image.LANCZOS)
+        img.paste(ph, ((CW - ph.width) // 2, 70 + (620 - ph.height) // 2))
+    except Exception:
+        pass
+    y = 730
+    name = prod.get("name") or prod.get("keyword", "")
+    fn = font(50, "bold")
+    for line in wrap(d, name, fn, CW - 140)[:2]:
+        d.text((70, y), line, font=fn, fill=INK)
+        y += 66
+    y += 14
+    price, lp = str(prod.get("price") or ""), str(prod.get("list_price") or "")
+    if price.isdigit():
+        x = 70
+        if lp.isdigit() and int(lp) > int(price):
+            pct = f"{int((int(lp) - int(price)) * 100 / int(lp))}%"
+            fp = font(64, "black")
+            d.text((x, y), pct, font=fp, fill=accent)
+            x += d.textlength(pct, font=fp) + 22
+        fp = font(64, "black")
+        pt = f"{int(price):,}원"
+        d.text((x, y), pt, font=fp, fill=INK)
+        x += d.textlength(pt, font=fp) + 22
+        if lp.isdigit() and int(lp) > int(price):
+            fs = font(38, "medium")
+            lt = f"{int(lp):,}원"
+            d.text((x, y + 20), lt, font=fs, fill=MUTED)
+            d.line([x, y + 44, x + d.textlength(lt, font=fs), y + 44], fill=MUTED, width=3)
+        y += 100
+    fc = font(36, "bold")
+    cx = 70
+    for c in facts_chips(prod)[:1] + ([prod["buyers"].replace("구매했어요", "구매")] if prod.get("buyers") else []):
+        nx = chip(d, cx, y, c, fc, (242, 242, 245), INK)
+        cx = nx + 14
+        if cx > 820:
+            break
+    y += 96
+    rv = (prod.get("top_reviews") or [{}])[0].get("text")
+    if rv:
+        fq = font(38, "bold")
+        lines = wrap(d, f"“{rv}”", fq, CW - 200)[:2]
+        h = 70 + 52 * len(lines)
+        d.rounded_rectangle([70, y, CW - 70, y + h], 26, fill=(246, 246, 249))
+        d.text((100, y + 18), "★★★★★ 구매자 후기", font=font(28, "bold"), fill=STAR)
+        yy = y + 60
+        for line in lines:
+            d.text((100, yy), line, font=fq, fill=INK)
+            yy += 52
+        y += h + 20
+    foot = "쿠팡 상품 페이지 기준 · 가격은 작성 시점이며 바뀔 수 있어요 · 광고(쿠팡 파트너스)"
+    ff = font(26, "medium")
+    d.text(((CW - d.textlength(foot, font=ff)) / 2, CH - 60), foot, font=ff, fill=MUTED)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    img.save(path, quality=92)
+    return path

@@ -232,7 +232,15 @@ def build_day(day: str | None = None) -> dict:
     for number, prod in _pick(pool, sched["threads_link_posts"], usage):
         t = _threads_link(cfg, prod)
         if t:
-            link_posts.append({"kind": "link", "number": number, "product": prod, "text": t, "done": False})
+            post = {"kind": "link", "number": number, "product": prod, "text": t, "done": False}
+            try:  # 쓰레드에 붙일 짧은 영상용 대본 (끝 화면만 '링크는 답글에')
+                fmt = formats[usage["format_idx"] % len(formats)]
+                usage["format_idx"] += 1
+                post["format"] = fmt
+                post["script"] = _shorts(cfg, number, prod, fmt)
+            except Exception as e:
+                print("쓰레드 영상 대본 실패(사진만 사용):", e)
+            link_posts.append(post)
 
     n_tips = sched["threads_per_day"] - len(link_posts)
     cats = sorted({p.get("category", "") for p in pool if p.get("category")}) or ["생활"]
