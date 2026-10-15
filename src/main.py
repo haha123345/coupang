@@ -110,6 +110,12 @@ def cmd_preview():
                         "-frames:v", "1", "-vf", "scale=540:-1", str(dbg / f"preview_{t}.jpg")])
     s = item["script"]
     write_json(dbg / "preview_script.json", item)
+    if os.environ.get("PREVIEW_UPLOAD") == "1":  # 유튜브 연결 테스트: 비공개로 올려 본다
+        desc = (f"{cfg['disclosure']['tag']}\n{cfg['disclosure']['short']}\n\n{s['description']}\n\n"
+                f"▶ 상품은 채널 프로필 링크에서 {item['number']}번을 찾아주세요.\n\n" + " ".join(s.get("hashtags", [])[:8]))
+        url = youtube_upload.upload(str(video), s["title"], desc, s.get("hashtags", []), cfg)
+        notify.send(f"[쿠팡] ✅ 유튜브 업로드 테스트 성공 — 비공개로 올라갔어요\n{s['title']}\n\n확인 👉 {url}"
+                    if url else "[쿠팡] 유튜브 값이 없어 업로드하지 않았어요 (텔레그램 전송만)")
     import shutil
     shutil.copy(video, dbg / "preview.mp4")
     notify.send_file(str(video), f"[쿠팡] 미리보기 — {s['title']}\n(업로드 안 함)")
