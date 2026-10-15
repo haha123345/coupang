@@ -35,7 +35,7 @@ SHORTS_PROMPT = """너는 조회수와 구매 전환이 높은 한국 쇼핑 쇼
 2) 공감: 이 상품을 찾는 사람이 겪는 불편을 한 문장으로 콕 집기
 3) 해결: 상품명·특징 정보에 근거한 장점 2~3개를 '그래서 뭐가 좋아지는지'로 말하기
 4) 사회적 증거: 평점·리뷰 수·인기 검색어 같은 사실로 '다들 이걸 고르는 이유'를 보여주기
-5) 가격 앵커: 정가 대비 할인이 있으면 강조, "가격은 바뀔 수 있어요" 붙이기
+5) 가격 앵커: 정가 대비 할인이 있으면 강조, "가격은 바뀔 수 있어요" 붙이기 (할인율은 숫자 그대로. 50% 미만을 '반값'이라고 하지 마)
 6) 마지막: "프로필 링크에서 {number}번 확인하세요"
 
 [절대 금지 — 어기면 허위·기만 광고]
@@ -113,6 +113,10 @@ def quotes_ok(script: dict, prod: dict) -> bool:
     text = " ".join(x.get("narration", "") + " " + x.get("caption", "") for x in script.get("scenes", []))
     for q in re.findall(r'["“]([^"”]{4,})["”]', text):
         if not any(_norm(q) and _norm(q) in r for r in real):
+            return False
+    # 후기 장면 내레이션에는 실제 후기 문장이 하나 이상 그대로 들어 있어야 함
+    for x in script.get("scenes", []):
+        if x.get("type") == "reviews" and real and not any(r and r in _norm(x.get("narration", "")) for r in real):
             return False
     return True
 

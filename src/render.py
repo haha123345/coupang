@@ -259,6 +259,29 @@ def review_cards(prod: dict, accent, max_h: int = 420) -> list[Image.Image]:
     return cards
 
 
+def survey_layer(prod: dict, accent, rows: int = 2) -> Image.Image | None:
+    """쿠팡 후기 설문 결과 막대 (추천순 상위 후기 N개 기준, 실제 집계)."""
+    sv = (prod.get("survey") or [])[:rows]
+    if not sv:
+        return None
+    fl, fv, fh = font(32, "bold"), font(28, "medium"), font(26, "medium")
+    h = 44 + 74 * len(sv)
+    layer = Image.new("RGBA", (SAFE_W, h), (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+    head = f"상위 후기 {sv[0]['tot']}개 설문 결과"
+    d.text((0, 0), head, font=fh, fill=MUTED)
+    y = 44
+    for x in sv:
+        lab = f"{x['q']} · {x['a']}"
+        d.text((0, y - fl.getbbox(lab)[1]), lab, font=fl, fill=INK)
+        cnt = f"{x['n']}/{x['tot']}"
+        d.text((SAFE_W - d.textlength(cnt, font=fv), y + 2 - fv.getbbox(cnt)[1]), cnt, font=fv, fill=MUTED)
+        d.rounded_rectangle([0, y + 44, SAFE_W, y + 56], 6, fill=(232, 232, 236))
+        d.rounded_rectangle([0, y + 44, int(SAFE_W * x["n"] / x["tot"]), y + 56], 6, fill=accent)
+        y += 74
+    return layer
+
+
 def cta_layer(number: int, prod: dict, accent) -> Image.Image:
     layer = Image.new("RGBA", (W, 300), (0, 0, 0, 0))
     d = ImageDraw.Draw(layer)
@@ -348,6 +371,14 @@ def render(item: dict, cfg: dict, workdir: Path) -> Path:
         is_rv = sc.get("type") == "reviews" and bool(prod.get("top_reviews")) and not last and si > 0
         cards = review_cards(prod, accent) if is_rv else []
         is_rv = bool(cards)
+        survey = None
+        if is_rv:
+            room = 1510 - (1056 + sum(c.height + 14 for c in cards) + 20)
+            for rows in (3, 2, 1):
+                cand = survey_layer(prod, accent, rows)
+                if cand is not None and cand.height <= room:
+                    survey = cand
+                    break
         # 장면별로 보여줄 칩: 첫 장면은 전부, 이후엔 하나씩 돌아가며
         rest = [chips[si % len(chips)]] if chips and not last and si > 0 else []
         if is_rv and prod.get("five_star_pct"):
@@ -400,6 +431,13 @@ def render(item: dict, cfg: dict, workdir: Path) -> Path:
                             c2.putalpha(card.getchannel("A").point(lambda v, k=ap: int(v * k)))
                         frame.alpha_composite(c2, (int(CX - SAFE_W / 2 + (1 - ap) * 60), yy))
                     yy += card.height + 14
+                if survey is not None:
+                    ap = ease_out((t - 0.4 - len(cards) * 0.45) / 0.35)
+                    if ap > 0:
+                        sl = survey if ap >= 1 else survey.copy()
+                        if ap < 1:
+                            sl.putalpha(survey.getchannel("A").point(lambda v, k=ap: int(v * k)))
+                        frame.alpha_composite(sl, (int(CX - SAFE_W / 2), yy + 20))
             else:
                 frame.alpha_composite(head, (0, hy))
                 frame.alpha_composite(sub, (0, 1400))
