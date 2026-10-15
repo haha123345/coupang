@@ -49,6 +49,9 @@ def pick_keywords(cfg: dict) -> list[dict]:
         notify.send(f"[쿠팡] ⚠️ 키워드 선별(Gemini) 실패 — 영문 브랜드만 거르고 순위대로 사용\n{e}")
         # 최소한의 거르기: 영문 포함(브랜드일 가능성 큼) 제외
         picks = [r for r in raw if not re.search(r"[A-Za-z]", r["keyword"])]
+    rank_of = {(r["keyword"]): r["rank"] for r in raw}
+    for pk in picks:
+        pk["trend_rank"] = rank_of.get(pk["keyword"], "")
     return picks[:n]
 
 
@@ -84,6 +87,7 @@ def weekly(cfg: dict | None = None) -> None:
         {
             "keyword": p["keyword"],
             "category": p.get("category", ""),
+            "trend_rank": p.get("trend_rank", ""),
             "search_url": coupang_search_url(p["keyword"]),
             "info": "",
             "partner_url": "",
@@ -156,9 +160,15 @@ def parse_info(raw) -> dict:
         except Exception:
             print("info 칸을 읽지 못했습니다:", str(raw)[:80])
             return {}
+    num = lambda v: re.sub(r"[^0-9.]", "", str(v or ""))
     return {
         "name": (d.get("name") or "").strip(),
-        "price": str(d.get("price") or "").strip(),
+        "brand": (d.get("brand") or "").strip(),
+        "price": num(d.get("price")).split(".")[0],
+        "list_price": num(d.get("list_price")).split(".")[0],
+        "rating": num(d.get("rating")),
+        "reviews": num(d.get("reviews")).split(".")[0],
+        "desc": (d.get("desc") or "").strip()[:400],
         "image_urls": [_bigger(u) for u in d.get("images", []) if u],
         "product_url": d.get("url", ""),
     }
@@ -191,6 +201,12 @@ def _manual_ready() -> list[dict]:
             "price": str(it.get("price") or info.get("price") or "").replace(",", "").replace("원", "").strip(),
             "product_url": info.get("product_url", ""),
         }
+        for k in ("brand", "list_price", "rating", "reviews", "desc"):
+            if info.get(k) and not merged.get(k):
+                merged[k] = info[k]
+        rank = it.get("trend_rank")
+        merged["trend"] = (f"'{it['keyword']}' 인기 검색어 {rank}위" if rank
+                           else f"요즘 많이 찾는 '{it['keyword']}'")
         merged.pop("html", None)
         merged.pop("info", None)
         if merged["partner_url"] and merged["image_urls"]:

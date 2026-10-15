@@ -81,13 +81,8 @@ GitHub Actions 예약 실행은 몇 분~수십 분 늦게 시작될 수 있어�
 ## 매주 할 일 (API 키 등록 전까지, 상품당 1분)
 
 ### 처음 한 번: '쿠팡수집' 즐겨찾기 만들기
-1. 크롬 즐겨찾기바에서 우클릭 > **페이지 추가**
-2. 이름: `쿠팡수집`
-3. URL: 아래 한 줄을 통째로 복사해서 붙여넣기 → 저장
-
-```
-javascript:(()=>{const L=[...document.querySelectorAll('script[type="application/ld+json"]')].map(s=>{try{return JSON.parse(s.textContent)}catch(e){return null}}).find(j=>j&&j['@type']==='Product');if(!L){alert('쿠팡 상품 페이지에서 눌러주세요');return}const o=Array.isArray(L.offers)?L.offers[0]:(L.offers||{});const im=Array.isArray(L.image)?L.image:[L.image];const d={name:L.name,price:String(o.price||''),images:im.filter(Boolean).slice(0,6),url:location.href.split('&')[0]};const t=JSON.stringify(d).replace(/'/g,'’');navigator.clipboard.writeText(t).then(()=>alert('복사 완료! info 칸 작은따옴표 안에 붙여넣으세요'),()=>prompt('아래 내용을 전부 복사하세요',t))})()
-```
+설치 페이지 https://haha123345.github.io/coupang/tool.html 를 열고, 빨간 **쿠팡수집** 버튼을
+즐겨찾기 모음(Edge: `Ctrl+Shift+B` 로 표시)으로 끌어다 놓으세요. 코드 원본은 `tools/bookmarklet.txt`.
 
 ### 매주
 월요일 아침 텔레그램으로 이번 주 키워드 10개와 편집 링크가 옵니다.

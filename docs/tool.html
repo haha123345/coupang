@@ -1,0 +1,41 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>쿠팡수집 설치</title>
+<style>
+:root{--bg:#f6f6f4;--card:#fff;--ink:#16161a;--muted:#6b6b72;--acc:#ff4836}
+@media (prefers-color-scheme:dark){:root{--bg:#111114;--card:#1c1c21;--ink:#f2f2f2;--muted:#a0a0a8}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Malgun Gothic","Apple SD Gothic Neo",sans-serif;line-height:1.6}
+main{max-width:640px;margin:0 auto;padding:24px 16px}
+.card{background:var(--card);border-radius:16px;padding:20px;margin:16px 0}
+.bm{display:inline-block;background:var(--acc);color:#fff;font-weight:800;font-size:22px;padding:14px 28px;border-radius:999px;text-decoration:none;cursor:grab}
+ol{padding-left:22px} li{margin:6px 0} kbd{background:#eee;color:#111;border-radius:6px;padding:1px 7px;font-size:14px}
+button{font-size:16px;padding:10px 18px;border-radius:10px;border:0;background:#16161a;color:#fff;cursor:pointer}
+textarea{width:100%;height:90px;font-size:12px;box-sizing:border-box}
+</style></head><body><main>
+<h1>쿠팡수집 즐겨찾기 설치 (Edge)</h1>
+<div class="card">
+<p><b>방법 1. 끌어다 놓기 (10초)</b></p>
+<ol>
+<li><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> 를 눌러 <b>즐겨찾기 모음</b>을 화면 위에 보이게 하세요.</li>
+<li>아래 빨간 버튼을 마우스로 잡고 <b>즐겨찾기 모음 위로 끌어다 놓으세요.</b> (클릭하지 말고 끌기)</li>
+</ol>
+<p style="text-align:center"><a class="bm" href="javascript:(()=&gt;{const L=[...document.querySelectorAll(&#x27;script[type=&quot;application/ld+json&quot;]&#x27;)].map(s=&gt;{try{return JSON.parse(s.textContent)}catch(e){return null}}).find(j=&gt;j&amp;&amp;j[&#x27;@type&#x27;]===&#x27;Product&#x27;);if(!L){alert(&#x27;쿠팡 상품 페이지에서 눌러주세요&#x27;);return}const o=Array.isArray(L.offers)?L.offers[0]:(L.offers||{});const ps=o.priceSpecification||{};const ag=L.aggregateRating||{};const im=Array.isArray(L.image)?L.image:[L.image];const d={name:L.name,brand:(L.brand&amp;&amp;L.brand.name)||&#x27;&#x27;,price:String(o.price||&#x27;&#x27;),list_price:String(ps.price||&#x27;&#x27;),rating:String(ag.ratingValue||&#x27;&#x27;),reviews:String(ag.ratingCount||ag.reviewCount||&#x27;&#x27;),desc:String(L.description||&#x27;&#x27;).replace(/\s+/g,&#x27; &#x27;).slice(0,300),images:im.filter(Boolean).slice(0,6),url:location.href.split(&#x27;&amp;&#x27;)[0]};const t=JSON.stringify(d).replace(/&#x27;/g,&#x27;’&#x27;);navigator.clipboard.writeText(t).then(()=&gt;alert(&#x27;복사 완료! info 칸 작은따옴표 안에 붙여넣으세요&#x27;),()=&gt;prompt(&#x27;아래 내용을 전부 복사하세요&#x27;,t))})()" onclick="alert('클릭이 아니라, 이 버튼을 위쪽 즐겨찾기 모음으로 끌어다 놓아 주세요.');return false;">쿠팡수집</a></p>
+</div>
+<div class="card">
+<p><b>방법 2. 직접 추가 (끌기가 안 될 때)</b></p>
+<ol>
+<li><button onclick="navigator.clipboard.writeText(document.getElementById('code').value).then(()=>this.textContent='복사됨 ✓')">코드 복사</button></li>
+<li>주소창에 <kbd>edge://favorites</kbd> 입력 → 엔터</li>
+<li>오른쪽 위 <b>즐겨찾기 추가</b>(☆+ 아이콘) 클릭</li>
+<li>이름: <b>쿠팡수집</b> / URL: 복사한 코드 붙여넣기 → <b>저장</b></li>
+</ol>
+<textarea id="code" readonly>javascript:(()=&gt;{const L=[...document.querySelectorAll(&#x27;script[type=&quot;application/ld+json&quot;]&#x27;)].map(s=&gt;{try{return JSON.parse(s.textContent)}catch(e){return null}}).find(j=&gt;j&amp;&amp;j[&#x27;@type&#x27;]===&#x27;Product&#x27;);if(!L){alert(&#x27;쿠팡 상품 페이지에서 눌러주세요&#x27;);return}const o=Array.isArray(L.offers)?L.offers[0]:(L.offers||{});const ps=o.priceSpecification||{};const ag=L.aggregateRating||{};const im=Array.isArray(L.image)?L.image:[L.image];const d={name:L.name,brand:(L.brand&amp;&amp;L.brand.name)||&#x27;&#x27;,price:String(o.price||&#x27;&#x27;),list_price:String(ps.price||&#x27;&#x27;),rating:String(ag.ratingValue||&#x27;&#x27;),reviews:String(ag.ratingCount||ag.reviewCount||&#x27;&#x27;),desc:String(L.description||&#x27;&#x27;).replace(/\s+/g,&#x27; &#x27;).slice(0,300),images:im.filter(Boolean).slice(0,6),url:location.href.split(&#x27;&amp;&#x27;)[0]};const t=JSON.stringify(d).replace(/&#x27;/g,&#x27;’&#x27;);navigator.clipboard.writeText(t).then(()=&gt;alert(&#x27;복사 완료! info 칸 작은따옴표 안에 붙여넣으세요&#x27;),()=&gt;prompt(&#x27;아래 내용을 전부 복사하세요&#x27;,t))})()</textarea>
+</div>
+<div class="card">
+<p><b>쓰는 법</b></p>
+<ol>
+<li>쿠팡 <b>상품 페이지</b>를 연 상태에서 즐겨찾기 모음의 <b>쿠팡수집</b> 클릭</li>
+<li>"복사 완료" 창이 뜨면, 상품 목록 파일의 <b>info: '' 작은따옴표 안</b>에 붙여넣기</li>
+</ol>
+<p style="color:var(--muted)">상품명·브랜드·가격·정가·평점·리뷰 수·사진 6장이 한 번에 복사됩니다.</p>
+</div>
+</main></body></html>
