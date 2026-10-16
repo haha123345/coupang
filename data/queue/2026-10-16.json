@@ -437,7 +437,8 @@
       "kind": "tip",
       "text": "기초 화장품 바를 때 손바닥 열기로 지그시 눌러 흡수시키기.\n\n이거 시간 없을 땐 귀찮아도 거치는 단계 하나로 쫀쫀함이 달라져요.\n\n그냥 찹찹 두드리는 것보다 훨씬 깊게 스며드는 느낌이랄까요.\n\n오늘 밤 스킨케어할 때 꼭 한번 천천히 해보세요.",
       "photo_query": "skincare routine cosmetic",
-      "done": false
+      "done": true,
+      "url": "텔레그램 전송 (직접 게시)"
     },
     {
       "kind": "link",
