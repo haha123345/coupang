@@ -86,7 +86,8 @@
           "#쿠팡추천템"
         ]
       },
-      "done": false
+      "done": true,
+      "url": "https://studio.youtube.com/video/EP3UTtYdYOQ/edit"
     },
     {
       "number": 6,
@@ -197,7 +198,8 @@
           "#쇼핑정보"
         ]
       },
-      "done": false
+      "done": true,
+      "url": "https://studio.youtube.com/video/d1jdMKm0s8g/edit"
     }
   ],
   "threads": [
