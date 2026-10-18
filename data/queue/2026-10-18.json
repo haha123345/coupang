@@ -95,7 +95,8 @@
           "#쇼츠추천"
         ]
       },
-      "done": false
+      "done": true,
+      "url": "https://studio.youtube.com/video/cfzOgPJBn-s/edit"
     },
     {
       "number": 7,
@@ -198,7 +199,8 @@
           "#생활용품추천"
         ]
       },
-      "done": false
+      "done": true,
+      "url": "https://studio.youtube.com/video/XEoiWRJMxSY/edit"
     }
   ],
   "threads": [
