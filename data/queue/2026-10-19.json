@@ -110,7 +110,8 @@
           "#쇼핑쇼츠"
         ]
       },
-      "done": false
+      "done": true,
+      "url": "https://studio.youtube.com/video/VCSAsG10mRI/edit"
     },
     {
       "number": 2,
@@ -202,7 +203,8 @@
           "#쇼츠추천"
         ]
       },
-      "done": false
+      "done": true,
+      "url": "https://studio.youtube.com/video/W9O-1RA2pEY/edit"
     }
   ],
   "threads": [
