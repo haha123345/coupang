@@ -105,7 +105,8 @@
           "#쇼츠추천"
         ]
       },
-      "done": false
+      "done": true,
+      "url": "https://studio.youtube.com/video/9H8wxi30Buo/edit"
     },
     {
       "number": 9,
@@ -205,7 +206,8 @@
           "#윤스미스"
         ]
       },
-      "done": false
+      "done": true,
+      "url": "https://studio.youtube.com/video/MNFzEHuwVZE/edit"
     }
   ],
   "threads": [
