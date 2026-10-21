@@ -91,7 +91,8 @@
           "#쇼핑추천"
         ]
       },
-      "done": false
+      "done": true,
+      "url": "https://studio.youtube.com/video/rvy8rnMHYtU/edit"
     },
     {
       "number": 7,
@@ -194,7 +195,8 @@
           "#생활용품"
         ]
       },
-      "done": false
+      "done": true,
+      "url": "https://studio.youtube.com/video/t-HmjwMfTac/edit"
     }
   ],
   "threads": [
