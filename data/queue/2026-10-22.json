@@ -233,7 +233,8 @@
       "kind": "tip",
       "text": "냉장고 청소할 때 가장 많이 하는 실수 🧼\n\n내부 선반 유리판을 떼어내자마자 뜨거운 물로 씻지 마세요.\n\n갑작스러운 온도 변화 때문에 강화유리가 순간적으로 깨질 수 있습니다.\n\n반드시 미지근한 물로 씻거나 열기를 식힌 후 닦아주셔야 안전해요.",
       "photo_query": "clean refrigerator shelf",
-      "done": false
+      "done": true,
+      "url": "텔레그램 전송 (직접 게시)"
     },
     {
       "kind": "link",
