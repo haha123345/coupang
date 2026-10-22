@@ -1,0 +1,586 @@
+{
+  "day": "2026-10-23",
+  "shorts": [
+    {
+      "number": 6,
+      "format": "top3_points",
+      "product": {
+        "keyword": "가습기",
+        "category": "디지털/가전",
+        "trend_rank": "",
+        "search_url": "https://www.coupang.com/np/search?q=%EA%B0%80%EC%8A%B5%EA%B8%B0",
+        "partner_url": "https://link.coupang.com/a/hRTZ12ope8",
+        "notes": "",
+        "price": "28900",
+        "name": "홈플래닛 초음파 가습기 4L",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/323618008542155-4fc1aca1-01d2-410e-a476-9abb9c4030b6.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/3500060010998835-04afda23-56cc-4d24-aef4-9fc417475b4d.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1928694915703188-5af8fe0a-86ae-44f9-8ae8-04982eb4afdc.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/3500059598396648-0d25d3c4-cb8a-4f96-969b-bd6f43154137.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/3500059447877441-8ef36ec2-0252-42e8-8fc7-240a6d57872b.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1928694905803178-d94efb95-ca33-4606-a3e7-b919fa939a6d.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/324788226?itemId=3801974770",
+        "brand": "홈플래닛",
+        "list_price": "49500",
+        "rating": "4.6",
+        "reviews": "50779",
+        "buyers": "한 달간 6,000명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "넉넉한 용량의 가성비 좋은 가습기"
+          },
+          {
+            "rating": 5,
+            "text": "분사력 좋고 불빛 안 켜져서 만족!"
+          },
+          {
+            "rating": 5,
+            "text": "건조한 요즘 꼭 필요한 대용량 가습기"
+          }
+        ],
+        "survey": [
+          {
+            "q": "가성비",
+            "a": "성능에 비해 저렴해요",
+            "n": 20,
+            "tot": 28
+          },
+          {
+            "q": "디자인",
+            "a": "아주만족해요",
+            "n": 18,
+            "tot": 29
+          }
+        ],
+        "five_star_pct": "81",
+        "trend": "요즘 많이 찾는 '가습기'"
+      },
+      "script": {
+        "title": "리뷰 5만 개 넘은 4L 가습기 2만 원대? #shorts",
+        "hook": "리뷰 5만 개 넘은 가습기",
+        "hook_highlight": "리뷰 5만 개",
+        "scenes": [
+          {
+            "caption": "리뷰 5만 개 달린 가습기",
+            "highlight": "리뷰 5만 개",
+            "narration": "리뷰만 5만 개가 넘게 달린 요즘 많이 찾는 가습기예요.",
+            "type": "normal"
+          },
+          {
+            "caption": "자다가 물 채우기 귀찮죠?",
+            "highlight": "물 채우기 귀찮죠?",
+            "narration": "밤에 자다 깨서 가습기에 물 채우기 진짜 번거로우셨죠?",
+            "type": "normal"
+          },
+          {
+            "caption": "4L 대용량에 가성비까지",
+            "highlight": "4L 대용량",
+            "narration": "홈플래닛 초음파 가습기는 4리터 대용량이라 넉넉하게 오래 틀 수 있어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "실제 후기 보니까",
+            "highlight": "실제 후기",
+            "narration": "구매자 후기 중에 \"넉넉한 용량의 가성비 좋은 가습기\", \"분사력 좋고 불빛 안 켜져서 만족!\" 이런 후기가 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "정가 4만 원대→28,900원",
+            "highlight": "28,900원",
+            "narration": "별 5개 비율 81%에, 한 달간 6천 명 이상 구매한 검증된 제품이에요.",
+            "type": "normal"
+          },
+          {
+            "caption": "프로필 링크 6번 확인",
+            "highlight": "6번 확인",
+            "narration": "정가 4만 9천 원대에서 41% 할인 중이에요. 가격은 바뀔 수 있으니 프로필 링크에서 6번 확인하세요!",
+            "type": "normal"
+          }
+        ],
+        "description": "쿠팡 상품평 5만 개를 돌파한 홈플래닛 초음파 가습기 4L!\n넉넉한 대용량에 지금 41% 할인 혜택까지 놓치지 마세요.\n가격 및 할인 정보는 변동될 수 있습니다.",
+        "hashtags": [
+          "#가습기",
+          "#홈플래닛가습기",
+          "#가습기추천",
+          "#대용량가습기",
+          "#가성비가전",
+          "#초음파가습기"
+        ]
+      },
+      "done": false
+    },
+    {
+      "number": 5,
+      "format": "before_after",
+      "product": {
+        "keyword": "경량패딩",
+        "category": "스포츠/레저",
+        "trend_rank": "",
+        "search_url": "https://www.coupang.com/np/search?q=%EA%B2%BD%EB%9F%89%ED%8C%A8%EB%94%A9",
+        "partner_url": "https://link.coupang.com/a/hRTXRLi2Oi",
+        "notes": "",
+        "price": "27450",
+        "name": "캐럿 남여공용 경량 범버 자켓",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2465533582064153-7752de2d-2336-4aeb-b613-01eb0f88a5cc.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/168426823363596-9c91437d-a58a-42bd-9436-823094208644.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/182219802151154-66d661de-ef87-4a05-ab01-566831fd9624.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2215971820209582-5cd2927e-2d00-4e87-889c-5d4bc578278b.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1076440748091436-9777f534-75b5-4ed8-851e-0697183aa65f.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1076441593976869-1dec11c1-1483-4e1c-a3fe-5218ec976b2e.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/2111546173?itemId=3586762065",
+        "brand": "캐럿",
+        "list_price": "28900",
+        "rating": "4.6",
+        "reviews": "6136",
+        "buyers": "한 달간 100명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "신랑이 가볍고 따뜻하다면서 찐 만족했어요."
+          },
+          {
+            "rating": 5,
+            "text": "가볍고 예쁘고 편해요!"
+          },
+          {
+            "rating": 5,
+            "text": "밴딩 괜찮네요! 어떤 옷이던 두루두루 매치좋아요"
+          }
+        ],
+        "five_star_pct": "75",
+        "trend": "요즘 많이 찾는 '경량패딩'"
+      },
+      "script": {
+        "title": "리뷰만 6천 개 달린 2만 원대 경량패딩 자켓 #shorts",
+        "hook": "리뷰 6,136개",
+        "hook_highlight": "리뷰 6,136개",
+        "scenes": [
+          {
+            "caption": "리뷰 6,136개",
+            "highlight": "6,136개",
+            "narration": "리뷰만 6,136개 달린 가성비 경량패딩 찾으셨나요?",
+            "type": "normal"
+          },
+          {
+            "caption": "무겁고 둔한 옷?",
+            "highlight": "무겁고 둔한",
+            "narration": "환절기마다 무겁고 둔한 외투 때문에 활동하기 불편하셨죠.",
+            "type": "normal"
+          },
+          {
+            "caption": "가볍고 편안하게",
+            "highlight": "가볍고 편안하게",
+            "narration": "캐럿 남여공용 경량 범버 자켓은 가볍고 깔끔해서 데일리로 툭 걸치기 딱 좋아요.",
+            "type": "normal"
+          },
+          {
+            "caption": "구매자 반응은?",
+            "highlight": "구매자 반응",
+            "narration": "실제 후기 중에 \"가볍고 예쁘고 편해요!\", \"신랑이 가볍고 따뜻하다면서 찐 만족했어요.\"라는 후기가 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "별 5개 비율 75%",
+            "highlight": "75%",
+            "narration": "평점 4.6점에 별 5개 비율이 75%나 될 정도로 만족도가 높아요.",
+            "type": "normal"
+          },
+          {
+            "caption": "지금 27,450원",
+            "highlight": "27,450원",
+            "narration": "정가 28,900원에서 지금 27,450원이에요. 가격은 바뀔 수 있으니 프로필 링크에서 5번 확인하세요!",
+            "type": "normal"
+          }
+        ],
+        "description": "가볍고 편하게 걸치기 좋은 캐럿 남여공용 경량 범버 자켓입니다. 평점 4.6점에 리뷰 6천 개를 넘긴 인기 아이템을 만나보세요.",
+        "hashtags": [
+          "#경량패딩",
+          "#경량자켓",
+          "#캐럿",
+          "#가성비패션",
+          "#쇼핑추천",
+          "#shorts"
+        ]
+      },
+      "done": false
+    }
+  ],
+  "threads": [
+    {
+      "kind": "tip",
+      "text": "암막 커튼 고를 때\n색상만 보지 마세요.\n\n뒤쪽에 회색 암막 코팅이\n한 번 더 덧대어진 걸 골라야\n빛 차단율이 훨씬 높아요.\n\n아침에 눈부심 없이\n꿀잠 자는 방을 만들 수 있답니다.",
+      "photo_query": "blackout curtain bedroom",
+      "done": false
+    },
+    {
+      "kind": "tip",
+      "text": "전자레인지 돌릴 때\n아직도 랩 씌우시나요?\n\n밀폐용기 뚜껑을\n완전히 닫지 않고 살짝 걸쳐두면\n환경호르몬 걱정 없이\n촉촉하게 데워져요.\n\n데우고 나서 김 서림도\n훨씬 덜하답니다.",
+      "photo_query": "microwave food container",
+      "done": false
+    },
+    {
+      "kind": "link",
+      "number": 3,
+      "product": {
+        "keyword": "등산화",
+        "category": "스포츠/레저",
+        "trend_rank": "",
+        "search_url": "https://www.coupang.com/np/search?q=%EB%93%B1%EC%82%B0%ED%99%94",
+        "partner_url": "https://link.coupang.com/a/hRTPC8j4Vg",
+        "notes": "",
+        "price": "27680",
+        "name": "유세븐 남성용 다이얼 운동화 트래킹화 DM907",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/187992871288890-a6f1a312-e18f-401d-8f08-33d2322bf755.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/313658257200773-a2df0e58-95d5-4d25-a254-68dc19a36b0d.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/5134439110075993-84a6b340-87a3-4c61-a4a0-74ff980b27eb.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/313658364725732-5c6904e8-0701-4ce7-809c-19727eb1302e.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/315933265130726-a644aa56-aafb-4e1e-a33e-b1809006c164.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/383043431802731-8f727839-789d-4ad6-ae6c-21fa6dc13661.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/5563046362?itemId=8831093285",
+        "brand": "유세븐",
+        "rating": "4.5",
+        "reviews": "8336",
+        "buyers": "한 달간 200명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "가볍고 편한 가성비 다이얼 등산화"
+          },
+          {
+            "rating": 5,
+            "text": "오래 신어도 발 편함"
+          },
+          {
+            "rating": 4,
+            "text": "발이 편해서 일상화로도 좋아요"
+          }
+        ],
+        "survey": [
+          {
+            "q": "색상",
+            "a": "화면과 같아요",
+            "n": 24,
+            "tot": 30
+          },
+          {
+            "q": "착용감",
+            "a": "아주 좋아요",
+            "n": 15,
+            "tot": 19
+          }
+        ],
+        "five_star_pct": "70",
+        "trend": "요즘 많이 찾는 '등산화'"
+      },
+      "text": "이번 주 네이버 쇼핑에서 '등산화'가 인기 검색어 상위권에 올랐네요.\n\n가벼운 산행용 신발을 고를 땐 신고 벗기 편한 다이얼 방식과 발의 편안함을 먼저 살펴보는 게 좋아요.\n\n이 기준에 맞는 제품으로 유세븐 다이얼 트래킹화 DM907이 있어요. 27,680원에 쿠팡 상품평 8,336개, 평점 4.5점을 기록 중인데요.\n\n후기 설문에서도 착용감이 아주 좋다는 평이 대부분이었어요. 구매자 후기 중 \"오래 신어도 발 편함\"이라는 글도 보이네요.\n\n링크는 답글에 둘게요.",
+      "done": false,
+      "format": "dont_buy_instead",
+      "script": {
+        "title": "리뷰 8천개 쌓인 2만원대 다이얼 등산화 #shorts",
+        "hook": "리뷰 8천개 쌓인 등산화",
+        "hook_highlight": "리뷰 8천개",
+        "scenes": [
+          {
+            "caption": "리뷰 8천개 등산화",
+            "highlight": "리뷰 8천개",
+            "narration": "상품평만 8천 개 넘게 달린 등산화, 이유가 뭘까요?",
+            "type": "normal"
+          },
+          {
+            "caption": "끈 풀리면 후회해요",
+            "highlight": "끈 풀리면",
+            "narration": "걸을 때마다 끈 풀리고 무거운 신발 고르면 진짜 후회해요.",
+            "type": "normal"
+          },
+          {
+            "caption": "다이얼로 1초 조절",
+            "highlight": "다이얼",
+            "narration": "유세븐 DM907은 다이얼로 바로 조이니까 풀릴 걱정 없이 편해요.",
+            "type": "normal"
+          },
+          {
+            "caption": "구매자 반응은?",
+            "highlight": "구매자 반응",
+            "narration": "구매자 후기 중에 \"가볍고 편한 가성비 다이얼 등산화\", \"오래 신어도 발 편함\" 이런 후기가 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "별5개 70% 2만원대",
+            "highlight": "2만원대",
+            "narration": "별 5개 비율 70%에 지금 2만 7천 원대예요. 가격은 바뀔 수 있어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "프로필 링크 3번",
+            "highlight": "3번",
+            "narration": "프로필 링크에서 3번 확인하세요!",
+            "type": "normal"
+          }
+        ],
+        "description": "쿠팡 상품평 8,300개 이상, 평점 4.5점 다이얼 트래킹화!\n끈 풀릴 일 없이 다이얼로 편하게 신는 가성비 등산화를 만나보세요.\n가격 및 재고는 변동될 수 있습니다.",
+        "hashtags": [
+          "#등산화",
+          "#트래킹화",
+          "#다이얼운동화",
+          "#가성비등산화",
+          "#쇼핑숏폼"
+        ]
+      }
+    },
+    {
+      "kind": "tip",
+      "text": "다들 욕실 청소할 때\n락스 먼저 뿌리시나요?\n\n환기 안 된 상태에서 쓰면\n머리가 띵하고 목이 칼칼해요.\n\n먼저 뜨거운 물로 욕실 전체를 적셔\n습도를 높인 뒤 청소하면\n힘들이지 않고 때가 불어난답니다.",
+      "photo_query": "clean bathroom tiles",
+      "done": false
+    },
+    {
+      "kind": "tip",
+      "text": "러닝화 세탁할 때\n빨래망에 그냥 넣으시나요?\n\n인솔과 끈은 따로 빼서\n미지근한 물에 담가두고\n본체는 세탁기에 돌려야\n밑창 변형을 막을 수 있어요.\n\n오늘 운동 다녀오셔서\n꼭 한번 분리해 세탁해보세요.",
+      "photo_query": "running shoes cleaning",
+      "done": false
+    },
+    {
+      "kind": "link",
+      "number": 7,
+      "product": {
+        "keyword": "멀티탭",
+        "category": "생활/건강",
+        "trend_rank": "",
+        "search_url": "https://www.coupang.com/np/search?q=%EB%A9%80%ED%8B%B0%ED%83%AD",
+        "partner_url": "https://link.coupang.com/a/hRT2NfWZbg",
+        "notes": "",
+        "price": "11900",
+        "name": "번개표 개별스위치 멀티탭 3구 WI-MC21633V",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/df1a/cc589644e35fb32e9313ec0ed6f5d713aac3f5f37cd8eea45800169725d4.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/3707798267566146-0ed3c3d7-0cb2-4840-bebd-6062bbd8b314.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1438394484381272-4c73726b-7fc5-4768-a3d4-a93a1d331611.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/845914405155033-eac5e8f6-3b92-4013-a527-215e1e4aa5f6.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1228308997196550-b3c310ab-968a-4edf-ad41-68d5c8a5ac4a.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/845915071376368-b90f7ed8-2c50-40a8-a2ac-02319705180a.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/218273168?itemId=675673605",
+        "brand": "번개표",
+        "rating": "4.8",
+        "reviews": "44182",
+        "buyers": "한 달간 5,000명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "우선 디자인이 정말 깔끔해요."
+          },
+          {
+            "rating": 5,
+            "text": "개별스위치로 편리함이 배가되는 멀티탭"
+          },
+          {
+            "rating": 5,
+            "text": "역시 번개표! 안전하고 개별 스위치라 절전까지 완벽해요"
+          }
+        ],
+        "survey": [
+          {
+            "q": "편리성",
+            "a": "아주 편리해요",
+            "n": 23,
+            "tot": 28
+          },
+          {
+            "q": "견고함",
+            "a": "아주 견고해요",
+            "n": 21,
+            "tot": 28
+          }
+        ],
+        "five_star_pct": "85",
+        "trend": "요즘 많이 찾는 '멀티탭'"
+      },
+      "text": "리뷰만 44,182개에 평점 4.8점을 기록 중인 멀티탭이 있어요.\n\n멀티탭 고를 때는 개별 전원 제어가 가능한지, 일상에서 쓰기 튼튼한지 확인하는 게 좋은데요.\n\n번개표 개별스위치 멀티탭 3구는 11,900원에 이런 조건을 두루 갖춘 제품이에요. 쿠팡에서 한 달간 5,000명 이상이 구매했더라고요.\n\n후기 대부분이 아주 편리하고 견고하다고 평가했고, 구매자 후기 중 \"개별스위치로 편리함이 배가되는 멀티탭\"이라는 내용도 있어요.\n\n링크는 답글에 둘게요.",
+      "done": false,
+      "format": "price_check",
+      "script": {
+        "title": "한 달간 5천 명 이상 구매한 번개표 멀티탭 #shorts",
+        "hook": "요즘 많이 찾는 멀티탭",
+        "hook_highlight": "멀티탭",
+        "scenes": [
+          {
+            "caption": "요즘 많이 찾는",
+            "highlight": "많이 찾는",
+            "narration": "이번 주 네이버 쇼핑 인기 검색어 상위권인 '멀티탭', 요즘 다들 어떻게 고르고 계시나요?",
+            "type": "normal"
+          },
+          {
+            "caption": "멀티탭 고를 땐",
+            "highlight": "고를 땐",
+            "narration": "멀티탭을 고를 때는 개별스위치가 있는지, 안전한지, 그리고 깔끔한 디자인인지를 꼭 따져봐야 하는데요.",
+            "type": "normal"
+          },
+          {
+            "caption": "구매자 반응은?",
+            "highlight": "구매자 반응",
+            "narration": "실제 구매자 후기 중에 \"우선 디자인이 정말 깔끔해요.\", \"개별스위치로 편리함이 배가되는 멀티탭\" 이런 평이 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "번개표 멀티탭",
+            "highlight": "번개표",
+            "narration": "번개표 개별스위치 멀티탭 3구 WI-MC21633V는 후기 설문에서 편리함과 견고함 모두 아주 좋다는 평이 대부분이래요.",
+            "type": "normal"
+          },
+          {
+            "caption": "믿고 쓰는 평점",
+            "highlight": "평점",
+            "narration": "쿠팡 평점 4.8점에 상품평 44,182개, 별 5개 비율이 85%나 되고 한 달간 5,000명 이상 구매했어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "지금 가격은?",
+            "highlight": "가격",
+            "narration": "가격은 11,900원인데요, 가격은 바뀔 수 있어요. 프로필 링크에서 7번 확인하세요!",
+            "type": "normal"
+          }
+        ],
+        "description": "한 달간 5천 명 이상이 선택한 번개표 개별스위치 멀티탭! 깔끔한 디자인과 개별스위치로 편리함과 절전까지 모두 챙겨보세요.",
+        "hashtags": [
+          "#번개표멀티탭",
+          "#멀티탭추천",
+          "#개별스위치멀티탭",
+          "#절전멀티탭",
+          "#생활용품"
+        ]
+      }
+    },
+    {
+      "kind": "tip",
+      "text": "가죽 가방 보관할 때\n신문지 구겨 넣으시나요?\n\n신문지 잉크가 안쪽에 묻어나거나\n습기를 너무 많이 흡수해서\n가죽이 상할 수 있어요.\n\n차라리 깨끗한 종이나\n에어캡을 넣어 모양을 잡는 게\n훨씬 오래 가는 비결이랍니다.",
+      "photo_query": "leather bag storage",
+      "done": false
+    },
+    {
+      "kind": "tip",
+      "text": "기초화장품 바를 때\n얼마나 흡수시키시나요?\n\n바쁘다고 바로 다음 단계를 바르면\n밀리거나 피부 속까지\n영양이 잘 안 들어간대요.\n\n손끝으로 만졌을 때\n보송하게 겉돌지 않을 만큼만\n잠깐의 여유를 줘보세요.",
+      "photo_query": "skincare routine hands",
+      "done": false
+    },
+    {
+      "kind": "link",
+      "number": 4,
+      "product": {
+        "keyword": "행거",
+        "category": "가구/인테리어",
+        "trend_rank": "",
+        "search_url": "https://www.coupang.com/np/search?q=%ED%96%89%EA%B1%B0",
+        "partner_url": "https://link.coupang.com/a/hRTSV9OLQq",
+        "notes": "",
+        "price": "11290",
+        "name": "코멧 홈 베이직 스탠드 행거",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/1025_amir_coupang_oct_80k/c588/e85bd4f018c8326191ccfb2091f10f28c70e513b07cc186d7c02a96ab6ab.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2104525084152847-4a7989a9-f6f6-4ad2-8aa8-703c94388e8c.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/671233147813271-c841a8d8-0f7a-47e7-9828-3c1869b42edd.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2104524963836801-edae5ba2-73d9-4c3f-a711-2c660031468c.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1059695000010960-2accd851-44e2-466a-996d-d93e2b401162.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2107463971443625-6e26c2b7-0c2c-48ba-a94a-13f968cac9f1.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/1676362802?itemId=2856014459",
+        "brand": "코멧",
+        "list_price": "16990",
+        "rating": "4.7",
+        "reviews": "32276",
+        "buyers": "한 달간 3,000명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "깔끔하게 옷 정리하기 딱 좋아요!"
+          },
+          {
+            "rating": 5,
+            "text": "가성비 행거로 추천합니다!"
+          },
+          {
+            "rating": 5,
+            "text": "조립은 설명서를 보면서 순서대로 하니까 어렵지 않았어요."
+          }
+        ],
+        "survey": [
+          {
+            "q": "디자인",
+            "a": "아주 마음에 들어요",
+            "n": 27,
+            "tot": 29
+          },
+          {
+            "q": "사이즈",
+            "a": "딱 맞는 정사이즈예요",
+            "n": 22,
+            "tot": 29
+          },
+          {
+            "q": "크기",
+            "a": "적당해요",
+            "n": 21,
+            "tot": 29
+          }
+        ],
+        "five_star_pct": "85",
+        "trend": "요즘 많이 찾는 '행거'"
+      },
+      "text": "이번 주 네이버 쇼핑 인기 검색어 상위권에 '행거'가 올랐더라고요.\n\n행거 고를 땐 공간을 덜 차지하는 적당한 크기와 깔끔한 디자인을 보는 게 중요한데요.\n\n코멧 홈 베이직 스탠드 행거가 그 기준에 잘 맞아요.\n쿠팡 상품평만 32,276개에 평점 4.7점인데, 지금 33% 할인해서 11,290원이에요.\n\n상위 후기 대부분 디자인이 마음에 들고 크기도 적당하다고 해요.\n구매자 후기 중 \"깔끔하게 옷 정리하기 딱 좋아요!\"라는 내용도 있네요.\n\n링크는 답글에 둘게요.",
+      "done": false,
+      "format": "top3_points",
+      "script": {
+        "title": "리뷰만 3만 개 넘는 1만 원대 가성비 행거 #shorts",
+        "hook": "리뷰만 3만 2천 개",
+        "hook_highlight": "3만 2천 개",
+        "scenes": [
+          {
+            "caption": "리뷰 3만 개 돌파",
+            "highlight": "3만 개",
+            "narration": "리뷰만 3만 2천 개에 한 달 동안 3천 명 넘게 구매한 스탠드 행거가 있어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "깔끔한 옷 정리",
+            "highlight": "옷 정리",
+            "narration": "의자에 널브러진 옷 때문에 고민이셨죠? 후기 대부분이 크기와 디자인이 아주 마음에 든다고 해요.",
+            "type": "normal"
+          },
+          {
+            "caption": "구매자 반응은?",
+            "highlight": "구매자 반응",
+            "narration": "실제 후기 보니까 \"깔끔하게 옷 정리하기 딱 좋아요!\", \"가성비 행거로 추천합니다!\"라는 반응이 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "별 5개 비율 85%",
+            "highlight": "85%",
+            "narration": "평점 4.7점에 별 5개 준 사람만 85%일 정도로 만족도가 높은데요.",
+            "type": "normal"
+          },
+          {
+            "caption": "지금 11,290원",
+            "highlight": "11,290원",
+            "narration": "정가 16,990원에서 지금 33% 할인된 11,290원이에요. 가격은 바뀔 수 있으니 프로필 링크에서 4번 확인하세요!",
+            "type": "normal"
+          }
+        ],
+        "description": "방 안에 쌓여가는 옷을 깔끔하게 정리해 주는 가성비 스탠드 행거!\n실제 구매 후기와 할인 정보까지 한눈에 확인해 보세요.",
+        "hashtags": [
+          "#행거",
+          "#스탠드행거",
+          "#코멧행거",
+          "#옷정리",
+          "#가성비인테리어",
+          "#자취필수템"
+        ]
+      }
+    }
+  ]
+}
