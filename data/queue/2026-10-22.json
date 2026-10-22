@@ -108,7 +108,8 @@
           "#쇼핑추천"
         ]
       },
-      "done": false
+      "done": true,
+      "url": "https://studio.youtube.com/video/fAbKvgWYT5w/edit"
     },
     {
       "number": 4,
@@ -218,7 +219,8 @@
           "#코멧행거"
         ]
       },
-      "done": false
+      "done": true,
+      "url": "https://studio.youtube.com/video/4twRJTOQkfQ/edit"
     }
   ],
   "threads": [
