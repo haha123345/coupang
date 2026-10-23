@@ -110,7 +110,8 @@
           "#초음파가습기"
         ]
       },
-      "done": false
+      "done": true,
+      "url": "업로드 실패(텔레그램 전송)"
     },
     {
       "number": 5,
@@ -207,7 +208,8 @@
           "#shorts"
         ]
       },
-      "done": false
+      "done": true,
+      "url": "업로드 실패(텔레그램 전송)"
     }
   ],
   "threads": [
