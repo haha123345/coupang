@@ -91,7 +91,8 @@
           "#생활건강"
         ]
       },
-      "done": false
+      "done": true,
+      "url": "업로드 실패(텔레그램 전송)"
     },
     {
       "number": 1,
@@ -208,7 +209,8 @@
           "#쇼츠"
         ]
       },
-      "done": false
+      "done": true,
+      "url": "업로드 실패(텔레그램 전송)"
     }
   ],
   "threads": [
