@@ -6,8 +6,18 @@
 #    partner_url 칸에 붙여넣기:  partner_url: 'https://link.coupang.com/a/...'
 # notes 는 선택: 상세페이지에서 본 특징을 적으면 대본이 더 정확해집니다.
 # 채운 상품만 영상·글로 만들어집니다. 비워둔 상품은 건너뜁니다.
-week_of: '2026-10-19'
+week_of: '2026-10-26'
 items:
+- keyword: 비데
+  category: 생활/건강
+  trend_rank: 1
+  search_url: https://www.coupang.com/np/search?q=%EB%B9%84%EB%8D%B0
+  info: ''
+  partner_url: ''
+  notes: ''
+  price: ''
+  name: ''
+  image_urls: []
 - keyword: 행거
   category: 가구/인테리어
   trend_rank: 1
@@ -20,18 +30,8 @@ items:
   image_urls: []
 - keyword: 가습기
   category: 디지털/가전
-  trend_rank: 2
+  trend_rank: 3
   search_url: https://www.coupang.com/np/search?q=%EA%B0%80%EC%8A%B5%EA%B8%B0
-  info: ''
-  partner_url: ''
-  notes: ''
-  price: ''
-  name: ''
-  image_urls: []
-- keyword: 경량패딩
-  category: 스포츠/레저
-  trend_rank: 1
-  search_url: https://www.coupang.com/np/search?q=%EA%B2%BD%EB%9F%89%ED%8C%A8%EB%94%A9
   info: ''
   partner_url: ''
   notes: ''
@@ -40,8 +40,38 @@ items:
   image_urls: []
 - keyword: 핸드크림
   category: 화장품/미용
-  trend_rank: 3
+  trend_rank: 2
   search_url: https://www.coupang.com/np/search?q=%ED%95%B8%EB%93%9C%ED%81%AC%EB%A6%BC
+  info: ''
+  partner_url: ''
+  notes: ''
+  price: ''
+  name: ''
+  image_urls: []
+- keyword: 물티슈
+  category: 출산/육아
+  trend_rank: 2
+  search_url: https://www.coupang.com/np/search?q=%EB%AC%BC%ED%8B%B0%EC%8A%88
+  info: ''
+  partner_url: ''
+  notes: ''
+  price: ''
+  name: ''
+  image_urls: []
+- keyword: 등산화
+  category: 스포츠/레저
+  trend_rank: 2
+  search_url: https://www.coupang.com/np/search?q=%EB%93%B1%EC%82%B0%ED%99%94
+  info: ''
+  partner_url: ''
+  notes: ''
+  price: ''
+  name: ''
+  image_urls: []
+- keyword: 스카프
+  category: 패션잡화
+  trend_rank: 1
+  search_url: https://www.coupang.com/np/search?q=%EC%8A%A4%EC%B9%B4%ED%94%84
   info: ''
   partner_url: ''
   notes: ''
@@ -60,7 +90,7 @@ items:
   image_urls: []
 - keyword: 음식물처리기
   category: 디지털/가전
-  trend_rank: 4
+  trend_rank: 5
   search_url: https://www.coupang.com/np/search?q=%EC%9D%8C%EC%8B%9D%EB%AC%BC%EC%B2%98%EB%A6%AC%EA%B8%B0
   info: ''
   partner_url: ''
@@ -68,40 +98,10 @@ items:
   price: ''
   name: ''
   image_urls: []
-- keyword: 스카프
+- keyword: 캐리어
   category: 패션잡화
-  trend_rank: 5
-  search_url: https://www.coupang.com/np/search?q=%EC%8A%A4%EC%B9%B4%ED%94%84
-  info: ''
-  partner_url: ''
-  notes: ''
-  price: ''
-  name: ''
-  image_urls: []
-- keyword: 물티슈
-  category: 출산/육아
-  trend_rank: 2
-  search_url: https://www.coupang.com/np/search?q=%EB%AC%BC%ED%8B%B0%EC%8A%88
-  info: ''
-  partner_url: ''
-  notes: ''
-  price: ''
-  name: ''
-  image_urls: []
-- keyword: 캠핑의자
-  category: 스포츠/레저
-  trend_rank: 11
-  search_url: https://www.coupang.com/np/search?q=%EC%BA%A0%ED%95%91%EC%9D%98%EC%9E%90
-  info: ''
-  partner_url: ''
-  notes: ''
-  price: ''
-  name: ''
-  image_urls: []
-- keyword: 지압슬리퍼
-  category: 생활/건강
   trend_rank: 12
-  search_url: https://www.coupang.com/np/search?q=%EC%A7%80%EC%95%95%EC%8A%AC%EB%A6%AC%ED%8D%BC
+  search_url: https://www.coupang.com/np/search?q=%EC%BA%90%EB%A6%AC%EC%96%B4
   info: ''
   partner_url: ''
   notes: ''
