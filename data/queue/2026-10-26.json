@@ -1,0 +1,566 @@
+{
+  "day": "2026-10-26",
+  "shorts": [
+    {
+      "number": 5,
+      "format": "price_check",
+      "product": {
+        "keyword": "경량패딩",
+        "category": "스포츠/레저",
+        "trend_rank": "",
+        "search_url": "https://www.coupang.com/np/search?q=%EA%B2%BD%EB%9F%89%ED%8C%A8%EB%94%A9",
+        "partner_url": "https://link.coupang.com/a/hRTXRLi2Oi",
+        "notes": "",
+        "price": "27450",
+        "name": "캐럿 남여공용 경량 범버 자켓",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2465533582064153-7752de2d-2336-4aeb-b613-01eb0f88a5cc.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/168426823363596-9c91437d-a58a-42bd-9436-823094208644.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/182219802151154-66d661de-ef87-4a05-ab01-566831fd9624.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2215971820209582-5cd2927e-2d00-4e87-889c-5d4bc578278b.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1076440748091436-9777f534-75b5-4ed8-851e-0697183aa65f.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1076441593976869-1dec11c1-1483-4e1c-a3fe-5218ec976b2e.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/2111546173?itemId=3586762065",
+        "brand": "캐럿",
+        "list_price": "28900",
+        "rating": "4.6",
+        "reviews": "6136",
+        "buyers": "한 달간 100명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "신랑이 가볍고 따뜻하다면서 찐 만족했어요."
+          },
+          {
+            "rating": 5,
+            "text": "가볍고 예쁘고 편해요!"
+          },
+          {
+            "rating": 5,
+            "text": "밴딩 괜찮네요! 어떤 옷이던 두루두루 매치좋아요"
+          }
+        ],
+        "five_star_pct": "75",
+        "trend": "요즘 많이 찾는 '경량패딩'"
+      },
+      "script": {
+        "title": "요즘 난리 난 경량패딩 2만 원대? #shorts",
+        "hook": "리뷰 6천 개 폭발",
+        "hook_highlight": "리뷰 6천 개",
+        "scenes": [
+          {
+            "caption": "리뷰 6천 개 돌파",
+            "highlight": "6천 개",
+            "narration": "쿠팡에서 리뷰만 6천 개가 넘게 달린 인기 경량패딩이 있다는 사실, 알고 계셨나요?",
+            "type": "normal"
+          },
+          {
+            "caption": "가성비 경량패딩",
+            "highlight": "가성비",
+            "narration": "요즘 경량패딩 고를 땐 가격대랑 매치하기 쉬운 활용도를 꼭 따져봐야 하는데요.",
+            "type": "normal"
+          },
+          {
+            "caption": "캐럿 경량 자켓",
+            "highlight": "캐럿",
+            "narration": "캐럿 남여공용 경량 범버 자켓은 깔끔한 디자인이라 어디든 편하게 걸치기 좋습니다.",
+            "type": "normal"
+          },
+          {
+            "caption": "구매자 반응은?",
+            "highlight": "구매자 반응",
+            "narration": "실제 후기 보니까 \"신랑이 가볍고 따뜻하다면서 찐 만족했어요.\", \"가볍고 예쁘고 편해요!\" 이런 후기가 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "5% 할인 2만 원대",
+            "highlight": "2만 원대",
+            "narration": "평점 4.6점에 별 5개 비율만 75%예요! 지금 5% 할인된 27,450원인데 가격은 바뀔 수 있어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "5번에서 확인",
+            "highlight": "5번",
+            "narration": "프로필 링크에서 5번 확인하세요!",
+            "type": "normal"
+          }
+        ],
+        "description": "이번 주 네이버 인기 검색어 상위권 '경량패딩'!\n6천 개 이상의 후기와 평점 4.6점으로 검증된 캐럿 경량 범버 자켓입니다.\n가격 및 상세 정보는 프로필 링크에서 확인해 보세요.",
+        "hashtags": [
+          "#경량패딩",
+          "#경량자켓",
+          "#캐럿",
+          "#가성비패딩",
+          "#스포츠레저",
+          "#쿠팡추천템"
+        ]
+      },
+      "done": false
+    },
+    {
+      "number": 9,
+      "format": "top3_points",
+      "product": {
+        "keyword": "백팩",
+        "category": "패션잡화",
+        "trend_rank": "",
+        "search_url": "https://www.coupang.com/np/search?q=%EB%B0%B1%ED%8C%A9",
+        "partner_url": "https://link.coupang.com/a/hRUcBa3CLY",
+        "notes": "",
+        "price": "21900",
+        "name": "윤스미스 캐주얼 남여공용 레이백팩",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/1725/66828d0a11dc61bf3b6998d1354576abec28c9d62e4ecf9d2bbf90dab12c.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/ef68/8084ad394c9b471fb086a7a473017a8390fd278d448e6e6beec7a7ad132a.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/8383346653?itemId=24227870539",
+        "brand": "윤스미스",
+        "list_price": "49000",
+        "rating": "4.7",
+        "reviews": "422",
+        "buyers": "한 달간 100명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "아주 마음에드는 백팩 여행용으로도 좋아요."
+          },
+          {
+            "rating": 5,
+            "text": "편한 가방 강추"
+          },
+          {
+            "rating": 5,
+            "text": "받침대가 있어서 쳐지지 않음 !"
+          }
+        ],
+        "survey": [
+          {
+            "q": "디자인",
+            "a": "아주 마음에 들어요",
+            "n": 21,
+            "tot": 25
+          },
+          {
+            "q": "착용감",
+            "a": "아주 좋아요",
+            "n": 18,
+            "tot": 25
+          }
+        ],
+        "five_star_pct": "84",
+        "trend": "요즘 많이 찾는 '백팩'"
+      },
+      "script": {
+        "title": "정가 4만 원대가 지금 2만 원대? 가성비 끝판왕 백팩 #shorts",
+        "hook": "정가 4만 원대가 2만 원대?",
+        "hook_highlight": "2만 원대",
+        "scenes": [
+          {
+            "caption": "정가 4만 원대가 2만 원대?",
+            "highlight": "2만 원대",
+            "narration": "요즘 많이 찾는 백팩, 정가 4만 9천 원짜리가 지금 55% 할인해서 2만 천 원대예요!",
+            "type": "normal"
+          },
+          {
+            "caption": "가방 처질까 봐 걱정이라면?",
+            "highlight": "처질까 봐",
+            "narration": "백팩 멨을 때 바닥 축 처지는 거 싫으셨죠? 후기 보니까 디자인 마음에 든다는 평이 대부분이래요.",
+            "type": "normal"
+          },
+          {
+            "caption": "구매자 반응은?",
+            "highlight": "구매자 반응",
+            "narration": "실제 후기 보니까 \"받침대가 있어서 쳐지지 않음 !\", \"편한 가방 강추\" 이런 후기가 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "별 5개 비율 84%",
+            "highlight": "84%",
+            "narration": "쿠팡 평점 4.7점에 별 5개 비율이 84%나 되고, 후기 대부분이 착용감도 아주 좋대요.",
+            "type": "normal"
+          },
+          {
+            "caption": "프로필 링크 9번",
+            "highlight": "9번",
+            "narration": "한 달에 100명 이상 구매한 백팩! 가격은 바뀔 수 있으니 프로필 링크에서 9번 확인하세요.",
+            "type": "normal"
+          }
+        ],
+        "description": "네이버 인기 검색어 백팩! 윤스미스 캐주얼 남여공용 레이백팩을 55% 할인가로 만나보세요.\n쿠팡 평점 4.7점, 별 5개 비율 84%의 검증된 가성비 가방입니다.",
+        "hashtags": [
+          "#백팩추천",
+          "#가성비백팩",
+          "#학생백팩",
+          "#데일리백",
+          "#윤스미스"
+        ]
+      },
+      "done": false
+    }
+  ],
+  "threads": [
+    {
+      "kind": "tip",
+      "text": "냉장고 냉기 다 빠져나가는 흔한 실수\n\n혹시 냉장고 문 쪽 서랍에 식재료를 꽉 채워두고 계신가요?\n\n문 쪽은 온도 변화가 가장 심한 곳이라 쉽게 변질되는 식재료는 넣으면 안 돼요.\n게다가 너무 많이 쌓아두면 문이 미세하게 들려서 냉기가 새어나갈 수 있습니다.\n\n자주 꺼내는 음료나 소스류만 최소한으로 보관하고,\n나머지는 안쪽 신선실로 옮겨보세요.",
+      "photo_query": "refrigerator organizer shelf",
+      "done": false
+    },
+    {
+      "kind": "tip",
+      "text": "수건에서 꿉꿉한 냄새날 때 다들 어떻게 해결하세요?\n\n섬유유연제 아무리 많이 넣어도 말릴 때 냄새나면 정말 속상하죠.\n\n저는 요즘 세탁 마지막 헹굼 단계에 과탄산소다나 식초를 살짝 넣고 있는데,\n생각보다 냄새잡는 데 효과가 좋더라고요.\n\n여러분만의 수건 냄새 탈출 꿀팁이 있다면 댓글로 나눠주세요! 🧺",
+      "photo_query": "stacked fresh towels",
+      "done": false
+    },
+    {
+      "kind": "link",
+      "number": 7,
+      "product": {
+        "keyword": "멀티탭",
+        "category": "생활/건강",
+        "trend_rank": "",
+        "search_url": "https://www.coupang.com/np/search?q=%EB%A9%80%ED%8B%B0%ED%83%AD",
+        "partner_url": "https://link.coupang.com/a/hRT2NfWZbg",
+        "notes": "",
+        "price": "11900",
+        "name": "번개표 개별스위치 멀티탭 3구 WI-MC21633V",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/df1a/cc589644e35fb32e9313ec0ed6f5d713aac3f5f37cd8eea45800169725d4.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/3707798267566146-0ed3c3d7-0cb2-4840-bebd-6062bbd8b314.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1438394484381272-4c73726b-7fc5-4768-a3d4-a93a1d331611.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/845914405155033-eac5e8f6-3b92-4013-a527-215e1e4aa5f6.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1228308997196550-b3c310ab-968a-4edf-ad41-68d5c8a5ac4a.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/845915071376368-b90f7ed8-2c50-40a8-a2ac-02319705180a.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/218273168?itemId=675673605",
+        "brand": "번개표",
+        "rating": "4.8",
+        "reviews": "44182",
+        "buyers": "한 달간 5,000명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "우선 디자인이 정말 깔끔해요."
+          },
+          {
+            "rating": 5,
+            "text": "개별스위치로 편리함이 배가되는 멀티탭"
+          },
+          {
+            "rating": 5,
+            "text": "역시 번개표! 안전하고 개별 스위치라 절전까지 완벽해요"
+          }
+        ],
+        "survey": [
+          {
+            "q": "편리성",
+            "a": "아주 편리해요",
+            "n": 23,
+            "tot": 28
+          },
+          {
+            "q": "견고함",
+            "a": "아주 견고해요",
+            "n": 21,
+            "tot": 28
+          }
+        ],
+        "five_star_pct": "85",
+        "trend": "요즘 많이 찾는 '멀티탭'"
+      },
+      "text": "'멀티탭'이 이번 주 네이버 쇼핑 인기 검색어 상위권에 올랐네요.\n\n멀티탭을 고를 땐 전력 차단이 쉬운 개별 스위치가 있는지, 튼튼한지 확인하는 게 좋은데요.\n\n'번개표 개별스위치 멀티탭 3구'가 좋은 예시예요.\n쿠팡 상품평만 44,182개에 평점 4.8점이고, 한 달간 5,000명 이상 구매한 제품이에요.\n\n후기 대부분이 아주 편리하고 견고하대요.\n구매자 후기 중 \"개별스위치로 편리함이 배가되는 멀티탭\"이라는 평가도 있어요.\n\n링크는 답글에 둘게요.",
+      "done": false,
+      "format": "before_after",
+      "script": {
+        "title": "리뷰만 4만 4천 개 넘는 번개표 멀티탭 #shorts",
+        "hook": "리뷰만 4만4천개",
+        "hook_highlight": "4만4천개",
+        "scenes": [
+          {
+            "caption": "리뷰 4만4천개?",
+            "highlight": "4만4천개",
+            "narration": "쿠팡 상품평만 무려 4만 4천 개가 넘게 달린 멀티탭이 있어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "코드 뽑기 귀찮죠",
+            "highlight": "코드 뽑기",
+            "narration": "매번 플러그 뽑기 귀찮아서 그냥 꽂아두고 전기세 낭비하진 않으셨나요?",
+            "type": "normal"
+          },
+          {
+            "caption": "개별 스위치 장착",
+            "highlight": "개별 스위치",
+            "narration": "번개표 개별스위치 멀티탭은 3구마다 스위치가 있어서 안 쓰는 코드만 쏙 끌 수 있어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "후기 보니까",
+            "highlight": "후기 보니까",
+            "narration": "구매자 후기 중에 \"개별스위치로 편리함이 배가되는 멀티탭\" 이런 후기가 있어요. 후기 대부분이 아주 편리하고 견고하대요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "별 5개 비율 85%",
+            "highlight": "별 5개",
+            "narration": "별 5개 비율이 85%에 평점 4.8점인데 11,900원이에요. 가격은 바뀔 수 있어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "7번에서 확인",
+            "highlight": "7번",
+            "narration": "프로필 링크에서 7번 확인하세요!",
+            "type": "normal"
+          }
+        ],
+        "description": "한 달간 5,000명 이상 구매한 번개표 3구 개별스위치 멀티탭!\n낭비되는 대기전력 잡고 안전하게 사용해 보세요.",
+        "hashtags": [
+          "#멀티탭",
+          "#번개표",
+          "#개별스위치멀티탭",
+          "#살림템",
+          "#생활용품추천"
+        ]
+      }
+    },
+    {
+      "kind": "tip",
+      "text": "비 오는 날 젖은 가죽 신발 그냥 말리면 망합니다\n\n헤어드라이기 따뜻한 바람으로 말리면 가죽이 비틀리고 딱딱해져요.\n\n우선 마른 헝겊으로 겉면 물기를 가볍게 닦아낸 뒤,\n신발 안에 신문지를 구겨 넣어 형태를 잡고 습기를 흡수시켜 주세요.\n\n바람이 잘 통하는 그늘에서 천천히 말려야 가죽 손상 없이 오래 신을 수 있어요.",
+      "photo_query": "leather shoes drying",
+      "done": false
+    },
+    {
+      "kind": "tip",
+      "text": "메이크업 브러시 언제 마지막으로 세척하셨나요?\n\n오래 방치된 브러시는 피부 트러블의 주범이 될 수 있어요.\n\n미온수에 순한 샴푸나 전용 세정제를 풀어 살살 흔들어 씻어준 뒤,\n수건 위에서 모양을 잡아 그늘에 엎어 말려주시면 됩니다.\n\n주 1회만 투자해도 피부 바탕이 확실히 달라지는 게 느껴져요. ✨",
+      "photo_query": "makeup brush cleaning",
+      "done": false
+    },
+    {
+      "kind": "link",
+      "number": 6,
+      "product": {
+        "keyword": "가습기",
+        "category": "디지털/가전",
+        "trend_rank": "",
+        "search_url": "https://www.coupang.com/np/search?q=%EA%B0%80%EC%8A%B5%EA%B8%B0",
+        "partner_url": "https://link.coupang.com/a/hRTZ12ope8",
+        "notes": "",
+        "price": "28900",
+        "name": "홈플래닛 초음파 가습기 4L",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/323618008542155-4fc1aca1-01d2-410e-a476-9abb9c4030b6.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/3500060010998835-04afda23-56cc-4d24-aef4-9fc417475b4d.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1928694915703188-5af8fe0a-86ae-44f9-8ae8-04982eb4afdc.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/3500059598396648-0d25d3c4-cb8a-4f96-969b-bd6f43154137.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/3500059447877441-8ef36ec2-0252-42e8-8fc7-240a6d57872b.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1928694905803178-d94efb95-ca33-4606-a3e7-b919fa939a6d.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/324788226?itemId=3801974770",
+        "brand": "홈플래닛",
+        "list_price": "49500",
+        "rating": "4.6",
+        "reviews": "50779",
+        "buyers": "한 달간 6,000명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "넉넉한 용량의 가성비 좋은 가습기"
+          },
+          {
+            "rating": 5,
+            "text": "분사력 좋고 불빛 안 켜져서 만족!"
+          },
+          {
+            "rating": 5,
+            "text": "건조한 요즘 꼭 필요한 대용량 가습기"
+          }
+        ],
+        "survey": [
+          {
+            "q": "가성비",
+            "a": "성능에 비해 저렴해요",
+            "n": 20,
+            "tot": 28
+          },
+          {
+            "q": "디자인",
+            "a": "아주만족해요",
+            "n": 18,
+            "tot": 29
+          }
+        ],
+        "five_star_pct": "81",
+        "trend": "요즘 많이 찾는 '가습기'"
+      },
+      "text": "상품평만 50,779개인 가습기가 지금 41% 할인 중이에요.\n\n가습기 고를 땐 물을 자주 채우지 않아도 되는 넉넉한 용량과 가성비를 먼저 보게 되는데요.\n홈플래닛 초음파 가습기 4L가 그 기준에 잘 맞는 예시예요.\n\n정가 49,500원에서 지금 28,900원이고 평점은 4.6점이에요.\n구매자 후기 중 \"넉넉한 용량의 가성비 좋은 가습기\"라는 내용도 있더라고요.\n\n링크는 답글에 둘게요.",
+      "done": false,
+      "format": "dont_buy_instead",
+      "script": {
+        "title": "리뷰 5만개 쌓인 4L 가습기가 2만원대? #shorts",
+        "hook": "리뷰 5만개 넘은 가습기",
+        "hook_highlight": "5만개",
+        "scenes": [
+          {
+            "caption": "물 자꾸 채우면 후회",
+            "highlight": "후회",
+            "narration": "가습기 잘못 사면 밤마다 물 채우느라 잠 깨서 후회해요.",
+            "type": "normal"
+          },
+          {
+            "caption": "4L 대용량 가습기",
+            "highlight": "4L 대용량",
+            "narration": "그래서 다들 넉넉한 4L 대용량 홈플래닛 초음파 가습기로 고르고 있어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "구매자 후기 보니",
+            "highlight": "구매자 후기",
+            "narration": "구매자 후기 중에 \"분사력 좋고 불빛 안 켜져서 만족!\" 이런 후기가 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "한달 6천명 구매",
+            "highlight": "6천명 구매",
+            "narration": "한 달간 6천 명 이상 구매했고, 후기 대부분이 성능에 비해 저렴하대요.",
+            "type": "normal"
+          },
+          {
+            "caption": "41% 할인 진행 중",
+            "highlight": "41% 할인",
+            "narration": "정가 4만 9천5백 원에서 41% 할인해 지금 2만 8천9백 원이에요. 가격은 바뀔 수 있어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "프로필 링크 6번",
+            "highlight": "6번",
+            "narration": "요즘 네이버 인기 검색어인 가습기, 프로필 링크에서 6번 확인하세요!",
+            "type": "normal"
+          }
+        ],
+        "description": "용량 작은 가습기 사서 밤마다 물 채우느라 고생하셨나요? 평점 4.6점에 넉넉한 4L 홈플래닛 초음파 가습기를 확인해보세요.",
+        "hashtags": [
+          "#가습기",
+          "#대용량가습기",
+          "#초음파가습기",
+          "#홈플래닛",
+          "#가성비가습기"
+        ]
+      }
+    },
+    {
+      "kind": "tip",
+      "text": "운동 매트 땀 채로 말아서 보관하면 금방 상해요\n\n요가나 홈트레이닝 후 매트를 땀이 젖은 채로 꽉 말아두면\n재질이 부식되고 냄새가 뱁니다.\n\n사용 직후에는 마른 타월로 땀을 닦아내고,\n통풍이 잘되는 곳에 펴서 완전히 건조한 뒤 보관해야 오래 쓸 수 있어요.\n\n작은 관리 차이가 홈트 장비 수명을 늘려줍니다.",
+      "photo_query": "rolled yoga mat",
+      "done": false
+    },
+    {
+      "kind": "link",
+      "number": 8,
+      "product": {
+        "keyword": "바디로션",
+        "category": "화장품/미용",
+        "trend_rank": "",
+        "search_url": "https://www.coupang.com/np/search?q=%EB%B0%94%EB%94%94%EB%A1%9C%EC%85%98",
+        "partner_url": "https://link.coupang.com/a/hRT4DqntzU",
+        "notes": "",
+        "price": "12920",
+        "name": "세타필 모이스춰라이징 로션, 591ml, 1개",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/77276365654004-a842d9c0-df4d-44fe-82a3-5dc3bc7ba775.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/152158274932720-1c27a1fa-0d5b-4ee4-89e0-94f79b757a87.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/126398290305948-b35d50c8-7d0d-436b-8a96-b50a1fc7e22c.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/126398319694242-cc292646-b723-4454-b0e4-e3c21e18d972.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/13955999033964-f54a88ac-03d7-4df2-8075-f9a5edc2c8d0.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/14147395062108-fbdc3097-5d0d-4dd9-b5a7-270d85a2086b.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/7164345502?itemId=17686805619",
+        "brand": "세타필",
+        "list_price": "24500",
+        "rating": "4.8",
+        "reviews": "233516",
+        "buyers": "한 달간 7만명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "대용량인데 부드럽고 촉촉한 사계절 로션"
+          },
+          {
+            "rating": 5,
+            "text": "부드럽고 좋아요"
+          }
+        ],
+        "survey": [
+          {
+            "q": "보습력",
+            "a": "아주 만족해요",
+            "n": 28,
+            "tot": 30
+          },
+          {
+            "q": "발림성",
+            "a": "부드럽게 발라져요",
+            "n": 28,
+            "tot": 30
+          },
+          {
+            "q": "향 만족도",
+            "a": "아주만족해요",
+            "n": 22,
+            "tot": 30
+          }
+        ],
+        "five_star_pct": "86",
+        "trend": "요즘 많이 찾는 '바디로션'"
+      },
+      "text": "이번 주 네이버 쇼핑 인기 검색어 상위권인 바디로션, 지금 가격 비교해 보셨나요?\n\n바디로션을 고를 때는 대용량인지, 부드럽게 발리는지와 촉촉함이 오래가는지 살펴보는 게 좋아요.\n\n세타필 모이스춰라이징 로션 591ml는 정가 24,500원에서 지금 12,920원으로 47% 할인 중이에요.\n\n쿠팡 평점 4.8점과 상품평 233,516개가 있고, 쿠팡 상품 페이지에는 '한 달간 7만명 이상 구매했어요'라고 표시되어 있어요.\n\n쿠팡 전체 상품평 중 별 5개 비율은 86%예요.\n\n실제로 후기를 보면 발림성은 부드럽고 보습력은 아주 만족한다는 후기가 대부분이래요.\n\n구매자 후기 중 \"대용량인데 부드럽고 촉촉한 사계절 로션\" 이라는 평가도 있어요.\n\n링크는 답글에 둘게요",
+      "done": false,
+      "format": "price_check",
+      "script": {
+        "title": "리뷰 23만 개 터진 세타필 바디로션 47% 할인 #shorts",
+        "hook": "리뷰만 23만 개?",
+        "hook_highlight": "23만 개",
+        "scenes": [
+          {
+            "caption": "리뷰만 23만 개",
+            "highlight": "23만 개",
+            "narration": "쿠팡 상품평만 23만 개가 넘는 요즘 많이 찾는 바디로션이에요.",
+            "type": "normal"
+          },
+          {
+            "caption": "로션 고를 때 기준",
+            "highlight": "로션 고를 때",
+            "narration": "온 가족 바디로션 고를 땐 넉넉한 대용량과 부드러운 발림성이 필수죠.",
+            "type": "normal"
+          },
+          {
+            "caption": "구매자 반응은?",
+            "highlight": "구매자 반응",
+            "narration": "구매자 후기 중에 \"대용량인데 부드럽고 촉촉한 사계절 로션\", \"부드럽고 좋아요\" 이런 후기가 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "별5개 비율 86%",
+            "highlight": "86%",
+            "narration": "한 달간 7만 명 넘게 구매했고, 별 5개 비율 86%에 후기 대부분이 보습력과 발림성에 만족했대요.",
+            "type": "normal"
+          },
+          {
+            "caption": "지금 47% 할인",
+            "highlight": "47% 할인",
+            "narration": "591ml 대용량 정가 2만 4천 원대에서 지금 47% 할인 중이에요. 가격은 바뀔 수 있으니 프로필 링크에서 8번 확인하세요!",
+            "type": "normal"
+          }
+        ],
+        "description": "리뷰 23만 개로 입증된 촉촉한 보습 로션 세타필 대용량 591ml!\n한 달 7만 명 이상이 선택한 인기 바디로션을 만나보세요.",
+        "hashtags": [
+          "#세타필",
+          "#바디로션",
+          "#바디로션추천",
+          "#보습로션",
+          "#세타필로션",
+          "#쇼핑쇼츠"
+        ]
+      }
+    }
+  ]
+}
