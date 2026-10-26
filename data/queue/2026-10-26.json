@@ -96,7 +96,8 @@
           "#쿠팡추천템"
         ]
       },
-      "done": false
+      "done": true,
+      "url": "업로드 실패(텔레그램 전송)"
     },
     {
       "number": 9,
@@ -196,7 +197,8 @@
           "#윤스미스"
         ]
       },
-      "done": false
+      "done": true,
+      "url": "업로드 실패(텔레그램 전송)"
     }
   ],
   "threads": [
