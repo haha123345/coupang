@@ -1,0 +1,561 @@
+{
+  "day": "2026-10-28",
+  "shorts": [
+    {
+      "number": 3,
+      "format": "dont_buy_instead",
+      "product": {
+        "keyword": "등산화",
+        "category": "스포츠/레저",
+        "trend_rank": "",
+        "search_url": "https://www.coupang.com/np/search?q=%EB%93%B1%EC%82%B0%ED%99%94",
+        "partner_url": "https://link.coupang.com/a/hRTPC8j4Vg",
+        "notes": "",
+        "price": "27680",
+        "name": "유세븐 남성용 다이얼 운동화 트래킹화 DM907",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/187992871288890-a6f1a312-e18f-401d-8f08-33d2322bf755.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/313658257200773-a2df0e58-95d5-4d25-a254-68dc19a36b0d.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/5134439110075993-84a6b340-87a3-4c61-a4a0-74ff980b27eb.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/313658364725732-5c6904e8-0701-4ce7-809c-19727eb1302e.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/315933265130726-a644aa56-aafb-4e1e-a33e-b1809006c164.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/383043431802731-8f727839-789d-4ad6-ae6c-21fa6dc13661.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/5563046362?itemId=8831093285",
+        "brand": "유세븐",
+        "rating": "4.5",
+        "reviews": "8336",
+        "buyers": "한 달간 200명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "가볍고 편한 가성비 다이얼 등산화"
+          },
+          {
+            "rating": 5,
+            "text": "오래 신어도 발 편함"
+          },
+          {
+            "rating": 4,
+            "text": "발이 편해서 일상화로도 좋아요"
+          }
+        ],
+        "survey": [
+          {
+            "q": "색상",
+            "a": "화면과 같아요",
+            "n": 24,
+            "tot": 30
+          },
+          {
+            "q": "착용감",
+            "a": "아주 좋아요",
+            "n": 15,
+            "tot": 19
+          }
+        ],
+        "five_star_pct": "70",
+        "trend": "요즘 많이 찾는 '등산화'"
+      },
+      "script": {
+        "title": "리뷰 8천개 돌파! 2만원대 다이얼 등산화 #shorts",
+        "hook": "리뷰 8천개 달린",
+        "hook_highlight": "리뷰 8천개",
+        "scenes": [
+          {
+            "caption": "등산화 잘못 사면 후회",
+            "highlight": "잘못 사면 후회",
+            "narration": "무겁고 딱딱한데 매번 끈까지 묶어야 하는 등산화 사면 후회합니다.",
+            "type": "normal"
+          },
+          {
+            "caption": "다이얼로 드르륵!",
+            "highlight": "드르륵!",
+            "narration": "요즘 많이 찾는 등산화는 다이얼로 간편하게 조이는 유세븐 트래킹화예요.",
+            "type": "normal"
+          },
+          {
+            "caption": "구매자 반응은?",
+            "highlight": "구매자 반응",
+            "narration": "실제 후기 보니까 \"가볍고 편한 가성비 다이얼 등산화\"라는 후기가 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "별5개 비율 70%",
+            "highlight": "별5개 비율",
+            "narration": "쿠팡 상품평만 8천 개가 넘고, 착용감 설문 후기 대부분이 아주 좋대요.",
+            "type": "normal"
+          },
+          {
+            "caption": "2만 원대 미친 가성비",
+            "highlight": "2만 원대",
+            "narration": "가격은 27,680원인데 바뀔 수 있어요. 프로필 링크에서 3번 확인하세요!",
+            "type": "normal"
+          }
+        ],
+        "description": "네이버 인기 검색어 상위권 '등산화'! 다이얼로 착용감이 편한 유세븐 남성용 다이얼 트래킹화 DM907입니다.\n상품 정보 및 상세 설명은 프로필 링크에서 3번을 확인해주세요.",
+        "hashtags": [
+          "#등산화",
+          "#트래킹화",
+          "#유세븐",
+          "#다이얼운동화",
+          "#가성비등산화",
+          "#등산화추천"
+        ]
+      },
+      "done": false
+    },
+    {
+      "number": 6,
+      "format": "price_check",
+      "product": {
+        "keyword": "가습기",
+        "category": "디지털/가전",
+        "trend_rank": "",
+        "search_url": "https://www.coupang.com/np/search?q=%EA%B0%80%EC%8A%B5%EA%B8%B0",
+        "partner_url": "https://link.coupang.com/a/hRTZ12ope8",
+        "notes": "",
+        "price": "28900",
+        "name": "홈플래닛 초음파 가습기 4L",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/323618008542155-4fc1aca1-01d2-410e-a476-9abb9c4030b6.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/3500060010998835-04afda23-56cc-4d24-aef4-9fc417475b4d.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1928694915703188-5af8fe0a-86ae-44f9-8ae8-04982eb4afdc.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/3500059598396648-0d25d3c4-cb8a-4f96-969b-bd6f43154137.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/3500059447877441-8ef36ec2-0252-42e8-8fc7-240a6d57872b.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1928694905803178-d94efb95-ca33-4606-a3e7-b919fa939a6d.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/324788226?itemId=3801974770",
+        "brand": "홈플래닛",
+        "list_price": "49500",
+        "rating": "4.6",
+        "reviews": "50779",
+        "buyers": "한 달간 6,000명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "넉넉한 용량의 가성비 좋은 가습기"
+          },
+          {
+            "rating": 5,
+            "text": "분사력 좋고 불빛 안 켜져서 만족!"
+          },
+          {
+            "rating": 5,
+            "text": "건조한 요즘 꼭 필요한 대용량 가습기"
+          }
+        ],
+        "survey": [
+          {
+            "q": "가성비",
+            "a": "성능에 비해 저렴해요",
+            "n": 20,
+            "tot": 28
+          },
+          {
+            "q": "디자인",
+            "a": "아주만족해요",
+            "n": 18,
+            "tot": 29
+          }
+        ],
+        "five_star_pct": "81",
+        "trend": "요즘 많이 찾는 '가습기'"
+      },
+      "script": {
+        "title": "후기 5만 개 돌파한 대용량 가습기 추천 #shorts",
+        "hook": "후기 5만 개 달린 가습기",
+        "hook_highlight": "5만 개",
+        "scenes": [
+          {
+            "caption": "후기 5만 개 달린 가습기",
+            "highlight": "5만 개",
+            "narration": "후기만 5만 개 넘게 달린 요즘 인기 가습기 알고 계셨나요?",
+            "type": "normal"
+          },
+          {
+            "caption": "가습기 고르는 기준",
+            "highlight": "고르는 기준",
+            "narration": "건조한 요즘 가습기 고를 때 용량이랑 가성비 기준 맞추기 까다로우셨죠?",
+            "type": "normal"
+          },
+          {
+            "caption": "4L 대용량 가성비",
+            "highlight": "4L 대용량",
+            "narration": "홈플래닛 초음파 가습기는 4L 대용량에 후기 대부분이 성능에 비해 저렴하다고 해요.",
+            "type": "normal"
+          },
+          {
+            "caption": "구매자 실제 후기",
+            "highlight": "실제 후기",
+            "narration": "구매자 후기 중에 \"건조한 요즘 꼭 필요한 대용량 가습기\" 이런 후기가 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "41% 할인 2만 원대",
+            "highlight": "2만 원대",
+            "narration": "한 달간 6천 명 이상 구매하고 평점 4.6점인데 정가 49,500원에서 41% 할인된 28,900원이에요. 가격은 바뀔 수 있어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "프로필 링크 6번",
+            "highlight": "6번",
+            "narration": "더 자세한 상품 정보가 궁금하다면 프로필 링크에서 6번 확인하세요!",
+            "type": "normal"
+          }
+        ],
+        "description": "건조한 날씨에 꼭 필요한 대용량 가성비 홈플래닛 초음파 가습기 4L 정보입니다.\n할인율 및 가격 정보는 작성 시점 기준이며 변동될 수 있습니다.",
+        "hashtags": [
+          "#가습기",
+          "#홈플래닛가습기",
+          "#초음파가습기",
+          "#대용량가습기",
+          "#가성비가습기"
+        ]
+      },
+      "done": false
+    }
+  ],
+  "threads": [
+    {
+      "kind": "tip",
+      "text": "블라인드 사이먼저 먼지 쌓이는 거 아시죠.\n안 쓰는 양말에 집게를 끼우면 끝이에요.\n쓱 훑어주기만 해도 먼지가 싹 잡힙니다.\n힘들이지 말고 청소해 보세요.",
+      "photo_query": "cleaning blinds",
+      "done": true,
+      "url": "텔레그램 전송 (직접 게시)"
+    },
+    {
+      "kind": "tip",
+      "text": "아침마다 퉁퉁 붓는 얼굴, 고민이신가요.\n냉장고에 넣어둔 숟가락 두 개만 꺼내보세요.\n차가운 면으로 부드럽게 쓸어주면 가라앉아요.\n바쁜 출근길에 가볍게 해보기 좋습니다.",
+      "photo_query": "morning face",
+      "done": false
+    },
+    {
+      "kind": "link",
+      "number": 10,
+      "product": {
+        "keyword": "체중계",
+        "category": "생활/건강",
+        "trend_rank": "",
+        "search_url": "https://www.coupang.com/np/search?q=%EC%B2%B4%EC%A4%91%EA%B3%84",
+        "partner_url": "https://link.coupang.com/a/hRUekCNyr6",
+        "notes": "",
+        "price": "24900",
+        "name": "앳플리 T8 스마트 체성분 체중계",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/4648/4cfff6daadefc36564afb347ad0a4ec6306457b38045478adf0e9bec2f80.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/35667312256422-0c4f465c-63ef-437a-aef1-250f71d7ffd7.png",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/35667303329498-a3952d18-344b-40e3-9bff-314563af771d.png",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/993260058462269-b483fb8c-dbc7-4be7-9e97-e67b809f6403.png",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/35667313688878-d2747c26-3044-4e25-b7c7-a71ecb86ce78.png",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/993262840631229-1d2ccced-1c84-42ed-b36f-ecc5997c7e1c.png"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/245670231?itemId=778731488",
+        "brand": "앳플리",
+        "list_price": "38900",
+        "rating": "4.8",
+        "reviews": "68763",
+        "buyers": "한 달간 8,000명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "다이어트 시작하면서 구매한 체성분 체중계"
+          },
+          {
+            "rating": 5,
+            "text": "몸무게 기능은 충실!"
+          }
+        ],
+        "five_star_pct": "86",
+        "trend": "요즘 많이 찾는 '체중계'"
+      },
+      "text": "쿠팡 상품평만 68,763개가 달린 체중계가 있어요.\n\n체중계를 고를 때는 기본 측정 기능에 충실하고 가격 부담이 적은지 살펴보는 것이 중요합니다.\n\n'앳플리 T8 스마트 체성분 체중계'가 좋은 예시가 될 수 있는데요.\n\n정가 38,900원에서 35% 할인된 24,900원에 판매 중이며, 한 달간 8,000명 이상 구매한 제품입니다. 평점 4.8점에 별 5개 비율이 86%예요.\n\n구매자 후기 중 \"몸무게 기능은 충실!\"이라는 평가도 있습니다.\n\n링크는 답글에 둘게요.",
+      "done": false,
+      "format": "top3_points",
+      "script": {
+        "title": "후기 68,000개 달린 앳플리 체중계 할인! #shorts",
+        "hook": "후기만 6만 8천 개!",
+        "hook_highlight": "6만 8천 개",
+        "scenes": [
+          {
+            "caption": "후기 6만 8천 개!",
+            "highlight": "6만 8천 개",
+            "narration": "쿠팡 상품평만 68,763개가 달린 앳플리 스마트 체성분 체중계 알고 계신가요?",
+            "type": "normal"
+          },
+          {
+            "caption": "요즘 많이 찾는!",
+            "highlight": "많이 찾는",
+            "narration": "체중계는 이번 주 네이버 쇼핑 인기 검색어 상위권에 오를 만큼 다들 많이 찾고 계신데요.",
+            "type": "normal"
+          },
+          {
+            "caption": "구매자 반응은?",
+            "highlight": "구매자 반응",
+            "narration": "구매자 후기 중에 \"다이어트 시작하면서 구매한 체성분 체중계\"라는 평가와 \"몸무게 기능은 충실!\"이라는 후기가 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "별 5개 비율 86%",
+            "highlight": "86%",
+            "narration": "쿠팡 평점 4.8점에 별 5개 비율이 86%이고, 한 달간 8,000명 이상 구매했어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "지금 35% 할인",
+            "highlight": "35% 할인",
+            "narration": "정가 38,900원인데 지금 24,900원으로 35% 할인 중입니다. 가격은 바뀔 수 있으니 프로필 링크에서 10번 확인하세요!",
+            "type": "normal"
+          }
+        ],
+        "description": "쿠팡 평점 4.8점, 후기 68,000개 이상 달린 앳플리 T8 스마트 체성분 체중계!\n한 달간 8,000명 이상 구매한 인기 제품 할인 정보를 확인해 보세요.\n자세한 상품 스펙은 상세페이지에서 확인하실 수 있습니다.",
+        "hashtags": [
+          "#앳플리",
+          "#체중계",
+          "#체성분체중계",
+          "#스마트체중계",
+          "#앳플리체중계"
+        ]
+      }
+    },
+    {
+      "kind": "tip",
+      "text": "가죽 가방 보관할 때 신문지 넣으시나요.\n습기 잡으려다 오히려 잉크가 묻어날 수 있어요.\n차라리 깨끗한 종이나 에어캡을 넣어주세요.\n오 오래 깔끔하게 쓰는 소소한 방법입니다.",
+      "photo_query": "leather bag",
+      "done": false
+    },
+    {
+      "kind": "tip",
+      "text": "운동화 끈 매번 풀려서 귀찮았던 적 있으시죠.\n리본을 묶고 나서 한 번 더 꽉 꼬아주세요.\n진짜 신기할 정도로 잘 안 풀린답니다.\n사소하지만 엄청 편해지는 꿀팁이에요.",
+      "photo_query": "sneaker laces",
+      "done": false
+    },
+    {
+      "kind": "link",
+      "number": 8,
+      "product": {
+        "keyword": "바디로션",
+        "category": "화장품/미용",
+        "trend_rank": "",
+        "search_url": "https://www.coupang.com/np/search?q=%EB%B0%94%EB%94%94%EB%A1%9C%EC%85%98",
+        "partner_url": "https://link.coupang.com/a/hRT4DqntzU",
+        "notes": "",
+        "price": "12920",
+        "name": "세타필 모이스춰라이징 로션, 591ml, 1개",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/77276365654004-a842d9c0-df4d-44fe-82a3-5dc3bc7ba775.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/152158274932720-1c27a1fa-0d5b-4ee4-89e0-94f79b757a87.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/126398290305948-b35d50c8-7d0d-436b-8a96-b50a1fc7e22c.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/126398319694242-cc292646-b723-4454-b0e4-e3c21e18d972.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/13955999033964-f54a88ac-03d7-4df2-8075-f9a5edc2c8d0.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/14147395062108-fbdc3097-5d0d-4dd9-b5a7-270d85a2086b.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/7164345502?itemId=17686805619",
+        "brand": "세타필",
+        "list_price": "24500",
+        "rating": "4.8",
+        "reviews": "233516",
+        "buyers": "한 달간 7만명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "대용량인데 부드럽고 촉촉한 사계절 로션"
+          },
+          {
+            "rating": 5,
+            "text": "부드럽고 좋아요"
+          }
+        ],
+        "survey": [
+          {
+            "q": "보습력",
+            "a": "아주 만족해요",
+            "n": 28,
+            "tot": 30
+          },
+          {
+            "q": "발림성",
+            "a": "부드럽게 발라져요",
+            "n": 28,
+            "tot": 30
+          },
+          {
+            "q": "향 만족도",
+            "a": "아주만족해요",
+            "n": 22,
+            "tot": 30
+          }
+        ],
+        "five_star_pct": "86",
+        "trend": "요즘 많이 찾는 '바디로션'"
+      },
+      "text": "이번 주 네이버 쇼핑 인기 검색어 상위권에 올라온 '바디로션'!\n보습제 고를 때는 부드러운 발림성과 보습력을 잘 따져보는 게 중요한데요.\n\n이 조건에 잘 맞는 예시로 '세타필 모이스춰라이징 로션 591ml'가 있어요.\n쿠팡 상품평만 233,516개(평점 4.8점)에 한 달간 7만명 이상 구매한 제품이에요.\n\n정가 24,500원에서 47% 할인되어 지금 12,920원이에요.\n후기 대부분이 보습력에 아주 만족하고 부드럽게 발라진다고 해요.\n\n구매자 후기 중 \"대용량인데 부드럽고 촉촉한 사계절 로션\"이라는 평가도 참고해 보세요.\n\n링크는 답글에 둘게요!",
+      "done": false,
+      "format": "before_after",
+      "script": {
+        "title": "상품평만 23만개? 요즘 난리난 대용량 바디로션 할인 정보 #shorts",
+        "hook": "상품평 23만개 바디로션",
+        "hook_highlight": "23만개",
+        "scenes": [
+          {
+            "caption": "상품평 23만개 달린 로션",
+            "highlight": "23만개",
+            "narration": "상품평만 23만 개가 넘게 달린 요즘 많이 찾는 바디로션 알고 계신가요?",
+            "type": "normal"
+          },
+          {
+            "caption": "하얗게 뜨고 당기는 피부",
+            "highlight": "당기는 피부",
+            "narration": "피부 하얗게 뜨고 쩍쩍 갈라져서 계속 당기고 불편하셨죠?",
+            "type": "normal"
+          },
+          {
+            "caption": "구매자 반응은?",
+            "highlight": "구매자 반응",
+            "narration": "실제 구매자 후기 중에 \"대용량인데 부드럽고 촉촉한 사계절 로션\" 이런 후기가 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "후기 대부분 보습 만족",
+            "highlight": "보습 만족",
+            "narration": "후기 대부분이 보습력에 아주 만족하고 부드럽게 발린대요. 쿠팡 별 5개 비율도 86%나 돼요.",
+            "type": "normal"
+          },
+          {
+            "caption": "지금 47% 할인 중",
+            "highlight": "47% 할인",
+            "narration": "한 달간 7만 명 이상 구매한 세타필 로션, 정가 2만 4천5백 원에서 지금 47% 할인한 1만 2천9백2십 원이에요. 가격은 바뀔 수 있어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "프로필 링크 8번",
+            "highlight": "8번",
+            "narration": "대용량 촉촉한 바디로션 찾으셨다면 프로필 링크에서 8번 확인하세요!",
+            "type": "normal"
+          }
+        ],
+        "description": "상품평 23만 개 달린 세타필 모이스춰라이징 로션 591ml 특가 정보입니다.\n보습력과 발림성 후기가 좋은 대용량 바디로션을 47% 할인된 가격으로 만나보세요.\n자세한 제품 정보와 구매는 프로필 링크에서 8번을 확인해 주세요.",
+        "hashtags": [
+          "#세타필",
+          "#바디로션",
+          "#바디로션추천",
+          "#세타필로션",
+          "#보습로션",
+          "#대용량바디로션"
+        ]
+      }
+    },
+    {
+      "kind": "link",
+      "number": 7,
+      "product": {
+        "keyword": "멀티탭",
+        "category": "생활/건강",
+        "trend_rank": "",
+        "search_url": "https://www.coupang.com/np/search?q=%EB%A9%80%ED%8B%B0%ED%83%AD",
+        "partner_url": "https://link.coupang.com/a/hRT2NfWZbg",
+        "notes": "",
+        "price": "11900",
+        "name": "번개표 개별스위치 멀티탭 3구 WI-MC21633V",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/df1a/cc589644e35fb32e9313ec0ed6f5d713aac3f5f37cd8eea45800169725d4.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/3707798267566146-0ed3c3d7-0cb2-4840-bebd-6062bbd8b314.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1438394484381272-4c73726b-7fc5-4768-a3d4-a93a1d331611.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/845914405155033-eac5e8f6-3b92-4013-a527-215e1e4aa5f6.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1228308997196550-b3c310ab-968a-4edf-ad41-68d5c8a5ac4a.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/845915071376368-b90f7ed8-2c50-40a8-a2ac-02319705180a.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/218273168?itemId=675673605",
+        "brand": "번개표",
+        "rating": "4.8",
+        "reviews": "44182",
+        "buyers": "한 달간 5,000명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "우선 디자인이 정말 깔끔해요."
+          },
+          {
+            "rating": 5,
+            "text": "개별스위치로 편리함이 배가되는 멀티탭"
+          },
+          {
+            "rating": 5,
+            "text": "역시 번개표! 안전하고 개별 스위치라 절전까지 완벽해요"
+          }
+        ],
+        "survey": [
+          {
+            "q": "편리성",
+            "a": "아주 편리해요",
+            "n": 23,
+            "tot": 28
+          },
+          {
+            "q": "견고함",
+            "a": "아주 견고해요",
+            "n": 21,
+            "tot": 28
+          }
+        ],
+        "five_star_pct": "85",
+        "trend": "요즘 많이 찾는 '멀티탭'"
+      },
+      "text": "이번 주 네이버 쇼핑 인기 검색어 상위권에 오른 '멀티탭'! ⚡\n\n멀티탭 고를 땐 개별 스위치의 편리함과 제품의 견고함을 체크하는 게 중요한데요.\n\n'번개표 개별스위치 멀티탭 3구 WI-MC21633V'가 좋은 예시예요.\n\n가격은 11,900원이고 쿠팡에서 한 달간 5,000명 이상 구매, 평점 4.8점(상품평 44,182개)을 기록 중이에요. 후기 대부분이 편리하고 견고하대요.\n\n구매자 후기 중 \"개별스위치로 편리함이 배가되는 멀티탭\"이라는 내용도 있어요.\n\n링크는 답글에 둘게요!",
+      "done": false,
+      "format": "dont_buy_instead",
+      "script": {
+        "title": "리뷰만 4만 개 쌓인 멀티탭? 실패 없는 선택법 #shorts",
+        "hook": "리뷰 4만개 돌파",
+        "hook_highlight": "4만개",
+        "scenes": [
+          {
+            "caption": "리뷰 4만개 돌파",
+            "highlight": "4만개",
+            "narration": "쿠팡 리뷰만 4만 4천 개 넘게 달린 인기 멀티탭이 있다는 거 아셨나요?",
+            "type": "normal"
+          },
+          {
+            "caption": "이런 거 사면 후회",
+            "highlight": "사면 후회",
+            "narration": "개별 스위치 없는 거 사면 쓸 때마다 코드 뽑느라 불편해서 후회하기 십상인데요.",
+            "type": "normal"
+          },
+          {
+            "caption": "번개표 3구 멀티탭",
+            "highlight": "번개표",
+            "narration": "멀티탭 고를 땐 개별 스위치로 절전까지 가능한 번개표 3구 멀티탭을 확인해 보세요.",
+            "type": "normal"
+          },
+          {
+            "caption": "실제 후기 보니",
+            "highlight": "실제 후기",
+            "narration": "구매자 후기 중에 \"역시 번개표! 안전하고 개별 스위치라 절전까지 완벽해요\" 이런 후기가 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "한달 5천명 구매",
+            "highlight": "5천명 구매",
+            "narration": "한 달간 5천 명 이상 구매했고, 후기 대부분이 아주 편리하고 견고하다고 평가했어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "프로필에서 7번",
+            "highlight": "7번",
+            "narration": "가격은 11,900원인데 변동될 수 있으니 프로필 링크에서 7번 확인하세요!",
+            "type": "normal"
+          }
+        ],
+        "description": "네이버 인기 검색어 상위권 멀티탭! 개별 스위치로 편리하고 절전까지 챙긴 번개표 3구 멀티탭입니다.\n쿠팡 평점 4.8점에 구매자 만족도가 높은 상품이에요.",
+        "hashtags": [
+          "#멀티탭",
+          "#번개표멀티탭",
+          "#개별스위치멀티탭",
+          "#생활용품추천",
+          "#멀티탭추천",
+          "#쇼츠"
+        ]
+      }
+    }
+  ]
+}
