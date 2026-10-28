@@ -333,7 +333,8 @@
       "kind": "tip",
       "text": "운동화 끈 매번 풀려서 귀찮았던 적 있으시죠.\n리본을 묶고 나서 한 번 더 꽉 꼬아주세요.\n진짜 신기할 정도로 잘 안 풀린답니다.\n사소하지만 엄청 편해지는 꿀팁이에요.",
       "photo_query": "sneaker laces",
-      "done": false
+      "done": true,
+      "url": "텔레그램 전송 (직접 게시)"
     },
     {
       "kind": "link",
