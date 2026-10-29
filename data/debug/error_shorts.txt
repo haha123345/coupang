@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/home/runner/work/coupang/coupang/src/main.py", line 204, in <module>
+    COMMANDS[name]()
+  File "/home/runner/work/coupang/coupang/src/main.py", line 44, in cmd_shorts
+    if not _one_short():
+           ^^^^^^^^^^^^
+  File "/home/runner/work/coupang/coupang/src/main.py", line 66, in _one_short
+    raise RuntimeError("업로드 전 점검 실패: " + ", ".join(issues))
+RuntimeError: 업로드 전 점검 실패: 사용 경험처럼 보이는 표현: '내돈내산'
