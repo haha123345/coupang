@@ -465,7 +465,8 @@
       "kind": "tip",
       "text": "가죽 가방 관리, 이것만은 꼭!\n\n가죽 제품은 습기에 정말 약해요.\n비 오는 날엔 가급적 피하고, 보관할 때는 더스트백에 넣어 통풍이 잘되는 곳에 두세요.\n가끔씩 마른 천으로 결을 따라 닦아주는 것만으로도 수명이 길어집니다.",
       "photo_query": "leather handbag storage",
-      "done": false
+      "done": true,
+      "url": "텔레그램 전송 (직접 게시)"
     },
     {
       "kind": "link",
