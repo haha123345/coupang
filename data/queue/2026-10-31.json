@@ -380,7 +380,8 @@
       "kind": "tip",
       "text": "환절기만 되면 옷장 열기가 무섭지 않나요.\n\n드라이클리싱 맡기고 찾아온 비닐 커버는 바로 벗기는 게 좋아요.\n\n습기가 차서 옷감 상하는 원인이 되거든요.\n\n오늘 집에 가면 옷장 비닐부터 확인해보세요.",
       "photo_query": "wardrobe organization",
-      "done": false
+      "done": true,
+      "url": "텔레그램 전송 (직접 게시)"
     },
     {
       "kind": "link",
