@@ -1,0 +1,578 @@
+{
+  "day": "2026-11-02",
+  "shorts": [
+    {
+      "number": 9,
+      "format": "price_check",
+      "product": {
+        "keyword": "백팩",
+        "category": "패션잡화",
+        "trend_rank": "",
+        "search_url": "https://www.coupang.com/np/search?q=%EB%B0%B1%ED%8C%A9",
+        "partner_url": "https://link.coupang.com/a/hRUcBa3CLY",
+        "notes": "",
+        "price": "21900",
+        "name": "윤스미스 캐주얼 남여공용 레이백팩",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/1725/66828d0a11dc61bf3b6998d1354576abec28c9d62e4ecf9d2bbf90dab12c.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/ef68/8084ad394c9b471fb086a7a473017a8390fd278d448e6e6beec7a7ad132a.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/8383346653?itemId=24227870539",
+        "brand": "윤스미스",
+        "list_price": "49000",
+        "rating": "4.7",
+        "reviews": "422",
+        "buyers": "한 달간 100명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "아주 마음에드는 백팩 여행용으로도 좋아요."
+          },
+          {
+            "rating": 5,
+            "text": "편한 가방 강추"
+          },
+          {
+            "rating": 5,
+            "text": "받침대가 있어서 쳐지지 않음 !"
+          }
+        ],
+        "survey": [
+          {
+            "q": "디자인",
+            "a": "아주 마음에 들어요",
+            "n": 21,
+            "tot": 25
+          },
+          {
+            "q": "착용감",
+            "a": "아주 좋아요",
+            "n": 18,
+            "tot": 25
+          }
+        ],
+        "five_star_pct": "84",
+        "trend": "요즘 많이 찾는 '백팩'"
+      },
+      "script": {
+        "title": "55% 할인 가성비 대박 백팩 추천! 윤스미스 레이백팩 #shorts",
+        "hook": "55% 할인 백팩 추천",
+        "hook_highlight": "55% 할인",
+        "scenes": [
+          {
+            "caption": "요즘 많이 찾는 백팩",
+            "highlight": "많이 찾는",
+            "narration": "요즘 네이버에서 많이 찾는 인기 백팩, 가성비 제품으로 가져왔어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "가방 고를 때 고민?",
+            "highlight": "가방 고를 때",
+            "narration": "백팩 고를 때 짐 넣었을 때 쳐짐이나 디자인, 착용감이 정말 중요하잖아요.",
+            "type": "normal"
+          },
+          {
+            "caption": "구매자 실제 후기",
+            "highlight": "실제 후기",
+            "narration": "구매자 후기 중에 \"받침대가 있어서 쳐지지 않음 !\" 이런 후기가 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "후기 대부분 만족!",
+            "highlight": "대부분 만족",
+            "narration": "디자인과 착용감 후기 대부분이 아주 마음에 든다고 해요. 별 5개 비율도 84%나 됩니다.",
+            "type": "normal"
+          },
+          {
+            "caption": "정가 대비 55% 할인",
+            "highlight": "55% 할인",
+            "narration": "정가 4만 9천 원에서 지금 55% 할인된 2만 1천 9백 원이에요. 가격은 바뀔 수 있어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "프로필 링크 9번",
+            "highlight": "9번",
+            "narration": "더 자세한 상품 정보는 프로필 링크에서 9번 확인하세요.",
+            "type": "normal"
+          }
+        ],
+        "description": "쳐짐 방지 받침대에 남여공용 캐주얼 디자인까지 잡은 윤스미스 레이백팩!\n쿠팡 평점 4.7점의 갓성비 백팩을 55% 할인된 가격으로 확인해보세요.",
+        "hashtags": [
+          "#백팩",
+          "#윤스미스",
+          "#백팩추천",
+          "#가성비백팩",
+          "#남여공용백팩",
+          "#학생백팩",
+          "#데일리백팩"
+        ]
+      },
+      "done": false
+    },
+    {
+      "number": 4,
+      "format": "top3_points",
+      "product": {
+        "keyword": "행거",
+        "category": "가구/인테리어",
+        "trend_rank": "",
+        "search_url": "https://www.coupang.com/np/search?q=%ED%96%89%EA%B1%B0",
+        "partner_url": "https://link.coupang.com/a/hRTSV9OLQq",
+        "notes": "",
+        "price": "11290",
+        "name": "코멧 홈 베이직 스탠드 행거",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/1025_amir_coupang_oct_80k/c588/e85bd4f018c8326191ccfb2091f10f28c70e513b07cc186d7c02a96ab6ab.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2104525084152847-4a7989a9-f6f6-4ad2-8aa8-703c94388e8c.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/671233147813271-c841a8d8-0f7a-47e7-9828-3c1869b42edd.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2104524963836801-edae5ba2-73d9-4c3f-a711-2c660031468c.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1059695000010960-2accd851-44e2-466a-996d-d93e2b401162.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2107463971443625-6e26c2b7-0c2c-48ba-a94a-13f968cac9f1.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/1676362802?itemId=2856014459",
+        "brand": "코멧",
+        "list_price": "16990",
+        "rating": "4.7",
+        "reviews": "32276",
+        "buyers": "한 달간 3,000명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "깔끔하게 옷 정리하기 딱 좋아요!"
+          },
+          {
+            "rating": 5,
+            "text": "가성비 행거로 추천합니다!"
+          },
+          {
+            "rating": 5,
+            "text": "조립은 설명서를 보면서 순서대로 하니까 어렵지 않았어요."
+          }
+        ],
+        "survey": [
+          {
+            "q": "디자인",
+            "a": "아주 마음에 들어요",
+            "n": 27,
+            "tot": 29
+          },
+          {
+            "q": "사이즈",
+            "a": "딱 맞는 정사이즈예요",
+            "n": 22,
+            "tot": 29
+          },
+          {
+            "q": "크기",
+            "a": "적당해요",
+            "n": 21,
+            "tot": 29
+          }
+        ],
+        "five_star_pct": "85",
+        "trend": "요즘 많이 찾는 '행거'"
+      },
+      "script": {
+        "title": "리뷰 3만 개 넘은 가성비 행거 추천! #shorts",
+        "hook": "리뷰 3만개 스탠드 행거",
+        "hook_highlight": "3만개",
+        "scenes": [
+          {
+            "caption": "쌓이는 옷 고민 끝",
+            "highlight": "쌓이는 옷",
+            "narration": "매일 쌓이는 옷 때문에 방 정리가 안 돼서 고민이셨나요?",
+            "type": "normal"
+          },
+          {
+            "caption": "후기 대부분 대만족",
+            "highlight": "후기 대부분",
+            "narration": "후기 대부분이 디자인도 아주 마음에 들고 사이즈도 딱 적당하다고 해요.",
+            "type": "normal"
+          },
+          {
+            "caption": "구매자 실제 반응",
+            "highlight": "구매자 실제",
+            "narration": "구매자 후기 중에 \"깔끔하게 옷 정리하기 딱 좋아요!\" \"가성비 행거로 추천합니다!\" 이런 후기가 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "별 5개 비율 85%",
+            "highlight": "별 5개 비율",
+            "narration": "쿠팡 별 5개 비율 85%에 평점 4.7점으로 다들 만족하며 쓰는 상품이에요.",
+            "type": "normal"
+          },
+          {
+            "caption": "33% 특별 할인 중",
+            "highlight": "33% 특별 할인",
+            "narration": "정가 16,990원에서 지금 33% 할인된 11,290원이에요. 가격은 바뀔 수 있어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "프로필 4번 확인",
+            "highlight": "4번 확인",
+            "narration": "한 달간 3,000명 이상 구매한 깔끔한 행거, 프로필 링크에서 4번 확인하세요!",
+            "type": "normal"
+          }
+        ],
+        "description": "3만 개 이상의 후기로 검증된 코멧 홈 베이직 스탠드 행거!\n깔끔한 디자인과 적당한 크기로 옷 정리 고민을 단번에 해결해 줍니다.\n할인 정보는 프로필 링크에서 확인하세요.",
+        "hashtags": [
+          "#행거",
+          "#스탠드행거",
+          "#옷정리",
+          "#가성비행거",
+          "#코멧행거",
+          "#자취방인테리어"
+        ]
+      },
+      "done": false
+    }
+  ],
+  "threads": [
+    {
+      "kind": "tip",
+      "text": "매번 가구 배치 바꾸고 후회하신 적 있죠?\n\n방이 좁아 보일 때 가장 많이 하는 실수가 벽에 가구를 바짝 붙이는 거래요.\n\n오히려 가구 사이에 살짝 여백을 두고, 다리가 드러나는 낮은 가구를 놓으면 공간에 개방감이 생깁니다.\n\n작은 방 인테리어할 때 꼭 참고해 보세요.",
+      "photo_query": "minimalist room interior",
+      "done": false
+    },
+    {
+      "kind": "tip",
+      "text": "전자레인지 냄새 단 3분 만에 없애는 방법입니다. 🍋\n\n1. 물 한 컵에 귤껍질이나 레몬 조각을 넣습니다.\n2. 전자레인지에 넣고 3분간 돌려주세요.\n3. 문을 바로 열지 말고 2분간 두었다가 닦아내면 끝!\n\n수증기 덕분에 내부 때도 잘 닦이고 향긋해져요.",
+      "photo_query": "clean microwave oven",
+      "done": false
+    },
+    {
+      "kind": "link",
+      "number": 5,
+      "product": {
+        "keyword": "경량패딩",
+        "category": "스포츠/레저",
+        "trend_rank": "",
+        "search_url": "https://www.coupang.com/np/search?q=%EA%B2%BD%EB%9F%89%ED%8C%A8%EB%94%A9",
+        "partner_url": "https://link.coupang.com/a/hRTXRLi2Oi",
+        "notes": "",
+        "price": "27450",
+        "name": "캐럿 남여공용 경량 범버 자켓",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2465533582064153-7752de2d-2336-4aeb-b613-01eb0f88a5cc.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/168426823363596-9c91437d-a58a-42bd-9436-823094208644.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/182219802151154-66d661de-ef87-4a05-ab01-566831fd9624.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2215971820209582-5cd2927e-2d00-4e87-889c-5d4bc578278b.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1076440748091436-9777f534-75b5-4ed8-851e-0697183aa65f.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1076441593976869-1dec11c1-1483-4e1c-a3fe-5218ec976b2e.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/2111546173?itemId=3586762065",
+        "brand": "캐럿",
+        "list_price": "28900",
+        "rating": "4.6",
+        "reviews": "6136",
+        "buyers": "한 달간 100명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "신랑이 가볍고 따뜻하다면서 찐 만족했어요."
+          },
+          {
+            "rating": 5,
+            "text": "가볍고 예쁘고 편해요!"
+          },
+          {
+            "rating": 5,
+            "text": "밴딩 괜찮네요! 어떤 옷이던 두루두루 매치좋아요"
+          }
+        ],
+        "five_star_pct": "75",
+        "trend": "요즘 많이 찾는 '경량패딩'"
+      },
+      "text": "이번 주 네이버 쇼핑 인기 검색어로 '경량패딩'이 상위권에 올랐네요.\n\n경량패딩을 고를 땐 가벼움과 함께 다양한 옷에 두루 어울리는지 확인하는 게 중요해요.\n\n'캐럿 남여공용 경량 범버 자켓'이 이런 기준에 맞는 예시인데요. 쿠팡 상품평 6,136개, 평점 4.6점을 기록하고 있어요.\n\n구매자 후기 중 \"밴딩 괜찮네요! 어떤 옷이던 두루두루 매치좋아요\"라는 내용도 있네요.\n\n정가 28,900원에서 5% 할인된 27,450원에 확인됩니다.\n\n링크는 답글에 둘게요!",
+      "done": false,
+      "format": "before_after",
+      "script": {
+        "title": "리뷰 6천 개가 증명하는 경량패딩! 캐럿 경량 범버 자켓 #shorts",
+        "hook": "리뷰 6,100개 달린 경량패딩?",
+        "hook_highlight": "리뷰 6,100개",
+        "scenes": [
+          {
+            "caption": "리뷰 6,100개 달린 경량패딩?",
+            "highlight": "리뷰 6,100개",
+            "narration": "요즘 네이버에서 많이 찾는 경량패딩, 리뷰만 6,136개 달린 이 자켓 아셨나요?",
+            "type": "normal"
+          },
+          {
+            "caption": "쌀쌀한 날 겉옷 고민?",
+            "highlight": "겉옷 고민",
+            "narration": "요즘처럼 쌀쌀한 날씨에 무거운 아우터는 부담스럽고, 매번 겉옷 뭐 입을지 고민되셨죠?",
+            "type": "normal"
+          },
+          {
+            "caption": "캐럿 경량 범버 자켓!",
+            "highlight": "경량 범버 자켓",
+            "narration": "그럴 땐 캐럿 남여공용 경량 범버 자켓을 추천해요! 부담 없이 툭 걸치기 좋은 깔끔한 디자인입니다.",
+            "type": "normal"
+          },
+          {
+            "caption": "구매자 반응은?",
+            "highlight": "구매자 반응",
+            "narration": "구매자 후기 중에 \"가볍고 예쁘고 편해요!\"라는 후기가 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "별 5개 비율 75%!",
+            "highlight": "75%",
+            "narration": "쿠팡 평점 4.6점에 별 5개 비율이 75%나 돼요. 정가 28,900원에서 5% 할인해서 지금 27,450원이에요. 가격은 바뀔 수 있어요!",
+            "type": "normal"
+          },
+          {
+            "caption": "5번에서 확인하세요",
+            "highlight": "5번",
+            "narration": "데일리로 입기 좋은 경량 자켓 찾으신다면 프로필 링크에서 5번 확인하세요!",
+            "type": "normal"
+          }
+        ],
+        "description": "네이버 인기 검색어 상위권 경량패딩! 캐럿 남여공용 경량 범버 자켓 정보입니다. 평점 4.6점, 상품평 6,136개로 많은 분들이 찾으시는 상품입니다.",
+        "hashtags": [
+          "#경량패딩",
+          "#캐럿경량자켓",
+          "#경량범버자켓",
+          "#쇼츠추천",
+          "#스포츠레저"
+        ]
+      }
+    },
+    {
+      "kind": "tip",
+      "text": "흰색 운동화 빨 때 아직도 솔로 문지르시나요? 👟\n\n치약이나 세제로 빡빡 문지르면 신발 표면이 손상되기 쉬워요.\n\n따뜻한 물에 과탄산소다를 풀고 비닐봉지에 신발을 넣어 20분만 불려보세요.\n\n가볍게 헹구고 휴지로 감싸 말리면 황변도 안 생깁니다.\n\n다들 신발 관리 어떻게 하시는지 꿀팁 나눠주세요!",
+      "photo_query": "white sneakers cleaning",
+      "done": false
+    },
+    {
+      "kind": "tip",
+      "text": "환절기만 되면 화장이 하얗게 들뜨는 이유. 💡\n\n스킨케어를 아무리 듬뿍 발라도 들뜬다면 수분 흡수 방법의 문제일 수 있어요.\n\n토너를 손으로 톡톡 두드려 3번 레이어링해서 발라보세요.\n\n크림을 두껍게 바르는 것보다 피부 속까지 수분이 차올라 화장이 훨씬 잘 먹습니다.",
+      "photo_query": "skincare toner application",
+      "done": false
+    },
+    {
+      "kind": "link",
+      "number": 10,
+      "product": {
+        "keyword": "체중계",
+        "category": "생활/건강",
+        "trend_rank": "",
+        "search_url": "https://www.coupang.com/np/search?q=%EC%B2%B4%EC%A4%91%EA%B3%84",
+        "partner_url": "https://link.coupang.com/a/hRUekCNyr6",
+        "notes": "",
+        "price": "24900",
+        "name": "앳플리 T8 스마트 체성분 체중계",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/4648/4cfff6daadefc36564afb347ad0a4ec6306457b38045478adf0e9bec2f80.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/35667312256422-0c4f465c-63ef-437a-aef1-250f71d7ffd7.png",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/35667303329498-a3952d18-344b-40e3-9bff-314563af771d.png",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/993260058462269-b483fb8c-dbc7-4be7-9e97-e67b809f6403.png",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/35667313688878-d2747c26-3044-4e25-b7c7-a71ecb86ce78.png",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/993262840631229-1d2ccced-1c84-42ed-b36f-ecc5997c7e1c.png"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/245670231?itemId=778731488",
+        "brand": "앳플리",
+        "list_price": "38900",
+        "rating": "4.8",
+        "reviews": "68763",
+        "buyers": "한 달간 8,000명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "다이어트 시작하면서 구매한 체성분 체중계"
+          },
+          {
+            "rating": 5,
+            "text": "몸무게 기능은 충실!"
+          }
+        ],
+        "five_star_pct": "86",
+        "trend": "요즘 많이 찾는 '체중계'"
+      },
+      "text": "상품평만 68,763개가 쌓인 체중계가 있어요.\n\n체성분 체중계를 고를 땐 부담 없는 가격과 기본 기능의 충실함을 먼저 따져보는 게 좋습니다.\n\n'앳플리 T8 스마트 체성분 체중계'가 그 기준에 잘 맞는 예시예요.\n정가 38,900원에서 35% 할인해 24,900원에 올라와 있고, 한 달간 8,000명 이상 구매한 제품입니다.\n\n구매자 후기 중 \"몸무게 기능은 충실!\"이라는 평도 있네요. 📊\n\n링크는 답글에 둘게요!",
+      "done": false,
+      "format": "dont_buy_instead",
+      "script": {
+        "title": "리뷰 6만 개 넘는 체중계 실패 안 하는 선택법 #shorts",
+        "hook": "체중계 잘못 사면 후회!",
+        "hook_highlight": "잘못 사면",
+        "scenes": [
+          {
+            "caption": "체중계 잘못 사면 후회!",
+            "highlight": "잘못 사면",
+            "narration": "체중계 아무거나 샀다가 후회한 적 있으시죠? 리뷰 6만 8천 개가 넘는 요즘 네이버 인기 체중계가 있어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "몸무게만 보면 손해!",
+            "highlight": "몸무게만",
+            "narration": "단순 체중만 재는 것보다 체성분까지 꼼꼼하게 측정되는 체중계를 골라야 후회가 없어요. 바로 앳플리 T8 스마트 체성분 체중계인데요.",
+            "type": "normal"
+          },
+          {
+            "caption": "구매자 후기 보니",
+            "highlight": "구매자 후기",
+            "narration": "실제 후기 중에 \"다이어트 시작하면서 구매한 체성분 체중계\"라는 평가와 \"몸무게 기능은 충실!\"이라는 후기가 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "별5개 비율 86%",
+            "highlight": "86%",
+            "narration": "쿠팡 별 5개 비율이 86%나 되고, 한 달간 8천 명 이상 구매한 검증된 제품이에요.",
+            "type": "normal"
+          },
+          {
+            "caption": "지금 35% 할인 중!",
+            "highlight": "35% 할인",
+            "narration": "정가 38,900원인데 지금 35% 할인해서 24,900원에 구매할 수 있어요. 가격은 바뀔 수 있어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "프로필 링크 10번!",
+            "highlight": "10번",
+            "narration": "스마트한 체중계를 찾으신다면 프로필 링크에서 10번 확인하세요!",
+            "type": "normal"
+          }
+        ],
+        "description": "체중계 구매 전 꼭 확인해야 할 포인트!\n쿠팡 평점 4.8점, 한 달 8,000명 이상 구매한 앳플리 T8 스마트 체성분 체중계 정보를 확인해보세요.",
+        "hashtags": [
+          "#체중계",
+          "#앳플리T8",
+          "#체성분체중계",
+          "#스마트체중계",
+          "#체중계추천",
+          "#다이어트용품",
+          "#쇼핑숏츠"
+        ]
+      }
+    },
+    {
+      "kind": "tip",
+      "text": "운동 후 땀 밴 옷 냄새가 안 빠질 때! 🧺\n\n기능성 의류는 일반 세제로 빨아도 꿉꿉한 냄새가 남기 십상인데요.\n\n마지막 헹굼 단계에서 식초를 한 두 스푼 넣어주면 냄새가 깔끔하게 사라집니다.\n\n섬유유연제는 옷의 기능성을 떨어뜨리니 피하는 게 좋아요.",
+      "photo_query": "sports wear washing",
+      "done": false
+    },
+    {
+      "kind": "tip",
+      "text": "원두커피 찌꺼기 그냥 버리지 마세요. ☕\n\n잘 말린 커피 찌꺼기는 집 안 곳곳에서 탈취제로 쓰기 좋아요.\n\n신발장에 넣어두면 습기와 냄새를 잡아주고, 냉장고 구석에 두어도 효과적입니다.\n\n단, 곰팡이가 생기지 않게 완전히 바짝 말려서 써야 합니다!",
+      "photo_query": "dried coffee grounds",
+      "done": false
+    },
+    {
+      "kind": "link",
+      "number": 8,
+      "product": {
+        "keyword": "바디로션",
+        "category": "화장품/미용",
+        "trend_rank": "",
+        "search_url": "https://www.coupang.com/np/search?q=%EB%B0%94%EB%94%94%EB%A1%9C%EC%85%98",
+        "partner_url": "https://link.coupang.com/a/hRT4DqntzU",
+        "notes": "",
+        "price": "12920",
+        "name": "세타필 모이스춰라이징 로션, 591ml, 1개",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/77276365654004-a842d9c0-df4d-44fe-82a3-5dc3bc7ba775.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/152158274932720-1c27a1fa-0d5b-4ee4-89e0-94f79b757a87.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/126398290305948-b35d50c8-7d0d-436b-8a96-b50a1fc7e22c.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/126398319694242-cc292646-b723-4454-b0e4-e3c21e18d972.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/13955999033964-f54a88ac-03d7-4df2-8075-f9a5edc2c8d0.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/14147395062108-fbdc3097-5d0d-4dd9-b5a7-270d85a2086b.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/7164345502?itemId=17686805619",
+        "brand": "세타필",
+        "list_price": "24500",
+        "rating": "4.8",
+        "reviews": "233516",
+        "buyers": "한 달간 7만명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "대용량인데 부드럽고 촉촉한 사계절 로션"
+          },
+          {
+            "rating": 5,
+            "text": "부드럽고 좋아요"
+          }
+        ],
+        "survey": [
+          {
+            "q": "보습력",
+            "a": "아주 만족해요",
+            "n": 28,
+            "tot": 30
+          },
+          {
+            "q": "발림성",
+            "a": "부드럽게 발라져요",
+            "n": 28,
+            "tot": 30
+          },
+          {
+            "q": "향 만족도",
+            "a": "아주만족해요",
+            "n": 22,
+            "tot": 30
+          }
+        ],
+        "five_star_pct": "86",
+        "trend": "요즘 많이 찾는 '바디로션'"
+      },
+      "text": "요즘 네이버 쇼핑 인기 검색어 상위권에 '바디로션'이 자주 보이네요.\n\n바디로션을 고를 땐 넉넉한 용량과 부드러운 발림성을 확인하는 게 좋은데요.\n\n이 기준에 맞는 예시로 '세타필 모이스춰라이징 로션 591ml'가 있어요.\n쿠팡 평점 4.8점에 상품평 233,516개가 달렸고, 한 달간 7만 명 이상 구매한 제품입니다.\n\n현재 정가 24,500원에서 47% 할인되어 12,920원이에요.\n보습력과 발림성은 후기 대부분이 아주 만족하고 부드럽게 발린다고 해요.\n\n구매자 후기 중 \"대용량인데 부드럽고 촉촉한 사계절 로션\"이라는 글도 참고해 보세요.\n\n링크는 답글에 둘게요!",
+      "done": false,
+      "format": "price_check",
+      "script": {
+        "title": "한 달 7만 명이 선택한 대용량 바디로션 할인가! #shorts",
+        "hook": "한 달 7만 명 구매?",
+        "hook_highlight": "7만 명 구매",
+        "scenes": [
+          {
+            "caption": "한 달 7만 명 구매",
+            "highlight": "7만 명",
+            "narration": "한 달 만에 7만 명 넘게 구매한 인기 바디로션이 있다는 거 알고 계셨나요?",
+            "type": "normal"
+          },
+          {
+            "caption": "바디로션 고를 때",
+            "highlight": "고를 때",
+            "narration": "바디로션 고를 때는 매일 바르기 좋은 넉넉한 용량과 보습력이 가장 중요하죠.",
+            "type": "normal"
+          },
+          {
+            "caption": "591ml 넉넉한 용량",
+            "highlight": "591ml",
+            "narration": "세타필 모이스춰라이징 로션은 591ml 대용량이라 온가족이 부담 없이 바르기 좋습니다.",
+            "type": "normal"
+          },
+          {
+            "caption": "구매자 반응은?",
+            "highlight": "구매자 반응",
+            "narration": "구매자 후기를 보면 \"대용량인데 부드럽고 촉촉한 사계절 로션\" 이라는 평이 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "상품평 23만개!",
+            "highlight": "23만개",
+            "narration": "상품평 23만 개에 평점 4.8점! 정가 24,500원에서 47% 할인된 12,920원이에요. 가격은 바뀔 수 있어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "프로필 8번 클릭",
+            "highlight": "8번",
+            "narration": "후기 대부분이 보습력과 발림성에 아주 만족한 이 제품, 프로필 링크에서 8번 확인하세요!",
+            "type": "normal"
+          }
+        ],
+        "description": "네이버 인기 검색어 상위권 바디로션! 591ml 대용량 세타필 모이스춰라이징 로션을 특별 할인가로 만나보세요.\n후기 대부분이 부드러운 발림성과 보습력에 만족한 인기 아이템입니다.",
+        "hashtags": [
+          "#세타필",
+          "#바디로션",
+          "#바디로션추천",
+          "#보습로션",
+          "#대용량바디로션",
+          "#세타필로션",
+          "#쇼핑정보"
+        ]
+      }
+    }
+  ]
+}
