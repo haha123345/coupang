@@ -467,7 +467,8 @@
       "kind": "tip",
       "text": "가벼운 산책인 줄 알고 나갔다 발 아팠던 적 있나요?\n\n밑창이 너무 얇은 신발을 신고 걸으면\n발바닥에 피로가 금방 쌓이더라고요.\n\n근처를 걸을 때라도\n쿠션감 있는 운동화는 필수인가 봐요.",
       "photo_query": "running shoes outdoor",
-      "done": false
+      "done": true,
+      "url": "텔레그램 전송 (직접 게시)"
     },
     {
       "kind": "tip",
