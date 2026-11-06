@@ -2,186 +2,228 @@
   "day": "2026-11-06",
   "shorts": [
     {
-      "number": 10,
-      "format": "top3_points",
+      "number": 6,
+      "format": "before_after",
       "product": {
-        "keyword": "체중계",
-        "category": "생활/건강",
+        "keyword": "가습기",
+        "category": "디지털/가전",
         "trend_rank": "",
-        "search_url": "https://www.coupang.com/np/search?q=%EC%B2%B4%EC%A4%91%EA%B3%84",
-        "partner_url": "https://link.coupang.com/a/hRUekCNyr6",
+        "search_url": "https://www.coupang.com/np/search?q=%EA%B0%80%EC%8A%B5%EA%B8%B0",
+        "partner_url": "https://link.coupang.com/a/hRTZ12ope8",
         "notes": "",
-        "price": "24900",
-        "name": "앳플리 T8 스마트 체성분 체중계",
+        "price": "28900",
+        "name": "홈플래닛 초음파 가습기 4L",
         "image_urls": [
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/4648/4cfff6daadefc36564afb347ad0a4ec6306457b38045478adf0e9bec2f80.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/35667312256422-0c4f465c-63ef-437a-aef1-250f71d7ffd7.png",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/35667303329498-a3952d18-344b-40e3-9bff-314563af771d.png",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/993260058462269-b483fb8c-dbc7-4be7-9e97-e67b809f6403.png",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/35667313688878-d2747c26-3044-4e25-b7c7-a71ecb86ce78.png",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/993262840631229-1d2ccced-1c84-42ed-b36f-ecc5997c7e1c.png"
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/323618008542155-4fc1aca1-01d2-410e-a476-9abb9c4030b6.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/3500060010998835-04afda23-56cc-4d24-aef4-9fc417475b4d.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1928694915703188-5af8fe0a-86ae-44f9-8ae8-04982eb4afdc.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/3500059598396648-0d25d3c4-cb8a-4f96-969b-bd6f43154137.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/3500059447877441-8ef36ec2-0252-42e8-8fc7-240a6d57872b.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1928694905803178-d94efb95-ca33-4606-a3e7-b919fa939a6d.jpg"
         ],
-        "product_url": "https://www.coupang.com/vp/products/245670231?itemId=778731488",
-        "brand": "앳플리",
-        "list_price": "38900",
-        "rating": "4.8",
-        "reviews": "68763",
-        "buyers": "한 달간 8,000명 이상 구매했어요",
+        "product_url": "https://www.coupang.com/vp/products/324788226?itemId=3801974770",
+        "brand": "홈플래닛",
+        "list_price": "49500",
+        "rating": "4.6",
+        "reviews": "50779",
+        "buyers": "한 달간 6,000명 이상 구매했어요",
         "top_reviews": [
           {
             "rating": 5,
-            "text": "다이어트 시작하면서 구매한 체성분 체중계"
+            "text": "넉넉한 용량의 가성비 좋은 가습기"
           },
           {
             "rating": 5,
-            "text": "몸무게 기능은 충실!"
+            "text": "분사력 좋고 불빛 안 켜져서 만족!"
+          },
+          {
+            "rating": 5,
+            "text": "건조한 요즘 꼭 필요한 대용량 가습기"
           }
         ],
-        "five_star_pct": "86",
-        "trend": "요즘 많이 찾는 '체중계'"
+        "survey": [
+          {
+            "q": "가성비",
+            "a": "성능에 비해 저렴해요",
+            "n": 20,
+            "tot": 28
+          },
+          {
+            "q": "디자인",
+            "a": "아주만족해요",
+            "n": 18,
+            "tot": 29
+          }
+        ],
+        "five_star_pct": "81",
+        "trend": "요즘 많이 찾는 '가습기'"
       },
       "script": {
-        "title": "리뷰 6만 개 돌파! 요즘 다들 쓰는 앳플리 체중계 #shorts",
-        "hook": "리뷰 6만 개 달린 체중계",
-        "hook_highlight": "리뷰 6만 개",
+        "title": "건조할 때 꼭 필요한 대용량 가습기 #shorts",
+        "hook": "요즘 제일 많이 찾는",
+        "hook_highlight": "제일 많이 찾는",
         "scenes": [
           {
-            "caption": "요즘 다들 찾는 체중계",
-            "highlight": "다들 찾는",
-            "narration": "요즘 네이버 쇼핑 인기 검색어 상위권에 있는 체중계, 왜 이렇게 많이들 쓰는지 궁금하셨죠?",
+            "caption": "자고 일어나면 텁텁해",
+            "highlight": "텁텁해",
+            "narration": "자고 일어나면 코끝이 쩍쩍 갈라지는 건조한 요즘, 정말 답답하죠?",
             "type": "normal"
           },
           {
-            "caption": "체중만 재면 끝인가요?",
-            "highlight": "체중만",
-            "narration": "단순 몸무게 확인만으론 부족하니까, 체성분까지 한 번에 체크해서 효율적으로 관리해보세요.",
+            "caption": "건조한 요즘 필수",
+            "highlight": "필수",
+            "narration": "이럴 때 홈플래닛 초음파 가습기 4L 하나면 넉넉하게 대용량으로 촉촉해져요.",
             "type": "normal"
           },
           {
             "caption": "구매자 반응은?",
-            "highlight": "구매자",
-            "narration": "실제 후기들을 보면 \"다이어트 시작하면서 구매한 체성분 체중계\", \"몸무게 기능은 충실!\" 이런 평들이 있어요.",
+            "highlight": "구매자 반응",
+            "narration": "\"넉넉한 용량의 가성비 좋은 가습기\" 이런 후기가 있어요.",
             "type": "reviews"
           },
           {
-            "caption": "압도적인 만족도",
-            "highlight": "압도적인",
-            "narration": "쿠팡 상품평 6만 8천여 개에 평점 4.8점, 무려 별 5개 비율이 86%나 됩니다. 한 달간 8천 명 이상이 선택한 이유가 있죠.",
+            "caption": "다들 고르는 이유",
+            "highlight": "고르는 이유",
+            "narration": "쿠팡 평점 4.6점에 상품평이 5만 개가 넘고, 별 5개 비율도 81%나 돼요.",
             "type": "normal"
           },
           {
-            "caption": "지금 35% 할인 중",
-            "highlight": "35% 할인",
-            "narration": "정가 38,900원에서 지금 24,900원으로 할인 중입니다. 가격은 바뀔 수 있으니까 지금 확인해보세요.",
+            "caption": "지금 41% 할인",
+            "highlight": "41% 할인",
+            "narration": "정가 4만 9천 5백 원에서 지금 2만 8천 9백 원이에요. 가격은 바뀔 수 있어요.",
             "type": "normal"
           },
           {
             "caption": "프로필 링크 확인",
-            "highlight": "프로필 링크",
-            "narration": "더 자세한 정보가 궁금하다면 지금 바로 프로필 링크에서 10번을 확인하세요.",
+            "highlight": "링크 확인",
+            "narration": "프로필 링크에서 6번 확인하세요.",
             "type": "normal"
           }
         ],
-        "description": "리뷰 6만 개, 평점 4.8점의 앳플리 T8 스마트 체성분 체중계입니다. 지금 할인된 가격으로 만나보세요.",
+        "description": "건조한 요즘 꼭 필요한 홈플래닛 초음파 가습기 4L! 후기와 할인 정보를 영상에서 확인해보세요.",
         "hashtags": [
-          "#앳플리",
-          "#체중계",
-          "#스마트체중계",
-          "#체성분체중계",
-          "#다이어트",
-          "#살림템"
+          "#가습기",
+          "#대용량가습기",
+          "#초음파가습기",
+          "#홈플래닛가습기",
+          "#가성비가습기"
         ]
       },
       "done": false
     },
     {
-      "number": 2,
-      "format": "before_after",
+      "number": 4,
+      "format": "dont_buy_instead",
       "product": {
-        "keyword": "정수기",
-        "category": "디지털/가전",
+        "keyword": "행거",
+        "category": "가구/인테리어",
         "trend_rank": "",
-        "search_url": "https://www.coupang.com/np/search?q=%EC%A0%95%EC%88%98%EA%B8%B0",
-        "partner_url": "https://link.coupang.com/a/hRSTOwGVcO",
+        "search_url": "https://www.coupang.com/np/search?q=%ED%96%89%EA%B1%B0",
+        "partner_url": "https://link.coupang.com/a/hRTSV9OLQq",
         "notes": "",
-        "price": "750410",
-        "name": "퓨리얼 직수형 냉온정수기 방문설치",
+        "price": "11290",
+        "name": "코멧 홈 베이직 스탠드 행거",
         "image_urls": [
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/33869226632443-14a7ab27-3304-4113-bfca-d53b1f244fc5.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/97280521352511-d4e35cd7-23b7-4cb4-aa27-70304e7a54c1.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/357530743156885-d9886419-6c52-4cfc-ae6e-16379bb0d683.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/357535111276328-b1bd3070-a870-405c-9783-d37c1702b07b.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/357665500189162-d522de2e-5553-4eab-8cf1-76cf10b1631a.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/357542367753236-7c10a3df-ed5f-442b-8307-cfa8c337e61e.jpg"
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/1025_amir_coupang_oct_80k/c588/e85bd4f018c8326191ccfb2091f10f28c70e513b07cc186d7c02a96ab6ab.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2104525084152847-4a7989a9-f6f6-4ad2-8aa8-703c94388e8c.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/671233147813271-c841a8d8-0f7a-47e7-9828-3c1869b42edd.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2104524963836801-edae5ba2-73d9-4c3f-a711-2c660031468c.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1059695000010960-2accd851-44e2-466a-996d-d93e2b401162.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2107463971443625-6e26c2b7-0c2c-48ba-a94a-13f968cac9f1.jpg"
         ],
-        "product_url": "https://www.coupang.com/vp/products/55598788?itemId=193347901",
-        "brand": "퓨리얼",
-        "list_price": "899000",
-        "rating": "4.5",
-        "reviews": "407",
-        "desc": "현재 별점 4.5점, 리뷰 407개를 가진 퓨리얼 직수형 냉온정수기 방문설치! 지금 쿠팡에서 더 저렴하고 다양한 정수기 제품들을 확인해보세요.",
+        "product_url": "https://www.coupang.com/vp/products/1676362802?itemId=2856014459",
+        "brand": "코멧",
+        "list_price": "16990",
+        "rating": "4.7",
+        "reviews": "32276",
+        "buyers": "한 달간 3,000명 이상 구매했어요",
         "top_reviews": [
           {
             "rating": 5,
-            "text": "중간에 필터도 한번 셀프 교체했는데 너무 쉽네요."
+            "text": "깔끔하게 옷 정리하기 딱 좋아요!"
           },
           {
             "rating": 5,
-            "text": "냉온정수가 한번에! 컴팩트하고 깔끔한 퓨리얼 직수형!"
+            "text": "가성비 행거로 추천합니다!"
+          },
+          {
+            "rating": 5,
+            "text": "조립은 설명서를 보면서 순서대로 하니까 어렵지 않았어요."
           }
         ],
-        "five_star_pct": "76",
-        "trend": "요즘 많이 찾는 '정수기'"
+        "survey": [
+          {
+            "q": "디자인",
+            "a": "아주 마음에 들어요",
+            "n": 27,
+            "tot": 29
+          },
+          {
+            "q": "사이즈",
+            "a": "딱 맞는 정사이즈예요",
+            "n": 22,
+            "tot": 29
+          },
+          {
+            "q": "크기",
+            "a": "적당해요",
+            "n": 21,
+            "tot": 29
+          }
+        ],
+        "five_star_pct": "85",
+        "trend": "요즘 많이 찾는 '행거'"
       },
       "script": {
-        "title": "요즘 네이버에서 제일 많이 찾는 정수기, 16% 할인 중! #shorts",
-        "hook": "요즘 네이버 인기 검색어 1위, 정수기",
-        "hook_highlight": "인기 검색어 1위",
+        "title": "정가 1만 원대 코멧 스탠드 행거 #shorts",
+        "hook": "아무 행거나 사면 후회해요",
+        "hook_highlight": "후회해요",
         "scenes": [
           {
-            "caption": "물 사다 나르기 너무 힘들죠?",
-            "highlight": "너무 힘들죠",
-            "narration": "매번 물 사다 나르고, 플라스틱 쓰레기 치우느라 지치셨나요?",
+            "caption": "행거 대충 사면",
+            "highlight": "대충 사면",
+            "narration": "흔들리고 옷 처지는 행거 사면 금방 후회하죠.",
             "type": "normal"
           },
           {
-            "caption": "주방 공간 차지하는 정수기는 싫고",
-            "highlight": "공간 차지",
-            "narration": "주방은 좁은데 큰 정수기는 부담스럽다면 퓨리얼 직수형 정수기가 딱이에요.",
+            "caption": "요즘 많이 찾는 행거",
+            "highlight": "많이 찾는",
+            "narration": "요즘 네이버 쇼핑 인기 검색어 상위권인 행거, 다들 이걸로 고르는 이유가 있어요.",
             "type": "normal"
           },
           {
-            "caption": "실제 구매자 반응은?",
-            "highlight": "구매자 반응",
-            "narration": "실제 후기를 보면 \"냉온정수가 한번에! 컴팩트하고 깔끔한 퓨리얼 직수형!\"이라는 평과 \"중간에 필터도 한번 셀프 교체했는데 너무 쉽네요.\"라는 후기가 있어요.",
+            "caption": "구매자 반응은?",
+            "highlight": "반응은?",
+            "narration": "실제 구매자 후기 중에 \"깔끔하게 옷 정리하기 딱 좋아요!\" 이런 후기가 있어요.",
             "type": "reviews"
           },
           {
-            "caption": "별 5개 비율이 무려 76%!",
-            "highlight": "76%",
-            "narration": "쿠팡 평점 4.5점에 상품평 407개, 그중 별 5개 비율이 76%나 되니까 믿을 수 있죠.",
+            "caption": "후기 평점 4.7점",
+            "highlight": "4.7점",
+            "narration": "쿠팡 평점 4.7점에 상품평이 3만 개가 넘고, 별 5개 비율도 85%나 돼요.",
             "type": "normal"
           },
           {
-            "caption": "정가 89만 원대에서 75만 원대로!",
-            "highlight": "75만 원대",
-            "narration": "정가 899,000원에서 지금 750,410원으로 16% 할인 중이에요. 가격은 바뀔 수 있어요.",
+            "caption": "지금 1만 원대",
+            "highlight": "1만 원대",
+            "narration": "정가 16,990원에서 지금 11,290원으로 33% 할인 중! 가격은 바뀔 수 있어요.",
             "type": "normal"
           },
           {
-            "caption": "프로필 링크에서 2번 확인!",
-            "highlight": "2번",
-            "narration": "더 궁금하다면 프로필 링크에서 2번을 바로 확인해보세요.",
+            "caption": "프로필 링크 확인",
+            "highlight": "프로필 링크",
+            "narration": "프로필 링크에서 4번 확인하세요.",
             "type": "normal"
           }
         ],
-        "description": "요즘 네이버에서 가장 많이 찾는 퓨리얼 직수형 냉온정수기! 좁은 주방에 딱 맞는 컴팩트함과 쉬운 셀프 필터 교체까지. 지금 16% 할인된 가격으로 만나보세요.",
+        "description": "흔들리지 않고 깔끔한 코멧 홈 베이직 스탠드 행거! 3만 개 넘는 상품평과 할인된 가격으로 만나보세요. 프로필 링크에서 4번을 확인하세요.",
         "hashtags": [
-          "#퓨리얼정수기",
-          "#직수정수기",
-          "#주방가전",
-          "#살림꿀템",
-          "#정수기추천"
+          "#코멧",
+          "#스탠드행거",
+          "#옷걸이행거",
+          "#방꾸미기",
+          "#자취방인테리어",
+          "#쇼츠"
         ]
       },
       "done": false
@@ -190,17 +232,15 @@
   "threads": [
     {
       "kind": "tip",
-      "text": "가구 배치를 바꾸고 싶은데 고민이라면?\n\n무작정 가구를 옮기기 전에 도면을 먼저 그려보세요.\n그리드 종이에 가구 크기를 비례해서 잘라 붙여보면 동선 파악이 훨씬 쉽습니다.\n작은 수고가 큰 시행착오를 줄여줘요. 🛋️",
-      "photo_query": "floor plan layout",
-      "done": true,
-      "url": "텔레그램 전송 (직접 게시)"
+      "text": "가구 배치만 바꿔도 집이 넓어져요.\n\n방 입구에서 대각선 끝 지점을 가장 넓게 비워두세요.\n시선이 끝까지 닿아야 공간이 탁 트여 보입니다.\n큰 가구는 벽면에 밀착하고, 길목에 가구 두는 것만 피해도 삶의 질이 달라져요. 🏠",
+      "photo_query": "minimalist living room layout",
+      "done": false
     },
     {
       "kind": "tip",
-      "text": "전자레인지 청소, 혹시 그냥 닦기만 하시나요?\n\n물에 적신 키친타월을 넣고 2분만 돌려보세요.\n내부에 생긴 수증기가 굳은 기름때를 불려줘서 가볍게 닦아내기만 하면 끝이에요.\n청소 시간이 절반으로 줄어듭니다.",
-      "photo_query": "microwave cleaning steam",
-      "done": true,
-      "url": "텔레그램 전송 (직접 게시)"
+      "text": "전자레인지 냄새, 이렇게 없애보세요.\n\n그릇에 물과 식초를 1:1로 섞어 3분만 돌려보세요.\n증기가 내부를 코팅해서 냄새는 물론 찌든 때까지 쉽게 닦입니다.\n마른 행주로 한 번 슥 닦아내면 끝이에요.",
+      "photo_query": "cleaning microwave vinegar",
+      "done": false
     },
     {
       "kind": "link",
@@ -265,198 +305,72 @@
         "five_star_pct": "86",
         "trend": "요즘 많이 찾는 '비데'"
       },
-      "text": "이번 주 네이버 쇼핑 비데 검색어 상위권인 이유가 있네요. 쿠팡에서만 한 달간 2,000명 이상이 선택한 '블루밍 안심세척 방수비데'입니다.\n\n비데 고를 땐 세척이 간편한지, 설치가 쉬운지, 가격 대비 성능이 좋은지 따져봐야 하는데요.\n\n현재 정가 299,000원에서 44% 할인된 164,900원에 판매 중이에요. 상품평 16,629개에 평점 4.7점으로, 별 5개 비율이 86%에 달합니다.\n\n사용자들 후기 대부분이 세척이 편리하고 설치도 쉬우며, 성능에 비해 저렴해서 만족스럽다고 하네요.\n\n구매자 후기 중 \"반영구 필터와 스파기능이 있어 만족스럽네요\"라는 의견도 있습니다. 가성비 좋은 비데 찾으시는 분들께 참고가 되길 바라요.\n\n링크는 답글에 둘게요.",
-      "done": true,
-      "format": "dont_buy_instead",
-      "script": {
-        "title": "비데 살 때 이것만 피하세요, 고민 끝! 블루밍 안심세척 방수비데 #shorts",
-        "hook": "리뷰 1만 6천 개 달린 비데",
-        "hook_highlight": "1만 6천 개",
-        "scenes": [
-          {
-            "caption": "비데 고를 때 실패 없는 법",
-            "highlight": "실패 없는 법",
-            "narration": "아무거나 샀다가 세척 어렵고 설치 복잡해서 후회하시죠? 비데 고를 때 딱 세 가지만 확인하세요.",
-            "type": "normal"
-          },
-          {
-            "caption": "구매자 반응은?",
-            "highlight": "구매자 반응",
-            "narration": "실제 구매자 후기 중에 \"반영구 필터와 스파기능이 있어 만족스럽네요\", \"편하고 수압 좋아요\" 이런 후기가 있어요.",
-            "type": "reviews"
-          },
-          {
-            "caption": "왜 다들 이걸 살까?",
-            "highlight": "왜 다들",
-            "narration": "후기 대부분이 세척은 편리하고 설치는 쉽대요. 성능에 비해 저렴하다는 평도 많고요. 쿠팡 평점 4.7점에 별 5개 비율이 86%나 되거든요.",
-            "type": "normal"
-          },
-          {
-            "caption": "한 달간 2천 명 선택",
-            "highlight": "2천 명",
-            "narration": "이번 주 네이버 인기 검색어에도 오른 제품인데요. 한 달간 2천 명 이상이 구매할 정도로 인기예요.",
-            "type": "normal"
-          },
-          {
-            "caption": "지금 44% 할인 중",
-            "highlight": "44% 할인",
-            "narration": "정가 299,000원에서 지금 164,900원에 만날 수 있어요. 가격은 바뀔 수 있으니 서두르세요.",
-            "type": "normal"
-          },
-          {
-            "caption": "프로필 링크 1번 확인",
-            "highlight": "1번",
-            "narration": "지금 바로 프로필 링크에서 1번, 블루밍 안심세척 방수비데를 확인하세요.",
-            "type": "normal"
-          }
-        ],
-        "description": "비데 고민 이제 그만! 설치 쉽고 세척 편리한 블루밍 안심세척 방수비데를 소개합니다. 평점 4.7점의 검증된 선택, 지금 할인된 가격으로 만나보세요.",
-        "hashtags": [
-          "#블루밍비데",
-          "#비데추천",
-          "#화장실인테리어",
-          "#욕실용품",
-          "#생활꿀팁"
-        ]
-      },
-      "url": "텔레그램 전송 (직접 게시)"
-    },
-    {
-      "kind": "tip",
-      "text": "환절기 피부 관리, 다들 어떻게 하고 계신가요?\n\n저는 유독 요즘 건조함이 심해져서 루틴을 바꿨어요.\n여러분은 아침 세안 때 물로만 하시나요, 아니면 폼클렌저를 꼭 쓰시나요?\n각자만의 피부 보습 팁이 있다면 공유해주세요. ✨",
-      "photo_query": "skincare routine flatlay",
-      "done": true,
-      "url": "텔레그램 전송 (직접 게시)"
-    },
-    {
-      "kind": "tip",
-      "text": "외출 후 집에 돌아왔을 때 옷 관리의 정석\n\n벗어둔 외투를 바로 옷장에 넣지 마세요.\n최소 30분은 통풍이 잘되는 곳에 걸어두어야 옷감 사이에 밴 냄새와 습기가 날아갑니다.\n옷의 수명을 늘리는 가장 쉬운 습관이에요.",
-      "photo_query": "clothes hanger air ventilation",
-      "done": false
-    },
-    {
-      "kind": "link",
-      "number": 6,
-      "product": {
-        "keyword": "가습기",
-        "category": "디지털/가전",
-        "trend_rank": "",
-        "search_url": "https://www.coupang.com/np/search?q=%EA%B0%80%EC%8A%B5%EA%B8%B0",
-        "partner_url": "https://link.coupang.com/a/hRTZ12ope8",
-        "notes": "",
-        "price": "28900",
-        "name": "홈플래닛 초음파 가습기 4L",
-        "image_urls": [
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/323618008542155-4fc1aca1-01d2-410e-a476-9abb9c4030b6.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/3500060010998835-04afda23-56cc-4d24-aef4-9fc417475b4d.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1928694915703188-5af8fe0a-86ae-44f9-8ae8-04982eb4afdc.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/3500059598396648-0d25d3c4-cb8a-4f96-969b-bd6f43154137.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/3500059447877441-8ef36ec2-0252-42e8-8fc7-240a6d57872b.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1928694905803178-d94efb95-ca33-4606-a3e7-b919fa939a6d.jpg"
-        ],
-        "product_url": "https://www.coupang.com/vp/products/324788226?itemId=3801974770",
-        "brand": "홈플래닛",
-        "list_price": "49500",
-        "rating": "4.6",
-        "reviews": "50779",
-        "buyers": "한 달간 6,000명 이상 구매했어요",
-        "top_reviews": [
-          {
-            "rating": 5,
-            "text": "넉넉한 용량의 가성비 좋은 가습기"
-          },
-          {
-            "rating": 5,
-            "text": "분사력 좋고 불빛 안 켜져서 만족!"
-          },
-          {
-            "rating": 5,
-            "text": "건조한 요즘 꼭 필요한 대용량 가습기"
-          }
-        ],
-        "survey": [
-          {
-            "q": "가성비",
-            "a": "성능에 비해 저렴해요",
-            "n": 20,
-            "tot": 28
-          },
-          {
-            "q": "디자인",
-            "a": "아주만족해요",
-            "n": 18,
-            "tot": 29
-          }
-        ],
-        "five_star_pct": "81",
-        "trend": "요즘 많이 찾는 '가습기'"
-      },
-      "text": "요즘 건조해서 그런지 네이버 쇼핑에서 '가습기' 검색량이 정말 많네요. 상품평만 5만 개가 넘는 가습기를 살펴봤습니다.\n\n가습기를 고를 때는 용량과 분사력, 그리고 밤에 방해되지 않는지 확인하는 게 중요하죠. 이 제품은 그런 면에서 인기가 많은가 봐요.\n\n홈플래닛 초음파 가습기 4L는 현재 정가 대비 41% 할인된 28,900원에 판매 중입니다. 한 달간 6,000명 이상이 구매할 정도로 반응이 뜨겁네요.\n\n구매자 후기 대부분이 가성비와 깔끔한 디자인에 만족한다고 합니다. 특히 별 5개 비율이 81%로 높아요.\n\n구매자 후기 중 \"넉넉한 용량의 가성비 좋은 가습기\"라는 평이 눈에 띄네요. 성능이나 소음 면에서도 평이 좋은 편입니다.\n\n링크는 답글에 둘게요.",
+      "text": "요즘 비데가 네이버 쇼핑 인기 검색어 상위권이더라고요. 비데 고를 때는 세척하기 편한지와 가격이 합리적인지 보는 게 좋아요.\n\n블루밍 안심세척 방수비데는 정가 299,000원에서 지금 164,900원으로 44% 할인 중이에요.\n\n쿠팡 평점 4.7점, 상품평 16,629개에 쿠팡 상품 페이지에 '한 달간 2,000명 이상 구매했어요'라고 표시되어 있네요.\n\n후기 대부분이 세척 편리성이 편리해요, 설치 난이도가 쉬워요, 가성비가 성능에 비해 저렴해요라고 하네요.\n\n구매자 후기 중 \"반영구 필터와 스파기능이 있어 만족스럽네요\"라는 평도 있어요.\n\n링크는 답글에 둘게요.",
       "done": false,
       "format": "price_check",
       "script": {
-        "title": "상품평 5만 개 넘는 가성비 대용량 가습기 #shorts",
-        "hook": "상품평 5만 개의 비밀",
-        "hook_highlight": "5만 개",
+        "title": "정가 29만 원인데 지금 16만 원대?! #shorts",
+        "hook": "리뷰 1만 6천 개",
+        "hook_highlight": "1만 6천 개",
         "scenes": [
           {
-            "caption": "요즘 대세 가습기?",
-            "highlight": "대세 가습기",
-            "narration": "요즘 날씨 건조해서 가습기 찾으시죠? 네이버 인기 검색어 상위권에 상품평만 5만 개 넘는 가습기가 있어요.",
-            "type": "normal"
-          },
-          {
-            "caption": "가습기 고르는 기준",
-            "highlight": "고르는 기준",
-            "narration": "가습기 고를 땐 용량이랑 가성비를 잘 따져봐야 하는데요.",
-            "type": "normal"
-          },
-          {
-            "caption": "4L 대용량 초음파",
-            "highlight": "4L 대용량",
-            "narration": "홈플래닛 초음파 가습기 4L는 넉넉한 용량에 평점 4.6점, 별 5개 비율이 81%나 돼요.",
+            "caption": "요즘 제일 핫한",
+            "highlight": "제일 핫한",
+            "narration": "요즘 네이버 쇼핑 인기 검색어 상위권에 든 비데, 다들 어떤 걸로 고를지 고민이시죠?",
             "type": "normal"
           },
           {
             "caption": "구매자 반응은?",
             "highlight": "구매자 반응",
-            "narration": "후기 보니까 \"분사력 좋고 불빛 안 켜져서 만족!\"이라는 후기가 있고, 후기 대부분이 성능에 비해 저렴하대요.",
+            "narration": "구매자 후기 중에 \"반영구 필터와 스파기능이 있어 만족스럽네요\" 이런 후기가 있어요.",
             "type": "reviews"
           },
           {
-            "caption": "41% 할인 2만원대",
-            "highlight": "41% 할인",
-            "narration": "한 달간 6,000명 이상 구매했고 정가 49,500원에서 41% 할인된 28,900원이에요. 가격은 바뀔 수 있어요.",
+            "caption": "선택할 때 기준은",
+            "highlight": "기준은",
+            "narration": "비데 고를 때 가격대부터 세척이랑 설치까지 꼼꼼히 보셔야 하는데요. 후기 설문을 보면 설치나 세척이 쉽고 편리하다는 평이 많고, 성능에 비해 저렴하다는 의견도 많아요.",
             "type": "normal"
           },
           {
-            "caption": "프로필 링크 6번",
-            "highlight": "6번",
-            "narration": "가성비 좋은 대용량 가습기, 프로필 링크에서 6번 확인하세요!",
+            "caption": "다 고르는 이유",
+            "highlight": "이유",
+            "narration": "쿠팡 평점 4.7점에 상품평이 16,629개나 되고요. 별 5개 비율이 86%에 달해요. 한 달간 2,000명 이상이 구매했을 정도로 인기가 많답니다.",
+            "type": "normal"
+          },
+          {
+            "caption": "지금 엄청난 할인",
+            "highlight": "엄청난 할인",
+            "narration": "정가 299,000원에서 지금 164,900원으로 44% 할인 중이에요. 가격은 바뀔 수 있으니까 서두르세요!",
+            "type": "normal"
+          },
+          {
+            "caption": "프로필 1번 확인",
+            "highlight": "1번 확인",
+            "narration": "블루밍 안심세척 방수비데, 프로필 링크에서 1번 확인하세요!",
             "type": "normal"
           }
         ],
-        "description": "쿠팡 평점 4.6점, 상품평 5만 개 이상 달린 홈플래닛 초음파 가습기 4L! 한 달간 6천 명 이상 구매한 가성비 대용량 가습기를 확인해보세요.",
+        "description": "리뷰 1만 6천 개 돌파한 블루밍 안심세척 방수비데! 지금 44% 할인된 가격으로 만나보세요. 자세한 스펙과 정보는 상세페이지에서 꼭 확인하세요.",
         "hashtags": [
-          "#가습기",
-          "#가습기추천",
-          "#홈플래닛",
-          "#초음파가습기",
-          "#대용량가습기",
-          "#가성비가습기"
+          "#블루밍비데",
+          "#방수비데",
+          "#욕실인테리어",
+          "#자취생필수품",
+          "#생활가전",
+          "#shorts"
         ]
       }
     },
     {
       "kind": "tip",
-      "text": "운동 시작 전에 이것부터 체크해보세요\n\n운동복을 고를 때 면 소재만 고집하진 않으시나요?\n땀 흡수가 빠른 기능성 소재를 입어야 운동 중 체온 조절이 잘 되고 피부 트러블도 줄어들어요.\n가벼운 운동이라도 복장이 중요합니다. 👟",
-      "photo_query": "activewear gym gear",
+      "text": "아직도 아침마다 물을 드시나요?\n\n자기 전 머리맡에 둔 물컵, 그대로 마시고 계시진 않죠?\n밤새 공기 중 먼지가 앉았을 수 있으니 아침엔 새로 받은 물로 시작해 보세요.\n사소한 습관 하나가 아침을 더 개운하게 만듭니다. 💧",
+      "photo_query": "glass water bedside",
       "done": false
     },
     {
       "kind": "tip",
-      "text": "가방 속에 굴러다니는 영수증과 쓰레기들\n\n매일 밤 가방을 비우는 습관을 가져보세요.\n가방 무게가 가벼워질 뿐만 아니라, 필요 없는 물건을 정리하는 것만으로도 내일의 준비가 한결 편해집니다.\n오늘 가방 속은 안녕하신가요?",
-      "photo_query": "organized leather bag",
+      "text": "운동화 끈, 매번 풀리시나요?\n\n끈을 묶을 때 마지막 고리를 두 번 감아보세요.\n이른바 '두 번 매듭' 방식인데, 훨씬 단단해서 잘 풀리지 않습니다.\n운동할 때 끈 신경 안 써도 되니 집중력이 올라가요.",
+      "photo_query": "tying shoelaces knot",
       "done": false
     },
     {
@@ -515,58 +429,185 @@
         "five_star_pct": "70",
         "trend": "요즘 많이 찾는 '등산화'"
       },
-      "text": "'등산화'가 이번 주 네이버 쇼핑 인기 검색어 상위권에 올랐어요.\n\n가성비 등산화를 고를 땐 착용감이 편하고 다이얼식으로 조절이 쉬운지 살펴보는 게 좋아요.\n\n유세븐 남성용 다이얼 운동화 트래킹화 DM907이 좋은 예시예요. 27,680원에 쿠팡 상품평이 8,336개, 평점 4.5점입니다.\n\n후기 대부분이 착용감이 아주 좋고 색상도 화면과 같다고 해요.\n구매자 후기 중 \"가볍고 편한 가성비 다이얼 등산화\"라는 평가도 있어요.\n\n링크는 답글에 둘게요 👟",
+      "text": "이번 주 네이버 쇼핑 인기 검색어 상위권에 오른 '등산화', 고를 때는 가벼움과 편안함을 꼭 확인해 보세요.\n\n유세븐 남성용 다이얼 운동화 트래킹화 DM907은 쿠팡 평점 4.5점에 상품평 8,336개를 기록 중인 제품이에요. 한 달간 200명 이상 구매했어요 표시도 있네요.\n\n착용감과 화면과 같은 색상에 대한 칭찬이 많고, 구매자 후기 중 \"가볍고 편한 가성비 다이얼 등산화\"라는 평가도 눈에 띕니다.\n\n가격은 27,680원입니다.\n\n링크는 답글에 둘게요",
       "done": false,
       "format": "top3_points",
       "script": {
-        "title": "요즘 난리 난 가성비 다이얼 등산화, 직접 확인해 보니? #shorts",
-        "hook": "등산화 검색 1위가 왜 난리야?",
-        "hook_highlight": "등산화 검색 1위",
+        "title": "요즘 등산화 찾는다면 이거 먼저 보세요 #shorts",
+        "hook": "후기 8,336개의 등산화",
+        "hook_highlight": "후기 8,336개",
         "scenes": [
           {
             "caption": "등산화 고민 끝!",
             "highlight": "고민 끝",
-            "narration": "등산화 고르다 지치셨죠? 요즘 네이버에서 등산화가 정말 많이 검색되는데요. 왜 이 유세븐 다이얼 트래킹화가 인기인지 딱 3가지로 정리해 드립니다.",
+            "narration": "요즘 등산화가 네이버 인기 검색어 상위권인 거 아시죠? 다들 이 유세븐 다이얼 트래킹화 많이 찾더라고요.",
             "type": "normal"
           },
           {
-            "caption": "신고 벗기 편해요",
-            "highlight": "편해요",
-            "narration": "첫째, 다이얼 방식이라 신고 벗기가 너무 편해요. 둘째, 착용감이 아주 좋다는 후기가 정말 많습니다. 셋째, 색상까지 화면과 똑같아서 실물이 더 예쁘다는 평이 대다수예요.",
+            "caption": "왜 이렇게 인기죠?",
+            "highlight": "인기",
+            "narration": "한 달간 200명 넘게 구매한 인기템인데, 도대체 왜 그런지 포인트 딱 3개만 짚어드릴게요.",
             "type": "normal"
           },
           {
             "caption": "구매자 반응은?",
-            "highlight": "구매자",
-            "narration": "실제 구매자 후기 중에 \"가볍고 편한 가성비 다이얼 등산화\", \"오래 신어도 발 편함\"이라는 후기가 있어요.",
+            "highlight": "구매자 반응",
+            "narration": "실제 후기 보니까 \"가볍고 편한 가성비 다이얼 등산화\", \"오래 신어도 발 편함\" 이런 후기들이 있네요.",
             "type": "reviews"
           },
           {
-            "caption": "다들 고르는 이유",
-            "highlight": "이유",
-            "narration": "쿠팡 평점 4.5점에 상품평이 무려 8,336개나 되는데요. 특히 전체 상품평 중 별 5개 비율이 70%에 달할 만큼 만족도가 높습니다.",
+            "caption": "실제 만족도 확인",
+            "highlight": "만족도",
+            "narration": "후기 대부분이 착용감이 아주 좋다고 하고, 색상도 화면이랑 똑같다는 평이 정말 많아요. 쿠팡 평점 4.5점에 별 5개 비율이 70%나 되거든요.",
             "type": "normal"
           },
           {
-            "caption": "2만 원대 가성비",
-            "highlight": "2만 원대",
-            "narration": "한 달간 200명 이상 구매한 이 신발, 가격은 27,680원입니다. 다만 가격은 변동될 수 있으니까요.",
+            "caption": "일상화로도 딱!",
+            "highlight": "일상화",
+            "narration": "등산할 때는 물론이고 발이 편해서 일상화로 신기에도 충분해요. 다이얼 방식이라 신고 벗기도 엄청 편하겠죠?",
             "type": "normal"
           },
           {
-            "caption": "프로필 링크 3번 확인",
-            "highlight": "3번",
-            "narration": "지금 바로 프로필 링크에서 3번 상품을 확인해 보세요.",
+            "caption": "지금 가격은?",
+            "highlight": "가격",
+            "narration": "이 모든 게 27,680원! 가격은 변동될 수 있으니까요. 프로필 링크에서 3번 확인하세요.",
             "type": "normal"
           }
         ],
-        "description": "요즘 가장 핫한 유세븐 다이얼 트래킹화! 가성비와 착용감까지 완벽한 이유를 영상으로 확인하세요.",
+        "description": "한 달간 200명 이상 구매한 유세븐 다이얼 등산화! 가성비와 편안함을 모두 잡은 인기템을 지금 확인해보세요.",
         "hashtags": [
-          "#유세븐등산화",
-          "#트래킹화추천",
+          "#등산화",
+          "#유세븐",
+          "#트래킹화",
           "#가성비등산화",
-          "#다이얼등산화",
           "#등산화추천"
+        ]
+      }
+    },
+    {
+      "kind": "tip",
+      "text": "옷장 속에 방치된 니트, 다들 어떻게 보관하시나요?\n\n옷걸이에 그냥 걸어두면 어깨가 툭 튀어나와서 속상하죠.\n반으로 접어서 옷걸이 다리에 걸치는 방식이 최고입니다.\n옷장 공간도 아끼고 옷 형태도 예쁘게 유지할 수 있어요.",
+      "photo_query": "folded sweater hanger",
+      "done": false
+    },
+    {
+      "kind": "tip",
+      "text": "스킨케어 제품, 어디까지 챙겨 바르세요?\n\n좋다는 거 다 발라도 피부가 먹질 않는 느낌인가요?\n양보다 중요한 건 흡수입니다.\n손바닥 온기로 얼굴을 감싸 지그시 눌러주며 충분히 시간을 둬보세요. 화장품 효과를 제대로 보는 법입니다.",
+      "photo_query": "skincare routine face",
+      "done": false
+    },
+    {
+      "kind": "link",
+      "number": 8,
+      "product": {
+        "keyword": "바디로션",
+        "category": "화장품/미용",
+        "trend_rank": "",
+        "search_url": "https://www.coupang.com/np/search?q=%EB%B0%94%EB%94%94%EB%A1%9C%EC%85%98",
+        "partner_url": "https://link.coupang.com/a/hRT4DqntzU",
+        "notes": "",
+        "price": "12920",
+        "name": "세타필 모이스춰라이징 로션, 591ml, 1개",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/77276365654004-a842d9c0-df4d-44fe-82a3-5dc3bc7ba775.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/152158274932720-1c27a1fa-0d5b-4ee4-89e0-94f79b757a87.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/126398290305948-b35d50c8-7d0d-436b-8a96-b50a1fc7e22c.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/126398319694242-cc292646-b723-4454-b0e4-e3c21e18d972.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/13955999033964-f54a88ac-03d7-4df2-8075-f9a5edc2c8d0.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/14147395062108-fbdc3097-5d0d-4dd9-b5a7-270d85a2086b.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/7164345502?itemId=17686805619",
+        "brand": "세타필",
+        "list_price": "24500",
+        "rating": "4.8",
+        "reviews": "233516",
+        "buyers": "한 달간 7만명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "대용량인데 부드럽고 촉촉한 사계절 로션"
+          },
+          {
+            "rating": 5,
+            "text": "부드럽고 좋아요"
+          }
+        ],
+        "survey": [
+          {
+            "q": "보습력",
+            "a": "아주 만족해요",
+            "n": 28,
+            "tot": 30
+          },
+          {
+            "q": "발림성",
+            "a": "부드럽게 발라져요",
+            "n": 28,
+            "tot": 30
+          },
+          {
+            "q": "향 만족도",
+            "a": "아주만족해요",
+            "n": 22,
+            "tot": 30
+          }
+        ],
+        "five_star_pct": "86",
+        "trend": "요즘 많이 찾는 '바디로션'"
+      },
+      "text": "이번 주 네이버 쇼핑 인기 검색어 상위권인 바디로션, 지금 가격 비교해 보고 계시나요?\n\n바디로션을 고를 때는 대용량인지, 발림성과 보습력이 괜찮은지 살펴보면 좋아요.\n\n세타필 모이스춰라이징 로션 591ml는 정가 24,500원에서 현재 12,920원으로 47% 할인 중이에요.\n\n쿠팡 평점 4.8점, 상품평 233,516개에 달하고 한 달간 7만명 이상 구매했어요.\n\n후기 대부분이 보습력과 발림성에 대해 만족한다고 하네요.\n\n구매자 후기 중 \"대용량인데 부드럽고 촉촉한 사계절 로션\"이라는 평도 있어요.\n\n링크는 답글에 둘게요",
+      "done": false,
+      "format": "before_after",
+      "script": {
+        "title": "한 달간 7만 명이 산 세타필 로션 47% 할인 #shorts",
+        "hook": "지금 12,000원대",
+        "hook_highlight": "12,000원대",
+        "scenes": [
+          {
+            "caption": "바디로션 찾나요?",
+            "highlight": "바디로션",
+            "narration": "요즘 네이버 쇼핑 인기 검색어 상위권인 바디로션, 건조할 때 그냥 두면 계속 트고 간지럽죠?",
+            "type": "normal"
+          },
+          {
+            "caption": "촉촉하게 싹",
+            "highlight": "촉촉하게",
+            "narration": "세타필 모이스춰라이징 로션 591ml 하나면 사계절 내내 촉촉하게 관리할 수 있어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "구매자 반응은?",
+            "highlight": "반응",
+            "narration": "실제 구매자 후기 중에 대용량인데 부드럽고 촉촉한 사계절 로션 이런 후기가 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "다들 쓰는 이유",
+            "highlight": "이유",
+            "narration": "상품평이 23만 개가 넘고 쿠팡 평점도 4.8점에 별 5개 비율이 86%나 돼요. 후기 대부분이 보습력도 좋고 부드럽게 잘 발린대요.",
+            "type": "normal"
+          },
+          {
+            "caption": "정가에서 47% 뚝",
+            "highlight": "47% 뚝",
+            "narration": "정가 24,500원에서 지금 12,920원이에요. 가격은 바뀔 수 있어요. 한 달간 7만 명 이상 구매했어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "프로필 링크 확인",
+            "highlight": "프로필 링크",
+            "narration": "프로필 링크에서 8번 확인하세요.",
+            "type": "normal"
+          }
+        ],
+        "description": "한 달간 7만 명 이상이 선택한 세타필 모이스춰라이징 로션 591ml! 지금 47% 할인된 가격으로 만나보세요. 자세한 정보는 프로필 링크에서 확인하실 수 있습니다.",
+        "hashtags": [
+          "#세타필",
+          "#세타필로션",
+          "#바디로션",
+          "#바디로션추천",
+          "#올영세일",
+          "#쇼츠"
         ]
       }
     }
