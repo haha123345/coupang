@@ -218,7 +218,8 @@
       "kind": "tip",
       "text": "스마트폰 충전할 때 의외로 많이 하는 실수 📱\n\n두꺼운 케이스를 낀 채로 충전하면 열이 갇혀서 배터리 수명에 안 좋아요.\n\n특히 고속 충전 중일 때는 케이스를 잠시 벗겨두는 게 좋습니다.\n\n작은 습관 하나로 기기를 훨씬 오래 깨끗하게 쓸 수 있어요.",
       "photo_query": "smartphone battery charging",
-      "done": false
+      "done": true,
+      "url": "텔레그램 전송 (직접 게시)"
     },
     {
       "kind": "link",
