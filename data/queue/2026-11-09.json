@@ -217,7 +217,8 @@
       "kind": "tip",
       "text": "전자레인지 돌릴 때\n이 실수 정말 많이 합니다.\n\n플라스틱 용기를\n그냥 넣고 돌리면\n환경호르몬 걱정뿐만 아니라\n그릇이 변형되기도 해요.\n\n반드시 전자레인지 전용\n표기가 있는 유리나\n도자기 그릇을 사용하세요.\n오늘부터 바로\n체크해 봅시다.",
       "photo_query": "microwave safe container",
-      "done": false
+      "done": true,
+      "url": "텔레그램 전송 (직접 게시)"
     },
     {
       "kind": "link",
