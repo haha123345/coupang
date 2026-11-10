@@ -333,7 +333,8 @@
       "kind": "tip",
       "text": "여러분은 운동화 세탁\n어떻게 하고 계시나요?\n\n그냥 물에 담그면\n접착제 녹아서 망가져요.\n\n중성세제 풀린 물에\n잠시 불렸다가 닦는 게\n신발을 오래 신는 비결이에요.",
       "photo_query": "cleaning white sneakers",
-      "done": false
+      "done": true,
+      "url": "텔레그램 전송 (직접 게시)"
     },
     {
       "kind": "tip",
