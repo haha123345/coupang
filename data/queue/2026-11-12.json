@@ -2,240 +2,101 @@
   "day": "2026-11-12",
   "shorts": [
     {
-      "number": 3,
-      "format": "top3_points",
-      "product": {
-        "keyword": "등산화",
-        "category": "스포츠/레저",
-        "trend_rank": "",
-        "search_url": "https://www.coupang.com/np/search?q=%EB%93%B1%EC%82%B0%ED%99%94",
-        "partner_url": "https://link.coupang.com/a/hRTPC8j4Vg",
-        "notes": "",
-        "price": "27680",
-        "name": "유세븐 남성용 다이얼 운동화 트래킹화 DM907",
-        "image_urls": [
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/187992871288890-a6f1a312-e18f-401d-8f08-33d2322bf755.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/313658257200773-a2df0e58-95d5-4d25-a254-68dc19a36b0d.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/5134439110075993-84a6b340-87a3-4c61-a4a0-74ff980b27eb.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/313658364725732-5c6904e8-0701-4ce7-809c-19727eb1302e.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/315933265130726-a644aa56-aafb-4e1e-a33e-b1809006c164.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/383043431802731-8f727839-789d-4ad6-ae6c-21fa6dc13661.jpg"
-        ],
-        "product_url": "https://www.coupang.com/vp/products/5563046362?itemId=8831093285",
-        "brand": "유세븐",
-        "rating": "4.5",
-        "reviews": "8336",
-        "buyers": "한 달간 200명 이상 구매했어요",
-        "top_reviews": [
-          {
-            "rating": 5,
-            "text": "가볍고 편한 가성비 다이얼 등산화"
-          },
-          {
-            "rating": 5,
-            "text": "오래 신어도 발 편함"
-          },
-          {
-            "rating": 4,
-            "text": "발이 편해서 일상화로도 좋아요"
-          }
-        ],
-        "survey": [
-          {
-            "q": "색상",
-            "a": "화면과 같아요",
-            "n": 24,
-            "tot": 30
-          },
-          {
-            "q": "착용감",
-            "a": "아주 좋아요",
-            "n": 15,
-            "tot": 19
-          }
-        ],
-        "five_star_pct": "70",
-        "trend": "요즘 많이 찾는 '등산화'"
-      },
-      "script": {
-        "title": "상품평 8천개 돌파한 2만원대 다이얼 등산화 #shorts",
-        "hook": "리뷰 8300개 넘은 등산화",
-        "hook_highlight": "리뷰 8300개",
-        "scenes": [
-          {
-            "caption": "리뷰 8300개 넘은 등산화",
-            "highlight": "리뷰 8300개",
-            "narration": "쿠팡 상품평만 8천 3백 개가 넘게 달린 인기 등산화가 있다는 사실, 알고 계셨나요?",
-            "type": "normal"
-          },
-          {
-            "caption": "끈 풀리고 발 아플 때",
-            "highlight": "발 아플 때",
-            "narration": "등산이나 걸을 때 신발 끈 자꾸 풀리고 발까지 불편하면 정말 난감하잖아요.",
-            "type": "normal"
-          },
-          {
-            "caption": "편리한 다이얼 방식",
-            "highlight": "다이얼 방식",
-            "narration": "유세븐 다이얼 트래킹화는 끈 대신 다이얼로 쓱 돌려 신어서 편하고, 착용감 후기 대부분도 아주 좋다고 해요.",
-            "type": "normal"
-          },
-          {
-            "caption": "구매자 실제 반응은?",
-            "highlight": "실제 반응은",
-            "narration": "실제 후기 보니까 \"가볍고 편한 가성비 다이얼 등산화\", \"오래 신어도 발 편함\" 이런 후기가 있어요.",
-            "type": "reviews"
-          },
-          {
-            "caption": "별 5개 비율 70%",
-            "highlight": "별 5개 비율",
-            "narration": "별 5개 비율이 70%나 되는데 가격은 27,680원이에요. 가격은 바뀔 수 있어요.",
-            "type": "normal"
-          },
-          {
-            "caption": "프로필 링크 3번",
-            "highlight": "3번",
-            "narration": "가성비 좋은 트래킹화 찾으시면 프로필 링크에서 3번 확인하세요!",
-            "type": "normal"
-          }
-        ],
-        "description": "상품평 8,300개 이상! 다이얼이라 신기 편하고 가성비까지 챙긴 유세븐 남성용 다이얼 트래킹화 DM907입니다.",
-        "hashtags": [
-          "#등산화",
-          "#트래킹화",
-          "#유세븐등산화",
-          "#다이얼등산화",
-          "#가성비등산화"
-        ]
-      },
-      "done": false
-    },
-    {
-      "number": 9,
+      "number": 2,
       "format": "before_after",
       "product": {
-        "keyword": "백팩",
-        "category": "패션잡화",
+        "keyword": "정수기",
+        "category": "디지털/가전",
         "trend_rank": "",
-        "search_url": "https://www.coupang.com/np/search?q=%EB%B0%B1%ED%8C%A9",
-        "partner_url": "https://link.coupang.com/a/hRUcBa3CLY",
+        "search_url": "https://www.coupang.com/np/search?q=%EC%A0%95%EC%88%98%EA%B8%B0",
+        "partner_url": "https://link.coupang.com/a/hRSTOwGVcO",
         "notes": "",
-        "price": "21900",
-        "name": "윤스미스 캐주얼 남여공용 레이백팩",
+        "price": "750410",
+        "name": "퓨리얼 직수형 냉온정수기 방문설치",
         "image_urls": [
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/1725/66828d0a11dc61bf3b6998d1354576abec28c9d62e4ecf9d2bbf90dab12c.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/ef68/8084ad394c9b471fb086a7a473017a8390fd278d448e6e6beec7a7ad132a.jpg"
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/33869226632443-14a7ab27-3304-4113-bfca-d53b1f244fc5.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/97280521352511-d4e35cd7-23b7-4cb4-aa27-70304e7a54c1.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/357530743156885-d9886419-6c52-4cfc-ae6e-16379bb0d683.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/357535111276328-b1bd3070-a870-405c-9783-d37c1702b07b.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/357665500189162-d522de2e-5553-4eab-8cf1-76cf10b1631a.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/357542367753236-7c10a3df-ed5f-442b-8307-cfa8c337e61e.jpg"
         ],
-        "product_url": "https://www.coupang.com/vp/products/8383346653?itemId=24227870539",
-        "brand": "윤스미스",
-        "list_price": "49000",
-        "rating": "4.7",
-        "reviews": "422",
-        "buyers": "한 달간 100명 이상 구매했어요",
+        "product_url": "https://www.coupang.com/vp/products/55598788?itemId=193347901",
+        "brand": "퓨리얼",
+        "list_price": "899000",
+        "rating": "4.5",
+        "reviews": "407",
+        "desc": "현재 별점 4.5점, 리뷰 407개를 가진 퓨리얼 직수형 냉온정수기 방문설치! 지금 쿠팡에서 더 저렴하고 다양한 정수기 제품들을 확인해보세요.",
         "top_reviews": [
           {
             "rating": 5,
-            "text": "아주 마음에드는 백팩 여행용으로도 좋아요."
+            "text": "중간에 필터도 한번 셀프 교체했는데 너무 쉽네요."
           },
           {
             "rating": 5,
-            "text": "편한 가방 강추"
-          },
-          {
-            "rating": 5,
-            "text": "받침대가 있어서 쳐지지 않음 !"
+            "text": "냉온정수가 한번에! 컴팩트하고 깔끔한 퓨리얼 직수형!"
           }
         ],
-        "survey": [
-          {
-            "q": "디자인",
-            "a": "아주 마음에 들어요",
-            "n": 21,
-            "tot": 25
-          },
-          {
-            "q": "착용감",
-            "a": "아주 좋아요",
-            "n": 18,
-            "tot": 25
-          }
-        ],
-        "five_star_pct": "84",
-        "trend": "요즘 많이 찾는 '백팩'"
+        "five_star_pct": "76",
+        "trend": "요즘 많이 찾는 '정수기'"
       },
       "script": {
-        "title": "가성비 대박 윤스미스 백팩 55% 할인 중! #shorts",
-        "hook": "백팩 요즘 대세!",
-        "hook_highlight": "요즘 대세",
+        "title": "요즘 제일 많이 찾는 정수기 16% 할인 중! #shorts",
+        "hook": "요즘 많이 찾는 정수기",
+        "hook_highlight": "많이 찾는",
         "scenes": [
           {
-            "caption": "백팩 요즘 대세!",
-            "highlight": "요즘 대세",
-            "narration": "요즘 네이버 인기 검색어 상위권인 백팩, 가성비 대박 아이템 찾으셨나요?",
+            "caption": "요즘 많이 찾는 정수기",
+            "highlight": "정수기",
+            "narration": "요즘 네이버 쇼핑에서 진짜 많이 검색하는 정수기 알아보고 계신가요?",
             "type": "normal"
           },
           {
-            "caption": "밑이 툭 쳐질 때",
-            "highlight": "툭 쳐질 때",
-            "narration": "짐 조금만 넣어도 무게 때문에 밑이 툭 쳐져서 핏 망가진 적 많으시죠?",
+            "caption": "매번 물 끓이기 귀찮죠",
+            "highlight": "물 끓이기",
+            "narration": "매번 물 끓여 마시기 귀찮고, 좁은 주방에 큰 정수기 놓기엔 부담스러우셨을 텐데요.",
             "type": "normal"
           },
           {
-            "caption": "실제 후기 보니",
+            "caption": "슬림하고 깔끔하게",
+            "highlight": "슬림하고",
+            "narration": "퓨리얼 직수형 냉온정수기는 깔끔하고 컴팩트해서 주방 공간을 넓게 쓸 수 있어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "실제 후기 보니까",
             "highlight": "실제 후기",
-            "narration": "구매자 후기 보니까 \"받침대가 있어서 쳐지지 않음 !\" 이런 후기가 있어요.",
+            "narration": "실제 구매자 후기를 보면 \"냉온정수가 한번에! 컴팩트하고 깔끔한 퓨리얼 직수형!\"이라는 평이 있어요.",
             "type": "reviews"
           },
           {
-            "caption": "후기 대부분 만족",
-            "highlight": "대부분 만족",
-            "narration": "쿠팡 별 5개 비율만 84%에, 후기 대부분이 디자인과 착용감이 아주 좋대요.",
+            "caption": "지금 16% 할인 중",
+            "highlight": "16% 할인",
+            "narration": "쿠팡 상품평 407개 중 별 5개 비율이 76%나 되는데요. 정가 899,000원에서 지금 750,410원으로 16% 할인 중입니다. 가격은 바뀔 수 있어요.",
             "type": "normal"
           },
           {
-            "caption": "지금 55% 할인",
-            "highlight": "55% 할인",
-            "narration": "정가 49,000원인데 지금 21,900원으로 55% 할인 중이에요. 가격은 바뀔 수 있어요!",
-            "type": "normal"
-          },
-          {
-            "caption": "9번에서 확인!",
-            "highlight": "9번",
-            "narration": "편하고 예쁜 윤스미스 레이백팩, 프로필 링크에서 9번 확인하세요!",
+            "caption": "프로필 링크 2번",
+            "highlight": "2번",
+            "narration": "방문설치까지 해주는 퓨리얼 정수기, 프로필 링크에서 2번 확인하세요!",
             "type": "normal"
           }
         ],
-        "description": "쳐짐 없이 핏 예쁜 윤스미스 캐주얼 남여공용 레이백팩!\n쿠팡 별 5개 비율 84%로 디자인과 착용감 만족도가 높은 백팩입니다.\n프로필 링크에서 9번 상품을 확인해 보세요.",
+        "description": "네이버 인기 검색어 상위권 정수기! 퓨리얼 직수형 냉온정수기 방문설치 제품입니다.\n쿠팡 별 5개 비율 76%의 인기 제품을 할인 가격으로 확인해 보세요.\n자세한 정보는 프로필 링크 2번에서 확인하실 수 있습니다.",
         "hashtags": [
-          "#백팩",
-          "#윤스미스",
-          "#백팩추천",
-          "#남여공용백팩",
-          "#가성비백팩",
-          "#데일리백팩"
+          "#정수기",
+          "#퓨리얼정수기",
+          "#직수형정수기",
+          "#냉온정수기",
+          "#주방가전",
+          "#쇼핑정보"
         ]
       },
       "done": false
-    }
-  ],
-  "threads": [
-    {
-      "kind": "tip",
-      "text": "냉장고 성에 함부로 떼면 안 되는 이유 ❄️\n\n칼이나 포크로 성에 긁어내신 적 있으신가요?\n그러다 냉각관 손상되면 냉장고 버려야 할 수도 있어요.\n\n따뜻한 물을 분무기에 담아 뿌려두거나\n헤어드라이어 바람을 멀리서 쐬어주세요.\n\n자연스럽게 녹아내려서 안전하게 제거됩니다.",
-      "photo_query": "defrosting refrigerator ice",
-      "done": true,
-      "url": "텔레그램 전송 (직접 게시)"
     },
     {
-      "kind": "tip",
-      "text": "원목 가구 오래 쓰는 소소한 관리법 🪵\n\n1. 직사광선은 되도록 피해주세요.\n목재가 비틀어지거나 색이 바랠 수 있어요.\n\n2. 물걸레질 후엔 꼭 건걸레로 닦기.\n수분이 오랫동안 남으면 변형의 원인이 됩니다.\n\n3. 가끔 식물성 오일 가볍게 칠해주기.\n윤기도 살고 나무 표면도 보호돼요.",
-      "photo_query": "wooden furniture care",
-      "done": true,
-      "url": "텔레그램 전송 (직접 게시)"
-    },
-    {
-      "kind": "link",
       "number": 8,
+      "format": "dont_buy_instead",
       "product": {
         "keyword": "바디로션",
         "category": "화장품/미용",
@@ -292,203 +153,71 @@
         "five_star_pct": "86",
         "trend": "요즘 많이 찾는 '바디로션'"
       },
-      "text": "이번 주 네이버 쇼핑 인기 검색어 상위권에 '바디로션'이 올려져 있네요.\n\n바디로션을 고를 땐 넉넉한 용량과 부드러운 발림성을 확인하는 게 좋아요.\n\n세타필 모이스춰라이징 로션 591ml가 좋은 예시인데요.\n\n정가 24,500원에서 47% 할인된 12,920원에 올라왔고, 쿠팡 평점 4.8점에 상품평이 233,516개나 쌓인 제품이에요. 한 달간 7만명 이상 구매했다고 해요.\n\n후기 대부분이 보습력과 발림성에 아주 만족한대요.\n구매자 후기 중 \"대용량인데 부드럽고 촉촉한 사계절 로션\"이라는 평가도 있어요.\n\n링크는 답글에 둘게요!",
-      "done": true,
-      "format": "dont_buy_instead",
       "script": {
-        "title": "리뷰 23만개! 47% 할인 중인 세타필 대용량 바디로션 #shorts",
-        "hook": "리뷰 23만개 바디로션",
-        "hook_highlight": "23만개",
+        "title": "한 달 7만 명 구매한 바디로션 파격 할인 #shorts",
+        "hook": "한 달 7만 명 구매?",
+        "hook_highlight": "7만 명 구매",
         "scenes": [
           {
-            "caption": "리뷰 23만개 바디로션",
-            "highlight": "23만개",
-            "narration": "리뷰가 무려 23만 개나 달린 바디로션이 있다는 거 알고 계셨나요?",
+            "caption": "한 달 7만 명 구매?",
+            "highlight": "7만 명 구매",
+            "narration": "한 달에 7만 명 이상이 구매한 바디로션이 있다는 거 아셨나요?",
             "type": "normal"
           },
           {
-            "caption": "이런 거 사면 후회해요",
+            "caption": "잘못 사면 후회해요",
             "highlight": "후회해요",
-            "narration": "바디로션 고를 때 금방 또 건조해지거나 끈적이는 거 사면 진짜 후회하죠.",
+            "narration": "바디로션 고를 때 끈적이거나 금방 건조해지는 거 사면 꼭 후회하잖아요.",
             "type": "normal"
           },
           {
-            "caption": "대용량 세타필 로션",
-            "highlight": "세타필 로션",
-            "narration": "그럴 땐 세타필 모이스춰라이징 로션 591ml로 골라보세요.",
+            "caption": "세타필 보습 로션",
+            "highlight": "세타필",
+            "narration": "세타필 모이스춰라이징 로션은 후기 대부분이 보습력과 발림성에 아주 만족했다고 해요.",
             "type": "normal"
           },
           {
-            "caption": "구매자 반응은?",
+            "caption": "실제 구매자 반응",
             "highlight": "구매자 반응",
-            "narration": "실제 구매자 후기 중에 \"대용량인데 부드럽고 촉촉한 사계절 로션\" 이런 후기가 있어요.",
+            "narration": "구매자 후기 중에 \"대용량인데 부드럽고 촉촉한 사계절 로션\" 이런 후기가 있어요.",
             "type": "reviews"
           },
           {
-            "caption": "한달간 7만명 구매!",
-            "highlight": "7만명 구매",
-            "narration": "한 달간 7만 명 이상 구매했고, 별 5개 비율 86%에 평점 4.8점! 후기 대부분이 보습력에 아주 만족하대요.",
+            "caption": "47% 할인 진행 중",
+            "highlight": "47% 할인",
+            "narration": "상품평 23만 개에 평점 4.8점인데요. 정가 2만 4천5백 원에서 47% 할인된 1만 2천9백20원인데, 가격은 바뀔 수 있어요.",
             "type": "normal"
           },
           {
             "caption": "프로필 링크 8번",
             "highlight": "8번",
-            "narration": "정가 24,500원에서 47% 할인된 12,920원이에요. 가격은 변동될 수 있으니 프로필 링크에서 8번 확인하세요!",
+            "narration": "요즘 많이 찾는 세타필 바디로션, 프로필 링크에서 8번 확인하세요!",
             "type": "normal"
           }
         ],
-        "description": "리뷰 23만 개로 검증된 세타필 모이스춰라이징 로션 591ml!\n한 달간 7만 명 이상이 선택한 보습력 만족 바디로션을 할인 가격으로 만나보세요.",
+        "description": "한 달간 7만 명 이상이 구매한 세타필 모이스춰라이징 로션!\n상품평 23만 개와 평점 4.8점으로 검증된 인기 바디로션 할인 정보입니다.",
         "hashtags": [
           "#세타필",
           "#바디로션",
-          "#세타필로션",
           "#보습로션",
-          "#쇼핑꿀팁"
+          "#세타필모이스춰라이징로션",
+          "#바디로션추천"
         ]
       },
-      "url": "텔레그램 전송 (직접 게시)"
-    },
+      "done": false
+    }
+  ],
+  "threads": [
     {
       "kind": "tip",
-      "text": "유통기한 지난 수분크림 그냥 버리시나요? ✨\n\n얼굴에 바르기 찜찜할 땐 발뒤꿈치나 팔꿈치에 발라보세요.\n건조해서 갈라진 피부가 금방 부드러워져요.\n\n가죽 가방이나 구두를 닦을 때 부드러운 천에 살짝 묻혀 닦아도 광택이 납니다.\n\n다들 유통기한 지난 화장품 어떻게 활용하시나요?",
-      "photo_query": "moisturizer cream jar",
+      "text": "가구 배치가 고민이라면.\n\n문을 열었을 때 가장 먼저 보이는 곳에 큰 가구를 두지 마세요.\n시야가 트여야 방이 훨씬 넓어 보입니다.\n가구는 벽면을 따라 배치하고 창문을 가리지 않는 것만으로도 공간의 분위기가 완전히 달라져요. 🛋️",
+      "photo_query": "minimalist room layout",
       "done": false
     },
     {
       "kind": "tip",
-      "text": "니트 보풀 때문에 스트레스받을 때 🧶\n\n일회용 면도기 하나면 깔끔하게 해결돼요.\n니트를 평평한 곳에 펼쳐두고\n결 따라 살살 긁어내면 끝입니다.\n\n너무 힘을 주면 옷감이 상할 수 있으니\n스치듯 가볍게 밀어주는 게 핵심이에요.\n\n올겨울 니트 관리는 이렇게 해보세요.",
-      "photo_query": "knit sweater fabric",
-      "done": false
-    },
-    {
-      "kind": "link",
-      "number": 4,
-      "product": {
-        "keyword": "행거",
-        "category": "가구/인테리어",
-        "trend_rank": "",
-        "search_url": "https://www.coupang.com/np/search?q=%ED%96%89%EA%B1%B0",
-        "partner_url": "https://link.coupang.com/a/hRTSV9OLQq",
-        "notes": "",
-        "price": "11290",
-        "name": "코멧 홈 베이직 스탠드 행거",
-        "image_urls": [
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/1025_amir_coupang_oct_80k/c588/e85bd4f018c8326191ccfb2091f10f28c70e513b07cc186d7c02a96ab6ab.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2104525084152847-4a7989a9-f6f6-4ad2-8aa8-703c94388e8c.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/671233147813271-c841a8d8-0f7a-47e7-9828-3c1869b42edd.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2104524963836801-edae5ba2-73d9-4c3f-a711-2c660031468c.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1059695000010960-2accd851-44e2-466a-996d-d93e2b401162.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2107463971443625-6e26c2b7-0c2c-48ba-a94a-13f968cac9f1.jpg"
-        ],
-        "product_url": "https://www.coupang.com/vp/products/1676362802?itemId=2856014459",
-        "brand": "코멧",
-        "list_price": "16990",
-        "rating": "4.7",
-        "reviews": "32276",
-        "buyers": "한 달간 3,000명 이상 구매했어요",
-        "top_reviews": [
-          {
-            "rating": 5,
-            "text": "깔끔하게 옷 정리하기 딱 좋아요!"
-          },
-          {
-            "rating": 5,
-            "text": "가성비 행거로 추천합니다!"
-          },
-          {
-            "rating": 5,
-            "text": "조립은 설명서를 보면서 순서대로 하니까 어렵지 않았어요."
-          }
-        ],
-        "survey": [
-          {
-            "q": "디자인",
-            "a": "아주 마음에 들어요",
-            "n": 27,
-            "tot": 29
-          },
-          {
-            "q": "사이즈",
-            "a": "딱 맞는 정사이즈예요",
-            "n": 22,
-            "tot": 29
-          },
-          {
-            "q": "크기",
-            "a": "적당해요",
-            "n": 21,
-            "tot": 29
-          }
-        ],
-        "five_star_pct": "85",
-        "trend": "요즘 많이 찾는 '행거'"
-      },
-      "text": "이번 주 네이버 쇼핑 인기 검색어 상위권인 '행거', 고를 땐 탄탄하고 공간을 많이 안 차지하는지 봐야죠.\n\n코멧 홈 베이직 스탠드 행거는 정가 16,990원에서 33% 할인된 11,290원에 볼 수 있어요.\n\n상품평 32,276개에 평점 4.7점이고, 한 달간 3,000명 이상 구매했어요.\n\n디자인과 사이즈 후기 대부분이 만족스럽다네요.\n\n구매자 후기 중 \"깔끔하게 옷 정리하기 딱 좋아요!\"라는 평도 있더라고요.\n\n링크는 답글에 둘게요",
-      "done": false,
-      "format": "price_check",
-      "script": {
-        "title": "지금 네이버 인기 검색어 상위권! 1만개 넘는 후기의 가성비 행거 #shorts",
-        "hook": "후기 3만개 넘는 행거",
-        "hook_highlight": "후기 3만개 넘는 행거",
-        "scenes": [
-          {
-            "caption": "요즘 제일 핫한 행거",
-            "highlight": "인기 검색어",
-            "narration": "요즘 네이버 쇼핑 인기 검색어 상위권에 있는 행거, 다들 어떤 걸로 고를까요?",
-            "type": "normal"
-          },
-          {
-            "caption": "기준은 딱 3가지",
-            "highlight": "용량·크기·재질",
-            "narration": "행거 고를 때는 용량, 크기, 재질 같은 기본 기준을 딱 정리해두고 고르는 게 좋아요.",
-            "type": "normal"
-          },
-          {
-            "caption": "구매자 반응은?",
-            "highlight": "구매자 반응",
-            "narration": "실제 구매자 후기 중에 \"깔끔하게 옷 정리하기 딱 좋아요!\" 그리고 \"가성비 행거로 추천합니다!\" 이런 후기가 있어요.",
-            "type": "reviews"
-          },
-          {
-            "caption": "사람들이 찾는 이유",
-            "highlight": "별 5개 85%",
-            "narration": "상품평 3만 2천 개에 쿠팡 평점 4.7점, 별 5개 비율이 85%나 되거든요.",
-            "type": "normal"
-          },
-          {
-            "caption": "지금 엄청난 할인",
-            "highlight": "11,290원",
-            "narration": "정가 16,990원에서 지금 11,290원으로 33% 할인 중이에요! 가격은 바뀔 수 있어요.",
-            "type": "normal"
-          },
-          {
-            "caption": "지금 바로 확인하기",
-            "highlight": "프로필 링크",
-            "narration": "한 달간 3,000명 이상 구매한 이 제품, 프로필 링크에서 4번 확인하세요.",
-            "type": "normal"
-          }
-        ],
-        "description": "요즘 네이버 쇼핑 인기 검색어 상위권인 코멧 홈 베이직 스탠드 행거! 3만 개가 넘는 후기와 높은 평점으로 검증된 가성비 행거를 지금 할인된 가격으로 만나보세요.",
-        "hashtags": [
-          "#코멧행거",
-          "#스탠드행거",
-          "#옷걸이행거",
-          "#원룸인테리어",
-          "#자취방꾸미기",
-          "#가성비가구"
-        ]
-      }
-    },
-    {
-      "kind": "tip",
-      "text": "텀블러 특유의 찌든 냄새 없애는 법 🥤\n\n세제로 아무리 씻어도 냄새가 안 빠진다면\n따뜻한 물에 식초 두 스푼을 넣어보세요.\n\n30분 정도 세워두었다가 깨끗이 헹구면\n잡내와 찌꺼기가 말끔하게 사라집니다.\n\n고무 패킹도 분리해서 같이 담가두면 훨씬 위생적이에요.",
-      "photo_query": "stainless steel tumbler",
-      "done": false
-    },
-    {
-      "kind": "tip",
-      "text": "운동화 세탁 후 빠르게 말리는 꿀팁 👟\n\n신발 안에 신문지를 구겨 넣고 말려보세요.\n습기를 스펀지처럼 흡수해서 훨씬 금방 말라요.\n\n중간에 젖은 신문지를 새것으로 교체해주면 효과가 배가 됩니다.\n\n바람이 잘 통하는 그늘에 말리는 것도 잊지 마세요.",
-      "photo_query": "drying running shoes",
+      "text": "전자제품 오래 쓰는 법, 의외로 간단해요.\n\n가전 뒷면의 먼지를 방치하고 있지는 않나요?\n먼지가 쌓이면 열 배출이 안 되어 고장의 원인이 됩니다.\n한 달에 한 번 먼지를 털어주는 것만으로도 수명이 늘어납니다. 🧹",
+      "photo_query": "cleaning electronic appliance",
       "done": false
     },
     {
@@ -554,58 +283,304 @@
         "five_star_pct": "86",
         "trend": "요즘 많이 찾는 '비데'"
       },
-      "text": "상품평만 16,629개 쌓인 비데가 지금 44% 할인 중이에요.\n\n비데를 고를 땐 세척이 편리한지, 셀프 설치가 쉬운지 체크해 보는 게 중요한데요.\n\n'블루밍 안심세척 방수비데'가 이에 잘 맞는 예시예요.\n정가 299,000원에서 164,900원으로 할인 중이며, 한 달간 2,000명 이상 구매한 인기 제품입니다.\n\n후기 대부분이 세척이 편리하고 설치가 쉽대요.\n구매자 후기 중 \"반영구 필터와 스파기능이 있어 만족스럽네요\"라는 의견도 있어요.\n\n링크는 답글에 둘게요! 💧",
+      "text": "이번 주 네이버 쇼핑 인기 검색어 상위권에 '비데'가 올랐네요.\n\n욕실 비데 고를 땐 세척 편의성과 설치 난이도, 가성비를 먼저 보는 게 좋은데요.\n\n이 기준에 맞는 예시로 '블루밍 안심세척 방수비데'를 소개해 드려요.\n\n정가 299,000원에서 44% 할인해 164,900원에 판매 중이고, 쿠팡 평점 4.7점에 상품평이 16,629개에 달해요. 한 달간 2,000명 이상 구매한 인기 제품입니다.\n\n후기 대부분이 세척과 설치가 쉽고 가성비가 좋다고 해요.\n\n구매자 후기 중 \"반영구 필터와 스파기능이 있어 만족스럽네요\"라는 글도 있네요.\n\n링크는 답글에 둘게요!",
       "done": false,
-      "format": "top3_points",
+      "format": "price_check",
       "script": {
-        "title": "정가 29만 원대가 지금 16만 원대! 리뷰 1만 6천 개 비데 #shorts",
-        "hook": "리뷰 1만6천개",
-        "hook_highlight": "1만6천개",
+        "title": "정가 29만 원짜리 비데가 16만 원대?! #shorts",
+        "hook": "리뷰 1만 6천 개!",
+        "hook_highlight": "1만 6천 개",
         "scenes": [
           {
             "caption": "요즘 제일 핫한 비데",
-            "highlight": "제일 핫한",
-            "narration": "비데가 이번 주 네이버 쇼핑 인기 검색어 상위권이더라고요.",
+            "highlight": "제일 핫한 비데",
+            "narration": "요즘 네이버 쇼핑 인기 검색어 상위권에 있는 비데, 뭘로 고를지 고민이셨죠?",
+            "type": "normal"
+          },
+          {
+            "caption": "블루밍 안심세척",
+            "highlight": "안심세척",
+            "narration": "비데 고를 때 가격대부터 세척 편리성, 설치 난이도까지 다 따져보게 되잖아요.",
             "type": "normal"
           },
           {
             "caption": "구매자 반응은?",
             "highlight": "구매자 반응",
-            "narration": "실제 구매자 후기 중에 \"편하고 수압 좋아요\" 이런 평이 있어요.",
+            "narration": "실제 구매자 후기 중에 \"편하고 수압 좋아요\" 이런 후기가 있어요.",
             "type": "reviews"
           },
           {
-            "caption": "칭찬 일색인 이유",
-            "highlight": "칭찬 일색",
-            "narration": "후기 설문을 보면 세척이 편리하고 설치가 쉽대요. 성능에 비해 저렴하다는 평도 많고요.",
+            "caption": "다들 고르는 이유",
+            "highlight": "고르는 이유",
+            "narration": "쿠팡 평점 4.7점에 상품평 16,629개, 별 5개 비율이 무려 86%예요. 한 달간 2천 명 이상이 구매했대요.",
             "type": "normal"
           },
           {
-            "caption": "평점 4.7점의 위엄",
-            "highlight": "평점 4.7점",
-            "narration": "쿠팡 평점 4.7점에 상품평이 1만 6천 개가 넘고, 별 5개 비율이 86%나 돼요. 한 달간 2천 명 이상이 구매했더라고요.",
-            "type": "normal"
-          },
-          {
-            "caption": "44% 파격 할인",
-            "highlight": "44% 파격",
-            "narration": "정가 29만 9천 원에서 지금 16만 4천 900원이에요. 단, 가격은 바뀔 수 있어요.",
-            "type": "normal"
-          },
-          {
-            "caption": "지금 바로 확인",
-            "highlight": "바로 확인",
-            "narration": "프로필 링크에서 1번 확인하세요.",
+            "caption": "지금 44% 할인",
+            "highlight": "44% 할인",
+            "narration": "정가 299,000원에서 지금 164,900원! 가격은 바뀔 수 있어요. 프로필 링크에서 1번 확인하세요.",
             "type": "normal"
           }
         ],
-        "description": "쿠팡 평점 4.7점과 수많은 후기로 검증된 블루밍 안심세척 방수비데! 지금 44% 할인된 가격으로 만나보세요.",
+        "description": "리뷰 1만 6천 개 넘은 블루밍 안심세척 방수비데! 지금 할인 중일 때 가격과 스펙을 확인해보세요.",
         "hashtags": [
           "#블루밍비데",
           "#방수비데",
+          "#안심세척비데",
           "#욕실인테리어",
-          "#생활가전",
-          "#자취필수품"
+          "#생활가전"
+        ]
+      }
+    },
+    {
+      "kind": "tip",
+      "text": "이런 경험 다들 있으시죠?\n\n외출하려고 신발을 신었는데 발등이 까져서 당황했던 적요.\n새 신발 길들이기가 힘들다면 드라이기 바람으로 가죽을 살짝 데워보세요.\n유연해진 소재 덕분에 발이 훨씬 편안해집니다.",
+      "photo_query": "new leather shoes",
+      "done": false
+    },
+    {
+      "kind": "tip",
+      "text": "여러분은 어떤 루틴으로 아침을 시작하시나요?\n\n일어나자마자 창문을 열어 환기하는 것만으로도 하루의 컨디션이 바뀌더라고요.\n특별한 건강 비법보다 사소한 생활 습관이 모여 삶을 만드는 것 같아요.\n다들 아침에 꼭 챙기는 습관이 있나요?",
+      "photo_query": "morning sunlight window",
+      "done": false
+    },
+    {
+      "kind": "link",
+      "number": 4,
+      "product": {
+        "keyword": "행거",
+        "category": "가구/인테리어",
+        "trend_rank": "",
+        "search_url": "https://www.coupang.com/np/search?q=%ED%96%89%EA%B1%B0",
+        "partner_url": "https://link.coupang.com/a/hRTSV9OLQq",
+        "notes": "",
+        "price": "11290",
+        "name": "코멧 홈 베이직 스탠드 행거",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/1025_amir_coupang_oct_80k/c588/e85bd4f018c8326191ccfb2091f10f28c70e513b07cc186d7c02a96ab6ab.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2104525084152847-4a7989a9-f6f6-4ad2-8aa8-703c94388e8c.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/671233147813271-c841a8d8-0f7a-47e7-9828-3c1869b42edd.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2104524963836801-edae5ba2-73d9-4c3f-a711-2c660031468c.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1059695000010960-2accd851-44e2-466a-996d-d93e2b401162.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2107463971443625-6e26c2b7-0c2c-48ba-a94a-13f968cac9f1.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/1676362802?itemId=2856014459",
+        "brand": "코멧",
+        "list_price": "16990",
+        "rating": "4.7",
+        "reviews": "32276",
+        "buyers": "한 달간 3,000명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "깔끔하게 옷 정리하기 딱 좋아요!"
+          },
+          {
+            "rating": 5,
+            "text": "가성비 행거로 추천합니다!"
+          },
+          {
+            "rating": 5,
+            "text": "조립은 설명서를 보면서 순서대로 하니까 어렵지 않았어요."
+          }
+        ],
+        "survey": [
+          {
+            "q": "디자인",
+            "a": "아주 마음에 들어요",
+            "n": 27,
+            "tot": 29
+          },
+          {
+            "q": "사이즈",
+            "a": "딱 맞는 정사이즈예요",
+            "n": 22,
+            "tot": 29
+          },
+          {
+            "q": "크기",
+            "a": "적당해요",
+            "n": 21,
+            "tot": 29
+          }
+        ],
+        "five_star_pct": "85",
+        "trend": "요즘 많이 찾는 '행거'"
+      },
+      "text": "이번 주 네이버 쇼핑 인기 검색어 상위권에 '행거'가 올랐네요.\n\n스탠드 행거 고를 때는 공간을 적게 차지하는 크기와 깔끔한 디자인을 먼저 보는 게 좋아요.\n\n'코멧 홈 베이직 스탠드 행거'가 이 기준에 잘 맞는 예시예요. 지금 33% 할인된 11,290원에 판매 중이고, 쿠팡 상품평만 32,276개가 달려 있어요.\n\n후기 대부분이 디자인이 마음에 들고 크기도 적당하대요. 구매자 후기 중 \"가성비 행거로 추천합니다!\"라는 평가도 있네요.\n\n링크는 답글에 둘게요!",
+      "done": false,
+      "format": "top3_points",
+      "script": {
+        "title": "지금 1만 원대! 한 달간 3천 명이 산 코멧 스탠드 행거 #shorts",
+        "hook": "지금 11,290원",
+        "hook_highlight": "11,290원",
+        "scenes": [
+          {
+            "caption": "요즘 제일 핫한 행거",
+            "highlight": "행거",
+            "narration": "'행거'는 이번 주 네이버 쇼핑 인기 검색어 상위권이에요. 요즘 정말 많이 찾는 아이템이죠.",
+            "type": "normal"
+          },
+          {
+            "caption": "옷장 턱없이 부족할 때",
+            "highlight": "부족할 때",
+            "narration": "자취방이나 방 안 공간이 애매해서 깔끔하게 옷 걸어둘 곳 찾고 계셨나요?",
+            "type": "normal"
+          },
+          {
+            "caption": "구매자 반응은?",
+            "highlight": "구매자 반응",
+            "narration": "실제 구매자 후기 중에 \"깔끔하게 옷 정리하기 딱 좋아요!\" 그리고 \"가성비 행거로 추천합니다!\" 이런 후기가 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "평점 4.7점의 이유",
+            "highlight": "4.7점",
+            "narration": "쿠팡 평점 4.7점에 상품평이 3만 개가 넘고, 별 5개 비율이 85%나 돼요. 후기 대부분이 디자인이 아주 마음에 덜고, 사이즈도 딱 맞는 정사이즈래요.",
+            "type": "normal"
+          },
+          {
+            "caption": "33% 할인 찬스",
+            "highlight": "33% 할인",
+            "narration": "정가 16,990원에서 지금 11,290원이에요. 한 달간 3,000명 이상이 구매했어요. 가격은 바뀔 수 있어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "프로필 링크 확인",
+            "highlight": "프로필 링크",
+            "narration": "조립도 설명서 보고 순서대로 하면 어렵지 않대요. 프로필 링크에서 4번 확인하세요!",
+            "type": "normal"
+          }
+        ],
+        "description": "한 달간 3천 명 이상이 선택한 코멧 홈 베이직 스탠드 행거! 지금 할인된 가격으로 만나보세요.",
+        "hashtags": [
+          "#행거",
+          "#스탠드행거",
+          "#코멧행거",
+          "#자취방인테리어",
+          "#옷정리",
+          "#가구추천"
+        ]
+      }
+    },
+    {
+      "kind": "tip",
+      "text": "환절기 피부 관리, 복잡하게 생각하지 마세요.\n\n고가의 제품을 여러 개 바르는 것보다 피부 장벽을 지키는 게 중요합니다.\n손을 깨끗이 씻고 세안 후 수건으로 문지르기보다 톡톡 두드려 물기를 닦아보세요.\n작은 습관이 피부 결을 바꿉니다. ✨",
+      "photo_query": "skincare routine flatlay",
+      "done": false
+    },
+    {
+      "kind": "tip",
+      "text": "운동 시작하기 전 가장 큰 장벽은 무엇인가요?\n\n저는 운동복을 미리 챙겨두는 것만으로도 의지가 생기더라고요.\n가벼운 스트레칭이라도 좋으니 몸을 먼저 움직여보세요.\n시작이 반이라는 말처럼 일단 신발 끈을 묶는 것부터 시작해보면 어떨까요?",
+      "photo_query": "running shoes motivation",
+      "done": false
+    },
+    {
+      "kind": "link",
+      "number": 9,
+      "product": {
+        "keyword": "백팩",
+        "category": "패션잡화",
+        "trend_rank": "",
+        "search_url": "https://www.coupang.com/np/search?q=%EB%B0%B1%ED%8C%A9",
+        "partner_url": "https://link.coupang.com/a/hRUcBa3CLY",
+        "notes": "",
+        "price": "21900",
+        "name": "윤스미스 캐주얼 남여공용 레이백팩",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/1725/66828d0a11dc61bf3b6998d1354576abec28c9d62e4ecf9d2bbf90dab12c.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/ef68/8084ad394c9b471fb086a7a473017a8390fd278d448e6e6beec7a7ad132a.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/8383346653?itemId=24227870539",
+        "brand": "윤스미스",
+        "list_price": "49000",
+        "rating": "4.7",
+        "reviews": "422",
+        "buyers": "한 달간 100명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "아주 마음에드는 백팩 여행용으로도 좋아요."
+          },
+          {
+            "rating": 5,
+            "text": "편한 가방 강추"
+          },
+          {
+            "rating": 5,
+            "text": "받침대가 있어서 쳐지지 않음 !"
+          }
+        ],
+        "survey": [
+          {
+            "q": "디자인",
+            "a": "아주 마음에 들어요",
+            "n": 21,
+            "tot": 25
+          },
+          {
+            "q": "착용감",
+            "a": "아주 좋아요",
+            "n": 18,
+            "tot": 25
+          }
+        ],
+        "five_star_pct": "84",
+        "trend": "요즘 많이 찾는 '백팩'"
+      },
+      "text": "이번 주 네이버 쇼핑 인기 검색어 상위권에 올랐을 만큼 요즘 백팩 찾는 분들 많죠.\n\n백팩 고를 땐 짐을 넣었을 때 밑창 쳐짐이 없는지, 착용감이 편한지가 중요한데요.\n\n'윤스미스 캐주얼 남여공용 레이백팩'이 좋은 예시가 될 수 있어요.\n\n정가 49,000원에서 55% 할인된 21,900원에 판매 중이고, 쿠팡 평점 4.7점에 상품평도 422개나 돼요. 후기 대부분이 디자인과 착용감이 아주 좋다고 해요.\n\n구매자 후기 중 \"받침대가 있어서 쳐지지 않음 !\"이라는 글도 참고해 보세요.\n\n링크는 답글에 둘게요 🎒",
+      "done": false,
+      "format": "before_after",
+      "script": {
+        "title": "55% 할인 중인 착용감 좋은 가성비 백팩 #shorts",
+        "hook": "백팩이 55% 할인?",
+        "hook_highlight": "55% 할인",
+        "scenes": [
+          {
+            "caption": "백팩이 55% 할인?",
+            "highlight": "55% 할인",
+            "narration": "요즘 인기 검색어 상위권 백팩, 정가 49,000원에서 지금 21,900원이에요!",
+            "type": "normal"
+          },
+          {
+            "caption": "가방 짐 넣으면 쳐짐?",
+            "highlight": "짐 넣으면 쳐짐",
+            "narration": "짐 조금만 넣어도 밑바닥이 쳐지고 착용감 안 좋아서 불편하셨나요?",
+            "type": "normal"
+          },
+          {
+            "caption": "윤스미스 레이백팩",
+            "highlight": "레이백팩",
+            "narration": "윤스미스 캐주얼 남여공용 레이백팩은 후기 대부분이 디자인과 착용감이 아주 마음에 든대요.",
+            "type": "normal"
+          },
+          {
+            "caption": "실제 구매자 후기",
+            "highlight": "구매자 후기",
+            "narration": "구매자 후기 중에 \"받침대가 있어서 쳐지지 않음 !\" 이런 후기가 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "쿠팡 평점 4.7점",
+            "highlight": "평점 4.7점",
+            "narration": "상품평 422개에 별 5개 비율 84%, 평점 4.7점이에요. 가격은 바뀔 수 있어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "프로필 링크 9번",
+            "highlight": "9번",
+            "narration": "한 달간 100명 이상 구매한 이 백팩, 프로필 링크에서 9번 확인하세요!",
+            "type": "normal"
+          }
+        ],
+        "description": "네이버 인기 검색어 상위권 백팩!\n윤스미스 캐주얼 남여공용 레이백팩이 55% 할인 중입니다.\n자세한 정보 및 구매는 프로필 링크 9번에서 확인해 주세요.",
+        "hashtags": [
+          "#윤스미스",
+          "#레이백팩",
+          "#백팩",
+          "#백팩추천",
+          "#가성비백팩",
+          "#남여공용백팩"
         ]
       }
     }
