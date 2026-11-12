@@ -526,7 +526,7 @@
         "trend": "요즘 많이 찾는 '백팩'"
       },
       "text": "...",
-      "done": false,
+      "done": true,
       "format": "dont_buy_instead",
       "script": {
         "title": "백팩 사기 전 꼭 봐야 할 쳐짐 없는 가방 추천 #shorts",
@@ -581,7 +581,8 @@
           "#학생백팩",
           "#남여공용백팩"
         ]
-      }
+      },
+      "url": "텔레그램 전송 (직접 게시)"
     }
   ]
 }
