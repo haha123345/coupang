@@ -333,7 +333,8 @@
       "kind": "tip",
       "text": "날씨가 쌀쌀해지니 피부가 먼저 반응하네요.\n\n이럴 땐 스킨케어 단계를 늘리기보다 보습제를 얇게 여러 번 덧바르는 게 훨씬 효과적이에요.\n\n자기 전 수분 팩 하나면 아침 화장 먹는 결이 달라집니다. 💧",
       "photo_query": "skincare moisturizing routine",
-      "done": false
+      "done": true,
+      "url": "텔레그램 전송 (직접 게시)"
     },
     {
       "kind": "link",
