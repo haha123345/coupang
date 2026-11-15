@@ -228,7 +228,8 @@
       "kind": "tip",
       "text": "블랙아웃 커튼, 정말 어둡기만 할까요?\n\n빛을 완전히 차단해 주니까 아침에 눈이 번쩍 떠지지 않아서 좋아요.\n\n다만 방이 너무 어두워지면 아침 기상이 힘들어질 수 있으니 주의하세요.\n\n침실 방향에 따라 고민해 보고 고르시는 걸 추천해요.",
       "photo_query": "blackout curtain bedroom",
-      "done": false
+      "done": true,
+      "url": "텔레그램 전송 (직접 게시)"
     },
     {
       "kind": "tip",
