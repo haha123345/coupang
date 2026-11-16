@@ -203,7 +203,8 @@
       "kind": "tip",
       "text": "냉장고 채울 때 자주 하는 실수 ❄️\n\n냉장고 안쪽 벽면에 음식을 바짝 붙여두면 냉기 순환이 막힙니다.\n\n냉장실은 공간의 70% 정도만 채워야 냉기가 구석구석 잘 돕니다.\n\n반대로 냉동실은 빼곡하게 채울수록 냉기가 잘 유지된다는 사실!",
       "photo_query": "clean refrigerator inside",
-      "done": false
+      "done": true,
+      "url": "텔레그램 전송 (직접 게시)"
     },
     {
       "kind": "link",
