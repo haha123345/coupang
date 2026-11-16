@@ -323,7 +323,8 @@
       "kind": "tip",
       "text": "건조한 날씨에 집안 습도 높이는 팁\n\n가습기를 바닥에 두고 쓰시는 분들 많으시죠?\n\n가습기는 바닥보다 50cm 이상 높은 곳에 두어야 수분이 공기 중에 잘 퍼집니다.\n\n자기 전 방 안에 젖은 수건 한 장 걸어두는 것도 클래식하지만 확실한 방법이에요.",
       "photo_query": "humidifier living room",
-      "done": false
+      "done": true,
+      "url": "텔레그램 전송 (직접 게시)"
     },
     {
       "kind": "tip",
