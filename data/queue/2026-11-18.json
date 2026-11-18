@@ -99,7 +99,8 @@
           "#캐주얼백팩"
         ]
       },
-      "done": false
+      "done": true,
+      "url": "업로드 실패(텔레그램 전송)"
     },
     {
       "number": 1,
@@ -215,7 +216,8 @@
           "#쇼핑쇼츠"
         ]
       },
-      "done": false
+      "done": true,
+      "url": "업로드 실패(텔레그램 전송)"
     }
   ],
   "threads": [
