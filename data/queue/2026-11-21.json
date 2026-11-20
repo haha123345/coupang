@@ -363,7 +363,8 @@
       "kind": "tip",
       "text": "여러분은 계절 바뀔 때 옷장 정리 어떻게 하시나요?\n\n저는 안 입는 옷을 무작정 버리기보다 일단 한곳에 모아둬요.\n\n한 달 뒤에도 손이 안 가면 그건 인연이 없는 옷이더라고요.\n\n다들 옷장 비우는 나만의 노하우가 있으신가요?",
       "photo_query": "organized closet clothes",
-      "done": false
+      "done": true,
+      "url": "텔레그램 전송 (직접 게시)"
     },
     {
       "kind": "tip",
