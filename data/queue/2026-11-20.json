@@ -91,7 +91,8 @@
           "#다이어트템"
         ]
       },
-      "done": false
+      "done": true,
+      "url": "업로드 실패(텔레그램 전송)"
     },
     {
       "number": 8,
@@ -203,7 +204,8 @@
           "#쇼츠추천"
         ]
       },
-      "done": false
+      "done": true,
+      "url": "업로드 실패(텔레그램 전송)"
     }
   ],
   "threads": [
