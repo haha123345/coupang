@@ -218,7 +218,8 @@
       "kind": "tip",
       "text": "냉장고 청소할 때 의외로 많이 하는 실수\n\n세제나 식초로 내부를 닦고 바로 문을 닫으시나요?\n\n수분이 갇히면 내부 냄새와 곰팡이의 원인이 됩니다.\n\n닦은 후에는 자연 바람으로 최소 30분은 싹 말려주셔야 해요.\n\n가스켓 틈새 물기도 꼭 닦아주세요. 🧼",
       "photo_query": "clean refrigerator interior",
-      "done": false
+      "done": true,
+      "url": "텔레그램 전송 (직접 게시)"
     },
     {
       "kind": "link",
