@@ -12,8 +12,8 @@ items:
   category: 가구/인테리어
   trend_rank: 1
   search_url: https://www.coupang.com/np/search?q=%ED%96%89%EA%B1%B0
-  info: ''
-  partner_url: ''
+  info: '{"name": "코멧 홈 베이직 스탠드 행거", "brand": "코멧", "price": "11290", "list_price": "16990", "rating": "4.7", "reviews": "32954", "desc": "현재 별점 4.7점, 리뷰 32954개를 가진 코멧 홈 베이직 스탠드 행거! 지금 쿠팡에서 더 저렴하고 다양한 스탠드행거 제품들을 확인해보세요.", "images": ["https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/1025_amir_coupang_oct_80k/c588/e85bd4f018c8326191ccfb2091f10f28c70e513b07cc186d7c02a96ab6ab.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2104525084152847-4a7989a9-f6f6-4ad2-8aa8-703c94388e8c.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/671233147813271-c841a8d8-0f7a-47e7-9828-3c1869b42edd.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2104524963836801-edae5ba2-73d9-4c3f-a711-2c660031468c.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1059695000010960-2accd851-44e2-466a-996d-d93e2b401162.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2107463971443625-6e26c2b7-0c2c-48ba-a94a-13f968cac9f1.jpg"], "url": "https://www.coupang.com/vp/products/1676362802", "buyers": "한 달간 5,000명 이상 구매했어요", "top_reviews": [{"rating": 5, "text": "겨울에 필요한 간이식 행거~"}, {"rating": 5, "text": "조립 간편하고 넓고 튼튼해서 옷 정리에 딱 좋은 행거!"}, {"rating": 5, "text": "인테리어 깔끔이 효자템 ㅋㅋㅋ"}, {"rating": 5, "text": "깔끔하게 옷 정리하기 딱 좋아요!"}, {"rating": 5, "text": "가성비 행거로 추천합니다!!"}], "survey": [{"q": "사이즈", "a": "딱 맞는 정사이즈예요", "n": 71, "tot": 100}, {"q": "디자인", "a": "아주 마음에 들어요", "n": 63, "tot": 100}, {"q": "크기", "a": "적당해요", "n": 74, "tot": 100}, {"q": "견고함", "a": "아주 견고해요", "n": 57, "tot": 100}], "five_star_pct": "85"}'
+  partner_url: https://link.coupang.com/a/iVpXu0nwRM
   notes: ''
   price: ''
   name: ''
@@ -22,8 +22,8 @@ items:
   category: 생활/건강
   trend_rank: 2
   search_url: https://www.coupang.com/np/search?q=%ED%85%80%EB%B8%94%EB%9F%AC
-  info: ''
-  partner_url: ''
+  info: '{"name": "코멧 진공 스테인리스 텀블러 + 손잡이 + 빨대뚜껑 + 빨대 + 빨대솔", "brand": "코멧", "price": "9690", "list_price": "15400", "rating": "4.7", "reviews": "20151", "desc": "현재 별점 4.7점, 리뷰 20151개를 가진 코멧 진공 스테인리스 텀블러 + 손잡이 + 빨대뚜껑 + 빨대 + 빨대솔! 지금 쿠팡에서 더 저렴하고 다양한 텀블러/쉐이커 제품들을 확인해보세요.", "images": ["https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/343203829411945-aeed7fa8-cc6a-46d0-85e7-e99fe822acae.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/5212458774952297-5768a8fd-103f-4290-81a0-da726189e06b.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/969875756365015-ba39b08a-f412-49f7-b350-e3dc4896cb95.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/969875335739066-fef1c858-faab-4dc3-a723-b39bf3f1c4d4.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/969875756127416-4fa7a595-223b-4c46-815c-40c197072789.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/969875505940427-8dec0727-929d-4aa9-b80e-fdc32a6a4bb8.jpg"], "url": "https://www.coupang.com/vp/products/2057731929", "buyers": "한 달간 1,000명 이상 구매했어요", "top_reviews": [{"rating": 5, "text": "대용량이라 넉넉하고 구성품까지 알찬 실용적인 텀블러"}, {"rating": 5, "text": "기성비 최고 왜 1등인지 알거같음"}, {"rating": 5, "text": "대용량 텀블러 차가움이 오래가요!"}, {"rating": 5, "text": "뚜껑 2종 구성이 돋보이는 대용량 텀블러"}], "survey": [], "five_star_pct": "85"}'
+  partner_url: https://link.coupang.com/a/iVpYtDfOeG
   notes: ''
   price: ''
   name: ''
@@ -32,9 +32,9 @@ items:
   category: 화장품/미용
   trend_rank: 2
   search_url: https://www.coupang.com/np/search?q=%ED%95%B8%EB%93%9C%ED%81%AC%EB%A6%BC
-  info: ''
-  partner_url: ''
-  notes: ''
+  info: '{"name": "카밀 핸드 앤 네일 크림 클래식, 100ml, 3개", "brand": "카밀", "price": "8180", "list_price": "21600", "rating": "4.8", "reviews": "52591", "desc": "현재 별점 4.8점, 리뷰 52591개를 가진 카밀 핸드 앤 네일 크림 클래식! 100ml 3개 구성 8,180원. 지금 쿠팡에서 더 저렴하고 다양한 핸드크림 제품들을 확인해보세요.", "images": ["https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/329800891449468-cfd2989e-3c6c-4b55-b4a6-ccefc3e210a1.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/8573701282162-1f699056-e08d-46e3-9907-5fe1214ccb10.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/8573775485357-f321aaf5-9fc2-4eb7-a09e-eec0465523ec.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/8573837557901-8f3d5f72-a647-4656-82f8-4605f30c68f1.jpg"], "url": "https://www.coupang.com/vp/products/9727610179", "buyers": "한 달간 500명 이상 구매했어요", "top_reviews": [{"rating": 5, "text": "일명 승무원 핸드크림"}, {"rating": 5, "text": "핸드크림은 역시 카밀이죠 3개 쟁여두고 씀"}, {"rating": 5, "text": "끈적임없는 보습감 은은한 파우더리한향"}, {"rating": 5, "text": "향도좋고 손이 건조하지가 않아요"}, {"rating": 5, "text": "보습력도 흡수력도 향기도 만족스러워요!"}, {"rating": 5, "text": "보습력이 오래가서 너무 만족해요."}], "survey": [{"q": "향 만족도", "a": "아주만족해요", "n": 70, "tot": 100}, {"q": "보습력", "a": "아주 만족해요", "n": 80, "tot": 100}], "five_star_pct": "84"}'
+  partner_url: https://link.coupang.com/a/iVpZrV99yu
+  notes: '100ml 3개 구성 기준 가격(8,180원)이며 상품 페이지 기본 옵션은 10개 24,000원입니다.'
   price: ''
   name: ''
   image_urls: []
@@ -42,8 +42,8 @@ items:
   category: 디지털/가전
   trend_rank: 3
   search_url: https://www.coupang.com/np/search?q=%EA%B0%80%EC%8A%B5%EA%B8%B0
-  info: ''
-  partner_url: ''
+  info: '{"name": "홈플래닛 초음파 가습기 4L", "brand": "홈플래닛", "price": "23900", "list_price": "49500", "rating": "4.6", "reviews": "51434", "desc": "현재 별점 4.6점, 리뷰 51434개를 가진 홈플래닛 초음파 가습기 4L! 지금 쿠팡에서 더 저렴하고 다양한 가습기/에어워셔 제품들을 확인해보세요.", "images": ["https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/26159416953419-37907c07-742f-4851-af1e-1d2a176b996f.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/40922282412009-62e1e3d5-d266-4920-98ce-e38b583a7e89.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/40922434579419-f30074dd-0b1d-4f11-919e-a4c3fc544df8.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/26169446712111-b72a596d-d2af-4a2a-a73f-07df3c11df2e.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/40922427260955-bb238f53-215b-4c79-abb6-2350c3664fa2.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/40922433404122-310d3104-8f8e-45d4-afc3-339a9542905f.jpg"], "url": "https://www.coupang.com/vp/products/324788226", "buyers": "한 달간 1만명 이상 구매했어요", "top_reviews": [{"rating": 5, "text": "역시 가성비 짱이에요"}, {"rating": 5, "text": "겨울 필수템 가성비 좋은 가습기 추천드려요!"}, {"rating": 5, "text": "7가지 색의 너무 예쁜 무드등 가습기"}, {"rating": 5, "text": "건조한 방안 습도 채우기에 좋은 홈플래닛 초음파 가습기"}, {"rating": 5, "text": "물통도 크고 밤새 사용하기 편리해요!"}, {"rating": 5, "text": "요새 쿠팡 제품은 다 믿고 사용해요 가습력도 좋고 굿"}], "survey": [{"q": "디자인", "a": "아주 만족해요", "n": 67, "tot": 100}, {"q": "소음", "a": "생각보다 조용해요", "n": 56, "tot": 100}, {"q": "세척 편리성", "a": "편리해요", "n": 59, "tot": 100}, {"q": "가습 용량", "a": "아주 넉넉해요", "n": 70, "tot": 100}, {"q": "가성비", "a": "성능에 비해 저렴해요", "n": 61, "tot": 100}], "five_star_pct": "81"}'
+  partner_url: https://link.coupang.com/a/iVp0kPrKUe
   notes: ''
   price: ''
   name: ''
@@ -52,8 +52,8 @@ items:
   category: 스포츠/레저
   trend_rank: 4
   search_url: https://www.coupang.com/np/search?q=%ED%95%AB%ED%8C%A9
-  info: ''
-  partner_url: ''
+  info: '{"name": "해피데이 따뜻해 포켓용 핫팩 100g, 20개", "brand": "해피데이", "price": "8000", "list_price": "", "rating": "4.7", "reviews": "86332", "desc": "현재 별점 4.7점, 리뷰 86332개를 가진 해피데이 따뜻해 포켓용 핫팩 100g, 20개! 지금 쿠팡에서 더 저렴하고 다양한 손난로/핫팩 제품들을 확인해보세요.", "images": ["https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2026/07/03/10/9/faedd96b-36a1-4504-960c-6991f694982b.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2026/07/03/10/5/9187ad6c-e18a-4c36-a9ee-7b556c95e3be.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/rs_quotation_api/0no5vkxz/c18f235e83ac4b16b56b69035402b8ce.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/rs_quotation_api/7jzfgjmi/983896f5c61542d3a35147de757fad34.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/rs_quotation_api/egnt6j2b/4e863ede75604f60840c3fca5f0f1fd1.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/rs_quotation_api/jvddgevo/41e8dabc18954488984e90197e1977d9.jpg"], "url": "https://www.coupang.com/vp/products/9032104227", "buyers": "한 달간 4,000명 이상 구매했어요", "top_reviews": [{"rating": 5, "text": "등하원길 오래가는 핫팩"}, {"rating": 5, "text": "따뜻한 가성비 필수템"}, {"rating": 5, "text": "따뜻하게 해드리리라 ㅎ"}, {"rating": 5, "text": "부담 없이 매일 사용하기 좋은 따뜻한 손핫팩"}, {"rating": 5, "text": "편리성, 휴대성 높고 간편하게 오래 열이 지속되는 핫팩"}, {"rating": 5, "text": "핫팩중에제일괜찮아요 !"}], "survey": [{"q": "지속력", "a": "오래 유지돼요", "n": 85, "tot": 100}, {"q": "온열 기능", "a": "후끈후끈해요", "n": 75, "tot": 100}], "five_star_pct": "85"}'
+  partner_url: https://link.coupang.com/a/iVp43hvnVc
   notes: ''
   price: ''
   name: ''
@@ -62,8 +62,8 @@ items:
   category: 패션잡화
   trend_rank: 5
   search_url: https://www.coupang.com/np/search?q=%EC%8A%A4%EC%B9%B4%ED%94%84
-  info: ''
-  partner_url: ''
+  info: '{"name": "JANE 여성 쁘띠 사각 스카프 2종 세트", "brand": "", "price": "7900", "list_price": "20000", "rating": "4.6", "reviews": "1298", "desc": "현재 별점 4.6점, 리뷰 1298개를 가진 JANE 여성 쁘띠 사각 스카프 2종 세트! 지금 쿠팡에서 더 저렴하고 다양한 스카프 제품들을 확인해보세요.", "images": ["https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/d9a8/1d19a39d152c44750223dd082490e66b4d726bc94a4272607ad1ea12338d.png", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/5719/f119a4c86abddd3ac9ebc3f6a45c2ce6b473f4755e64360a493e4b50e461.jpeg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/92ff/9923565f1d01512f5006b24a5c88f855bd3c727b30773a204c1991fd087e.jpeg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/5e2b/4ca6d6a0db763795f76aafa44827ef346d892933fcefbf468f99f939d305.jpeg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/2576/9ab3273126649a413f812785802938e5d6dbd213fbecb5aa68dd7549e2bf.jpeg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/6b9b/5abfb23c44150c26b2796c8e8c4b7179d694e40cac22a277deedbfc45d74.jpeg"], "url": "https://www.coupang.com/vp/products/7830132859", "buyers": "한 달간 400명 이상 구매했어요", "top_reviews": [{"rating": 5, "text": "데일리룩에 우하함과 고급스러움"}, {"rating": 5, "text": "가볍게 둘러도 스타일이 살아나는 실용적인 쁘띠 스카프!"}, {"rating": 5, "text": "멋과 보온을 한번에"}, {"rating": 5, "text": "지인이 이쁘다고 자기도 같은걸로 사달래요 ㅎㅎ"}, {"rating": 5, "text": "가볍고 세련된 디자인으로 햇빛 알레르기 완화에 도움되요"}, {"rating": 5, "text": "스카프를 종종 매는데 매번 매듭 묶기가 귀찮아서"}], "survey": [{"q": "디자인", "a": "아주 마음에 들어요", "n": 78, "tot": 100}, {"q": "소재", "a": "상세페이지의 소재와 같아요", "n": 79, "tot": 100}], "five_star_pct": "75"}'
+  partner_url: https://link.coupang.com/a/iVqocryr6G
   notes: ''
   price: ''
   name: ''
@@ -72,9 +72,9 @@ items:
   category: 스포츠/레저
   trend_rank: 6
   search_url: https://www.coupang.com/np/search?q=%EB%B0%9C%EC%97%B4%EC%A1%B0%EB%81%BC
-  info: ''
-  partner_url: ''
-  notes: ''
+  info: '{"name": "에쉬울프 USB 발열조끼 스마트 온열조끼/ DR013", "brand": "", "price": "27400", "list_price": "39900", "rating": "4.4", "reviews": "2557", "desc": "현재 별점 4.4점, 리뷰 2557개를 가진 에쉬울프 USB 발열조끼 스마트 온열조끼! 보조배터리 연결로 발열하는 겨울 방한 조끼입니다.", "images": ["https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/d1f8/61de838253151e7ef570fb68313eab5fc79a100655c88dbdfb4a7c19f79b.jpg"], "url": "https://www.coupang.com/vp/products/6362095588", "buyers": "한 달간 100명 이상 구매했어요", "top_reviews": [{"rating": 5, "text": "따뜻한 겨울을 책임져줄 데일리 아이템"}, {"rating": 5, "text": "가볍고 활동하기 좋아 겨울철 작업용으로 최고"}, {"rating": 5, "text": "선물용으로 구매 했어요"}, {"rating": 5, "text": "가격대비 너무 만족스러운 따닷한 조끼!"}, {"rating": 5, "text": "일단가격이 너무좋아서 구입"}], "survey": [{"q": "사이즈", "a": "정사이즈예요", "n": 68, "tot": 100}, {"q": "색상", "a": "화면과 같아요", "n": 61, "tot": 100}], "five_star_pct": "74"}'
+  partner_url: https://link.coupang.com/a/iVqpeLYcLc
+  notes: 'USB 보조배터리(별매) 연결로 발열하는 조끼입니다.'
   price: ''
   name: ''
   image_urls: []
@@ -82,8 +82,8 @@ items:
   category: 출산/육아
   trend_rank: 6
   search_url: https://www.coupang.com/np/search?q=%EB%AC%BC%ED%8B%B0%EC%8A%88
-  info: ''
-  partner_url: ''
+  info: '{"name": "코멧 오리지널 유아용 아기물티슈 캡형", "brand": "코멧", "price": "10890", "list_price": "18000", "rating": "4.8", "reviews": "492638", "desc": "현재 별점 4.8점, 리뷰 492638개를 가진 코멧 오리지널 유아용 아기물티슈 캡형! 50g x 100매 x 10개 구성.", "images": ["https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/44344613265746-312dd5ae-8844-4536-80c8-4110a24dd8c8.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2280396506231797-4806874f-338a-4722-9d06-e05fefa2baff.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1842237182043989-10577c8b-e083-45e3-afee-af002c54d54f.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1839180843320119-ccf52345-f883-4194-998d-9add3721f86a.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2280411951926949-3681fab3-309f-43c2-84df-a7a19335b9de.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2281085075775295-7f9763b9-8487-4643-a3c9-37d750e05a42.jpg"], "url": "https://www.coupang.com/vp/products/188227098", "buyers": "한 달간 10만명 이상 구매했어요", "top_reviews": [{"rating": 5, "text": "피치와 크림 배색에 이중 밀봉 캡 갖춘 아기물티슈"}, {"rating": 5, "text": "용량 많고 잘 닦여요"}, {"rating": 5, "text": "물티슈는 집에 넉넉하게 쟁여둬야 마음이 편하죠! ㅎㅎ"}, {"rating": 5, "text": "육아 필수 기본 물티슈"}, {"rating": 5, "text": "가성비 좋은 물티슈!"}], "survey": [{"q": "편리성", "a": "아주 편리해요", "n": 81, "tot": 100}, {"q": "향 만족도", "a": "아주만족해요", "n": 62, "tot": 100}, {"q": "촉촉함", "a": "정말 촉촉해요", "n": 56, "tot": 100}], "five_star_pct": "85"}'
+  partner_url: https://link.coupang.com/a/iVqp569wv6
   notes: ''
   price: ''
   name: ''
@@ -92,8 +92,8 @@ items:
   category: 생활/건강
   trend_rank: 8
   search_url: https://www.coupang.com/np/search?q=%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4%ED%8A%B8%EB%A6%AC
-  info: ''
-  partner_url: ''
+  info: '{"name": "하우쎈스 트리 풀세트 (내츄럴와인, 1.4m)", "brand": "하우쎈스", "price": "36810", "list_price": "40900", "rating": "4.6", "reviews": "10965", "desc": "현재 별점 4.6점, 리뷰 10965개를 가진 하우쎈스 트리 풀세트! 트리 + LED 전구 + 장신구 + 특별구성품, 1.4m 높이.", "images": ["https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/6c6c/77a4436601f1f97d8d42d76347b90457ffe1d6057f8daa4ece67a2201ea0.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2874281260534061-b659421c-0665-462b-9253-ebb8b88974bd.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2261284248903743-07f7dfcb-b407-445b-903a-4b05d7a8060b.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2259572174117590-ecbb8f83-4c7c-46e0-b027-a251fe50c24a.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/86689019790701-cc8d0a34-9399-419f-ab18-71d5177ddb17.png", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/81003735399826-712407f2-f88a-4c5e-8c2d-0e42ec7df2bb.png"], "url": "https://www.coupang.com/vp/products/6761140003", "buyers": "", "top_reviews": [{"rating": 5, "text": "원하던 사이즈에 구성품도 다양해서 좋아요."}, {"rating": 5, "text": "가격이나 크기면에서 부담스럽지않고 구성이 알차요"}, {"rating": 5, "text": "기성비 괜찮은 제품입니다."}, {"rating": 5, "text": "크리스마스 트리는 이거 사세요."}, {"rating": 5, "text": "크리스마스 분위기 제대로나네요!!"}], "survey": [{"q": "디자인", "a": "아주 만족해요", "n": 80, "tot": 100}, {"q": "색상", "a": "아주 만족스러워요", "n": 75, "tot": 100}], "five_star_pct": "80"}'
+  partner_url: https://link.coupang.com/a/iVqq7PUDOC
   notes: ''
   price: ''
   name: ''
@@ -102,9 +102,9 @@ items:
   category: 디지털/가전
   trend_rank: 9
   search_url: https://www.coupang.com/np/search?q=%EC%9D%8C%EC%8B%9D%EB%AC%BC%EC%B2%98%EB%A6%AC%EA%B8%B0
-  info: ''
-  partner_url: ''
-  notes: ''
+  info: '{"name": "쿠쿠 에코웨일 건조분쇄 음식물처리기 가정용 (CFD-ENL201DCGW)", "brand": "쿠쿠", "price": "306900", "list_price": "649000", "rating": "4.7", "reviews": "2389", "desc": "현재 별점 4.7점, 리뷰 2389개를 가진 쿠쿠 에코웨일 건조분쇄 음식물처리기 가정용! 건조+분쇄 방식 2L, 본체+건조통+활성탄 필터 구성.", "images": ["https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/167241925197175-c3cff543-57b4-4036-856c-e6ba8a6f0fd7.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/65689044541602-6b4b5180-a844-4c09-9b1e-e9307616c786.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/65719390737953-13a871c9-9079-49e9-801e-4455bf5634dc.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/9363458907052-9b1d8550-fb3f-4fcd-b4a7-6b08b3b1c5ae.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/9363357615972-a721bbd6-3093-495f-9677-c804b395d3fa.jpg", "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/653933206536248-e0e37240-3b60-4232-907a-a94bc05e8cba.jpg"], "url": "https://www.coupang.com/vp/products/9173598865", "buyers": "한 달간 1,000명 이상 구매했어요", "top_reviews": [{"rating": 5, "text": "돌아가도 무조건 음쓰처리는 쿠쿠임"}, {"rating": 5, "text": "음식물 냄새로부터 자유로워졌어요."}, {"rating": 5, "text": "1가정 1필수템은 무조건 얘임!!!!!고민말고 사세여"}, {"rating": 5, "text": "매일 귀찮았던 음식물 정리, 한결 수월해"}, {"rating": 5, "text": "음쓰 버릴일 없어서 편리함"}, {"rating": 5, "text": "삶의 질이 달라진다는 후회없는 선택 - 쿠쿠 에코웨일"}], "survey": [], "five_star_pct": "87"}'
+  partner_url: https://link.coupang.com/a/iVqseaBok0
+  notes: '건조+분쇄 방식 2L, 설치가 필요 없는 가정용입니다.'
   price: ''
   name: ''
   image_urls: []
