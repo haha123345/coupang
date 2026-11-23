@@ -1,0 +1,562 @@
+{
+  "day": "2026-11-24",
+  "shorts": [
+    {
+      "number": 8,
+      "format": "top3_points",
+      "product": {
+        "keyword": "바디로션",
+        "category": "화장품/미용",
+        "trend_rank": "",
+        "search_url": "https://www.coupang.com/np/search?q=%EB%B0%94%EB%94%94%EB%A1%9C%EC%85%98",
+        "partner_url": "https://link.coupang.com/a/hRT4DqntzU",
+        "notes": "",
+        "price": "12920",
+        "name": "세타필 모이스춰라이징 로션, 591ml, 1개",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/77276365654004-a842d9c0-df4d-44fe-82a3-5dc3bc7ba775.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/152158274932720-1c27a1fa-0d5b-4ee4-89e0-94f79b757a87.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/126398290305948-b35d50c8-7d0d-436b-8a96-b50a1fc7e22c.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/126398319694242-cc292646-b723-4454-b0e4-e3c21e18d972.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/13955999033964-f54a88ac-03d7-4df2-8075-f9a5edc2c8d0.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/14147395062108-fbdc3097-5d0d-4dd9-b5a7-270d85a2086b.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/7164345502?itemId=17686805619",
+        "brand": "세타필",
+        "list_price": "24500",
+        "rating": "4.8",
+        "reviews": "233516",
+        "buyers": "한 달간 7만명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "대용량인데 부드럽고 촉촉한 사계절 로션"
+          },
+          {
+            "rating": 5,
+            "text": "부드럽고 좋아요"
+          }
+        ],
+        "survey": [
+          {
+            "q": "보습력",
+            "a": "아주 만족해요",
+            "n": 28,
+            "tot": 30
+          },
+          {
+            "q": "발림성",
+            "a": "부드럽게 발라져요",
+            "n": 28,
+            "tot": 30
+          },
+          {
+            "q": "향 만족도",
+            "a": "아주만족해요",
+            "n": 22,
+            "tot": 30
+          }
+        ],
+        "five_star_pct": "86",
+        "trend": "요즘 많이 찾는 '바디로션'"
+      },
+      "script": {
+        "title": "한 달 7만 명 구매! 보습 끝판왕 세타필 로션 47% 할인 #shorts",
+        "hook": "한 달 7만 명이 산 로션",
+        "hook_highlight": "한 달 7만 명이",
+        "scenes": [
+          {
+            "caption": "요즘 제일 핫한 바디로션?",
+            "highlight": "바디로션",
+            "narration": "요즘 네이버 쇼핑 인기 검색어 상위권에 있는 바디로션, 왜 이렇게 난리일까요?",
+            "type": "normal"
+          },
+          {
+            "caption": "건조함 해결 비법",
+            "highlight": "건조함 해결",
+            "narration": "푸석한 피부 때문에 고민이라면 주목하세요. 세타필 모이스춰라이징 로션 하나면 해결되거든요.",
+            "type": "normal"
+          },
+          {
+            "caption": "구매자 반응은?",
+            "highlight": "구매자 반응",
+            "narration": "실제 후기를 보면 \"대용량인데 부드럽고 촉촉한 사계절 로션\", \"부드럽고 좋아요\"라는 평이 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "왜 다들 세타필일까?",
+            "highlight": "다들",
+            "narration": "무려 23만 개가 넘는 상품평에 쿠팡 평점 4.8점! 전체 상품평 중 별 5개 비율이 86%나 돼요.",
+            "type": "normal"
+          },
+          {
+            "caption": "사용자들의 만족 포인트",
+            "highlight": "만족 포인트",
+            "narration": "후기 대부분이 보습력은 아주 만족하고, 부드럽게 잘 발리며 향도 아주 만족한다고 하네요.",
+            "type": "normal"
+          },
+          {
+            "caption": "47% 할인 중!",
+            "highlight": "47% 할인",
+            "narration": "정가 2만 4,500원에서 지금 1만 2,920원까지 내려갔어요. 가격은 바뀔 수 있으니 지금 프로필 링크에서 8번을 확인하세요.",
+            "type": "normal"
+          }
+        ],
+        "description": "환절기 필수템 세타필 모이스춰라이징 로션! 23만 개가 넘는 리뷰가 증명하는 촉촉함을 지금 특가로 만나보세요. 구매자들의 만족도가 높은 이유를 확인해보세요.",
+        "hashtags": [
+          "#세타필",
+          "#바디로션추천",
+          "#환절기피부관리",
+          "#가성비템",
+          "#촉촉한로션"
+        ]
+      },
+      "done": false
+    },
+    {
+      "number": 9,
+      "format": "before_after",
+      "product": {
+        "keyword": "백팩",
+        "category": "패션잡화",
+        "trend_rank": "",
+        "search_url": "https://www.coupang.com/np/search?q=%EB%B0%B1%ED%8C%A9",
+        "partner_url": "https://link.coupang.com/a/hRUcBa3CLY",
+        "notes": "",
+        "price": "21900",
+        "name": "윤스미스 캐주얼 남여공용 레이백팩",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/1725/66828d0a11dc61bf3b6998d1354576abec28c9d62e4ecf9d2bbf90dab12c.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/ef68/8084ad394c9b471fb086a7a473017a8390fd278d448e6e6beec7a7ad132a.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/8383346653?itemId=24227870539",
+        "brand": "윤스미스",
+        "list_price": "49000",
+        "rating": "4.7",
+        "reviews": "422",
+        "buyers": "한 달간 100명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "아주 마음에드는 백팩 여행용으로도 좋아요."
+          },
+          {
+            "rating": 5,
+            "text": "편한 가방 강추"
+          },
+          {
+            "rating": 5,
+            "text": "받침대가 있어서 쳐지지 않음 !"
+          }
+        ],
+        "survey": [
+          {
+            "q": "디자인",
+            "a": "아주 마음에 들어요",
+            "n": 21,
+            "tot": 25
+          },
+          {
+            "q": "착용감",
+            "a": "아주 좋아요",
+            "n": 18,
+            "tot": 25
+          }
+        ],
+        "five_star_pct": "84",
+        "trend": "요즘 많이 찾는 '백팩'"
+      },
+      "script": {
+        "title": "4천 원대 할인? 요즘 난리난 2만 원대 가성비 백팩 #shorts",
+        "hook": "정가 49,000원이 반값 이하!",
+        "hook_highlight": "반값 이하!",
+        "scenes": [
+          {
+            "caption": "백팩 많이 찾죠?",
+            "highlight": "백팩",
+            "narration": "요즘 네이버에서 백팩 검색량이 급증했는데, 정가 49,000원짜리가 지금 55% 할인해서 21,900원이에요!",
+            "type": "normal"
+          },
+          {
+            "caption": "밑바닥 쳐짐 불편하죠",
+            "highlight": "밑바닥 쳐짐",
+            "narration": "짐 조금만 넣어도 무겁고 가방 밑바닥이 무너져서 핏 망가진 적 많으시죠?",
+            "type": "normal"
+          },
+          {
+            "caption": "윤스미스 레이백팩",
+            "highlight": "레이백팩",
+            "narration": "윤스미스 캐주얼 남여공용 레이백팩은 디자인과 착용감 후기가 대부분 아주 좋다고 해요.",
+            "type": "normal"
+          },
+          {
+            "caption": "구매자 실제 후기",
+            "highlight": "실제 후기",
+            "narration": "실제 구매자 후기 중에 \"받침대가 있어서 쳐지지 않음 !\" 이런 후기도 있더라고요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "평점 4.7점 달성",
+            "highlight": "평점 4.7점",
+            "narration": "쿠팡 평점 4.7점에 별 5개 비율이 84%나 됩니다. 가격은 바뀔 수 있어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "프로필 링크 9번",
+            "highlight": "프로필 링크 9번",
+            "narration": "가성비 백팩 찾으신다면 프로필 링크에서 9번 확인하세요!",
+            "type": "normal"
+          }
+        ],
+        "description": "네이버 인기 검색어 상위권 '백팩'! 정가 49,000원에서 55% 할인된 윤스미스 캐주얼 남여공용 레이백팩을 만나보세요.\n쿠팡 평점 4.7점, 쳐짐 없이 편안한 가방으로 추천합니다.",
+        "hashtags": [
+          "#윤스미스",
+          "#레이백팩",
+          "#백팩추천",
+          "#가성비백팩",
+          "#남여공용백팩",
+          "#패션잡화"
+        ]
+      },
+      "done": false
+    }
+  ],
+  "threads": [
+    {
+      "kind": "tip",
+      "text": "가구 배치를 바꾸는 것만으로 집이 넓어 보여요.\n\n가구의 높이가 낮을수록 시선이 분산되지 않아 공간이 탁 트인 느낌을 줍니다.\n\n출입구에서 대각선 방향에 큰 가구를 두면 안정감을 느낄 수 있어요.\n\n오늘 밤, 가구 위치를 조금만 옮겨보는 건 어떨까요?",
+      "photo_query": "minimalist living room layout",
+      "done": true,
+      "url": "텔레그램 전송 (직접 게시)"
+    },
+    {
+      "kind": "tip",
+      "text": "여러분은 운동할 때 어떤 점이 가장 힘든가요?\n\n꾸준히 하려 해도 매번 작심삼일이 되기 일쑤네요.\n\n운동 시간을 확보하는 나만의 작은 루틴이 있다면 공유해주세요.\n\n함께 힘내서 건강한 습관 만들고 싶어요.",
+      "photo_query": "person exercising home workout",
+      "done": false
+    },
+    {
+      "kind": "link",
+      "number": 7,
+      "product": {
+        "keyword": "멀티탭",
+        "category": "생활/건강",
+        "trend_rank": "",
+        "search_url": "https://www.coupang.com/np/search?q=%EB%A9%80%ED%8B%B0%ED%83%AD",
+        "partner_url": "https://link.coupang.com/a/hRT2NfWZbg",
+        "notes": "",
+        "price": "11900",
+        "name": "번개표 개별스위치 멀티탭 3구 WI-MC21633V",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/df1a/cc589644e35fb32e9313ec0ed6f5d713aac3f5f37cd8eea45800169725d4.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/3707798267566146-0ed3c3d7-0cb2-4840-bebd-6062bbd8b314.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1438394484381272-4c73726b-7fc5-4768-a3d4-a93a1d331611.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/845914405155033-eac5e8f6-3b92-4013-a527-215e1e4aa5f6.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1228308997196550-b3c310ab-968a-4edf-ad41-68d5c8a5ac4a.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/845915071376368-b90f7ed8-2c50-40a8-a2ac-02319705180a.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/218273168?itemId=675673605",
+        "brand": "번개표",
+        "rating": "4.8",
+        "reviews": "44182",
+        "buyers": "한 달간 5,000명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "우선 디자인이 정말 깔끔해요."
+          },
+          {
+            "rating": 5,
+            "text": "개별스위치로 편리함이 배가되는 멀티탭"
+          },
+          {
+            "rating": 5,
+            "text": "역시 번개표! 안전하고 개별 스위치라 절전까지 완벽해요"
+          }
+        ],
+        "survey": [
+          {
+            "q": "편리성",
+            "a": "아주 편리해요",
+            "n": 23,
+            "tot": 28
+          },
+          {
+            "q": "견고함",
+            "a": "아주 견고해요",
+            "n": 21,
+            "tot": 28
+          }
+        ],
+        "five_star_pct": "85",
+        "trend": "요즘 많이 찾는 '멀티탭'"
+      },
+      "text": "이번 주 네이버 쇼핑 인기 검색어 상위에 오른 '멀티탭'!\n멀티탭을 고를 땐 개별 스위치 유무와 안전성을 먼저 확인하는 게 좋아요.\n\n'번개표 개별스위치 멀티탭 3구 WI-MC21633V'가 좋은 예시예요.\n쿠팡 상품평 44,182개, 평점 4.8점에 한 달간 5,000명 이상 구매로 표시되어 있어요.\n\n후기 대부분이 아주 편리하고 견고하다고 해요.\n구매자 후기 중 \"역시 번개표! 안전하고 개별 스위치라 절전까지 완벽해요\"라는 내용도 있습니다.\n\n가격은 작성 시점 기준 11,900원입니다.\n\n링크는 답글에 둘게요!",
+      "done": false,
+      "format": "dont_buy_instead",
+      "script": {
+        "title": "상품평 4만 개 넘은 네이버 인기 멀티탭 추천 #shorts",
+        "hook": "한 달 5천 명이 선택!",
+        "hook_highlight": "5천 명",
+        "scenes": [
+          {
+            "caption": "아무거나 사면 후회",
+            "highlight": "후회",
+            "narration": "멀티탭 아무거나 샀다가 매번 코드 뺐다 끼우느라 불편하고 전기세 새고 계신가요?",
+            "type": "normal"
+          },
+          {
+            "caption": "개별 스위치로 절전",
+            "highlight": "개별 스위치",
+            "narration": "번개표 개별스위치 3구 멀티탭은 안 쓰는 코드만 스위치로 쏙 끌 수 있어서 절전까지 완벽해요.",
+            "type": "normal"
+          },
+          {
+            "caption": "구매자 실제 후기",
+            "highlight": "실제 후기",
+            "narration": "실제 후기 보니까 \"역시 번개표! 안전하고 개별 스위치라 절전까지 완벽해요\"라는 평이 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "평점 4.8점 검증 완료",
+            "highlight": "4.8점",
+            "narration": "상품평 44,182개 중 별 5개 비율이 85%에 달하고, 후기 대부분이 아주 편리하고 견고하대요.",
+            "type": "normal"
+          },
+          {
+            "caption": "프로필 7번 확인",
+            "highlight": "7번",
+            "narration": "가격은 작성 시점 기준 11,900원이고 바뀔 수 있어요. 프로필 링크에서 7번 확인하세요!",
+            "type": "normal"
+          }
+        ],
+        "description": "한 달간 5,000명 이상이 선택한 번개표 개별스위치 3구 멀티탭!\n안전하고 편리한 개별 스위치로 전기세 절약까지 챙기세요.\n자세한 정보는 프로필 링크 번호 7번에서 확인하실 수 있습니다.",
+        "hashtags": [
+          "#멀티탭",
+          "#번개표멀티탭",
+          "#3구멀티탭",
+          "#개별스위치멀티탭",
+          "#생활꿀템",
+          "#자취꿀템"
+        ]
+      }
+    },
+    {
+      "kind": "tip",
+      "text": "창문 틈새로 들어오는 찬 바람 때문에 고민이시죠?\n\n겨울철엔 문풍지나 에어캡을 활용해 외풍을 차단해보세요.\n\n실내 온도가 2~3도는 더 따뜻하게 유지됩니다.\n\n난방비도 아끼고 실내 공기 질도 관리하는 겨울 꿀팁이에요.",
+      "photo_query": "winter window insulation",
+      "done": false
+    },
+    {
+      "kind": "tip",
+      "text": "화장품, 개봉 후 얼마나 쓰고 계신가요?\n\n제품 바닥에 적힌 유통기한보다 개봉 날짜를 기록하는 게 더 중요해요.\n\n라벨지에 날짜를 써서 붙여두면 변질된 제품을 얼굴에 바르는 실수를 막을 수 있습니다.\n\n지금 바로 화장대를 점검해보세요.",
+      "photo_query": "skincare product organizer",
+      "done": false
+    },
+    {
+      "kind": "link",
+      "number": 2,
+      "product": {
+        "keyword": "정수기",
+        "category": "디지털/가전",
+        "trend_rank": "",
+        "search_url": "https://www.coupang.com/np/search?q=%EC%A0%95%EC%88%98%EA%B8%B0",
+        "partner_url": "https://link.coupang.com/a/hRSTOwGVcO",
+        "notes": "",
+        "price": "750410",
+        "name": "퓨리얼 직수형 냉온정수기 방문설치",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/33869226632443-14a7ab27-3304-4113-bfca-d53b1f244fc5.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/97280521352511-d4e35cd7-23b7-4cb4-aa27-70304e7a54c1.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/357530743156885-d9886419-6c52-4cfc-ae6e-16379bb0d683.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/357535111276328-b1bd3070-a870-405c-9783-d37c1702b07b.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/357665500189162-d522de2e-5553-4eab-8cf1-76cf10b1631a.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/357542367753236-7c10a3df-ed5f-442b-8307-cfa8c337e61e.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/55598788?itemId=193347901",
+        "brand": "퓨리얼",
+        "list_price": "899000",
+        "rating": "4.5",
+        "reviews": "407",
+        "desc": "현재 별점 4.5점, 리뷰 407개를 가진 퓨리얼 직수형 냉온정수기 방문설치! 지금 쿠팡에서 더 저렴하고 다양한 정수기 제품들을 확인해보세요.",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "중간에 필터도 한번 셀프 교체했는데 너무 쉽네요."
+          },
+          {
+            "rating": 5,
+            "text": "냉온정수가 한번에! 컴팩트하고 깔끔한 퓨리얼 직수형!"
+          }
+        ],
+        "five_star_pct": "76",
+        "trend": "요즘 많이 찾는 '정수기'"
+      },
+      "text": "'정수기'가 이번 주 네이버 쇼핑 인기 검색어 상위권에 올랐네요.\n\n냉온정 기능이 함께 있으면서 필터 교체가 편한 제품을 기준으로 살펴보는 것을 추천해요.\n\n'퓨리얼 직수형 냉온정수기 방문설치'가 그 기준에 잘 맞는 예시인데요.\n\n현재 정가 899,000원에서 16% 할인된 750,410원에 확인되며, 쿠팡 평점 4.5점에 상품평 407개가 올라와 있습니다. 💧\n\n구매자 후기 중 \"중간에 필터도 한번 셀프 교체했는데 너무 쉽네요.\"라는 내용도 있네요.\n\n링크는 답글에 둘게요!",
+      "done": false,
+      "format": "price_check",
+      "script": {
+        "title": "요즘 정수기 고민 끝? 퓨리얼 직수형 냉온정수기 #shorts",
+        "hook": "요즘 제일 많이 찾는 정수기",
+        "hook_highlight": "제일 많이 찾는",
+        "scenes": [
+          {
+            "caption": "정수기 고민 많죠?",
+            "highlight": "고민",
+            "narration": "정수기 고를 때 용량에 크기까지 따질 게 너무 많죠. 요즘 네이버 검색어 상위권에 있는 퓨리얼 직수형 냉온정수기 보여드릴게요.",
+            "type": "normal"
+          },
+          {
+            "caption": "냉수 온수 한 번에",
+            "highlight": "한 번에",
+            "narration": "냉수랑 온수가 한 번에 나오는데 기기는 컴팩트하고 디자인까지 깔끔해서 주방 어디든 잘 어울려요.",
+            "type": "normal"
+          },
+          {
+            "caption": "구매자 반응은?",
+            "highlight": "반응",
+            "narration": "실제 후기 보니까 \"냉온정수가 한번에! 컴팩트하고 깔끔한 퓨리얼 직수형!\"이라는 평이 있고, \"중간에 필터도 한번 셀프 교체했는데 너무 쉽네요\"라는 후기도 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "검증된 인기",
+            "highlight": "검증된",
+            "narration": "쿠팡 상품평 407개에 평점은 4.5점, 특히 별 5개 준 비율이 76%나 되니까 다들 선택하는 이유가 있죠.",
+            "type": "normal"
+          },
+          {
+            "caption": "지금 16% 할인",
+            "highlight": "16% 할인",
+            "narration": "정가 899,000원에서 지금 750,410원으로 할인 중인데요, 가격은 바뀔 수 있으니 참고하세요.",
+            "type": "normal"
+          },
+          {
+            "caption": "프로필 링크 확인",
+            "highlight": "2번",
+            "narration": "궁금하신 분들은 프로필 링크에서 2번 확인해보세요.",
+            "type": "normal"
+          }
+        ],
+        "description": "요즘 네이버 인기 검색어 상위권! 퓨리얼 직수형 냉온정수기입니다. 꼼꼼한 후기 확인하고 16% 할인 혜택까지 놓치지 마세요.",
+        "hashtags": [
+          "#퓨리얼",
+          "#정수기추천",
+          "#직수형정수기",
+          "#주방가전",
+          "#냉온정수기"
+        ]
+      }
+    },
+    {
+      "kind": "link",
+      "number": 3,
+      "product": {
+        "keyword": "등산화",
+        "category": "스포츠/레저",
+        "trend_rank": "",
+        "search_url": "https://www.coupang.com/np/search?q=%EB%93%B1%EC%82%B0%ED%99%94",
+        "partner_url": "https://link.coupang.com/a/hRTPC8j4Vg",
+        "notes": "",
+        "price": "27680",
+        "name": "유세븐 남성용 다이얼 운동화 트래킹화 DM907",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/187992871288890-a6f1a312-e18f-401d-8f08-33d2322bf755.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/313658257200773-a2df0e58-95d5-4d25-a254-68dc19a36b0d.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/5134439110075993-84a6b340-87a3-4c61-a4a0-74ff980b27eb.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/313658364725732-5c6904e8-0701-4ce7-809c-19727eb1302e.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/315933265130726-a644aa56-aafb-4e1e-a33e-b1809006c164.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/383043431802731-8f727839-789d-4ad6-ae6c-21fa6dc13661.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/5563046362?itemId=8831093285",
+        "brand": "유세븐",
+        "rating": "4.5",
+        "reviews": "8336",
+        "buyers": "한 달간 200명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "가볍고 편한 가성비 다이얼 등산화"
+          },
+          {
+            "rating": 5,
+            "text": "오래 신어도 발 편함"
+          },
+          {
+            "rating": 4,
+            "text": "발이 편해서 일상화로도 좋아요"
+          }
+        ],
+        "survey": [
+          {
+            "q": "색상",
+            "a": "화면과 같아요",
+            "n": 24,
+            "tot": 30
+          },
+          {
+            "q": "착용감",
+            "a": "아주 좋아요",
+            "n": 15,
+            "tot": 19
+          }
+        ],
+        "five_star_pct": "70",
+        "trend": "요즘 많이 찾는 '등산화'"
+      },
+      "text": "상품평 8,336개와 평점 4.5점을 기록 중인 유세븐 남성용 다이얼 운동화 트래킹화 DM907이에요.\n\n등산화를 고를 때는 가벼운 착용감과 편안함을 먼저 보게 되는데요.\n\n이 제품은 한 달간 200명 이상 구매했어요.\n\n구매자 후기 중 \"가볍고 편한 가성비 다이얼 등산화\"라는 평가가 있어요.\n\n가격은 27,680원입니다.\n\n링크는 답글에 둘게요",
+      "done": false,
+      "format": "top3_points",
+      "script": {
+        "title": "요즘 등산화 찾는다면? 평점 4.5점 가성비 다이얼 등산화 #shorts",
+        "hook": "후기 8천 개 넘는 등산화",
+        "hook_highlight": "후기 8천 개",
+        "scenes": [
+          {
+            "caption": "등산화 찾고 계신가요?",
+            "highlight": "등산화",
+            "narration": "요즘 네이버에서 등산화 검색 많이 하시죠? 다들 고민하는 등산화, 이거 한번 봐보세요.",
+            "type": "normal"
+          },
+          {
+            "caption": "불편한 끈은 이제 그만",
+            "highlight": "끈",
+            "narration": "등산 갈 때마다 끈 묶기 귀찮고 잘 풀려서 불편하셨죠? 유세븐 다이얼 트래킹화는 다이얼 방식이라 신고 벗기가 정말 편해요.",
+            "type": "normal"
+          },
+          {
+            "caption": "구매자 반응은?",
+            "highlight": "구매자",
+            "narration": "실제 구매자 후기 중에 \"가볍고 편한 가성비 다이얼 등산화\", \"오래 신어도 발 편함\" 이런 후기들이 있네요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "다들 이걸 고르는 이유",
+            "highlight": "이유",
+            "narration": "상품평이 8,336개인데 별 5개 비율이 70%나 돼요. 후기 대부분이 색상도 화면과 같고 착용감도 아주 좋다고 하네요.",
+            "type": "normal"
+          },
+          {
+            "caption": "지금 가격은 2만원대",
+            "highlight": "2만원대",
+            "narration": "한 달간 200명 이상이 선택한 이 신발, 가격은 27,680원입니다. 가격은 변동될 수 있어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "프로필 링크 3번 클릭!",
+            "highlight": "3번",
+            "narration": "더 자세한 정보가 궁금하다면 지금 바로 프로필 링크에서 3번 확인하세요.",
+            "type": "normal"
+          }
+        ],
+        "description": "네이버 인기 검색어 등산화! 8천 개가 넘는 후기로 검증된 유세븐 다이얼 트래킹화 소개합니다. 가볍고 편한 착용감으로 일상화로도 딱이에요.",
+        "hashtags": [
+          "#유세븐등산화",
+          "#다이얼등산화",
+          "#가성비등산화",
+          "#등산화추천",
+          "#트래킹화"
+        ]
+      }
+    }
+  ]
+}
