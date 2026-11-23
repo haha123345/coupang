@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/home/runner/work/coupang/coupang/src/main.py", line 204, in <module>
+    COMMANDS[name]()
+  File "/home/runner/work/coupang/coupang/src/main.py", line 127, in cmd_threads
+    q = _queue()
+        ^^^^^^^^
+  File "/home/runner/work/coupang/coupang/src/main.py", line 26, in _queue
+    q = content.build_day()
+        ^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/coupang/coupang/src/content.py", line 227, in build_day
+    s = _shorts(cfg, number, prod, fmt)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/coupang/coupang/src/content.py", line 186, in _shorts
+    s = generate_json(prompt, cfg["llm"]["model"])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/coupang/coupang/src/llm.py", line 109, in generate_json
+    raise RuntimeError("Gemini 호출 실패: " + " / ".join(errors[-8:]))
+RuntimeError: Gemini 호출 실패: gemini-3.6-flash: 503 This model is currently experiencing high demand. Spikes in demand are usually temporary.  / gemini-3.5-flash-lite: 503 This model is currently experiencing high demand. Spikes in demand are usually temporary.  / gemini-3.1-flash-lite: 503 This model is currently experiencing high demand. Spikes in demand are usually temporary.  / gemini-2.5-flash-lite: 404 This model models/gemini-2.5-flash-lite is no longer available to new users. Please update / gemma-4-26b-a4b-it: 503 This model is currently experiencing high demand. Spikes in demand are usually temporary.  / gemma-4-31b-it: 응답 해석 실패 Expecting value: line 1 column 1 (char 0) / gemini-3.5-flash: 503 This model is currently experiencing high demand. Spikes in demand are usually temporary.  / gemini-2.5-flash: 404 This model models/gemini-2.5-flash is no longer available to new users. Please update your
