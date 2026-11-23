@@ -92,7 +92,8 @@
           "#생활용품"
         ]
       },
-      "done": false
+      "done": true,
+      "url": "업로드 실패(텔레그램 전송)"
     },
     {
       "number": 1,
@@ -208,7 +209,8 @@
           "#생활가전"
         ]
       },
-      "done": false
+      "done": true,
+      "url": "업로드 실패(텔레그램 전송)"
     }
   ],
   "threads": [
