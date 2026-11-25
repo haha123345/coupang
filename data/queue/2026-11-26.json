@@ -1,0 +1,569 @@
+{
+  "day": "2026-11-26",
+  "shorts": [
+    {
+      "number": 3,
+      "format": "top3_points",
+      "product": {
+        "keyword": "핸드크림",
+        "category": "화장품/미용",
+        "trend_rank": 2,
+        "search_url": "https://www.coupang.com/np/search?q=%ED%95%B8%EB%93%9C%ED%81%AC%EB%A6%BC",
+        "partner_url": "https://link.coupang.com/a/iVpZrV99yu",
+        "notes": "100ml 3개 구성 기준 가격(8,180원)이며 상품 페이지 기본 옵션은 10개 24,000원입니다.",
+        "price": "8180",
+        "name": "카밀 핸드 앤 네일 크림 클래식, 100ml, 3개",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/329800891449468-cfd2989e-3c6c-4b55-b4a6-ccefc3e210a1.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/8573701282162-1f699056-e08d-46e3-9907-5fe1214ccb10.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/8573775485357-f321aaf5-9fc2-4eb7-a09e-eec0465523ec.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/8573837557901-8f3d5f72-a647-4656-82f8-4605f30c68f1.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/9727610179",
+        "brand": "카밀",
+        "list_price": "21600",
+        "rating": "4.8",
+        "reviews": "52591",
+        "desc": "현재 별점 4.8점, 리뷰 52591개를 가진 카밀 핸드 앤 네일 크림 클래식! 100ml 3개 구성 8,180원. 지금 쿠팡에서 더 저렴하고 다양한 핸드크림 제품들을 확인해보세요.",
+        "buyers": "한 달간 500명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "보습력이 오래가서 너무 만족해요."
+          },
+          {
+            "rating": 5,
+            "text": "향도좋고 손이 건조하지가 않아요"
+          },
+          {
+            "rating": 5,
+            "text": "보습력도 흡수력도 향기도 만족스러워요!"
+          }
+        ],
+        "survey": [
+          {
+            "q": "향 만족도",
+            "a": "아주만족해요",
+            "n": 70,
+            "tot": 100
+          },
+          {
+            "q": "보습력",
+            "a": "아주 만족해요",
+            "n": 80,
+            "tot": 100
+          }
+        ],
+        "five_star_pct": "84",
+        "trend": "'핸드크림' 인기 검색어 2위"
+      },
+      "script": {
+        "title": "리뷰 5만 개 넘은 8천 원대 국민 핸드크림 62% 할인! #shorts",
+        "hook": "리뷰만 5만 개 넘은",
+        "hook_highlight": "5만 개",
+        "scenes": [
+          {
+            "caption": "리뷰만 5만 개 넘은",
+            "highlight": "5만 개",
+            "narration": "리뷰만 5만 2천 개가 넘게 달린 핸드크림이 정가에서 62%나 할인 중이에요!",
+            "type": "normal"
+          },
+          {
+            "caption": "손이 자꾸 트나요?",
+            "highlight": "손이 자꾸",
+            "narration": "손이 금방 건조해져서 끈적임 없이 촉촉하고 향 좋은 제품 찾으셨나요?",
+            "type": "normal"
+          },
+          {
+            "caption": "인기 검색어 2위",
+            "highlight": "2위",
+            "narration": "요즘 네이버 인기 검색어 2위가 핸드크림인데, 쿠팡에서 한 달간 500명 이상이 구매했더라고요.",
+            "type": "normal"
+          },
+          {
+            "caption": "구매자 반응은?",
+            "highlight": "구매자 반응",
+            "narration": "실제 후기 중에 \"보습력도 흡수력도 향기도 만족스러워요!\"라는 후기가 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "별 5개 비율 84%",
+            "highlight": "84%",
+            "narration": "쿠팡 별 5개 비율도 84%에 달하고, 후기 대부분이 보습력과 향에 만족했대요.",
+            "type": "normal"
+          },
+          {
+            "caption": "프로필 3번 확인",
+            "highlight": "3번 확인",
+            "narration": "100ml 3개 구성에 8,180원인데 가격은 바뀔 수 있으니 프로필 링크에서 3번 확인하세요!",
+            "type": "normal"
+          }
+        ],
+        "description": "상품평 5만 개 이상, 평점 4.8점을 기록 중인 카밀 핸드 앤 네일 크림 클래식 100ml 3개 세트 소식입니다. 보습력과 향 만족도가 높은 인기 핸드크림 할인 혜택을 만나보세요.",
+        "hashtags": [
+          "#핸드크림",
+          "#카밀핸드크림",
+          "#핸드크림추천",
+          "#보습크림",
+          "#쇼핑정보"
+        ]
+      },
+      "done": false
+    },
+    {
+      "number": 10,
+      "format": "before_after",
+      "product": {
+        "keyword": "음식물처리기",
+        "category": "디지털/가전",
+        "trend_rank": 9,
+        "search_url": "https://www.coupang.com/np/search?q=%EC%9D%8C%EC%8B%9D%EB%AC%BC%EC%B2%98%EB%A6%AC%EA%B8%B0",
+        "partner_url": "https://link.coupang.com/a/iVqseaBok0",
+        "notes": "건조+분쇄 방식 2L, 설치가 필요 없는 가정용입니다.",
+        "price": "306900",
+        "name": "쿠쿠 에코웨일 건조분쇄 음식물처리기 가정용 (CFD-ENL201DCGW)",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/167241925197175-c3cff543-57b4-4036-856c-e6ba8a6f0fd7.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/65689044541602-6b4b5180-a844-4c09-9b1e-e9307616c786.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/65719390737953-13a871c9-9079-49e9-801e-4455bf5634dc.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/9363458907052-9b1d8550-fb3f-4fcd-b4a7-6b08b3b1c5ae.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/9363357615972-a721bbd6-3093-495f-9677-c804b395d3fa.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/653933206536248-e0e37240-3b60-4232-907a-a94bc05e8cba.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/9173598865",
+        "brand": "쿠쿠",
+        "list_price": "649000",
+        "rating": "4.7",
+        "reviews": "2389",
+        "desc": "현재 별점 4.7점, 리뷰 2389개를 가진 쿠쿠 에코웨일 건조분쇄 음식물처리기 가정용! 건조+분쇄 방식 2L, 본체+건조통+활성탄 필터 구성.",
+        "buyers": "한 달간 1,000명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "음쓰 버릴일 없어서 편리함"
+          },
+          {
+            "rating": 5,
+            "text": "돌아가도 무조건 음쓰처리는 쿠쿠임"
+          },
+          {
+            "rating": 5,
+            "text": "음식물 냄새로부터 자유로워졌어요."
+          }
+        ],
+        "five_star_pct": "87",
+        "trend": "'음식물처리기' 인기 검색어 9위"
+      },
+      "script": {
+        "title": "정가 64만 원이 30만 원대? 음식물처리기 대박 할인 #shorts",
+        "hook": "정가 64만 원이 30만 원대?",
+        "hook_highlight": "30만 원대",
+        "scenes": [
+          {
+            "caption": "아직도 음쓰 버리러 가세요?",
+            "highlight": "음쓰 버리러",
+            "narration": "매번 날파리에 악취 나는 음식물 쓰레기 버리러 나가기 정말 귀찮으셨죠?",
+            "type": "normal"
+          },
+          {
+            "caption": "설치 필요 없는 2L 건조분쇄",
+            "highlight": "설치 필요 없는",
+            "narration": "쿠쿠 에코웨일은 별도 설치 없이 2리터 용량을 깔끔하게 건조하고 분쇄해 줘요.",
+            "type": "normal"
+          },
+          {
+            "caption": "구매자 반응은?",
+            "highlight": "구매자 반응은",
+            "narration": "실제 후기 보니까 \"음식물 냄새로부터 자유로워졌어요.\" 이런 반응이 있더라고요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "별 5개 비율 87%!",
+            "highlight": "87%",
+            "narration": "한 달간 1,000명 이상 구매하고 쿠팡 평점 4.7점에 별 5개 비율이 87%나 됩니다.",
+            "type": "normal"
+          },
+          {
+            "caption": "지금 52% 할인 진행 중",
+            "highlight": "52% 할인",
+            "narration": "정가 649,000원에서 지금 306,900원에 52% 할인 중이에요. 가격은 바뀔 수 있으니 프로필 링크에서 10번 확인하세요!",
+            "type": "normal"
+          }
+        ],
+        "description": "냄새나고 귀찮은 음식물 쓰레기 고민 끝! 설치 없이 사용하는 쿠쿠 에코웨일 건조분쇄 음식물처리기 52% 할인 정보입니다.\n자세한 정보와 가격은 프로필 링크 10번에서 확인하세요.",
+        "hashtags": [
+          "#음식물처리기",
+          "#쿠쿠음식물처리기",
+          "#음쓰처리기",
+          "#가전제품추천",
+          "#쿠팡할인",
+          "#쇼핑shorts"
+        ]
+      },
+      "done": false
+    }
+  ],
+  "threads": [
+    {
+      "kind": "tip",
+      "text": "커튼 살 때 길이를 잘못 재서 당황한 적 없으신가요?\n\n창문 크기만 딱 맞춰 사면 나중에 바닥에서 둥둥 떠서 어색해져요.\n\n커튼봉 설치 위치부터 바닥까지 길이를 재야 공간이 훨씬 넓어 보여요.\n\n지느러미처럼 땅에 끌리는 게 싫다면 바닥에서 1~2cm 띄우는 게 가장 완벽해요.",
+      "photo_query": "living room curtain",
+      "done": true,
+      "url": "텔레그램 전송 (직접 게시)"
+    },
+    {
+      "kind": "tip",
+      "text": "수저통보다 더 더러운 컴퓨터 키보드 청소법\n\n매일 손대는 키보드, 틈새 먼지 청소 어떻게 하세요?\n\n1. 포스트잇 끈적한 부분으로 키보드 틈새 훑어주기\n2. 면봉에 소독용 알코올 살짝 묻혀 자판 사이 닦기\n3. 젤리 클리너로 남은 미세먼지 눌러서 제거하기\n\n주말에 3분만 투자해도 서걱거리는 느낌이 싹 사라져요.",
+      "photo_query": "cleaning laptop keyboard",
+      "done": false
+    },
+    {
+      "kind": "link",
+      "number": 5,
+      "product": {
+        "keyword": "핫팩",
+        "category": "스포츠/레저",
+        "trend_rank": 4,
+        "search_url": "https://www.coupang.com/np/search?q=%ED%95%AB%ED%8C%A9",
+        "partner_url": "https://link.coupang.com/a/iVp43hvnVc",
+        "notes": "",
+        "price": "8000",
+        "name": "해피데이 따뜻해 포켓용 핫팩 100g, 20개",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2026/07/03/10/9/faedd96b-36a1-4504-960c-6991f694982b.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2026/07/03/10/5/9187ad6c-e18a-4c36-a9ee-7b556c95e3be.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/rs_quotation_api/0no5vkxz/c18f235e83ac4b16b56b69035402b8ce.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/rs_quotation_api/7jzfgjmi/983896f5c61542d3a35147de757fad34.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/rs_quotation_api/egnt6j2b/4e863ede75604f60840c3fca5f0f1fd1.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/rs_quotation_api/jvddgevo/41e8dabc18954488984e90197e1977d9.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/9032104227",
+        "brand": "해피데이",
+        "rating": "4.7",
+        "reviews": "86332",
+        "desc": "현재 별점 4.7점, 리뷰 86332개를 가진 해피데이 따뜻해 포켓용 핫팩 100g, 20개! 지금 쿠팡에서 더 저렴하고 다양한 손난로/핫팩 제품들을 확인해보세요.",
+        "buyers": "한 달간 4,000명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "따뜻하게 해드리리라 ㅎ"
+          },
+          {
+            "rating": 5,
+            "text": "부담 없이 매일 사용하기 좋은 따뜻한 손핫팩"
+          },
+          {
+            "rating": 5,
+            "text": "따뜻한 가성비 필수템"
+          }
+        ],
+        "survey": [
+          {
+            "q": "지속력",
+            "a": "오래 유지돼요",
+            "n": 85,
+            "tot": 100
+          },
+          {
+            "q": "온열 기능",
+            "a": "후끈후끈해요",
+            "n": 75,
+            "tot": 100
+          }
+        ],
+        "five_star_pct": "85",
+        "trend": "'핫팩' 인기 검색어 4위"
+      },
+      "text": "이번 주 네이버 쇼핑 스포츠/레저 분야 인기 검색어 4위가 바로 '핫팩'이에요. 🔥\n\n겨울철 핫팩을 고를 땐 온기가 오래 유지되는지, 가격 부담이 없는지가 핵심이죠.\n\n'해피데이 따뜻해 포켓용 핫팩 100g 20개'는 8,000원에 쿠팡 상품평 86,332개, 평점 4.7점을 기록 중인 제품이에요.\n\n한 달간 4,000명 이상 구매했고 별 5개 비율도 85%예요. 후기 대부분이 오래 유지되고 후끈후끈하다고 평가했어요.\n\n구매자 후기 중 \"부담 없이 매일 사용하기 좋은 따뜻한 손핫팩\"이라는 내용도 참고해보세요.\n\n링크는 답글에 둘게요!",
+      "done": false,
+      "format": "dont_buy_instead",
+      "script": {
+        "title": "리뷰 8만개 달린 8천원대 핫팩 추천 #shorts",
+        "hook": "리뷰 8만 개 핫팩",
+        "hook_highlight": "8만 개",
+        "scenes": [
+          {
+            "caption": "금방 식는 핫팩 사면 후회",
+            "highlight": "사면 후회",
+            "narration": "조금만 지나면 미지근하게 식어버리는 핫팩 사서 후회한 적 있으시죠?",
+            "type": "normal"
+          },
+          {
+            "caption": "지속력과 온열감 확인!",
+            "highlight": "온열감",
+            "narration": "핫팩 고를 땐 따뜻함이 오래 유지되는지, 후끈한 온열감이 있는지 꼭 봐야 해요.",
+            "type": "normal"
+          },
+          {
+            "caption": "해피데이 따뜻해 핫팩",
+            "highlight": "해피데이",
+            "narration": "해피데이 따뜻해 포켓용 핫팩은 후기 대부분이 오래 유지되고 후끈후끈하대요.",
+            "type": "normal"
+          },
+          {
+            "caption": "구매자 반응은?",
+            "highlight": "구매자 반응",
+            "narration": "구매자 후기 중에 \"부담 없이 매일 사용하기 좋은 따뜻한 손핫팩\" 이런 후기가 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "평점 4.7점 8,000원",
+            "highlight": "8,000원",
+            "narration": "쿠팡 상품평 86,332개에 별 5개 비율이 85%나 돼요. 20개에 8,000원! 가격은 바뀔 수 있어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "프로필 링크 5번!",
+            "highlight": "5번",
+            "narration": "이번 주 네이버 인기 검색어 4위 핫팩! 프로필 링크에서 5번 확인하세요.",
+            "type": "normal"
+          }
+        ],
+        "description": "한 달간 4,000명 이상 구매한 해피데이 따뜻해 포켓용 핫팩 100g 20개!\n쿠팡 상품평 86,332개, 별 5개 비율 85%의 인기가 증명하는 가성비 필수템입니다.",
+        "hashtags": [
+          "#핫팩",
+          "#핫팩추천",
+          "#해피데이핫팩",
+          "#겨울필수템",
+          "#가성비핫팩"
+        ]
+      }
+    },
+    {
+      "kind": "tip",
+      "text": "장난감 비우기, 다들 어떻게 하세요?\n\n아이 장난감은 사도 사도 끝이 없고 정리해도 티가 안 나네요.\n\n안 가지고 놀길래 버리려고 하면 자기 거라며 울고불고하고요.\n\n저는 요즘 안 쓰는 걸 상자에 넣어 숨겨뒀다가, 한 달 뒤에도 안 찾으면 비우고 있어요.\n\n다들 아이 장난감 비우는 나만의 꿀팁이 있으신가요?",
+      "photo_query": "toy storage box",
+      "done": false
+    },
+    {
+      "kind": "tip",
+      "text": "좋아하는 니트에 보풀 생기면 너무 속상하죠.\n\n보풀을 손으로 그냥 뜯어내면 원사가 당겨져서 더 잘 생긴다는 사실, 알고 계셨나요?\n\n세탁할 땐 옷을 뒤집어 세탁망에 넣고 울코스로 돌려주세요.\n\n이미 생긴 보풀은 눈썹 칼이나 보풀 제거기로 살살 빗어내야 옷감이 안 상해요.",
+      "photo_query": "knit sweater care",
+      "done": false
+    },
+    {
+      "kind": "link",
+      "number": 9,
+      "product": {
+        "keyword": "크리스마스트리",
+        "category": "생활/건강",
+        "trend_rank": 8,
+        "search_url": "https://www.coupang.com/np/search?q=%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4%ED%8A%B8%EB%A6%AC",
+        "partner_url": "https://link.coupang.com/a/iVqq7PUDOC",
+        "notes": "",
+        "price": "36810",
+        "name": "하우쎈스 트리 풀세트 (내츄럴와인, 1.4m)",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/6c6c/77a4436601f1f97d8d42d76347b90457ffe1d6057f8daa4ece67a2201ea0.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2874281260534061-b659421c-0665-462b-9253-ebb8b88974bd.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2261284248903743-07f7dfcb-b407-445b-903a-4b05d7a8060b.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2259572174117590-ecbb8f83-4c7c-46e0-b027-a251fe50c24a.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/86689019790701-cc8d0a34-9399-419f-ab18-71d5177ddb17.png",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/81003735399826-712407f2-f88a-4c5e-8c2d-0e42ec7df2bb.png"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/6761140003",
+        "brand": "하우쎈스",
+        "list_price": "40900",
+        "rating": "4.6",
+        "reviews": "10965",
+        "desc": "현재 별점 4.6점, 리뷰 10965개를 가진 하우쎈스 트리 풀세트! 트리 + LED 전구 + 장신구 + 특별구성품, 1.4m 높이.",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "원하던 사이즈에 구성품도 다양해서 좋아요."
+          },
+          {
+            "rating": 5,
+            "text": "크리스마스 트리는 이거 사세요."
+          },
+          {
+            "rating": 5,
+            "text": "크리스마스 분위기 제대로나네요!"
+          }
+        ],
+        "survey": [
+          {
+            "q": "디자인",
+            "a": "아주 만족해요",
+            "n": 80,
+            "tot": 100
+          },
+          {
+            "q": "색상",
+            "a": "아주 만족스러워요",
+            "n": 75,
+            "tot": 100
+          }
+        ],
+        "five_star_pct": "80",
+        "trend": "'크리스마스트리' 인기 검색어 8위"
+      },
+      "text": "이번 주 네이버 쇼핑 '생활/건강' 인기 검색어 8위가 바로 '크리스마스트리'예요. 🎄\n\n트리를 고를 땐 부담 없는 크기와 알찬 구성품을 먼저 확인해보는 게 좋아요.\n\n'하우쎈스 트리 풀세트 (내츄럴와인, 1.4m)'는 정가 40,900원에서 10% 할인된 36,810원에 판매 중이고, 쿠팡 상품평만 10,965개(평점 4.6점)가 쌓여 있어요.\n\n후기 대부분이 디자인과 색상에 만족스럽다고 해요.\n구매자 후기 중 \"크리스마스 분위기 제대로나네요!\"라는 평도 있네요.\n\n링크는 답글에 둘게요.",
+      "done": false,
+      "format": "price_check",
+      "script": {
+        "title": "리뷰 1만 개 돌파한 인기 크리스마스 트리 풀세트 추천 #shorts",
+        "hook": "리뷰만 1만개!",
+        "hook_highlight": "1만개",
+        "scenes": [
+          {
+            "caption": "리뷰 1만개 돌파!",
+            "highlight": "1만개 돌파",
+            "narration": "리뷰만 1만 개가 넘게 달린 인기 크리스마스 트리가 있다는 사실, 알고 계셨나요?",
+            "type": "normal"
+          },
+          {
+            "caption": "트리 고르기 어렵죠?",
+            "highlight": "트리 고르기",
+            "narration": "집 분위기에 맞는 크기나 구성품을 어떤 걸로 골라야 할지 고민되셨죠?",
+            "type": "normal"
+          },
+          {
+            "caption": "구성품 풀세트!",
+            "highlight": "풀세트",
+            "narration": "적당한 1.4m 크기에 장식까지 알차게 들어있는 하우쎈스 내츄럴와인 트리 풀세트예요.",
+            "type": "normal"
+          },
+          {
+            "caption": "실제 구매자 후기",
+            "highlight": "구매자 후기",
+            "narration": "실제 후기 중에 \"크리스마스 트리는 이거 사세요.\" \"크리스마스 분위기 제대로나네요!\"라는 평이 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "10% 할인 중!",
+            "highlight": "10% 할인",
+            "narration": "별 5개 비율이 80%에 달하며, 정가 40,900원에서 10% 할인된 36,810원에 구매할 수 있어요. 가격은 바뀔 수 있어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "9번에서 확인!",
+            "highlight": "9번",
+            "narration": "후기 대부분이 디자인과 색상에 만족한 트리! 프로필 링크에서 9번 확인하세요.",
+            "type": "normal"
+          }
+        ],
+        "description": "네이버 인기 검색어 상위에 빛나는 인기 크리스마스 트리!\n1.4m 알찬 구성의 하우쎈스 트리 풀세트로 연말 분위기를 완성해 보세요.\n자세한 정보는 프로필 링크 9번에서 확인하실 수 있습니다.",
+        "hashtags": [
+          "#크리스마스트리",
+          "#하우쎈스",
+          "#트리풀세트",
+          "#크리스마스장식",
+          "#트리추천",
+          "#인테리어소품"
+        ]
+      }
+    },
+    {
+      "kind": "tip",
+      "text": "스킨케어할 때 토너 그냥 손에 짜서 바르시나요?\n\n피부가 유난히 푸석한 날에는 화장솜에 토너를 듬뿍 적셔 팩처럼 5분만 올려두세요.\n\n손으로 두드려 바를 때보다 흡수율이 높아져서 속건조 잡기에 딱이에요.\n\n대신 화장솜이 수분을 다시 빼앗아가기 전에 떼어내는 게 포인트예요.",
+      "photo_query": "skincare cotton pad",
+      "done": false
+    },
+    {
+      "kind": "tip",
+      "text": "비 오거나 세탁 후 젖은 운동화, 그냥 두면 냄새나는 거 아시죠?\n\n신발 안에 신문지나 키친타월을 구겨 넣으면 습기를 정말 빠르게 흡수해요.\n\n신문지가 눅눅해지면 새것으로 1~2번 바꿔주기만 하면 끝이에요.\n\n드라이기 뜨거운 바람은 신발 변형을 일으킬 수 있으니 바람으로 말려주세요.",
+      "photo_query": "wet shoes drying",
+      "done": false
+    },
+    {
+      "kind": "link",
+      "number": 10,
+      "product": {
+        "keyword": "음식물처리기",
+        "category": "디지털/가전",
+        "trend_rank": 9,
+        "search_url": "https://www.coupang.com/np/search?q=%EC%9D%8C%EC%8B%9D%EB%AC%BC%EC%B2%98%EB%A6%AC%EA%B8%B0",
+        "partner_url": "https://link.coupang.com/a/iVqseaBok0",
+        "notes": "건조+분쇄 방식 2L, 설치가 필요 없는 가정용입니다.",
+        "price": "306900",
+        "name": "쿠쿠 에코웨일 건조분쇄 음식물처리기 가정용 (CFD-ENL201DCGW)",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/167241925197175-c3cff543-57b4-4036-856c-e6ba8a6f0fd7.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/65689044541602-6b4b5180-a844-4c09-9b1e-e9307616c786.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/65719390737953-13a871c9-9079-49e9-801e-4455bf5634dc.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/9363458907052-9b1d8550-fb3f-4fcd-b4a7-6b08b3b1c5ae.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/9363357615972-a721bbd6-3093-495f-9677-c804b395d3fa.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/653933206536248-e0e37240-3b60-4232-907a-a94bc05e8cba.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/9173598865",
+        "brand": "쿠쿠",
+        "list_price": "649000",
+        "rating": "4.7",
+        "reviews": "2389",
+        "desc": "현재 별점 4.7점, 리뷰 2389개를 가진 쿠쿠 에코웨일 건조분쇄 음식물처리기 가정용! 건조+분쇄 방식 2L, 본체+건조통+활성탄 필터 구성.",
+        "buyers": "한 달간 1,000명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "음쓰 버릴일 없어서 편리함"
+          },
+          {
+            "rating": 5,
+            "text": "돌아가도 무조건 음쓰처리는 쿠쿠임"
+          },
+          {
+            "rating": 5,
+            "text": "음식물 냄새로부터 자유로워졌어요."
+          }
+        ],
+        "five_star_pct": "87",
+        "trend": "'음식물처리기' 인기 검색어 9위"
+      },
+      "text": "쿠팡 상품평만 2,389개 쌓인 음식물처리기, 지금 52% 할인 중이네요.\n\n가정용 음식물처리기를 고를 때는 복잡한 설치가 필요 없는지, 건조와 분쇄 방식을 갖췄는지 따져보는 게 좋습니다.\n\n'쿠쿠 에코웨일 건조분쇄 음식물처리기(CFD-ENL201DCGW)'가 그 기준에 잘 맞는 예시예요. 별도 설치 없이 사용하는 건조+분쇄 방식의 2L 가정용 제품입니다.\n\n구매자 후기 중 \"음식물 냄새로부터 자유로워졌어요.\"라는 평도 있네요.\n\n제품 링크는 답글에 둘게요!",
+      "done": false,
+      "format": "top3_points",
+      "script": {
+        "title": "52% 할인 폭풍 인기! 쿠쿠 건조분쇄 음식물처리기 #shorts",
+        "hook": "52% 할인 떴다",
+        "hook_highlight": "52% 할인",
+        "scenes": [
+          {
+            "caption": "52% 할인 떴다",
+            "highlight": "52% 할인",
+            "narration": "정가 64만 원대가 지금 30만 원대로 52% 할인 중인 음식물처리기 가져왔어요!",
+            "type": "normal"
+          },
+          {
+            "caption": "음쓰 냄새 안녕",
+            "highlight": "음쓰 냄새",
+            "narration": "매번 음쓰 버리러 나가기 귀찮으셨죠? 이건 별도 설치도 필요 없는 건조 분쇄 방식 2L 가정용이에요.",
+            "type": "normal"
+          },
+          {
+            "caption": "구매자 후기는?",
+            "highlight": "구매자 후기",
+            "narration": "실제 구매자 후기에 \"음식물 냄새로부터 자유로워졌어요.\" 라는 후기가 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "평점 4.7점 대박",
+            "highlight": "4.7점",
+            "narration": "쿠팡 평점 4.7점에 상품평이 2,389개나 되고, 한 달간 1,000명 이상 구매한 인기 제품입니다.",
+            "type": "normal"
+          },
+          {
+            "caption": "인기 키워드 9위",
+            "highlight": "9위",
+            "narration": "이번 주 네이버 쇼핑 디지털 가전 인기 검색어 9위에 별 5개 비율도 87%나 돼요.",
+            "type": "normal"
+          },
+          {
+            "caption": "10번 링크 확인",
+            "highlight": "10번",
+            "narration": "정가 649,000원에서 306,900원 할인 중인데 가격은 바뀔 수 있어요. 프로필 링크에서 10번 확인하세요!",
+            "type": "normal"
+          }
+        ],
+        "description": "쿠쿠 에코웨일 건조분쇄 음식물처리기 가정용 52% 할인 정보!\n설치 필요 없는 2L 용량으로 냄새 걱정 없이 깔끔하게 관리해보세요.\n프로필 링크 10번에서 확인하실 수 있습니다.",
+        "hashtags": [
+          "#음식물처리기",
+          "#쿠쿠음식물처리기",
+          "#음식물처리기추천",
+          "#가전제품추천",
+          "#쿠쿠"
+        ]
+      }
+    }
+  ]
+}
