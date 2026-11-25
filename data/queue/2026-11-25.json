@@ -357,7 +357,8 @@
       "kind": "tip",
       "text": "다들 겨울 패딩 세탁 어떻게 하시나요?\n\n매번 드라이클리닝 맡기자니 비용이 부담이고,\n\n그렇다고 집에서 빨자니 숨이 죽을까 걱정이에요.\n\n다들 집에서 관리하는 꿀팁 있으신가요?",
       "photo_query": "winter jacket",
-      "done": false
+      "done": true,
+      "url": "텔레그램 전송 (직접 게시)"
     },
     {
       "kind": "tip",
