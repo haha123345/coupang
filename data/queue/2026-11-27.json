@@ -2,243 +2,8 @@
   "day": "2026-11-27",
   "shorts": [
     {
-      "number": 3,
-      "format": "dont_buy_instead",
-      "product": {
-        "keyword": "핸드크림",
-        "category": "화장품/미용",
-        "trend_rank": 2,
-        "search_url": "https://www.coupang.com/np/search?q=%ED%95%B8%EB%93%9C%ED%81%AC%EB%A6%BC",
-        "partner_url": "https://link.coupang.com/a/iVpZrV99yu",
-        "notes": "100ml 3개 구성 기준 가격(8,180원)이며 상품 페이지 기본 옵션은 10개 24,000원입니다.",
-        "price": "8180",
-        "name": "카밀 핸드 앤 네일 크림 클래식, 100ml, 3개",
-        "image_urls": [
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/329800891449468-cfd2989e-3c6c-4b55-b4a6-ccefc3e210a1.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/8573701282162-1f699056-e08d-46e3-9907-5fe1214ccb10.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/8573775485357-f321aaf5-9fc2-4eb7-a09e-eec0465523ec.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/8573837557901-8f3d5f72-a647-4656-82f8-4605f30c68f1.jpg"
-        ],
-        "product_url": "https://www.coupang.com/vp/products/9727610179",
-        "brand": "카밀",
-        "list_price": "21600",
-        "rating": "4.8",
-        "reviews": "52591",
-        "desc": "현재 별점 4.8점, 리뷰 52591개를 가진 카밀 핸드 앤 네일 크림 클래식! 100ml 3개 구성 8,180원. 지금 쿠팡에서 더 저렴하고 다양한 핸드크림 제품들을 확인해보세요.",
-        "buyers": "한 달간 500명 이상 구매했어요",
-        "top_reviews": [
-          {
-            "rating": 5,
-            "text": "보습력이 오래가서 너무 만족해요."
-          },
-          {
-            "rating": 5,
-            "text": "향도좋고 손이 건조하지가 않아요"
-          },
-          {
-            "rating": 5,
-            "text": "보습력도 흡수력도 향기도 만족스러워요!"
-          }
-        ],
-        "survey": [
-          {
-            "q": "향 만족도",
-            "a": "아주만족해요",
-            "n": 70,
-            "tot": 100
-          },
-          {
-            "q": "보습력",
-            "a": "아주 만족해요",
-            "n": 80,
-            "tot": 100
-          }
-        ],
-        "five_star_pct": "84",
-        "trend": "'핸드크림' 인기 검색어 2위"
-      },
-      "script": {
-        "title": "정가 2만 원대 핸드크림이 지금 8천 원대?! #shorts",
-        "hook": "정가 2만 원대",
-        "hook_highlight": "2만 원대",
-        "scenes": [
-          {
-            "caption": "핸드크림 아무거나 사면 후회해요",
-            "highlight": "후회해요",
-            "narration": "금방 건조해지고 끈적이기만 하는 핸드크림, 아직도 아무거나 고르세요?",
-            "type": "normal"
-          },
-          {
-            "caption": "요즘 제일 많이 찾는",
-            "highlight": "제일 많이 찾는",
-            "narration": "요즘 네이버 쇼핑 화장품 미용 분야에서 핸드크림이 인기 검색어 2위일 정도로 관심이 뜨거워요.",
-            "type": "normal"
-          },
-          {
-            "caption": "구매자 반응은?",
-            "highlight": "구매자 반응",
-            "narration": "실제 구매자 후기 중에 \"보습력이 오래가서 너무 만족해요.\" 이런 후기가 있어요.",
-            "type": "reviews"
-          },
-          {
-            "caption": "압도적인 후기 퀄리티",
-            "highlight": "압도적인",
-            "narration": "상품평 5만 개가 넘고 쿠팡 평점 4.8점에 별 5개 비율이 84%나 돼요. 후기 대부분이 향과 보습력에 아주 만족한다고 해요.",
-            "type": "normal"
-          },
-          {
-            "caption": "지금 62% 할인",
-            "highlight": "62% 할인",
-            "narration": "카밀 핸드 앤 네일 크림 클래식 100ml 3개 구성이 정가 21,600원에서 지금 8,180원이에요! 가격은 바뀔 수 있어요.",
-            "type": "normal"
-          },
-          {
-            "caption": "지금 바로 확인하기",
-            "highlight": "지금 바로",
-            "narration": "프로필 링크에서 3번 확인하세요.",
-            "type": "normal"
-          }
-        ],
-        "description": "건조한 손을 촉촉하게 지켜주는 카밀 핸드크림 클래식 100ml 3개 구성! 지금 할인된 가격으로 만나보세요.",
-        "hashtags": [
-          "#카밀핸드크림",
-          "#핸드크림추천",
-          "#카밀",
-          "#환절기핸드크림",
-          "#쇼츠"
-        ]
-      },
-      "done": false
-    },
-    {
-      "number": 6,
-      "format": "price_check",
-      "product": {
-        "keyword": "스카프",
-        "category": "패션잡화",
-        "trend_rank": 5,
-        "search_url": "https://www.coupang.com/np/search?q=%EC%8A%A4%EC%B9%B4%ED%94%84",
-        "partner_url": "https://link.coupang.com/a/iVqocryr6G",
-        "notes": "",
-        "price": "7900",
-        "name": "JANE 여성 쁘띠 사각 스카프 2종 세트",
-        "image_urls": [
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/d9a8/1d19a39d152c44750223dd082490e66b4d726bc94a4272607ad1ea12338d.png",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/5719/f119a4c86abddd3ac9ebc3f6a45c2ce6b473f4755e64360a493e4b50e461.jpeg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/92ff/9923565f1d01512f5006b24a5c88f855bd3c727b30773a204c1991fd087e.jpeg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/5e2b/4ca6d6a0db763795f76aafa44827ef346d892933fcefbf468f99f939d305.jpeg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/2576/9ab3273126649a413f812785802938e5d6dbd213fbecb5aa68dd7549e2bf.jpeg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/6b9b/5abfb23c44150c26b2796c8e8c4b7179d694e40cac22a277deedbfc45d74.jpeg"
-        ],
-        "product_url": "https://www.coupang.com/vp/products/7830132859",
-        "list_price": "20000",
-        "rating": "4.6",
-        "reviews": "1298",
-        "desc": "현재 별점 4.6점, 리뷰 1298개를 가진 JANE 여성 쁘띠 사각 스카프 2종 세트! 지금 쿠팡에서 더 저렴하고 다양한 스카프 제품들을 확인해보세요.",
-        "buyers": "한 달간 400명 이상 구매했어요",
-        "top_reviews": [
-          {
-            "rating": 5,
-            "text": "가볍게 둘러도 스타일이 살아나는 실용적인 쁘띠 스카프!"
-          },
-          {
-            "rating": 5,
-            "text": "가볍고 세련된 디자인으로 햇빛 알레르기 완화에 도움되요"
-          },
-          {
-            "rating": 5,
-            "text": "데일리룩에 우하함과 고급스러움"
-          }
-        ],
-        "survey": [
-          {
-            "q": "디자인",
-            "a": "아주 마음에 들어요",
-            "n": 78,
-            "tot": 100
-          },
-          {
-            "q": "소재",
-            "a": "상세페이지의 소재와 같아요",
-            "n": 79,
-            "tot": 100
-          }
-        ],
-        "five_star_pct": "75",
-        "trend": "'스카프' 인기 검색어 5위"
-      },
-      "script": {
-        "title": "정가 2만 원이 지금 7,900원? 쁘띠 사각 스카프 2종 세트 #shorts",
-        "hook": "정가가 7천 원대?",
-        "hook_highlight": "7천 원대",
-        "scenes": [
-          {
-            "caption": "요즘 난리난 스카프",
-            "highlight": "인기 검색어",
-            "narration": "스카프가 네이버 쇼핑 패션잡화 분야 인기 검색어 5위래요!",
-            "type": "normal"
-          },
-          {
-            "caption": "구성과 가격은?",
-            "highlight": "60% 할인",
-            "narration": "정가 20,000원에서 지금 7,900원이에요. 쁘띠 사각 스카프 2종 세트 구성 가격은 바뀔 수 있어요.",
-            "type": "normal"
-          },
-          {
-            "caption": "구매자 반응은?",
-            "highlight": "스타일이 살아나는",
-            "narration": "실제 구매자 후기 중에 \"가볍게 둘러도 스타일이 살아나는 실용적인 쁘띠 스카프!\" 이런 후기가 있어요.",
-            "type": "reviews"
-          },
-          {
-            "caption": "후기로 보는 만족도",
-            "highlight": "별 5개 75%",
-            "narration": "쿠팡 평점 4.6점에 상품평 1,298개고요, 전체 상품평 중 별 5개 비율이 75%나 돼요.",
-            "type": "normal"
-          },
-          {
-            "caption": "디자인과 소재는?",
-            "highlight": "상세페이지와 같대요",
-            "narration": "후기 설문을 보니까 디자인은 아주 마음에 든다는 평이 많고, 소재는 상세페이지의 소재와 같대요!",
-            "type": "normal"
-          },
-          {
-            "caption": "지금 바로 확인",
-            "highlight": "6번 확인하세요",
-            "narration": "한 달간 400명 이상 구매했어요. 프로필 링크에서 6번 확인하세요.",
-            "type": "normal"
-          }
-        ],
-        "description": "정가 2만 원대에서 60% 할인 중인 JANE 여성 쁘띠 사각 스카프 2종 세트! 쿠팡 평점 4.6점과 1,298개의 생생한 후기를 지금 확인해보세요.",
-        "hashtags": [
-          "#스카프",
-          "#쁘띠스카프",
-          "#패션잡화",
-          "#스카프코디",
-          "#데일리룩"
-        ]
-      },
-      "done": false
-    }
-  ],
-  "threads": [
-    {
-      "kind": "tip",
-      "text": "좁은 방 넓어 보이게 만드는 가구 배치 공식 3가지\n\n가장 높은 가구는 문을 열었을 때 바로 보이지 않는 쪽에 두세요.\n\n시야가 트여야 방이 훨씬 넓어 보여요.\n\n침대나 책상은 되도록 벽에 붙이고, 가운데 바닥 면적을 최대한 비워두는 게 핵심입니다.\n\n가구 다리가 슬림하게 드러나는 디자인을 쓰면 바닥이 보여서 덜 답답해요.",
-      "photo_query": "minimalist bedroom interior",
-      "done": true,
-      "url": "텔레그램 전송 (직접 게시)"
-    },
-    {
-      "kind": "tip",
-      "text": "다들 쿠션 파운데이션 퍼프 얼마나 자주 세척하세요? 🤔\n\n매일 쓰는 퍼프인데 은근히 세척은 미루게 되더라고요.\n\n피부 트러블이 계속 난다면 스킨케어보다 퍼프 문제일 확률이 높아요.\n\n지퍼백에 미온수랑 클렌징폼 넣고 조물조물 흔들어 빨면 1분 만에 끝납니다.\n\n보통 며칠에 한 번 빨아 쓰시나요?",
-      "photo_query": "makeup cushion puff",
-      "done": true,
-      "url": "텔레그램 전송 (직접 게시)"
-    },
-    {
-      "kind": "link",
       "number": 10,
+      "format": "price_check",
       "product": {
         "keyword": "음식물처리기",
         "category": "디지털/가전",
@@ -280,74 +45,178 @@
         "five_star_pct": "87",
         "trend": "'음식물처리기' 인기 검색어 9위"
       },
-      "text": "이번 주 네이버 쇼핑 '디지털/가전' 인기 검색어 9위에 오른 '음식물처리기', 고를 때 뭘 봐야 할까요?\n\n쿠팡 평점 4.7점, 상품평 2,389개와 한 달간 1,000명 이상 구매했어요 기록이 있는 쿠쿠 에코웨일 건조분쇄 음식물처리기 가정용 (CFD-ENL201DCGW)을 살펴보세요.\n\n건조+분쇄 방식 2L 용량이며 설치가 필요 없는 가정용입니다.\n정가 649,000원에서 지금 306,900원으로 52% 할인 중이네요.\n\n구매자 후기 중 \"음식물 냄새로부터 자유로워졌어요.\"라는 평도 참고해 보세요.\n\n링크는 답글에 둘게요",
-      "done": true,
-      "format": "top3_points",
       "script": {
-        "title": "정가 60만 원대가 지금 30만 원대! 쿠쿠 음식물처리기 #shorts",
-        "hook": "지금 52% 할인",
-        "hook_highlight": "52% 할인",
+        "title": "64만 원이 30만 원대? 쿠쿠 에코웨일 음식물처리기 #shorts",
+        "hook": "64만 원이 30만 원대?",
+        "hook_highlight": "30만 원대",
         "scenes": [
           {
-            "caption": "요즘 제일 핫한 음쓰처리기",
-            "highlight": "음쓰처리기",
-            "narration": "이번 주 네이버 쇼핑 디지털 가전 분야에서 인기 검색어 9위에 오른 음식물처리기, 다들 알고 계시죠?",
+            "caption": "음쓰처리기 선택 기준",
+            "highlight": "선택 기준",
+            "narration": "음식물처리기 고를 땐 설치 부담이 없는 건조분쇄 방식인지, 용량이 적당한지 꼭 따져봐야 하는데요.",
             "type": "normal"
           },
           {
-            "caption": "설치 필요 없는 가정용",
+            "caption": "설치 필요 없는 2L",
             "highlight": "설치 필요 없는",
-            "narration": "건조하고 분쇄해 주는 2L 용량의 가정용 제품인데요. 복잡한 설치가 아예 필요 없어서 정말 간편해요.",
+            "narration": "쿠쿠 에코웨일은 별도 설치 없이 2리터 용량으로 음식물을 건조하고 분쇄해 주는 가정용 제품이에요.",
             "type": "normal"
           },
           {
-            "caption": "구매자 반응은?",
-            "highlight": "구매자 반응",
-            "narration": "실제 후기 중에 \"음쓰 버릴일 없어서 편리함\" 그리고 \"음식물 냄새로부터 자유로워졌어요.\" 이런 후기가 있어요.",
+            "caption": "한 달 1,000명 구매",
+            "highlight": "1,000명 구매",
+            "narration": "이번 주 네이버 인기 검색어 9위에, 한 달간 1,000명 이상 구매하고 평점 4.7점을 기록 중입니다.",
+            "type": "normal"
+          },
+          {
+            "caption": "구매자 실제 후기",
+            "highlight": "실제 후기",
+            "narration": "구매자 후기 중에 \"음식물 냄새로부터 자유로워졌어요.\" \"음쓰 버릴일 없어서 편리함\" 이런 후기가 있어요.",
             "type": "reviews"
           },
           {
-            "caption": "평점 4.7점 후기 2천개",
-            "highlight": "평점 4.7점",
-            "narration": "쿠팡 평점 4.7점에 상품평 2,389개, 별 5개 비율이 87%나 되고, 한 달간 1천 명 이상이 구매했어요.",
-            "type": "normal"
-          },
-          {
-            "caption": "정가 64만 원이 30만 원대",
-            "highlight": "30만 원대",
-            "narration": "정가 64만 9천 원에서 지금 30만 6천 9백 원으로 52% 할인 중입니다. 가격은 바뀔 수 있어요.",
-            "type": "normal"
-          },
-          {
-            "caption": "프로필 링크 확인",
-            "highlight": "10번 확인",
-            "narration": "설치 없이 냄새 걱정 없는 음식물처리기를 찾고 계셨다면, 프로필 링크에서 10번 확인하세요.",
+            "caption": "프로필 링크 10번",
+            "highlight": "10번",
+            "narration": "정가 649,000원에서 52% 할인된 306,900원! 가격은 바뀔 수 있으니 프로필 링크에서 10번 확인하세요.",
             "type": "normal"
           }
         ],
-        "description": "설치 필요 없는 쿠쿠 에코웨일 건조분쇄 음식물처리기 가정용! 정가 64만 원대에서 52% 할인된 30만 원대로 만나보세요.",
+        "description": "건조분쇄 방식 2L 대용량 쿠쿠 에코웨일 가정용 음식물처리기!\n쿠팡 평점 4.7점에 52% 할인 진행 중인 기회를 놓치지 마세요.\n자세한 정보는 프로필 링크 10번에서 확인 가능합니다.",
         "hashtags": [
-          "#쿠쿠음식물처리기",
           "#음식물처리기",
-          "#음식물분쇄건조기",
+          "#쿠쿠에코웨일",
+          "#음쓰처리기",
           "#가정용음식물처리기",
-          "#주방가전추천",
-          "#쿠쿠"
+          "#가전제품추천",
+          "#쇼핑shorts"
         ]
       },
-      "url": "텔레그램 전송 (직접 게시)"
+      "done": false
+    },
+    {
+      "number": 8,
+      "format": "top3_points",
+      "product": {
+        "keyword": "물티슈",
+        "category": "출산/육아",
+        "trend_rank": 6,
+        "search_url": "https://www.coupang.com/np/search?q=%EB%AC%BC%ED%8B%B0%EC%8A%88",
+        "partner_url": "https://link.coupang.com/a/iVqp569wv6",
+        "notes": "",
+        "price": "10890",
+        "name": "코멧 오리지널 유아용 아기물티슈 캡형",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/44344613265746-312dd5ae-8844-4536-80c8-4110a24dd8c8.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2280396506231797-4806874f-338a-4722-9d06-e05fefa2baff.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1842237182043989-10577c8b-e083-45e3-afee-af002c54d54f.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1839180843320119-ccf52345-f883-4194-998d-9add3721f86a.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2280411951926949-3681fab3-309f-43c2-84df-a7a19335b9de.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2281085075775295-7f9763b9-8487-4643-a3c9-37d750e05a42.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/188227098",
+        "brand": "코멧",
+        "list_price": "18000",
+        "rating": "4.8",
+        "reviews": "492638",
+        "desc": "현재 별점 4.8점, 리뷰 492638개를 가진 코멧 오리지널 유아용 아기물티슈 캡형! 50g x 100매 x 10개 구성.",
+        "buyers": "한 달간 10만명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "가성비 좋은 물티슈!"
+          },
+          {
+            "rating": 5,
+            "text": "물티슈는 집에 넉넉하게 쟁여둬야 마음이 편하죠!"
+          },
+          {
+            "rating": 5,
+            "text": "육아 필수 기본 물티슈"
+          }
+        ],
+        "survey": [
+          {
+            "q": "편리성",
+            "a": "아주 편리해요",
+            "n": 81,
+            "tot": 100
+          },
+          {
+            "q": "향 만족도",
+            "a": "아주만족해요",
+            "n": 62,
+            "tot": 100
+          }
+        ],
+        "five_star_pct": "85",
+        "trend": "'물티슈' 인기 검색어 6위"
+      },
+      "script": {
+        "title": "리뷰 49만 개의 국민 아기물티슈 할인 정보 #shorts",
+        "hook": "한달 10만명 구매",
+        "hook_highlight": "10만명",
+        "scenes": [
+          {
+            "caption": "한달 10만명 구매",
+            "highlight": "10만명",
+            "narration": "한 달간 10만 명 이상이 구매한 인기 아기물티슈, 알고 계셨나요?",
+            "type": "normal"
+          },
+          {
+            "caption": "쟁여둬야 안심",
+            "highlight": "안심",
+            "narration": "육아나 집안일할 때 물티슈는 항상 넉넉하게 쟁여둬야 마음이 편하죠.",
+            "type": "normal"
+          },
+          {
+            "caption": "실제 후기 보면",
+            "highlight": "실제 후기",
+            "narration": "구매자 후기 중에 \"물티슈는 집에 넉넉하게 쟁여둬야 마음이 편하죠!\"라는 후기가 있어요. 후기 대부분이 쓰기 편리하고 향도 아주 만족스럽대요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "평점 4.8점 대박",
+            "highlight": "평점 4.8점",
+            "narration": "49만 개가 넘는 상품평에 평점 4.8점, 별 5개 비율이 85%나 되는 코멧 오리지널 아기물티슈예요.",
+            "type": "normal"
+          },
+          {
+            "caption": "39% 할인 특가",
+            "highlight": "39% 할인",
+            "narration": "정가 18,000원에서 지금 39% 할인된 10,890원에 만날 수 있어요. 가격은 바뀔 수 있어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "프로필 8번 클릭",
+            "highlight": "8번 클릭",
+            "narration": "가성비 좋은 캡형 물티슈 쟁여두실 분은 프로필 링크에서 8번을 확인하세요!",
+            "type": "normal"
+          }
+        ],
+        "description": "한 달간 10만 명 이상이 선택한 코멧 오리지널 유아용 아기물티슈!\n상품평 49만 개와 평점 4.8점으로 검증된 육아 필수템입니다.\n지금 39% 할인 특가를 확인해 보세요.",
+        "hashtags": [
+          "#물티슈",
+          "#아기물티슈",
+          "#코멧물티슈",
+          "#육아필수템",
+          "#육아용품추천",
+          "#쇼핑정보"
+        ]
+      },
+      "done": false
+    }
+  ],
+  "threads": [
+    {
+      "kind": "tip",
+      "text": "블라인드 먼지 닦기, 이제 문지르지 마세요.\n\n집에 있는 안 쓰는 양말에 집게를 끼워보세요.\n\n양말 양쪽에 물티슈를 감싸서 쓱 훑어주면,\n\n한 번에 양면 먼지가 싹 닦여요.\n\n힘들게 칸마다 닦지 말고 이 방법 써보세요.",
+      "photo_query": "cleaning blinds",
+      "done": false
     },
     {
       "kind": "tip",
-      "text": "빨아도 빨아도 수건에서 꿉꿉한 냄새가 난다면?\n\n섬유유연제가 원인일 수 있어요.\n\n유연제 속 실리콘 성분이 수건 표면을 코팅해서 흡수력을 떨어뜨리고 세균 번식을 돕거든요.\n\n세탁 마지막 헹굼 때 섬유유연제 대신 식초 1~2스푼만 넣어보세요.\n\n냄새 싹 사라지고 뽀송해집니다.",
-      "photo_query": "white towels laundry",
-      "done": true,
-      "url": "텔레그램 전송 (직접 게시)"
-    },
-    {
-      "kind": "tip",
-      "text": "아기 있는 집 장난감 정리할 때 꼭 기억할 것.\n\n모든 장난감을 한꺼번에 꺼내두면 아이 집중력이 오히려 흐려져요.\n\n3~4개만 꺼내두고 나머지는 상자에 넣어 숨겨둔 뒤 2주마다 로테이션을 돌려보세요.\n\n오랜만에 꺼내주면 새 장난감처럼 눈을 반짝이며 잘 가지고 놉니다.\n\n정리 스트레스도 절반으로 줄어요.",
-      "photo_query": "wooden baby toys",
+      "text": "세탁기 탈수할 때마다 덜덜 소리 나나요?\n\n이거 안 보고 그냥 세탁 돌리면 내년엔 수리비 나와요.\n\n빨래가 한쪽으로 쏠려 있는지 꼭 확인하세요.\n\n특히 두꺼운 패딩이나 이불을 단독으로 넣을 때,\n\n균형을 대충 맞추는 게 정말 중요해요.",
+      "photo_query": "washing machine",
       "done": false
     },
     {
@@ -407,179 +276,238 @@
         "five_star_pct": "85",
         "trend": "'핫팩' 인기 검색어 4위"
       },
-      "text": "이번 주 네이버 쇼핑 스포츠/레저 분야 인기 검색어 4위에 오른 핫팩, 어떻게 고르실래요?\n\n평점 4.7점과 상품평 86,332개를 기록 중인 해피데이 따뜻해 포켓용 핫팩 100g, 20개 구성을 소개해요. 가격은 8,000원입니다.\n\n한 달간 4,000명 이상 구매했어요 기록이 있는 상품이에요. 후기 대부분이 오래 유지돼요, 후끈후끈해요라고 말하더라고요.\n\n구매자 후기 중 \"따뜻한 가성비 필수템\"\n\n링크는 답글에 둘게요",
+      "text": "이번 주 네이버 쇼핑 스포츠/레저 분야 인기 검색어 4위에 오른 핫팩, 고를 때는 지속력과 온열감을 확인하는 게 좋아요.\n\n해피데이 따뜻해 포켓용 핫팩 100g, 20개입은 쿠팡 평점 4.7점과 상품평 86,332개를 기록 중인 제품이에요.\n\n한 달간 4,000명 이상이 구매했고, 쿠팡 전체 상품평 중 별 5개 비율이 85%에 달해요.\n\n후기 대부분이 오래 유지되고 후끈후끈하다고 해요.\n\n구매자 후기 중 \"따뜻하게 해드리리라 ㅎ\"라는 평도 있네요.\n\n가격은 8,000원입니다.\n\n링크는 답글에 둘게요",
       "done": false,
       "format": "before_after",
       "script": {
-        "title": "상품평 8만 개 넘은 해피데이 포켓용 핫팩 #shorts",
-        "hook": "상품평 8만 개 돌파",
+        "title": "상품평 8만 개 넘은 해피데이 핫팩 #shorts",
+        "hook": "상품평 8만 개 넘은",
         "hook_highlight": "상품평 8만 개",
         "scenes": [
           {
-            "caption": "추위 오면 손 시려",
-            "highlight": "손 시려",
-            "narration": "날씨 추워지면 주머니 속에서 손 꽁꽁 얼어붙고 버스 기다릴 때마다 너무 괴롭죠.",
+            "caption": "추워지면 손 시렵죠",
+            "highlight": "손 시렵죠",
+            "narration": "날씨 추워지면 주머니 속에서 손 꽁꽁 얼어붙잖아요. 출퇴근길마다 너무 차가워서 괴롭고.",
             "type": "normal"
           },
           {
             "caption": "요즘 제일 핫한 핫팩",
-            "highlight": "제일 핫한",
-            "narration": "요즘 네이버 쇼핑 스포츠 레저 분야에서 많이 찾는 핫팩이 바로 이거예요.",
+            "highlight": "제일 핫한 핫팩",
+            "narration": "요즘 네이버 쇼핑 스포츠/레저 분야에서 많이 찾는 핫팩, 다들 왜 찾을까요?",
             "type": "normal"
           },
           {
             "caption": "구매자 반응은?",
             "highlight": "구매자 반응",
-            "narration": "실제 구매자 후기 중에 \"따뜻하게 해드리리라 ㅎ\" 그리고 \"부담 없이 매일 사용하기 좋은 따뜻한 손핫팩\" 이런 후기가 있어요.",
+            "narration": "구매자 후기 중에 \"따뜻하게 해드리리라 ㅎ\" 이런 후기가 있어요.",
             "type": "reviews"
           },
           {
-            "caption": "후끈후끈 지속력",
-            "highlight": "후끈후끈",
-            "narration": "후기 설문을 보면 오래 유지된다는 평과 후끈후끈하다는 평이 정말 많고, 쿠팡 평점 4.7점에 별 5개 비율이 85%나 돼요.",
+            "caption": "후끈후끈한 지속력",
+            "highlight": "후끈후끈한",
+            "narration": "후기 설문을 보면 오래 유지된다는 평과 후끈후끈하다는 평이 정말 많아요. 쿠팡 평점 4.7점에 상품평이 86,332개나 되거든요.",
             "type": "normal"
           },
           {
-            "caption": "지금 8,000원",
+            "caption": "별 5개 비율 85%",
+            "highlight": "85%",
+            "narration": "쿠팡 전체 상품평 중 별 5개 비율이 무려 85%예요. 한 달간 4,000명 이상 구매했어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "가성비 필수템 8,000원",
             "highlight": "8,000원",
-            "narration": "해피데이 따뜻해 포켓용 핫팩 100g 20개 구성이 8,000원인데요. 가격은 바뀔 수 있어요.",
-            "type": "normal"
-          },
-          {
-            "caption": "프로필 링크 확인",
-            "highlight": "프로필 링크",
-            "narration": "한 달간 4,000명 이상 구매했어요. 프로필 링크에서 5번 확인하세요.",
+            "narration": "해피데이 따뜻해 포켓용 핫팩 100g 20개 세트 가격은 8,000원이에요. 가격은 바뀔 수 있어요. 프로필 링크에서 5번 확인하세요.",
             "type": "normal"
           }
         ],
-        "description": "추운 날씨 필수템 해피데이 포켓용 핫팩! 쿠팡 평점 4.7점과 수많은 후기로 검증된 따뜻한 가성비 필수템을 만나보세요.",
+        "description": "상품평 8만 개 넘은 해피데이 따뜻해 포켓용 핫팩 100g 20개!\n추운 날씨 필수템으로 후끈후끈 따뜻하게 보내세요.",
         "hashtags": [
           "#핫팩",
-          "#손핫팩",
-          "#포켓용핫팩",
           "#해피데이핫팩",
-          "#겨울필수품",
+          "#포켓용핫팩",
+          "#겨울필수템",
+          "#손핫팩",
           "#가성비핫팩"
         ]
       }
     },
     {
       "kind": "tip",
-      "text": "아끼는 겨울 니트 보풀 덜 생기게 세탁하는 법 🧶\n\n뒤집어서 세탁망에 딱 맞게 넣는 게 포인트예요.\n\n세탁망 안에서 옷이 겉돌면 마찰 때문에 보풀이 더 생깁니다.\n\n찬물에 울 코스로 돌리고, 건조기는 절대 금지예요.\n\n말릴 때는 옷걸이에 걸지 말고 건조대에 평평하게 눕혀서 말려야 어깨가 늘어나지 않아요.",
-      "photo_query": "wool knit sweater",
+      "text": "아침마다 퉁퉁 붓는 얼굴, 방치하고 계신가요?\n\n냉장고에 숟가락 넣는 건 이제 그만하세요.\n\n미지근한 물로 세안하면서 가볍게 림프를 쓸어주면,\n\n자극 없이도 붓기가 훨씬 빠르게 빠져요.\n\n여러분만의 숨겨진 붓기 빼기 꿀팁이 있나요?",
+      "photo_query": "morning skincare",
+      "done": false
+    },
+    {
+      "kind": "tip",
+      "text": "운동화 흰 창에 생긴 까만 스크래치,\n\n버리려던 지우개로 살살 문질러보세요.\n\n신기할 정도로 깔끔하게 지워진답니다.\n\n비싼 클리너 따로 살 필요 전혀 없어요.\n\n오늘 퇴근길에 현관에서 바로 시도해 보세요.",
+      "photo_query": "white sneakers",
       "done": false
     },
     {
       "kind": "link",
-      "number": 8,
+      "number": 2,
       "product": {
-        "keyword": "물티슈",
-        "category": "출산/육아",
-        "trend_rank": 6,
-        "search_url": "https://www.coupang.com/np/search?q=%EB%AC%BC%ED%8B%B0%EC%8A%88",
-        "partner_url": "https://link.coupang.com/a/iVqp569wv6",
+        "keyword": "텀블러",
+        "category": "생활/건강",
+        "trend_rank": 2,
+        "search_url": "https://www.coupang.com/np/search?q=%ED%85%80%EB%B8%94%EB%9F%AC",
+        "partner_url": "https://link.coupang.com/a/iVpYtDfOeG",
         "notes": "",
-        "price": "10890",
-        "name": "코멧 오리지널 유아용 아기물티슈 캡형",
+        "price": "9690",
+        "name": "코멧 진공 스테인리스 텀블러 + 손잡이 + 빨대뚜껑 + 빨대 + 빨대솔",
         "image_urls": [
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/44344613265746-312dd5ae-8844-4536-80c8-4110a24dd8c8.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2280396506231797-4806874f-338a-4722-9d06-e05fefa2baff.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1842237182043989-10577c8b-e083-45e3-afee-af002c54d54f.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1839180843320119-ccf52345-f883-4194-998d-9add3721f86a.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2280411951926949-3681fab3-309f-43c2-84df-a7a19335b9de.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2281085075775295-7f9763b9-8487-4643-a3c9-37d750e05a42.jpg"
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/343203829411945-aeed7fa8-cc6a-46d0-85e7-e99fe822acae.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/5212458774952297-5768a8fd-103f-4290-81a0-da726189e06b.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/969875756365015-ba39b08a-f412-49f7-b350-e3dc4896cb95.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/969875335739066-fef1c858-faab-4dc3-a723-b39bf3f1c4d4.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/969875756127416-4fa7a595-223b-4c46-815c-40c197072789.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/969875505940427-8dec0727-929d-4aa9-b80e-fdc32a6a4bb8.jpg"
         ],
-        "product_url": "https://www.coupang.com/vp/products/188227098",
+        "product_url": "https://www.coupang.com/vp/products/2057731929",
         "brand": "코멧",
-        "list_price": "18000",
-        "rating": "4.8",
-        "reviews": "492638",
-        "desc": "현재 별점 4.8점, 리뷰 492638개를 가진 코멧 오리지널 유아용 아기물티슈 캡형! 50g x 100매 x 10개 구성.",
-        "buyers": "한 달간 10만명 이상 구매했어요",
+        "list_price": "15400",
+        "rating": "4.7",
+        "reviews": "20151",
+        "desc": "현재 별점 4.7점, 리뷰 20151개를 가진 코멧 진공 스테인리스 텀블러 + 손잡이 + 빨대뚜껑 + 빨대 + 빨대솔! 지금 쿠팡에서 더 저렴하고 다양한 텀블러/쉐이커 제품들을 확인해보세요.",
+        "buyers": "한 달간 1,000명 이상 구매했어요",
         "top_reviews": [
           {
             "rating": 5,
-            "text": "가성비 좋은 물티슈!"
+            "text": "기성비 최고 왜 1등인지 알거같음"
           },
           {
             "rating": 5,
-            "text": "물티슈는 집에 넉넉하게 쟁여둬야 마음이 편하죠!"
+            "text": "대용량이라 넉넉하고 구성품까지 알찬 실용적인 텀블러"
           },
           {
             "rating": 5,
-            "text": "육아 필수 기본 물티슈"
+            "text": "대용량 텀블러 차가움이 오래가요!"
+          }
+        ],
+        "five_star_pct": "85",
+        "trend": "'텀블러' 인기 검색어 2위"
+      },
+      "text": "이번 주 네이버 쇼핑 '생활/건강' 인기 검색어 2위에 오른 '텀블러'.\n\n제품 고를 땐 대용량인지, 보냉력이 좋은지, 구성품이 알찬지 살펴보게 되죠.\n\n코멧 진공 스테인리스 텀블러 + 손잡이 + 빨대뚜껑 + 빨대 + 빨대솔은 쿠팡 평점 4.7점, 상품평 20,151개에 달하는 제품이에요.\n\n정가 15,400원에서 37% 할인된 9,690원에 볼 수 있고, 쿠팡 표시 기준 한 달간 1,000명 이상 구매했어요.\n\n별 5개 비율은 85%입니다.\n\n구매자 후기 중 \"대용량이라 넉넉하고 구성품까지 알찬 실용적인 텀블러\"라는 평이 있어요.\n\n링크는 답글에 둘게요",
+      "done": false,
+      "format": "dont_buy_instead"
+    },
+    {
+      "kind": "tip",
+      "text": "가죽 가방 보관할 때 신문지 넣으시나요?\n\n습기 찬다고 무심코 넣었다가 낭패 볼 수 있어요.\n\n신문지 잉크가 가방 안감에 그대로 묻어날 수 있거든요.\n\n대신 안 쓰는 더스트백이나 부직포를 구겨 넣으세요.\n\n작은 습관이 가방 수명을 몇 년은 늘려줘요.",
+      "photo_query": "leather bag",
+      "done": false
+    },
+    {
+      "kind": "link",
+      "number": 6,
+      "product": {
+        "keyword": "스카프",
+        "category": "패션잡화",
+        "trend_rank": 5,
+        "search_url": "https://www.coupang.com/np/search?q=%EC%8A%A4%EC%B9%B4%ED%94%84",
+        "partner_url": "https://link.coupang.com/a/iVqocryr6G",
+        "notes": "",
+        "price": "7900",
+        "name": "JANE 여성 쁘띠 사각 스카프 2종 세트",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/d9a8/1d19a39d152c44750223dd082490e66b4d726bc94a4272607ad1ea12338d.png",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/5719/f119a4c86abddd3ac9ebc3f6a45c2ce6b473f4755e64360a493e4b50e461.jpeg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/92ff/9923565f1d01512f5006b24a5c88f855bd3c727b30773a204c1991fd087e.jpeg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/5e2b/4ca6d6a0db763795f76aafa44827ef346d892933fcefbf468f99f939d305.jpeg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/2576/9ab3273126649a413f812785802938e5d6dbd213fbecb5aa68dd7549e2bf.jpeg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/6b9b/5abfb23c44150c26b2796c8e8c4b7179d694e40cac22a277deedbfc45d74.jpeg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/7830132859",
+        "list_price": "20000",
+        "rating": "4.6",
+        "reviews": "1298",
+        "desc": "현재 별점 4.6점, 리뷰 1298개를 가진 JANE 여성 쁘띠 사각 스카프 2종 세트! 지금 쿠팡에서 더 저렴하고 다양한 스카프 제품들을 확인해보세요.",
+        "buyers": "한 달간 400명 이상 구매했어요",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "가볍게 둘러도 스타일이 살아나는 실용적인 쁘띠 스카프!"
+          },
+          {
+            "rating": 5,
+            "text": "가볍고 세련된 디자인으로 햇빛 알레르기 완화에 도움되요"
+          },
+          {
+            "rating": 5,
+            "text": "데일리룩에 우하함과 고급스러움"
           }
         ],
         "survey": [
           {
-            "q": "편리성",
-            "a": "아주 편리해요",
-            "n": 81,
+            "q": "디자인",
+            "a": "아주 마음에 들어요",
+            "n": 78,
             "tot": 100
           },
           {
-            "q": "향 만족도",
-            "a": "아주만족해요",
-            "n": 62,
+            "q": "소재",
+            "a": "상세페이지의 소재와 같아요",
+            "n": 79,
             "tot": 100
           }
         ],
-        "five_star_pct": "85",
-        "trend": "'물티슈' 인기 검색어 6위"
+        "five_star_pct": "75",
+        "trend": "'스카프' 인기 검색어 5위"
       },
-      "text": "상품평만 49만 개가 넘고 평점 4.8점을 기록 중인 물티슈가 있어요.\n\n매일 쓰는 물티슈를 고를 땐 부담 없는 가성비와 캡형의 편리함을 보는 것이 좋은데요.\n\n'코멧 오리지널 유아용 아기물티슈 캡형'이 그 기준에 잘 맞는 예시예요.\n\n이번 주 네이버 출산/육아 인기 검색어 6위이자 한 달간 10만 명 이상 구매한 제품으로, 정가 18,000원에서 39% 할인된 10,890원에 볼 수 있어요.\n\n구매자 후기 중 \"물티슈는 집에 넉넉하게 쟁여둬야 마음이 편하죠!\"라는 내용이 있고, 후기 대부분이 아주 편리하다고 해요.\n\n링크는 답글에 둘게요!",
+      "text": "이번 주 네이버 쇼핑 패션잡화 인기 검색어 5위가 바로 '스카프'래요.\n\n스카프를 고를 땐 후기와 디자인을 꼼꼼히 보게 되는데요.\n\nJANE 여성 쁘띠 사각 스카프 2종 세트는 정가 20,000원에서 7,900원으로 할인 중이에요.\n\n상품평 1,298개에 평점 4.6점이고, 한 달간 400명 이상 구매했다고 표시되어 있어요.\n\n디자인과 소재가 상세페이지와 같다는 후기가 많고, 별 5개 비율도 75%예요.\n\n구매자 후기 중 \"가볍게 둘러도 스타일이 살아나는 실용적인 쁘띠 스카프!\" 라는 평도 있네요.\n\n링크는 답글에 둘게요.",
       "done": false,
-      "format": "dont_buy_instead",
+      "format": "price_check",
       "script": {
-        "title": "상품평 49만 개의 육아 필수 물티슈 할인 정보! #shorts",
-        "hook": "한 달 10만 명 구매?",
-        "hook_highlight": "10만 명",
+        "title": "정가 2만 원이 지금 7천 원대! 쁘띠 사각 스카프 2종 세트 #shorts",
+        "hook": "정가 2만 원이 7,900원?",
+        "hook_highlight": "7,900원",
         "scenes": [
           {
-            "caption": "한 달 10만 명 구매?",
-            "highlight": "10만 명",
-            "narration": "한 달에 10만 명 이상이 구매하는 물티슈가 있다는 거 아시나요?",
+            "caption": "요즘 인기인 스카프",
+            "highlight": "인기인 스카프",
+            "narration": "이번 주 네이버 쇼핑 패션잡화 분야 인기 검색어 5위가 바로 '스카프'예요.",
             "type": "normal"
           },
           {
-            "caption": "싸다고 아무거나 사면?",
-            "highlight": "아무거나",
-            "narration": "물티슈 샀다가 쓰기 뻑뻑하거나 향이 이상해서 후회한 적 많으시죠?",
+            "caption": "디자인과 소재 모두",
+            "highlight": "모두",
+            "narration": "후기 보니까 디자인은 아주 마음에 든다는 평이 많고, 소재도 상세페이지와 같아요.",
             "type": "normal"
           },
           {
-            "caption": "후회 없는 육아 필수템",
-            "highlight": "육아 필수템",
-            "narration": "그럴 땐 후기 대부분이 아주 편리하고 향도 만족스럽다는 코멧 오리지널 유아용 아기물티슈 캡형을 추천해요.",
-            "type": "normal"
-          },
-          {
-            "caption": "구매자 후기는?",
-            "highlight": "구매자 후기",
-            "narration": "구매자 후기 보니까 \"가성비 좋은 물티슈!\", \"물티슈는 집에 넉넉하게 쟁여둬야 마음이 편하죠!\"라는 평이 있어요.",
+            "caption": "구매자 반응은?",
+            "highlight": "구매자 반응",
+            "narration": "실제 후기 중에 \"가볍게 둘러도 스타일이 살아나는 실용적인 쁘띠 스카프!\" 이런 후기가 있어요.",
             "type": "reviews"
           },
           {
-            "caption": "지금 39% 할인 중!",
-            "highlight": "39% 할인",
-            "narration": "쿠팡 평점 4.8점에 상품평만 49만 개가 넘는데요. 정가 18,000원에서 39% 할인된 10,890원에 판매 중이에요. 가격은 바뀔 수 있어요.",
+            "caption": "다들 고르는 이유",
+            "highlight": "고르는 이유",
+            "narration": "쿠팡 평점 4.6점에 상품평이 1,298개나 되고, 한 달간 400명 이상 구매했어요.",
             "type": "normal"
           },
           {
-            "caption": "프로필 8번 확인!",
-            "highlight": "8번 확인",
-            "narration": "이번 주 네이버 인기 검색어 6위인 물티슈, 프로필 링크에서 8번 확인하세요!",
+            "caption": "지금 60% 할인",
+            "highlight": "60% 할인",
+            "narration": "정가 20,000원에서 지금 7,900원! 가격은 바뀔 수 있어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "프로필 링크 확인",
+            "highlight": "프로필 링크",
+            "narration": "자세한 내용은 프로필 링크에서 6번 확인하세요.",
             "type": "normal"
           }
         ],
-        "description": "한 달 10만 명 이상 구매한 코멧 오리지널 유아용 아기물티슈!\n상품평 49만 개와 높은 평점으로 검증된 육아 필수템입니다.\n프로필 링크 8번에서 할인 정보를 확인해보세요.",
+        "description": "정가 2만 원에서 60% 할인된 7,900원에 만나는 JANE 여성 쁘띠 사각 스카프 2종 세트! 쿠팡 평점 4.6점과 1,298개의 상품평으로 검증된 데일리 패션 아이템을 지금 확인해보세요.",
         "hashtags": [
-          "#물티슈",
-          "#코멧물티슈",
-          "#아기물티슈",
-          "#육아필수템",
-          "#출산육아",
-          "#쇼핑정보"
+          "#스카프",
+          "#쁘띠스카프",
+          "#여성스카프",
+          "#패션잡화",
+          "#데일리룩",
+          "#쇼츠"
         ]
       }
     }
