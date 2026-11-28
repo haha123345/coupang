@@ -223,7 +223,8 @@
       "kind": "tip",
       "text": "세탁기 탈수할 때 소리가 너무 크다면,\n\n빨래가 한쪽으로 쏠리지 않았는지 확인해보세요.\n\n수건이나 두꺼운 옷이 뭉쳐 있으면,\n\n통이 흔들리면서 쿵쿵 소리가 나기 쉬워요.\n\n탈수를 잠깐 멈추고 골고루 펴주는 것만으로도,\n\n세탁기 수명을 지킬 수 있답니다.",
       "photo_query": "washing machine laundry",
-      "done": false
+      "done": true,
+      "url": "텔레그램 전송 (직접 게시)"
     },
     {
       "kind": "link",
