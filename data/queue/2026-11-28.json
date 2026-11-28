@@ -2,117 +2,6 @@
   "day": "2026-11-28",
   "shorts": [
     {
-      "number": 5,
-      "format": "top3_points",
-      "product": {
-        "keyword": "핫팩",
-        "category": "스포츠/레저",
-        "trend_rank": 4,
-        "search_url": "https://www.coupang.com/np/search?q=%ED%95%AB%ED%8C%A9",
-        "partner_url": "https://link.coupang.com/a/iVp43hvnVc",
-        "notes": "",
-        "price": "8000",
-        "name": "해피데이 따뜻해 포켓용 핫팩 100g, 20개",
-        "image_urls": [
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2026/07/03/10/9/faedd96b-36a1-4504-960c-6991f694982b.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2026/07/03/10/5/9187ad6c-e18a-4c36-a9ee-7b556c95e3be.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/rs_quotation_api/0no5vkxz/c18f235e83ac4b16b56b69035402b8ce.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/rs_quotation_api/7jzfgjmi/983896f5c61542d3a35147de757fad34.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/rs_quotation_api/egnt6j2b/4e863ede75604f60840c3fca5f0f1fd1.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/rs_quotation_api/jvddgevo/41e8dabc18954488984e90197e1977d9.jpg"
-        ],
-        "product_url": "https://www.coupang.com/vp/products/9032104227",
-        "brand": "해피데이",
-        "rating": "4.7",
-        "reviews": "86332",
-        "desc": "현재 별점 4.7점, 리뷰 86332개를 가진 해피데이 따뜻해 포켓용 핫팩 100g, 20개! 지금 쿠팡에서 더 저렴하고 다양한 손난로/핫팩 제품들을 확인해보세요.",
-        "buyers": "한 달간 4,000명 이상 구매했어요",
-        "top_reviews": [
-          {
-            "rating": 5,
-            "text": "따뜻하게 해드리리라 ㅎ"
-          },
-          {
-            "rating": 5,
-            "text": "부담 없이 매일 사용하기 좋은 따뜻한 손핫팩"
-          },
-          {
-            "rating": 5,
-            "text": "따뜻한 가성비 필수템"
-          }
-        ],
-        "survey": [
-          {
-            "q": "지속력",
-            "a": "오래 유지돼요",
-            "n": 85,
-            "tot": 100
-          },
-          {
-            "q": "온열 기능",
-            "a": "후끈후끈해요",
-            "n": 75,
-            "tot": 100
-          }
-        ],
-        "five_star_pct": "85",
-        "trend": "'핫팩' 인기 검색어 4위"
-      },
-      "script": {
-        "title": "요즘 제일 많이 찾는 핫팩! 8천 원의 가성비 #shorts",
-        "hook": "상품평 8만 개!",
-        "hook_highlight": "상품평 8만 개",
-        "scenes": [
-          {
-            "caption": "요즘 제일 핫한",
-            "highlight": "핫한",
-            "narration": "요즘 네이버 쇼핑 스포츠 레저 분야에서 '핫팩'이 인기 검색어 4위래요.",
-            "type": "normal"
-          },
-          {
-            "caption": "금방 식는 핫팩",
-            "highlight": "금방 식는",
-            "narration": "밖에 나가면 금방 차가워져서 아쉬웠던 분들 많으시죠?",
-            "type": "normal"
-          },
-          {
-            "caption": "구매자 반응은?",
-            "highlight": "구매자 반응",
-            "narration": "실제 후기를 보니까 \"따뜻하게 해드리리라 ㅎ\" 그리고 \"부담 없이 매일 사용하기 좋은 따뜻한 손핫팩\" 이런 평이 있어요.",
-            "type": "reviews"
-          },
-          {
-            "caption": "후끈한 지속력",
-            "highlight": "지속력",
-            "narration": "후기 설문을 보면 오래 유지되고 후끈후끈하다는 평이 많고, 쿠팡 평점은 4.7점에 별 5개 비율도 85%예요.",
-            "type": "normal"
-          },
-          {
-            "caption": "8천 원의 행복",
-            "highlight": "8천 원",
-            "narration": "해피데이 따뜻해 포켓용 핫팩 20개 가격은 8,000원인데요, 가격은 바뀔 수 있어요. 한 달간 4,000명 이상이 구매한 상품이에요.",
-            "type": "normal"
-          },
-          {
-            "caption": "지금 바로 확인",
-            "highlight": "프로필 링크",
-            "narration": "따뜻한 가성비 필수템, 프로필 링크에서 5번 확인하세요!",
-            "type": "normal"
-          }
-        ],
-        "description": "쿠팡 평점 4.7점과 8만 개가 넘는 상품평으로 검증된 해피데이 따뜻해 포켓용 핫팩 100g 20개 구성입니다. 올겨울 필수 아이템을 만나보세요!",
-        "hashtags": [
-          "#핫팩",
-          "#해피데이핫팩",
-          "#손핫팩",
-          "#포켓핫팩",
-          "#겨울필수품",
-          "#가성비핫팩"
-        ]
-      },
-      "done": false
-    },
-    {
       "number": 2,
       "format": "before_after",
       "product": {
@@ -157,55 +46,166 @@
         "trend": "'텀블러' 인기 검색어 2위"
       },
       "script": {
-        "title": "상품평만 2만 개 넘은 대용량 텀블러 가성비 대박 #shorts",
-        "hook": "상품평만 2만개 이상",
-        "hook_highlight": "2만개 이상",
+        "title": "상품평 2만개 넘은 9천원대 대용량 텀블러 #shorts",
+        "hook": "상품평 2만개 텀블러",
+        "hook_highlight": "2만개 텀블러",
         "scenes": [
           {
-            "caption": "상품평만 2만개 이상",
-            "highlight": "2만개 이상",
-            "narration": "상품평만 2만 개 넘게 달린 인기 텀블러가 있다는 거 아셨나요?",
+            "caption": "상품평 2만개 텀블러",
+            "highlight": "상품평 2만개",
+            "narration": "상품평만 2만 개가 넘게 달린 텀블러가 있다는 사실, 알고 계셨나요?",
             "type": "normal"
           },
           {
             "caption": "얼음 금방 녹나요?",
-            "highlight": "금방 녹나요",
-            "narration": "일하다 보면 얼음도 금방 녹고 챙길 구성품도 많아 번거로우셨죠?",
+            "highlight": "금방 녹나요?",
+            "narration": "날도 더운데 얼음은 금방 녹고 뚜껑이나 빨대 챙기기 번거로우셨죠?",
             "type": "normal"
           },
           {
-            "caption": "손잡이에 빨대 세트",
-            "highlight": "빨대 세트",
-            "narration": "코멧 진공 스테인리스 텀블러는 손잡이와 빨대, 빨대솔까지 알차게 다 들어있어요.",
+            "caption": "풀세트 구성 텀블러",
+            "highlight": "풀세트 구성",
+            "narration": "코멧 진공 스테인리스 텀블러는 손잡이에 빨대 뚜껑, 빨대, 세척 솔까지 알차게 다 들어있어요.",
             "type": "normal"
           },
           {
-            "caption": "실제 구매자 반응",
-            "highlight": "구매자 반응",
-            "narration": "실제 후기 중에 \"대용량이라 넉넉하고 구성품까지 알찬 실용적인 텀블러\"라는 후기가 있어요.",
+            "caption": "실제 후기 보면",
+            "highlight": "실제 후기",
+            "narration": "실제 후기를 보면 \"대용량이라 넉넉하고 구성품까지 알찬 실용적인 텀블러\"라는 후기가 있어요.",
             "type": "reviews"
           },
           {
-            "caption": "37% 할인 9천원대",
+            "caption": "지금 9천원대 할인",
             "highlight": "9천원대",
-            "narration": "한 달간 1,000명 이상 구매했고 정가 15,400원에서 지금 9,690원으로 37% 할인 중이에요. 가격은 바뀔 수 있어요.",
+            "narration": "정가 15,400원에서 37% 할인된 9,690원에 구매 가능해요. 가격은 바뀔 수 있어요.",
             "type": "normal"
           },
           {
             "caption": "프로필 링크 2번",
-            "highlight": "2번",
-            "narration": "알찬 구성의 대용량 텀블러는 프로필 링크에서 2번 확인해보세요!",
+            "highlight": "프로필 링크 2번",
+            "narration": "자세한 정보는 지금 프로필 링크에서 2번을 확인해보세요!",
             "type": "normal"
           }
         ],
-        "description": "상품평 20,000개 돌파! 손잡이부터 빨대솔까지 다 퍼주는 알찬 구성의 코멧 진공 스테인리스 텀블러입니다. 지금 37% 할인 특가 진행 중이니 놓치지 마세요.",
+        "description": "쿠팡 상품평 20,000개 이상, 평점 4.7점의 인기 텀블러! 손잡이부터 빨대솔까지 풀세트 구성의 코멧 진공 스테인리스 텀블러입니다.",
         "hashtags": [
           "#텀블러",
           "#텀블러추천",
-          "#코멧텀블러",
           "#대용량텀블러",
-          "#보온보냉텀블러",
-          "#가성비템"
+          "#코멧텀블러",
+          "#쿠팡꿀템"
+        ]
+      },
+      "done": false
+    },
+    {
+      "number": 7,
+      "format": "dont_buy_instead",
+      "product": {
+        "keyword": "발열조끼",
+        "category": "스포츠/레저",
+        "trend_rank": 6,
+        "search_url": "https://www.coupang.com/np/search?q=%EB%B0%9C%EC%97%B4%EC%A1%B0%EB%81%BC",
+        "partner_url": "https://link.coupang.com/a/iW30oqycii",
+        "notes": "USB 보조배터리(별매)를 USB 케이블로 연결해 쓰는 20구역 열선 조끼입니다. 3단계 온도조절과 앞뒤 개별 제어가 되고, KC 자율안전확인(PFg-20223) 제품입니다.",
+        "price": "29520",
+        "name": "Mosashoe 발열조끼 20구역 열선조끼 USB/DC 겨울 방한 발열 바이크 등산 골프 조끼",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/176f/5f1d4985b983d1aec58626ab1b406751b7ecaf9d9f491b2c3dfefb01287e.png",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/6c9f/ece353c8accb2c5fbf6e186dfcc9a4eafbaa603364fc4340580fd7e375e8.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/3776/55cd4fd3c06afaec93b01ea42d0b63f2b7bfdbbba5eaf28548ac77193fa7.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/30b3/605249e6b4ea960dad8f7a2b7b79447ea1f37d7ce93f1ed2c7db782c7e94.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/45dc/da1be9a356f8088205c91dad0df05e57f6ab16ddd0d8d9c9bf4dfb0c74b3.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/df4b/a56ccff343a11862270aac2c0dface06f02878df8bd77980200737403e03.jpg"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/8442643565",
+        "brand": "Mosashoe",
+        "list_price": "100000",
+        "rating": "4.5",
+        "reviews": "761",
+        "desc": "현재 별점 4.5점, 리뷰 761개를 가진 Mosashoe 발열조끼 20구역 열선조끼! 20구역 열선에 3단계 온도조절, 앞뒤 개별 제어가 되는 USB/DC 겨울 방한 조끼입니다.",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "앞뒤 온도 조절이 따로 돼서 더 좋아요"
+          },
+          {
+            "rating": 5,
+            "text": "가격 대비 성능이 좋아 가성비가 뛰어나요"
+          },
+          {
+            "rating": 5,
+            "text": "열선이 20구역으로 넓게 분포돼 금방 따뜻해져요"
+          }
+        ],
+        "survey": [
+          {
+            "q": "사이즈",
+            "a": "정사이즈예요",
+            "n": 77,
+            "tot": 100
+          },
+          {
+            "q": "색상",
+            "a": "화면과 같아요",
+            "n": 68,
+            "tot": 100
+          }
+        ],
+        "five_star_pct": "81",
+        "trend": "'발열조끼' 인기 검색어 6위"
+      },
+      "script": {
+        "title": "70% 할인 중인 Mosashoe 발열조끼 #shorts",
+        "hook": "발열조끼 잘못 사면",
+        "hook_highlight": "잘못 사면",
+        "scenes": [
+          {
+            "caption": "발열조끼 잘못 사면",
+            "highlight": "잘못 사면",
+            "narration": "발열조끼, 아무거나 고르면 금방 고장나거나 따뜻하지도 않아서 후회해요.",
+            "type": "normal"
+          },
+          {
+            "caption": "요즘 인기인 기준",
+            "highlight": "인기인",
+            "narration": "요즘 네이버 쇼핑 스포츠 레저 분야 인기 검색어 6위인 발열조끼, 제대로 고르는 기준을 알려드릴게요.",
+            "type": "normal"
+          },
+          {
+            "caption": "구매자 반응은?",
+            "highlight": "구매자 반응",
+            "narration": "실제 구매자 후기 중에 \"앞뒤 온도 조절이 따로 돼서 더 좋아요\" 이런 평이 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "20구역 열선",
+            "highlight": "20구역",
+            "narration": "열선이 20구역으로 넓게 분포돼서 금방 따뜻해지고, 3단계 온도 조절과 앞뒤 개별 제어도 가능해요.",
+            "type": "normal"
+          },
+          {
+            "caption": "믿을 수 있는 평점",
+            "highlight": "평점",
+            "narration": "쿠팡 평점 4.5점에 상품평이 761개나 되고, 쿠팡 전체 상품평 중 별 5개 비율이 81%나 돼요. 후기 대부분이 사이즈는 정사이즈고 색상은 화면과 같대요.",
+            "type": "normal"
+          },
+          {
+            "caption": "70% 파격 할인",
+            "highlight": "70% 할인",
+            "narration": "정가 10만 원에서 지금 29,520원으로 70% 할인 중이에요. 가격은 바뀔 수 있어요. 프로필 링크에서 7번 확인하세요.",
+            "type": "normal"
+          }
+        ],
+        "description": "겨울철 필수템 Mosashoe 20구역 발열조끼! 70% 할인된 가격과 상세 스펙을 프로필 링크에서 확인해보세요.",
+        "hashtags": [
+          "#발열조끼",
+          "#Mosashoe",
+          "#열선조끼",
+          "#겨울방한",
+          "#등산용품",
+          "#골프조끼",
+          "#쇼츠"
         ]
       },
       "done": false
@@ -214,17 +214,139 @@
   "threads": [
     {
       "kind": "tip",
-      "text": "수건에서 꿉꿉한 냄새가 안 사라지나요?\n\n섬유유연제를 많이 넣는 게 가장 흔한 실수입니다.\n\n유연제 성분이 수건 흡수력을 떨어뜨리고 세제 잔여물을 남겨 냄새의 원인이 돼요.\n\n대신 헹굼 단계에서 식초 한 스푼이나 과탄산소다를 활용해 보세요.\n\n건조기도 젖은 수건을 오래 방치하지 않고 바로 돌리는 게 중요합니다.",
-      "photo_query": "folded clean towels",
-      "done": true,
-      "url": "텔레그램 전송 (직접 게시)"
+      "text": "블라인드 먼지 닦기, 이제 문지르지 마세요.\n\n집에 있는 안 쓰는 양말을 손에 끼워보세요.\n\n장갑처럼 낀 채로 살짝 쓸어내리기만 해도,\n\n살짝 쌓인 먼지가 양말에 싹 묻어나와요.\n\n블라인드 틈새 청소가 훨씬 편해진답니다.",
+      "photo_query": "cleaning window blinds",
+      "done": false
     },
     {
       "kind": "tip",
-      "text": "환절기만 되면 피부가 바짝 마르는 이유.\n\n보습 크림을 아무리 듬뿍 발라도 속건조가 안 잡힌다면 유수분 균형이 깨진 걸 수 있어요.\n\n세안 후 물기가 살짝 남아있을 때 토너를 여러 번 레이어링해 보세요.\n\n그 위에 수분크림을 얇게 얹어 보습막을 형성해 주는 게 훨씬 효과적입니다.\n\n작은 습관 변화가 피부 컨디션을 바꿔요. 💧",
-      "photo_query": "skincare toner bottle",
-      "done": true,
-      "url": "텔레그램 전송 (직접 게시)"
+      "text": "세탁기 탈수할 때 소리가 너무 크다면,\n\n빨래가 한쪽으로 쏠리지 않았는지 확인해보세요.\n\n수건이나 두꺼운 옷이 뭉쳐 있으면,\n\n통이 흔들리면서 쿵쿵 소리가 나기 쉬워요.\n\n탈수를 잠깐 멈추고 골고루 펴주는 것만으로도,\n\n세탁기 수명을 지킬 수 있답니다.",
+      "photo_query": "washing machine laundry",
+      "done": false
+    },
+    {
+      "kind": "link",
+      "number": 9,
+      "product": {
+        "keyword": "크리스마스트리",
+        "category": "생활/건강",
+        "trend_rank": 8,
+        "search_url": "https://www.coupang.com/np/search?q=%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4%ED%8A%B8%EB%A6%AC",
+        "partner_url": "https://link.coupang.com/a/iVqq7PUDOC",
+        "notes": "",
+        "price": "36810",
+        "name": "하우쎈스 트리 풀세트 (내츄럴와인, 1.4m)",
+        "image_urls": [
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/6c6c/77a4436601f1f97d8d42d76347b90457ffe1d6057f8daa4ece67a2201ea0.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2874281260534061-b659421c-0665-462b-9253-ebb8b88974bd.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2261284248903743-07f7dfcb-b407-445b-903a-4b05d7a8060b.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2259572174117590-ecbb8f83-4c7c-46e0-b027-a251fe50c24a.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/86689019790701-cc8d0a34-9399-419f-ab18-71d5177ddb17.png",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/81003735399826-712407f2-f88a-4c5e-8c2d-0e42ec7df2bb.png"
+        ],
+        "product_url": "https://www.coupang.com/vp/products/6761140003",
+        "brand": "하우쎈스",
+        "list_price": "40900",
+        "rating": "4.6",
+        "reviews": "10965",
+        "desc": "현재 별점 4.6점, 리뷰 10965개를 가진 하우쎈스 트리 풀세트! 트리 + LED 전구 + 장신구 + 특별구성품, 1.4m 높이.",
+        "top_reviews": [
+          {
+            "rating": 5,
+            "text": "원하던 사이즈에 구성품도 다양해서 좋아요."
+          },
+          {
+            "rating": 5,
+            "text": "크리스마스 트리는 이거 사세요."
+          },
+          {
+            "rating": 5,
+            "text": "크리스마스 분위기 제대로나네요!"
+          }
+        ],
+        "survey": [
+          {
+            "q": "디자인",
+            "a": "아주 만족해요",
+            "n": 80,
+            "tot": 100
+          },
+          {
+            "q": "색상",
+            "a": "아주 만족스러워요",
+            "n": 75,
+            "tot": 100
+          }
+        ],
+        "five_star_pct": "80",
+        "trend": "'크리스마스트리' 인기 검색어 8위"
+      },
+      "text": "이번 주 네이버 쇼핑 '생활/건강' 인기 검색어 8위에 '크리스마스트리'가 올랐어요.\n\n트리를 고를 때는 후기가 탄탄하고 구성이 알찬지를 보면 좋아요.\n\n'하우쎈스 트리 풀세트 (내츄럴와인, 1.4m)'는 쿠팡 평점 4.6점, 상품평 10,965개로 많은 분이 찾는 제품이에요.\n\n정가 40,900원에서 10% 할인된 36,810원에 볼 수 있답니다.\n\n구매자 후기 중 \"원하던 사이즈에 구성품도 다양해서 좋아요.\"라는 평이 있어요.\n\n디자인과 색상 관련해서도 만족스럽다는 후기 대부분이 이쁘다고 해요.\n\n크리스마스 분위기를 준비하신다면 참고해 보세요.\n\n링크는 답글에 둘게요",
+      "done": false,
+      "format": "price_check",
+      "script": {
+        "title": "상품평만 1만 개 쌓인 인기 크리스마스트리 풀세트 추천 #shorts",
+        "hook": "상품평만 1만 개!",
+        "hook_highlight": "1만 개!",
+        "scenes": [
+          {
+            "caption": "상품평만 1만 개!",
+            "highlight": "1만 개!",
+            "narration": "상품평만 1만 개 넘게 쌓인 크리스마스트리가 있다는 거 아셨나요?",
+            "type": "normal"
+          },
+          {
+            "caption": "트리 고를 때 고민?",
+            "highlight": "고민?",
+            "narration": "크리스마스트리 고를 때 크기나 장식 구성품 챙기는 게 고민이셨죠?",
+            "type": "normal"
+          },
+          {
+            "caption": "1.4m 풀세트 구성!",
+            "highlight": "풀세트 구성!",
+            "narration": "하우쎈스 트리는 1.4m 부담 없는 크기에 다양하게 연출하기 좋은 풀세트 구성이에요.",
+            "type": "normal"
+          },
+          {
+            "caption": "실제 구매자 반응",
+            "highlight": "구매자 반응",
+            "narration": "실제 후기에도 \"크리스마스 분위기 제대로나네요!\" 이런 후기가 있어요.",
+            "type": "reviews"
+          },
+          {
+            "caption": "평점 4.6점 할인 중",
+            "highlight": "할인 중",
+            "narration": "쿠팡 평점 4.6점에 정가 40,900원에서 10% 할인된 36,810원이에요. 가격은 바뀔 수 있어요.",
+            "type": "normal"
+          },
+          {
+            "caption": "프로필 링크 9번!",
+            "highlight": "9번!",
+            "narration": "후기 대부분이 디자인과 색상에 아주 만족했대요. 프로필 링크에서 9번 확인하세요!",
+            "type": "normal"
+          }
+        ],
+        "description": "네이버 쇼핑 popular 키워드 크리스마스트리!\n1.4m 알찬 풀세트 구성의 하우쎈스 트리 풀세트를 확인해보세요.\n프로필 링크에서 9번을 찾아주세요.",
+        "hashtags": [
+          "#크리스마스트리",
+          "#트리추천",
+          "#하우쎈스트리",
+          "#크리스마스용품",
+          "#트리풀세트"
+        ]
+      }
+    },
+    {
+      "kind": "tip",
+      "text": "외출했다 돌아오면 신발장 냄새 걱정되시죠?\n\n구석에 커피 찌꺼기나 녹차 티백을 두어보세요.\n\n습기와 냄새를 은은하게 잡아준답니다.\n\n다만 젖은 티백은 곰팡이가 생길 수 있으니,\n\n꼭 완전히 말린 것만 넣어주셔야 해요.",
+      "photo_query": "organized shoe rack",
+      "done": false
+    },
+    {
+      "kind": "tip",
+      "text": "다들 겨울 패딩 세탁, 어떻게 하고 계시나요?\n\n드라이클리닝을 자주 맡기면,\n\n안에 든 충전재가 상할 수 있다고 해요.\n\n가벼운 얼룩은 미지근한 물에 중성세제를 풀고,\n\n스펀지로 톡톡 두드리며 지워보세요.\n\n올겨울 패딩을 더 오래 입는 방법이에요.",
+      "photo_query": "winter down jacket",
+      "done": false
     },
     {
       "kind": "link",
@@ -283,305 +405,177 @@
         "five_star_pct": "75",
         "trend": "'스카프' 인기 검색어 5위"
       },
-      "text": "이번 주 네이버 쇼핑 패션잡화 검색어 5위에 올라온 '스카프'!\n\n쁘띠 스카프를 고를 땐 부담 없는 가격에 상세페이지 소재와 실제 제품이 일치하는지 보는 게 좋아요.\n\n'JANE 여성 쁘띠 사각 스카프 2종 세트'가 좋은 예시인데요.\n\n정가 20,000원에서 60% 할인된 7,900원에 판매 중이고, 한 달간 400명 이상 구매했어요. 쿠팡 평점 4.6점에 상품평도 1,298개나 됩니다.\n\n후기 대부분이 디자인이 아주 마음에 들고 소재가 상세페이지와 같다고 해요.\n\n구매자 후기 중 \"가볍게 둘러도 스타일이 살아나는 실용적인 쁘띠 스카프!\"라는 평도 있네요.\n\n링크는 답글에 둘게요!",
-      "done": true,
-      "format": "dont_buy_instead",
+      "text": "이번 주 네이버 쇼핑 패션잡화 검색어 5위에 '스카프'가 올랐네요. 환절기 목을 감싸줄 아이템을 고를 때는 디자인과 상세페이지와 같은 소재인지 확인하는 게 중요해요.\n\n그런 기준에서 보면 JANE 여성 쁘띠 사각 스카프 2종 세트가 눈에 띄어요. 정가 20,000원에서 지금 7,900원으로 할인 중이고, 쿠팡 평점 4.6점에 상품평이 1,298개나 되거든요. 한 달간 400명 이상이 구매했다고 나와요.\n\n후기를 보면 디자인과 소재 면에서 만족한다는 이야기가 많아요. 구매자 후기 중 \"가볍게 둘러도 스타일이 살아나는 실용적인 쁘띠 스카프!\" 라는 평도 있네요.\n\n링크는 답글에 둘게요.",
+      "done": false,
+      "format": "top3_points",
       "script": {
-        "title": "정가 2만원 스카프가 7천원대? 쁘띠스카프 2종 세트 #shorts",
-        "hook": "정가 2만원이 7천원대!",
-        "hook_highlight": "7천원대!",
+        "title": "정가 2만 원이 7천 원대! 요즘 난리난 쁘띠 사각 스카프 #shorts",
+        "hook": "정가 2만원이 7천원대",
+        "hook_highlight": "7천원대",
         "scenes": [
           {
-            "caption": "정가 2만원이 7천원대!",
-            "highlight": "7천원대!",
-            "narration": "정가 20,000원짜리 스카프 세트가 지금 60% 할인해서 7,900원이에요!",
+            "caption": "요즘 많이 찾는 스카프",
+            "highlight": "많이 찾는 스카프",
+            "narration": "요즘 네이버 쇼핑 패션잡화 분야 인기 검색어 5위가 바로 '스카프'래요.",
             "type": "normal"
           },
           {
-            "caption": "스카프 잘못 사면",
-            "highlight": "잘못 사면",
-            "narration": "스카프 잘못 사면 코디하기 답답하고 옷장에 모셔두기만 하잖아요.",
-            "type": "normal"
-          },
-          {
-            "caption": "2종 세트 쁘띠스카프",
-            "highlight": "쁘띠스카프",
-            "narration": "JANE 쁘띠 사각 스카프 2종 세트는 부담 없이 쓱 둘러주면 끝이에요. 후기 대부분이 디자인도 아주 마음에 들고 상세페이지 소재와 똑같다고 해요.",
+            "caption": "밋밋한 옷장에 포인트",
+            "highlight": "포인트",
+            "narration": "가볍게 둘러도 스타일이 살아나는 실용적인 쁘띠 사각 스카프 2종 세트예요.",
             "type": "normal"
           },
           {
             "caption": "구매자 반응은?",
             "highlight": "구매자 반응",
-            "narration": "실제 구매자 후기 중에 \"가볍게 둘러도 스타일이 살아나는 실용적인 쁘띠 스카프!\"라는 후기가 있어요.",
+            "narration": "실제 구매자 후기 중에 \"가볍게 둘러도 스타일이 살아나는 실용적인 쁘띠 스카프!\" 이런 후기가 있어요.",
             "type": "reviews"
           },
           {
-            "caption": "한 달 400명 선택!",
-            "highlight": "400명 선택!",
-            "narration": "쿠팡 평점 4.6점에 별 5개 비율이 75%! 이번 주 네이버 인기 검색어 5위 스카프 카테고리에서 한 달간 400명 이상 구매했어요.",
+            "caption": "다들 만족하는 이유",
+            "highlight": "만족",
+            "narration": "상품평 1,298개에 쿠팡 평점 4.6점! 한 달간 400명 이상 구매했대요.",
             "type": "normal"
           },
           {
-            "caption": "프로필 링크 6번",
-            "highlight": "6번",
-            "narration": "7,900원에 가져가는 실속 세트! 가격은 바뀔 수 있으니 지금 바로 프로필 링크에서 6번 확인하세요!",
+            "caption": "지금 60% 할인",
+            "highlight": "60% 할인",
+            "narration": "정가 20,000원에서 지금 7,900원! 가격은 바뀔 수 있어요. 프로필 링크에서 6번 확인하세요.",
             "type": "normal"
           }
         ],
-        "description": "정가 20,000원에서 60% 할인 중인 쁘띠 사각 스카프 2종 세트!\n쿠팡 평점 4.6점, 별 5개 비율 75%의 미친 가성비 아이템입니다.\n자세한 정보와 구매는 프로필 링크 6번에서 확인하세요.",
+        "description": "꾸안꾸 데일리룩 필수템 JANE 여성 쁘띠 사각 스카프 2종 세트. 지금 할인된 가격으로 만나보세요!",
         "hashtags": [
           "#스카프",
           "#쁘띠스카프",
-          "#패션잡화",
-          "#스카프추천",
-          "#가성비패션",
-          "#쿠팡추천템"
-        ]
-      },
-      "url": "텔레그램 전송 (직접 게시)"
-    },
-    {
-      "kind": "tip",
-      "text": "냉장고 정리, 다들 어떤 용기 쓰시나요?\n\n투명한 유리 용기가 내용물 확인하기엔 제일 좋은데 무게가 좀 부담되더라고요.\n\n플라스틱은 가볍지만 착색이나 냄새 배임이 심해서 늘 고민입니다.\n\n식재료 신선하게 오래 보관하는 나만의 냉장고 정리 꿀팁이 있다면 댓글로 나눠주세요!",
-      "photo_query": "organized refrigerator shelves",
-      "done": true,
-      "url": "텔레그램 전송 (직접 게시)"
-    },
-    {
-      "kind": "tip",
-      "text": "가죽 가방 오래 깨끗하게 쓰는 간단 관리법.\n\n비나 눈에 젖었을 땐 직사광선이나 드라이기 열로 말리면 절대 안 됩니다.\n\n마른 천으로 꾹꾹 눌러 물기를 제거한 뒤 통풍 잘 되는 그늘에서 말려주세요.\n\n보관할 때는 안쪽에 신문지나 충전재를 채워 모양이 무너지지 않게 해주는 게 핵심입니다.",
-      "photo_query": "leather bag care",
-      "done": false
-    },
-    {
-      "kind": "link",
-      "number": 7,
-      "product": {
-        "keyword": "발열조끼",
-        "category": "스포츠/레저",
-        "trend_rank": 6,
-        "search_url": "https://www.coupang.com/np/search?q=%EB%B0%9C%EC%97%B4%EC%A1%B0%EB%81%BC",
-        "partner_url": "https://link.coupang.com/a/iW30oqycii",
-        "notes": "USB 보조배터리(별매)를 USB 케이블로 연결해 쓰는 20구역 열선 조끼입니다. 3단계 온도조절과 앞뒤 개별 제어가 되고, KC 자율안전확인(PFg-20223) 제품입니다.",
-        "price": "29520",
-        "name": "Mosashoe 발열조끼 20구역 열선조끼 USB/DC 겨울 방한 발열 바이크 등산 골프 조끼",
-        "image_urls": [
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/176f/5f1d4985b983d1aec58626ab1b406751b7ecaf9d9f491b2c3dfefb01287e.png",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/6c9f/ece353c8accb2c5fbf6e186dfcc9a4eafbaa603364fc4340580fd7e375e8.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/3776/55cd4fd3c06afaec93b01ea42d0b63f2b7bfdbbba5eaf28548ac77193fa7.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/30b3/605249e6b4ea960dad8f7a2b7b79447ea1f37d7ce93f1ed2c7db782c7e94.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/45dc/da1be9a356f8088205c91dad0df05e57f6ab16ddd0d8d9c9bf4dfb0c74b3.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/df4b/a56ccff343a11862270aac2c0dface06f02878df8bd77980200737403e03.jpg"
-        ],
-        "product_url": "https://www.coupang.com/vp/products/8442643565",
-        "brand": "Mosashoe",
-        "list_price": "100000",
-        "rating": "4.5",
-        "reviews": "761",
-        "desc": "현재 별점 4.5점, 리뷰 761개를 가진 Mosashoe 발열조끼 20구역 열선조끼! 20구역 열선에 3단계 온도조절, 앞뒤 개별 제어가 되는 USB/DC 겨울 방한 조끼입니다.",
-        "top_reviews": [
-          {
-            "rating": 5,
-            "text": "앞뒤 온도 조절이 따로 돼서 더 좋아요"
-          },
-          {
-            "rating": 5,
-            "text": "가격 대비 성능이 좋아 가성비가 뛰어나요"
-          },
-          {
-            "rating": 5,
-            "text": "열선이 20구역으로 넓게 분포돼 금방 따뜻해져요"
-          }
-        ],
-        "survey": [
-          {
-            "q": "사이즈",
-            "a": "정사이즈예요",
-            "n": 77,
-            "tot": 100
-          },
-          {
-            "q": "색상",
-            "a": "화면과 같아요",
-            "n": 68,
-            "tot": 100
-          }
-        ],
-        "five_star_pct": "81",
-        "trend": "'발열조끼' 인기 검색어 6위"
-      },
-      "text": "이번 주 네이버 쇼핑 스포츠/레저 분야 인기 검색어 6위에 오른 발열조끼, 고를 때 열선 위치와 온도 조절 방식을 꼭 확인해야 해요.\n\nMosashoe 발열조끼는 USB 보조배터리를 연결해 쓰는 20구역 열선 조끼예요. 정가 100,000원에서 지금 29,520원으로 할인 중이고 쿠팡 평점 4.5점, 상품평 761개를 기록하고 있어요.\n\n3단계 온도조절과 앞뒤 개별 제어가 되고 KC 자율안전확인 제품이라 안심이에요. 후기 대부분이 정사이즈예요, 화면과 같아요 라고 해요.\n\n구매자 후기 중 \"앞뒤 온도 조절이 따로 돼서 더 좋아요\" 라는 평이 있어요.\n\n링크는 답글에 둘게요",
-      "done": false,
-      "format": "price_check",
-      "script": {
-        "title": "정가 10만원대 Mosashoe 발열조끼 70% 할인! #shorts",
-        "hook": "정가 10만원이 2만원대?",
-        "hook_highlight": "2만원대",
-        "scenes": [
-          {
-            "caption": "요즘 제일 핫해요",
-            "highlight": "핫해요",
-            "narration": "요즘 네이버 쇼핑 스포츠 레저 분야에서 인기 검색어 6위에 오른 발열조끼 찾고 계셨죠?",
-            "type": "normal"
-          },
-          {
-            "caption": "추위 걱정 끝",
-            "highlight": "추위 걱정",
-            "narration": "USB 보조배터리를 연결해 쓰는 Mosashoe 20구역 열선조끼예요. KC 자율안전확인도 받은 제품입니다.",
-            "type": "normal"
-          },
-          {
-            "caption": "구매자 반응은?",
-            "highlight": "구매자 반응",
-            "narration": "실제 후기를 보면 \"앞뒤 온도 조절이 따로 돼서 더 좋아요\" 그리고 \"열선이 20구역으로 넓게 분포돼 금방 따뜻해져요\" 이런 평이 있어요.",
-            "type": "reviews"
-          },
-          {
-            "caption": "사이즈와 색상도",
-            "highlight": "사이즈와 색상",
-            "narration": "고를 때 참고할 후기를 보면 사이즈는 정사이즈라는 후기가 많고, 색상은 화면과 같다는 후기가 많아요.",
-            "type": "normal"
-          },
-          {
-            "caption": "평점 4.5점의 이유",
-            "highlight": "평점 4.5점",
-            "narration": "쿠팡 평점 4.5점에 상품평이 761개나 되고 별 5개 비율도 81%나 되니까 믿고 볼 수 있어요.",
-            "type": "normal"
-          },
-          {
-            "caption": "지금 70% 할인",
-            "highlight": "70% 할인",
-            "narration": "정가 100,000원에서 지금 29,520원으로 할인 중이에요. 가격은 바뀔 수 있어요. 프로필 링크에서 7번 확인하세요!",
-            "type": "normal"
-          }
-        ],
-        "description": "요즘 인기인 Mosashoe 20구역 발열조끼! 70% 할인된 가격과 상세한 후기를 영상에서 확인해보세요.",
-        "hashtags": [
-          "#발열조끼",
-          "#Mosashoe",
-          "#열선조끼",
-          "#겨울방한",
-          "#바이크조끼",
-          "#등산조끼",
-          "#골프조끼",
-          "#shorts"
+          "#스카프코디",
+          "#데일리룩",
+          "#패션잡화"
         ]
       }
     },
     {
       "kind": "tip",
-      "text": "아이 옷에 든 과일 즙 얼룩 지우는 법.\n\n아이들 과일 먹다 보면 옷에 즙이 튀어 안 지워질 때 많죠.\n\n이럴 땐 세탁기 돌리기 전에 주방세제 약간과 따뜻한 물로 먼저 애벌빨래를 해보세요.\n\n시간이 조금 지났다면 미온수에 과탄산소다를 녹여 잠시 담가두면 깔끔해집니다. 👶",
-      "photo_query": "baby clothes laundry",
+      "text": "아침에 얼굴이 자주 붓는다면 주목.\n\n베개 높이를 살짝 점검해보세요.\n\n너무 낮은 베개를 쓰면 수면 중에\n\n체내 수분이 얼굴 쪽으로 몰리기 쉽대요.\n\n목이 편안할 정도로 살짝 높여주는 것만으로도,\n\n아침 부기를 줄이는 데 도움을 준답니다.",
+      "photo_query": "comfortable bed pillow",
+      "done": false
+    },
+    {
+      "kind": "tip",
+      "text": "새로 산 가죽 가방, 비 오는 날 걱정이죠?\n\n외출하기 전에 투명 가죽 보호제를 바르거나,\n\n방수 스프레이를 미리 뿌려두세요.\n\n얼룩이 생기는 걸 어느 정도 막아줘서,\n\n가방을 훨씬 깨끗하게 쓸 수 있어요.",
+      "photo_query": "leather handbag store",
       "done": false
     },
     {
       "kind": "link",
-      "number": 3,
+      "number": 8,
       "product": {
-        "keyword": "핸드크림",
-        "category": "화장품/미용",
-        "trend_rank": 2,
-        "search_url": "https://www.coupang.com/np/search?q=%ED%95%B8%EB%93%9C%ED%81%AC%EB%A6%BC",
-        "partner_url": "https://link.coupang.com/a/iVpZrV99yu",
-        "notes": "100ml 3개 구성 기준 가격(8,180원)이며 상품 페이지 기본 옵션은 10개 24,000원입니다.",
-        "price": "8180",
-        "name": "카밀 핸드 앤 네일 크림 클래식, 100ml, 3개",
+        "keyword": "물티슈",
+        "category": "출산/육아",
+        "trend_rank": 6,
+        "search_url": "https://www.coupang.com/np/search?q=%EB%AC%BC%ED%8B%B0%EC%8A%88",
+        "partner_url": "https://link.coupang.com/a/iVqp569wv6",
+        "notes": "",
+        "price": "10890",
+        "name": "코멧 오리지널 유아용 아기물티슈 캡형",
         "image_urls": [
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/329800891449468-cfd2989e-3c6c-4b55-b4a6-ccefc3e210a1.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/8573701282162-1f699056-e08d-46e3-9907-5fe1214ccb10.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/8573775485357-f321aaf5-9fc2-4eb7-a09e-eec0465523ec.jpg",
-          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/8573837557901-8f3d5f72-a647-4656-82f8-4605f30c68f1.jpg"
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/44344613265746-312dd5ae-8844-4536-80c8-4110a24dd8c8.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2280396506231797-4806874f-338a-4722-9d06-e05fefa2baff.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1842237182043989-10577c8b-e083-45e3-afee-af002c54d54f.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/1839180843320119-ccf52345-f883-4194-998d-9add3721f86a.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2280411951926949-3681fab3-309f-43c2-84df-a7a19335b9de.jpg",
+          "https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/2281085075775295-7f9763b9-8487-4643-a3c9-37d750e05a42.jpg"
         ],
-        "product_url": "https://www.coupang.com/vp/products/9727610179",
-        "brand": "카밀",
-        "list_price": "21600",
+        "product_url": "https://www.coupang.com/vp/products/188227098",
+        "brand": "코멧",
+        "list_price": "18000",
         "rating": "4.8",
-        "reviews": "52591",
-        "desc": "현재 별점 4.8점, 리뷰 52591개를 가진 카밀 핸드 앤 네일 크림 클래식! 100ml 3개 구성 8,180원. 지금 쿠팡에서 더 저렴하고 다양한 핸드크림 제품들을 확인해보세요.",
-        "buyers": "한 달간 500명 이상 구매했어요",
+        "reviews": "492638",
+        "desc": "현재 별점 4.8점, 리뷰 492638개를 가진 코멧 오리지널 유아용 아기물티슈 캡형! 50g x 100매 x 10개 구성.",
+        "buyers": "한 달간 10만명 이상 구매했어요",
         "top_reviews": [
           {
             "rating": 5,
-            "text": "보습력이 오래가서 너무 만족해요."
+            "text": "가성비 좋은 물티슈!"
           },
           {
             "rating": 5,
-            "text": "향도좋고 손이 건조하지가 않아요"
+            "text": "물티슈는 집에 넉넉하게 쟁여둬야 마음이 편하죠!"
           },
           {
             "rating": 5,
-            "text": "보습력도 흡수력도 향기도 만족스러워요!"
+            "text": "육아 필수 기본 물티슈"
           }
         ],
         "survey": [
           {
-            "q": "향 만족도",
-            "a": "아주만족해요",
-            "n": 70,
+            "q": "편리성",
+            "a": "아주 편리해요",
+            "n": 81,
             "tot": 100
           },
           {
-            "q": "보습력",
-            "a": "아주 만족해요",
-            "n": 80,
+            "q": "향 만족도",
+            "a": "아주만족해요",
+            "n": 62,
             "tot": 100
           }
         ],
-        "five_star_pct": "84",
-        "trend": "'핸드크림' 인기 검색어 2위"
+        "five_star_pct": "85",
+        "trend": "'물티슈' 인기 검색어 6위"
       },
-      "text": "이번 주 네이버 쇼핑 화장품/미용 인기 검색어 2위가 바로 핸드크림이래요.\n\n건조한 계절에 핸드크림 고를 때는 후기가 증명하는 보습력과 부담 없는 가격을 꼭 보셔야 해요.\n\n카밀 핸드 앤 네일 크림 클래식 100ml 3개 구성이 정가 21,600원에서 지금 8,180원으로 62% 할인 중이더라고요. (기본 옵션은 10개 24,000원이니 3개 구성을 확인해 보세요!)\n\n상품평 52,591개에 평점 4.8점이고 한 달간 500명 이상이 구매했다고 해요. 후기 대부분이 보습력과 향에 대해 아주 만족한다고 하네요.\n\n구매자 후기 중 \"보습력이 오래가서 너무 만족해요.\"라는 평도 있더라고요.\n\n링크는 답글에 둘게요",
+      "text": "이번 주 네이버 쇼핑 출산/육아 인기 검색어 6위에 오른 물티슈 소식이에요. 물티슈를 고를 때는 많은 사람들이 선택했는지와 실제 만족도가 높은지 살펴보는 게 좋아요.\n\n코멧 오리지널 유아용 아기물티슈 캡형은 정가 18,000원에서 지금 10,890원으로 39% 할인 중이에요. 쿠팡 평점 4.8점, 상품평 492,638개를 기록하고 있고, 한 달간 10만명 이상 구매했어요.\n\n후기 대부분이 편리성과 향 만족도 면에서 아주 좋다고 해요.\n\n구매자 후기 중 \"가성비 좋은 물티슈!\"라는 평도 찾아볼 수 있어요.\n\n링크는 답글에 둘게요",
       "done": false,
-      "format": "top3_points",
+      "format": "before_after",
       "script": {
-        "title": "리뷰 5만개 넘은 국민 핸드크림 62% 할인 #shorts",
-        "hook": "리뷰 5만개 넘은 핸드크림",
-        "hook_highlight": "리뷰 5만개",
+        "title": "한 달간 10만 명 이상 구매한 코멧 아기물티슈 #shorts",
+        "hook": "상품평 49만 개 물티슈",
+        "hook_highlight": "상품평 49만 개",
         "scenes": [
           {
-            "caption": "리뷰 5만개 넘은 핸드크림",
-            "highlight": "리뷰 5만개",
-            "narration": "리뷰만 5만 개가 넘게 달린 국민 핸드크림이 있다는 거 아셨나요?",
+            "caption": "물티슈 유목민 집중",
+            "highlight": "물티슈 유목민",
+            "narration": "육아하면서 매일 쓰는 물티슈, 매번 뭘 살지 고민되시죠?",
             "type": "normal"
           },
           {
-            "caption": "손이 자꾸 건조할 때",
-            "highlight": "자꾸 건조할 때",
-            "narration": "손이 자꾸 건조해져서 고민이신가요? 후기 대부분이 보습력에 아주 만족한다고 해요.",
+            "caption": "요즘 많이 찾는 물티슈",
+            "highlight": "많이 찾는",
+            "narration": "물티슈는 이번 주 네이버 쇼핑 출산 육아 분야 인기 검색어 6위에 오를 만큼 관심이 뜨거워요.",
             "type": "normal"
           },
           {
-            "caption": "구매자 후기 보니",
-            "highlight": "구매자 후기",
-            "narration": "실제 후기 보면 \"보습력도 흡수력도 향기도 만족스러워요!\" 이런 후기가 있어요. 향 만족도도 후기 대부분이 아주 만족스럽대요.",
+            "caption": "구매자 반응은?",
+            "highlight": "구매자 반응",
+            "narration": "\"가성비 좋은 물티슈!\", \"물티슈는 집에 넉넉하게 쟁여둬야 마음이 편하죠!\", \"육아 필수 기본 물티슈\" 이런 후기들이 있어요.",
             "type": "reviews"
           },
           {
-            "caption": "별 5개 비율 84%",
-            "highlight": "84%",
-            "narration": "이번 주 네이버 화장품 인기 검색어 2위답게 쿠팡 평점 4.8점에 별 5개 비율이 84%나 됩니다.",
+            "caption": "다들 고르는 이유",
+            "highlight": "고르는 이유",
+            "narration": "쿠팡 평점 4.8점에 상품평이 49만2천 개가 넘고, 별 5개 비율도 85%나 돼요. 후기 설문에서도 편리성과 향 만족도 모두 아주 만족한다는 평이 대부분이래요.",
             "type": "normal"
           },
           {
-            "caption": "지금 62% 할인 중",
-            "highlight": "62% 할인",
-            "narration": "정가 2만 1천 600원인데 지금 62% 할인해서 8천 180원에 3개 구성입니다. 가격은 바뀔 수 있어요.",
+            "caption": "지금이 기회",
+            "highlight": "지금이 기회",
+            "narration": "한 달간 10만 명 이상 구매했어요. 정가 18,000원에서 지금 10,890원으로 39% 할인 중이에요. 가격은 바뀔 수 있어요.",
             "type": "normal"
           },
           {
-            "caption": "프로필 링크 3번",
-            "highlight": "3번",
-            "narration": "한 달간 500명 이상 구매한 이 상품, 프로필 링크에서 3번 확인하세요!",
+            "caption": "지금 바로 확인",
+            "highlight": "확인",
+            "narration": "자세한 스펙은 꼭 상세페이지에서 확인하시고, 프로필 링크에서 8번 확인하세요.",
             "type": "normal"
           }
         ],
-        "description": "쿠팡 평점 4.8점, 상품평 5만 개가 넘는 카밀 핸드 앤 네일 크림 클래식 100ml 3개 세트입니다. 보습력과 향 만족도가 높은 국민 핸드크림 할인 정보를 확인해 보세요.",
+        "description": "한 달간 10만 명 이상 구매한 코멧 오리지널 유아용 아기물티슈 캡형! 39% 할인된 가격으로 만나보세요.",
         "hashtags": [
-          "#핸드크림",
-          "#카밀핸드크림",
-          "#핸드크림추천",
-          "#보습크림",
-          "#쿠팡추천템"
+          "#코멧물티슈",
+          "#아기물티슈",
+          "#유아물티슈",
+          "#출산육아",
+          "#육아필수템"
         ]
       }
     }
